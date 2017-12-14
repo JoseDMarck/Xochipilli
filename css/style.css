@@ -1,0 +1,51 @@
+/*
+	Theme Name: Xochipilli
+	Description: HTML5 interactivo de Xochipilli
+	Version: 1.0.0
+	Author: Deuteros D. Marck (@torbmx)
+	Tags: Blank, HTML5, CSS3
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+
+
+
+/* --------------------------------------------------------
+/* ---- FUENTES 
+-------------------------------------------------------- */
+
+@font-face {
+    font-family: "Futura";
+    src: url(fuentes/Futura.ttc) format("truetype");
+}
+
+
+
+
+
+/* --------------------------------------------------------
+/* ---- GENERALES
+-------------------------------------------------------- */
+body{
+  margin: 0 !important;
+  border: 0 !important;
+  padding:  0 !important;
+  background: #EBEBEB !important;
+}
+
+ 
+/* --------------------------------------------------------
+/* ---- MAIN
+-------------------------------------------------------- */
+.main{
+	max-width: 1920px;
+	width: 100%;
+	height: 1080px;
+	background: #bc4b4b;
+}
+
+/* --------------------------------------------------------
+/* ---- SCREENSAVER
+-------------------------------------------------------- */
+
