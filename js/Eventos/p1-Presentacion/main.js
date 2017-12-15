@@ -5,6 +5,9 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
+HomeURL = '../../index.html';
+
+
 var ExitScreen = function () {
     window.location.href = 'secciones/p01-presentacion/index.html';
 };
