@@ -159,6 +159,9 @@ body{
 
 
 
+
+
+
 /* --------------------------------------------------------
 /* ---- MENU GENERAL
 -------------------------------------------------------- */
@@ -192,4 +195,43 @@ body{
     top: 30%;
     left: -35%;
     display: none;
+}
+
+
+
+/* --------------------------------------------------------
+/* ---- P02: HOME
+-------------------------------------------------------- */
+
+.home-Seccion{
+	width: 100%;
+	height: auto;
+}
+
+.home-Seccion > .Background{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/p02-Home/background.png");
+	background-size: cover; 
+}
+.BloqueM{
+	width: 33.33%;
+	height: 1080px;
+	position: absolute;
+}
+
+
+.BloqueA{
+	background: #bc4b4b; 
+	left: -33.33%; 
+}
+
+.BloqueB{
+	background: #bc4; 
+	left: -33.33%; 
+}
+
+.BloqueC{
+	background: #f04438; 
+	left: -33.33%; 
 }
