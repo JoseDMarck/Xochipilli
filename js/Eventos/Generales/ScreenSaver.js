@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-var tiempoScreenSaver = 4000;
-InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoHome(); }, tiempoScreenSaver );
+var tiempoScreenSaver = 999990000;
+InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoScreenSaver(); }, tiempoScreenSaver );
 
 
 
@@ -11,9 +11,12 @@ $('body').on('click', function (e) {
 });
 
  
-GotoHome = function () {
+GotoScreenSaver = function () {
 	TweenMax.to("body", 1, {alpha:0, onComplete: ExitScreen });
 }
+
+
+
 
 var ExitScreen = function(){
 	window.location.href = HomeURL;
@@ -26,7 +29,7 @@ var StopScreenTempo = function () {
 
 var PlayScreenTempo = function () {
     clearTimeout(InitScreenTempo);
-    InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoHome();  }, tiempoScreenSaver );
+    InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoScreenSaver();  }, tiempoScreenSaver );
 };
 
 
