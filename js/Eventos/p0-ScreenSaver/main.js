@@ -8,7 +8,7 @@ $( document ).ready(function() {
 -------------------------------------------------------- */
 
 var ExitScreen = function () {
-    window.location.href = 'secciones/p1-presentacion/index.html';
+    window.location.href = 'secciones/p01-presentacion/index.html';
 };
 
 var InitScreen = function () {
