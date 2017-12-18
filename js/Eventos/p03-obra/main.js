@@ -85,7 +85,7 @@ $(".next_btn").click(function() {
      }
 
 
-    if (num_init < 3){
+    if (num_init < num_total){
         $(".gal_img").hide();
         $(".gal_txt").hide();
 
