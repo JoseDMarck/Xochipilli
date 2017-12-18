@@ -68,5 +68,57 @@ $(".ayuda-image").click(function() {
 
 
 
+// EVENTOS GALLERIA ===================
+
+var num_total = 3;
+var num_init = 1;
+
+
+$(".next_btn").click(function() {
+
+     if (num_init == 2){
+        $(".next_btn").hide();
+     }
+
+    if (num_init > 0){
+        $(".prev_btn").show();
+     }
+
+
+    if (num_init < 3){
+        $(".gal_img").hide();
+        $(".gal_txt").hide();
+
+        num_init = num_init + 1;
+        console.log("num_init", num_init);
+        $(".obra_img_"+num_init).fadeIn();
+        $(".gal_txt_"+num_init).fadeIn();
+    }
+     
+
+});
+
+
+$(".prev_btn").click(function() {
+
+    if (num_init == 2){
+        $(".prev_btn").hide();
+     }
+
+    if (num_init > 1){
+        $(".gal_img").hide();
+        $(".gal_txt").hide();
+
+        num_init = num_init - 1;
+        console.log("num_init", num_init);
+        $(".obra_img_"+num_init).fadeIn();
+        $(".gal_txt_"+num_init).fadeIn();
+
+        $(".next_btn").show();
+    }
+     
+
+});
+
 
 }); // =============== onDocumetReady
