@@ -17,6 +17,10 @@ var GotoHome = function () {
     window.location.href = '../../secciones/p02-home/index.html';
 };
 
+var GotoBack = function () {
+    window.location.href = '../../secciones/p01-presentacion/index.html';
+};
+
 
 
 var closem = function () {
@@ -32,6 +36,11 @@ var opensem = function () {
 $(".btn_continuar").click(function() {
 	TweenMax.to("body", 1, {alpha:0, onComplete: GotoHome });
 });
+
+$(".btn_back").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoBack});
+});
+
 
 var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
@@ -60,6 +69,16 @@ $(".btn_close_menu").click(function() {
     $(".btn_close_menu").hide();
 });
 
+
+// EVENTOS AYUDA ===================
+
+$(".btn_ayuda").click(function() {
+    $(".ayuda-image").fadeIn();   
+});
+
+$(".ayuda-image").click(function() {
+    $(".ayuda-image").fadeOut();   
+});
 
 
 
