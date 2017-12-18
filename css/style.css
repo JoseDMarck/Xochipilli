@@ -75,7 +75,7 @@ body{
 .btn_back{
 	width: 50px; 
 	height: 50px;
-	background: url("../images/Generales/back.png");
+	background: url("../images/generales/back.png");
 	background-size: 50px 50px;
 	position: absolute;
 	bottom: 10px;
@@ -86,7 +86,7 @@ body{
 .btn_ayuda{
 	width: 50px; 
 	height: 50px;
-	background: url("../images/Generales/ayuda.png");
+	background: url("../images/generales/ayuda.png");
 	background-size: 50px 50px;
 	position: absolute;
 	bottom: 10px;
@@ -105,14 +105,14 @@ body{
 .ScreenSaver-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p0-ScreenSaver/background.png");
+	background: url("../images/p0-screenSaver/background.png");
 	background-size: cover; 
 }
 
 .ScreenSaver-Seccion > .btnIniciar{
 	width: 354px;
 	height: 146px;
-	background: url("../images/p0-ScreenSaver/iniciarBtn.png");
+	background: url("../images/p0-screenSaver/iniciarBtn.png");
 	background-size: 354px 146px;
 	position: absolute;
 	top: 785px;
@@ -134,7 +134,7 @@ body{
 .presentacion-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p01-Presentacion/background.png");
+	background: url("../images/p01-presentacion/background.png");
 	background-size: cover; 
 }
 
@@ -232,7 +232,7 @@ body{
 .home-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p02-Home/background.png");
+	background: url("../images/p02-home/background.png");
 	background-size: cover; 
 }
 .BloqueM{
@@ -241,25 +241,42 @@ body{
 	position: absolute;
 }
 
+.BloqueM > .textos{
+	width: 60%;
+	height: auto;
+	padding: 10px;
+	font-family: "Gotham-Bold";
+	font-size: 40px;
+	color: #FFF;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10%;
+	margin: 0 auto;
+	display: block;
+
+}
 
 .BloqueA{
 	background: #bc4b4b; 
 	left: -33.33%; 
-	background: url("../images/p02-Home/menu1.jpg");
+	background: url("../images/p02-home/menu1.jpg");
 	background-size: cover; 
 }
 
 .BloqueB{
 	background: #bc4; 
 	left: -33.33%; 
-	background: url("../images/p02-Home/menu2.jpg");
+	background: url("../images/p02-home/menu2.jpg");
 	background-size: cover; 
 }
 
 .BloqueC{
 	background: #f04438; 
 	left: -33.33%;
-	background: url("../images/p02-Home/menu3.jpg");
+	background: url("../images/p02-home/menu3.jpg");
 	background-size: cover; 
 }
 
@@ -269,7 +286,7 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url("../images/p02-Home/ayuda.png");
+	background: url("../images/p02-home/ayuda.png");
 	background-size: cover; 
 	display: none;
 	z-index: 9999;
