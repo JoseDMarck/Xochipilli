@@ -224,14 +224,20 @@ body{
 .BloqueA{
 	background: #bc4b4b; 
 	left: -33.33%; 
+	background: url("../images/p02-Home/menu1.jpg");
+	background-size: cover; 
 }
 
 .BloqueB{
 	background: #bc4; 
 	left: -33.33%; 
+	background: url("../images/p02-Home/menu2.jpg");
+	background-size: cover; 
 }
 
 .BloqueC{
 	background: #f04438; 
-	left: -33.33%; 
+	left: -33.33%;
+	background: url("../images/p02-Home/menu3.jpg");
+	background-size: cover; 
 }
