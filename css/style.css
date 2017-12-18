@@ -497,6 +497,18 @@ body{
 }
 
 
+.ObraBloqueB > .ContendorGaleria > .full_btn{
+	width: 50px;
+	height: 50px;
+	background: url("../images/generales/galeria/fullScreen.png");
+	background-size: 50px 50px;
+	position: absolute;
+	right:  0;
+	bottom:  0;
+	display: block;
+}
+
+
 
 .obra_img_1 {
 	width: 100%;
