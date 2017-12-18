@@ -9,7 +9,7 @@ HomeURL = '../../index.html';
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.html'+ '#' + 'ESP';
 };
 
 

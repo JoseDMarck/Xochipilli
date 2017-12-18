@@ -7,6 +7,8 @@ $( document ).ready(function() {
 
 HomeURL = '../../index.html';
 
+LanguageON = window.location.hash.substring(1)
+console.log("TEXT****", LanguageON);
 
 var GotoObra = function () {
     window.location.href = '../../secciones/p03-obra/index.html';
