@@ -369,7 +369,7 @@ body{
 -------------------------------------------------------- */
 
 .obra-Seccion > .ObraBloqueA{
-	width: 50%;
+	width: 45%;
 	height: 1080px;
 	position: absolute;
 	left: 0;
@@ -417,15 +417,111 @@ body{
 .obra-Seccion > .ObraBloqueB{
 	width: 50%;
 	height: 1080px;
-	background: #108acb;
 	position: absolute;
-	right:  0;
+	right:  4%;
+	margin-top: 40px;
 }
 
 .obra-Seccion > .ObraBloqueB > .ContendorGaleria{
 	width: 100%;
 	height: 800px;
-	background: #bc4b4b;
+	margin: 0 auto;
+	margin-bottom: 20px; 
+	overflow: hidden;
+	position: relative;
 }
 
 
+.obra-Seccion > .ObraBloqueB > .descripcion{
+	width: 100%;
+	height: auto;
+}
+
+.obra-Seccion > .ObraBloqueB > .descripcion > .textos {
+	width: 70%;
+	height: auto;
+	font-family: "Gotham-Light";
+	font-size: 20px;
+	line-height: 22px;
+	color: #FFF;
+	text-align: left;
+	float: left;
+}
+
+.gal_txt{
+	display: none;
+}
+
+.gal_txt_1{
+	display: block;
+}
+
+.obra-Seccion > .ObraBloqueB > .descripcion > .btn_otrasPres {
+	width: 20%;
+	height: auto;
+	font-family: "Gotham-Light";
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+	background: #222;
+	padding: 10px;
+	float: left;
+}
+
+
+.contenedorGal{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+}
+
+.ObraBloqueB > .ContendorGaleria > .next_btn{
+	width: 32px;
+	height: 32px;
+	background: url("../images/generales/galeria/next.png");
+	background-size: 32px 32px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+.ObraBloqueB > .ContendorGaleria > .prev_btn{
+	width: 32px;
+	height: 32px;
+	background: url("../images/generales/galeria/prev.png");
+	background-size: 32px 32px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	display: none;
+}
+
+
+
+.obra_img_1 {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: url("../images/p03-obra/image_1.jpg"); 
+	background-size: cover;
+	display: block;
+}
+
+.obra_img_2 {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: url("../images/p03-obra/image_2.jpg"); 
+	background-size: cover;
+	display: none;
+
+}
+
+.obra_img_3 {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: url("../images/p03-obra/image_3.jpg"); 
+	background-size: cover;
+	display: none;
+}
