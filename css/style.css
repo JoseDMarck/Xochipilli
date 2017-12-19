@@ -233,7 +233,7 @@ body{
 -------------------------------------------------------- */
 .menu-General{
 	width: 200px;
-	height: 300px;
+	height: auto;
 	background: #222;
 	position: absolute;
 	top: 36%;
@@ -261,6 +261,17 @@ body{
     top: 30%;
     left: -35%;
     display: none;
+}
+
+.menu-General > .Bloques{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	font-family: "Gotham-Bold";
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	color: #FFF; 
 }
 
 
