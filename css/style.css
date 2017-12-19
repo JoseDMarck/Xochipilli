@@ -397,6 +397,7 @@ body{
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 15px;
+	padding-bottom: 50px;
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .titulo{
