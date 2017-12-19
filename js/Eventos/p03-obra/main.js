@@ -7,8 +7,15 @@ $( document ).ready(function() {
 
 HomeURL = '../../index.html';
 
+// IDIOMA DETECCIÓN
 LanguageON = window.location.hash.substring(1)
-console.log("TEXT****", LanguageON);
+
+if (LanguageON != "" ){
+    console.log("Idioma: ", LanguageON);
+} else {
+   LanguageON = "ESP"; 
+   console.log("Idioma: Default");
+}
 
 var GotoObra = function () {
     window.location.href = '../../secciones/p03-obra/index.html';
@@ -16,7 +23,7 @@ var GotoObra = function () {
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html';
+    window.location.href = '../../secciones/p02-home/index.html' +'#'+LanguageON;
 };
 
 var GotoBack = function () {
