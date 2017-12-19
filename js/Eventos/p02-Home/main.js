@@ -20,7 +20,7 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html'+ '#' + 'ESP';
+    window.location.href = '../../secciones/p03-obra/index.html'+'#'+LanguageON;
 };
 
 
@@ -32,6 +32,22 @@ var GotoBack = function () {
     window.location.href = '../../secciones/p01-presentacion/index.html'+'#'+LanguageON;
 };
 
+
+var Change_idioma_ESP = function () {
+    location.reload();
+    window.location.href = '../../secciones/p02-home/index.html'+'#'+'ESP';
+};
+
+
+var Change_idioma_ENG = function () {
+    location.reload();
+    window.location.href = '../../secciones/p02-home/index.html'+'#'+'ENG';
+};
+
+var Change_idioma_NAH = function () {
+    location.reload();
+    window.location.href = '../../secciones/p02-home/index.html'+'#'+'NAH';
+};
 
 
 var closem = function () {
@@ -98,6 +114,19 @@ $(".ayuda-image").click(function() {
 });
 
 
+// EVENTOS SELECT IDIOMA ===================
+
+$(".select_ESP").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ESP });
+});
+
+$(".select_ENG").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ENG });
+});
+
+$(".select_NAH").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_NAH});
+});
 
 
 }); // =============== onDocumetReady
