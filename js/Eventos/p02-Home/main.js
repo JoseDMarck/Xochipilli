@@ -7,6 +7,17 @@ $( document ).ready(function() {
 
 HomeURL = '../../index.html';
 
+// IDIOMA DETECCIÓN
+LanguageON = window.location.hash.substring(1)
+
+if (LanguageON != "" ){
+    console.log("Idioma: ", LanguageON);
+} else {
+   LanguageON = "ESP"; 
+   console.log("Idioma: Default");
+}
+
+
 
 var GotoObra = function () {
     window.location.href = '../../secciones/p03-obra/index.html'+ '#' + 'ESP';
@@ -18,7 +29,7 @@ var GotoHome = function () {
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p01-presentacion/index.html';
+    window.location.href = '../../secciones/p01-presentacion/index.html'+'#'+LanguageON;
 };
 
 
