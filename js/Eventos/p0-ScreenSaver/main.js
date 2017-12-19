@@ -7,8 +7,9 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
+
 var ExitScreen = function () {
-    window.location.href = 'secciones/p01-presentacion/index.html';
+    window.location.href = 'secciones/p01-presentacion/index.html'+ '#'+ 'ESP';
 };
 
 var InitScreen = function () {
