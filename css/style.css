@@ -60,6 +60,10 @@ body{
 	background: rgba(0,0,0,0);	
 }
  
+/* Let's get this party started */
+.flexcroll::-webkit-scrollbar {
+    width: 2px;
+}
 
 .flexcroll{
     scrollbar-face-color: #FFDB00;
@@ -377,12 +381,11 @@ body{
 
 .obra-Seccion > .ObraBloqueA > .Contenedor{
 	width: 80%;
-	height: 1020px;
+	height: 900px;
 	position: relative;
 	margin: 0 auto;
-	overflow: scroll;
+	overflow: hidden;
 	padding: 15px;
-
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .titulo{
@@ -393,17 +396,19 @@ body{
 	color: #FFF;
 	text-align: center;
 	margin-top: 10px;
-
+	margin-bottom: 10px;
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .descripcion{
 	width: 100%;
-	height: auto;
+	height: 900px;
 	font-family: "Gotham-Light";
 	font-size: 22px;
 	line-height: 25px;
 	color: #FFF;
 	text-align: left;
+	overflow: scroll;
+	padding-bottom: 30px;
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .descripcion p{
@@ -465,7 +470,7 @@ body{
 	color: #FFF;
 	background: #222;
 	padding: 10px;
-	float: left;
+	float: right;
 }
 
 
