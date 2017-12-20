@@ -130,4 +130,22 @@ $(".prev_btn").click(function() {
 });
 
 
+$(function () {
+    var viewer = ImageViewer({zoomValue:600});
+    $('.full_btn').click(function () {
+      
+
+
+       
+        var imgSrc = "http://manuvo.com/demos/huichola/img/tabla_reverso1.jpg",
+            highResolutionImage = $(this).data('high-res-img');
+            viewer.show(imgSrc, highResolutionImage);
+       
+
+        
+    });
+}); 
+
+
+
 }); // =============== onDocumetReady
