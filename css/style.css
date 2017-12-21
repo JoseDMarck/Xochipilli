@@ -583,3 +583,35 @@ body{
 	background-size: cover;
 	display: none;
 }
+
+
+
+
+/* --------------------------------------------------------
+/* ---- P05: INTERPRETACIÓN
+-------------------------------------------------------- */
+
+.interpretacion-Seccion{
+	width: 100%;
+	height: auto;
+}
+
+.interpretacion-Seccion > .Background{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/p05-interpretacion/background.png");
+	background-size: cover; 
+	position: absolute;
+}
+
+.interpretacion-Seccion  > .ayuda-image{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("../images/p05-interpretacion/ayuda.png");
+	background-size: cover; 
+	display: none;
+	z-index: 9999;
+}
