@@ -30,7 +30,9 @@ var GotoBack = function () {
     window.location.href = '../../secciones/p01-presentacion/index.html';
 };
 
-
+var GotoRepresentaciones  = function () { 
+    window.location.href = '../../secciones/p04-representaciones/index.html' +'#'+LanguageON;
+};
 
 var closem = function () {
     TweenMax.to(".menu-General", 1, {right:"-11%", alpha:1 });
@@ -52,6 +54,14 @@ $(".btn_home").click(function() {
 $(".btn_Obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoObra });
 });
+
+
+
+$(".btn_otrasPres").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoRepresentaciones});
+});
+
+
 
 
 
@@ -130,19 +140,14 @@ $(".prev_btn").click(function() {
 });
 
 
+// =============== FUNCIONALIDAD PARA EL ZOOM
+
 $(function () {
-    var viewer = ImageViewer({zoomValue:600});
+    var viewer = ImageViewer({zoomValue:160});
     $('.full_btn').click(function () {
-      
-
-
-       
-        var imgSrc = "http://manuvo.com/demos/huichola/img/tabla_reverso1.jpg",
-            highResolutionImage = $(this).data('high-res-img');
-            viewer.show(imgSrc, highResolutionImage);
-       
-
-        
+        var imgSrc = "../../images/p03-obra/full_img"+num_init+".jpg",
+        highResolutionImage = $(this).data('high-res-img');
+        viewer.show(imgSrc, highResolutionImage);
     });
 }); 
 
