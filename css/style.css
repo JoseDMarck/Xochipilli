@@ -554,3 +554,32 @@ body{
 	background-size: cover;
 	display: none;
 }
+
+
+.repres_img_1 {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: url("../images/p04-representaciones/image_1.jpg"); 
+	background-size: cover;
+	display: block;
+}
+
+.repres_img_2 {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: url("../images/p04-representaciones/image_2.jpg"); 
+	background-size: cover;
+	display: none;
+
+}
+
+.repres_img_3 {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: url("../images/p04-representaciones/image_3.jpg"); 
+	background-size: cover;
+	display: none;
+}
