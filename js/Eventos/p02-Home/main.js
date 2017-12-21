@@ -23,6 +23,10 @@ var GotoObra = function () {
     window.location.href = '../../secciones/p03-obra/index.html'+'#'+LanguageON;
 };
 
+var GotoInterpretacion = function () {
+    window.location.href = '../../secciones/p05-interpretacion/index.html'+'#'+LanguageON;
+};
+
 
 var GotoHome = function () {
     window.location.href = '../../secciones/p02-home/index.html';
@@ -71,7 +75,12 @@ $(".btn_back").click(function() {
 
 
 $(".btn_Obra").click(function() {
-    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoObra });
+    TweenMax.to("body", 1, {alpha:0, onComplete:   GotoObra });
+});
+
+
+$(".btn_interpretacion").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete: GotoInterpretacion  });
 });
 
 
