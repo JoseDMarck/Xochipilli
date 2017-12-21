@@ -2,6 +2,12 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <script src="../../js/Librerias/three/three.js"></script>
+    <script src="../../js/Librerias/three/Detector.js"></script>
+    <script src="../../js/Librerias/three/OrbitControls.js"></script>
+    <script src="../../js/Librerias/three/OBJLoader.js"></script>
+    <script src="../../js/Librerias/three/MTLLoader.js"></script>
+
 
 
 
@@ -11,7 +17,10 @@
 </head>
 <body>
 
+		<style> 
+			 canvas {  position: absolute; left: -16%; } 
 
+		</style>
 
 <div class="main">
 	<div class="interpretacion-Seccion">
@@ -20,6 +29,28 @@
 
 			<div class="Background"></div>
 
+			<div class="loading"></div>
+
+			<div id="inter-BloqueA" class="inter-BloqueA">
+				
+		<script>
+			
+		</script>
+			</div><!-- inter-BloqueA -->
+
+
+
+
+			<div class="inter-BloqueB">
+				<div id="titulo" class="titulo"></div>
+
+				<div id="btn_lectura" class="botones"></div>
+				<div id="btn_atavios_sol" class="botones"></div>
+				<div id="btn_atavios_tierra" class="botones"></div>
+				<div id="btn_atavios_florido" class="botones"></div>
+				<div id="btn_trono" class="botones"></div>
+				
+			</div><!-- inter-BloqueB -->
 			
 
 
@@ -44,7 +75,7 @@
 <script type="text/javascript" src="../../js/Eventos/generales/screenSaver.js"></script>
 <script type="text/javascript" src="../../json/p05-interpretacion/interpretacion.js"></script>
 <script type="text/javascript" src="../../js/Eventos/p05-interpretacion/jsonEvents.js"></script>
-
+<script src="../../js/Eventos/p05-interpretacion/3DEvents.js"></script>
 
 
 
