@@ -213,6 +213,7 @@ $(".btn_hotspots-LG").click(function() {
 
     $(".PopUpSlider").fadeIn();
     $(".imagen-"+num_gal+"-"+num_init).fadeIn();
+    $(".desc-"+num_gal+"-"+num_init).fadeIn();
 
 });
 
@@ -230,10 +231,13 @@ $(".btn_next").click(function() {
 
     if (num_init < num_total){
         $(".gal_img").hide();
+        $(".gal_desc_LG").hide();
 
         num_init = num_init + 1;
         console.log("num_init", num_init);
         $(".imagen-"+num_gal+"-"+num_init).fadeIn();
+        $(".desc-"+num_gal+"-"+num_init).fadeIn();
+
          
     }
 });
@@ -247,10 +251,13 @@ $(".btn_prev").click(function() {
 
     if (num_init > 1){
         $(".gal_img").hide();
+        $(".gal_desc_LG").hide();
 
         num_init = num_init - 1;
         console.log("num_init", num_init);
         $(".imagen-"+num_gal+"-"+num_init).fadeIn();
+        $(".desc-"+num_gal+"-"+num_init).fadeIn();
+
         $(".btn_next").show();
     }
      
@@ -261,6 +268,7 @@ $(".btn_prev").click(function() {
 $(".btn_close").click(function() {
     $(".PopUpSlider").fadeOut();
     $(".gal_img").hide();
+    $(".gal_desc_LG").hide();
     num_init = 1;
     
 });
