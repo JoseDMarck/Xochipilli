@@ -27,20 +27,30 @@ var GotoHome = function () {
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p03-obra/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p03-obra/index.html' +'#'+LanguageON;
 };
 
 var GotoLectura = function () {
-    window.location.href = '../../secciones/p06-lectura-general/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p06-lectura-general/index.html' +'#'+LanguageON;
 };
 
 var GotoAtavios_sol = function () {
-    window.location.href = '../../secciones/p07-atavios-de-sol/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p07-atavios-de-sol/index.html' +'#'+LanguageON;
+};
+
+var GotoAtavios_tierra = function () {
+    window.location.href = '../../secciones/p08-atavios-de-tierra/index.html' +'#'+LanguageON;
 };
 
 var GotoAtavios_florido = function () {
-    window.location.href = '../../secciones/p09-atavios-floridos/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p09-atavios-floridos/index.html' +'#'+LanguageON;
 };
+
+var GotoTrono = function () {
+    window.location.href = '../../secciones/p10-trono/index.html' +'#'+LanguageON;
+};
+
+
 
 
 
@@ -74,10 +84,21 @@ $(".btn_lectura").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoLectura });
 });
 
+$(".btn_atavios_tierra").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_tierra });
+});
+
 
 $(".btn_atavios_florido").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_florido });
 });
+
+$(".btn_trono").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoTrono });
+});
+
+
+
 
 
 
