@@ -673,3 +673,428 @@ body{
     background-size: 100px 100px;
     z-index: 999999;
 }
+
+
+/* --------------------------------------------------------
+/* ---- P06: LECTURA GENERAL
+-------------------------------------------------------- */
+
+.lectura-general-Seccion{
+	width: 100%;
+	height: auto;
+}
+
+.lectura-general-Seccion > .Background{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/p06-lectura-general/background.png");
+	background-size: cover; 
+	position: absolute;
+}
+
+.lectura-general-Seccion > .ayuda-image{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("../images/p06-lectura-general/ayuda.png");
+	background-size: cover; 
+	display: none;
+	z-index: 9999;
+}
+
+/* --------------------------------------------------------
+/* ---- P06: LECTURA GENERAL - BLOQUE A
+-------------------------------------------------------- */
+
+.lectura-general-Seccion > .LecturaGnral-BloqueA{
+	width: 45%;
+	height: 1080px;
+	position: absolute;
+	left: 0;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor{
+	width: 80%;
+	height: 900px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 15px;
+	padding-bottom: 50px;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor > .titulo{
+	width: 100%;
+	height: auto;
+	font-family: "Gotham-Bold";
+	font-size: 40px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor > .descripcion{
+	width: 100%;
+	height: 900px;
+	font-family: "Gotham-Light";
+	font-size: 22px;
+	line-height: 25px;
+	color: #FFF;
+	text-align: left;
+	overflow: scroll;
+	padding-bottom: 30px;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor > .descripcion p{
+	margin-bottom: 20px;
+}
+
+/* --------------------------------------------------------
+/* ---- P06: LECTURA GENERAL - BLOQUE B
+-------------------------------------------------------- */
+.lectura-general-Seccion > .LecturaGnral-BloqueB{
+	width: 40%;
+	height: 1080px;
+	position: absolute;
+	right:  10%;
+	margin-top: 40px;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_1{
+	width: 304px;
+	height: 415px;
+	background: url("../images/p06-lectura-general/asset_figura.png");
+	background-size: cover; 
+	position: absolute;
+	top: 0;
+	left:  0;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_2{
+	width: 304px;
+	height: 415px;
+	background: url("../images/p06-lectura-general/asset_figura.png");
+	background-size: cover; 
+	position: absolute;
+	top: 0;
+	right:   0;
+}
+
+
+.lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_3{
+	width: 304px;
+	height: 415px;
+	background: url("../images/p06-lectura-general/asset_figura.png");
+	background-size: cover; 
+	position: absolute;
+	top: 50%;
+	left:  0;
+}
+
+.lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_4{
+	width: 304px;
+	height: 415px;
+	background: url("../images/p06-lectura-general/asset_figura.png");
+	background-size: cover; 
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.btn_hotspots-LG{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	background: #DDD;
+}
+
+
+.btn_pos-1{
+	position: absolute;
+	top: 20%;
+	left: 18%;
+}
+.btn_pos-2{
+	position: absolute;
+	top: 30%;
+	left: 56%;
+}
+.btn_pos-3{
+	position: absolute;
+	top: 63%;
+	left: 23%;
+}
+.btn_pos-4{
+	position: absolute;
+	top: 67%;
+    left: 64%;
+}
+
+
+.titulos_btn{
+	width: 100%;
+	height: auto;
+	font-family: "Gotham-Medium";
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+	position: absolute;
+	bottom: -40px;
+
+}
+
+/* --------------------------------------------------------
+/* ---- P06: LECTURA GENERAL -  POPUP
+-------------------------------------------------------- */
+
+
+.PopUpSlider{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+
+.PopUpSlider > .btn_prev{
+	width: 32px;
+	height: 32px;
+	background: url("../images/generales/galeria/prev.png");
+	background-size: 32px 32px;
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	display: block;
+}
+
+.PopUpSlider > .btn_next{
+	width: 32px;
+	height: 32px;
+	background: url("../images/generales/galeria/next.png");
+	background-size: 32px 32px;
+	position: absolute;
+	right:  10%;
+	top: 50%;
+	display: block;
+}
+
+
+
+.PopUpSlider > .btn_close{
+	width: 32px;
+	height: 32px;
+	background: url("../images/generales/close.png");
+	background-size: 32px 32px;
+	position: absolute;
+	right:  5%;
+	top: 5%;
+	display: block;
+}
+
+.PopUpSlider > .imagen_PopUpSlider{
+	width: 1024px;
+	height: 768px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.imagen-1-1{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_1.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+
+}
+
+ 
+
+.imagen-1-2{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_2.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-1-3{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_3.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-1-4{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_4.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+
+.imagen-2-1{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_5.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+ 
+.imagen-2-2{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_6.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-2-3{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_7.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-2-4{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_8.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+
+
+.imagen-3-1{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_9.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+ 
+.imagen-3-2{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_10.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-3-3{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_11.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-3-4{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_12.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+
+
+.imagen-4-1{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_13.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+ 
+.imagen-4-2{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_14.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-4-3{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_15.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+.imagen-4-4{
+	width: 1024px;
+	height: 768px;
+	background: url("../images/p06-lectura-general/img_16.jpg");
+	background-size: cover;
+	position: absolute;
+	right:  0%;
+	top: 0%;
+	display: none;
+}
+
+
+ 
+
+
