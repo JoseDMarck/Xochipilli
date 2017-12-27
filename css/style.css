@@ -914,7 +914,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 
 }
@@ -928,7 +928,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -939,7 +939,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -950,7 +950,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -962,7 +962,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -974,7 +974,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -985,7 +985,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -996,7 +996,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1009,7 +1009,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1021,7 +1021,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1032,7 +1032,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1043,7 +1043,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1056,7 +1056,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1068,7 +1068,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1079,7 +1079,7 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
@@ -1090,11 +1090,21 @@ body{
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: 0%;
+	top: -5%;
 	display: none;
 }
 
-
+.gal_desc_LG{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	font-family: "Gotham-Medium";
+	font-size: 18px;
+	color: #FFF;
+	position: absolute;
+	bottom: -40px;
+	display: none;
+}
  
 
 
