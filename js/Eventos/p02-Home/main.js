@@ -28,6 +28,10 @@ var GotoInterpretacion = function () {
 };
 
 
+var GotoGabineteBotanico = function () {
+    window.location.href = '../../secciones/p11-gabinete-botanico/index.html'+'#'+LanguageON;
+};
+
 var GotoHome = function () {
     window.location.href = '../../secciones/p02-home/index.html';
 };
@@ -77,6 +81,11 @@ $(".btn_back").click(function() {
 $(".btn_Obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:   GotoObra });
 });
+
+$(".btn_gabinete_botanico").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:   GotoGabineteBotanico });
+});
+
 
 
 $(".btn_interpretacion").click(function() {
