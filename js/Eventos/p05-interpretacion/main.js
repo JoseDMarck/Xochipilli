@@ -30,6 +30,10 @@ var GotoBack = function () {
     window.location.href = '../../secciones/p03-obra/index.html' +'#'+LanguageON;;
 };
 
+var GotoLectura = function () {
+    window.location.href = '../../secciones/p06-lectura-general/index.html' +'#'+LanguageON;;
+};
+
 
 
 var closem = function () {
@@ -56,6 +60,13 @@ $(".btn_home").click(function() {
 $(".btn_Obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoObra });
 });
+
+
+$(".btn_lectura").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoLectura });
+});
+
+
 
 
 
