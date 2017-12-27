@@ -34,6 +34,10 @@ var GotoLectura = function () {
     window.location.href = '../../secciones/p06-lectura-general/index.html' +'#'+LanguageON;;
 };
 
+var GotoAtavios_sol = function () {
+    window.location.href = '../../secciones/p07-atavios-de-sol/index.html' +'#'+LanguageON;;
+};
+
 
 
 var closem = function () {
@@ -64,6 +68,11 @@ $(".btn_Obra").click(function() {
 
 $(".btn_lectura").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoLectura });
+});
+
+
+$(".btn_atavios_sol").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_sol });
 });
 
 
