@@ -8,8 +8,8 @@ var obj_ESP = {
             texto_1: "Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit.",
             texto_2: "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.   ",
             texto_3: "Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget.",
-        }] 
-
+        }]
+ 
 
 };
 
@@ -24,7 +24,8 @@ var obj_ENG = {
             texto_1: "ENG Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit.",
             texto_2: "ENG In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.   ",
             texto_3: "ENG Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget.",
-        }]  
+        }] 
+
 };
 
 
@@ -40,5 +41,15 @@ var obj_NAH = {
             texto_1: "NAH Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit.",
             texto_2: "NAH In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.   ",
             texto_3: "NAH Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget.",
-        }]  
+        }],
+
+    titulo_glosario: "Amoxtlajtoli", 
+    descripcion_glosario: "Amoxtlajtoli Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget.",
+    titulo_referencias: "Chikomostok", 
+    descripcion_referencias: "Chikomostok Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget.",
+    titulo_creditos: "tlajtolkakilia", 
+    descripcion_creditos: "tlajtolkakilia Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget.",
+    titulo_informacion: "Tlanonotsalistli", 
+    descripcion_informacion: "Tlanonotsalistli Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget."
+     
 };
