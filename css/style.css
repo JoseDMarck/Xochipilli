@@ -150,9 +150,93 @@ body{
 .ScreenSaver-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p0-screenSaver/background.png");
+	background: #000;
 	background-size: cover; 
 }
+
+
+
+.ScreenSaver-Seccion > .imagen_1{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/1.png") no-repeat center center fixed;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+
+.ScreenSaver-Seccion > .imagen_2{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/2.png") no-repeat center center fixed;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+
+.ScreenSaver-Seccion > .imagen_3{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/3.png") no-repeat center center fixed;     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+.ScreenSaver-Seccion > .imagen_4{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/4.png") no-repeat center center fixed;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+.ScreenSaver-Seccion > .imagen_5{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/5.png") no-repeat center center fixed;     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+
+.ScreenSaver-Seccion > .imagen_6{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/6.jpg") no-repeat center center fixed;     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+.ScreenSaver-Seccion > .imagen_7{
+    width: 100%;
+    height: 100%;
+    background: url("../images/p0-screenSaver/7.jpg") no-repeat center center fixed;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    position: absolute;
+}
+
+
 
 .ScreenSaver-Seccion > .btnIniciar{
 	width: 354px;
