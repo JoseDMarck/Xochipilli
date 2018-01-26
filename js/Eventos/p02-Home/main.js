@@ -9,9 +9,28 @@ HomeURL = '../../index.html';
 
 // IDIOMA DETECCIÓN
 LanguageON = window.location.hash.substring(1)
+console.log("Idioma Inicial: ", LanguageON);
 
 if (LanguageON != "" ){
-    console.log("Idioma: ", LanguageON);
+    
+    if( LanguageON == "ENG" ){
+        console.log("Idioma: ", LanguageON);
+        $(".btn_Glosario").addClass("btn_GlosarioENG");
+        $(".btn_Referencias").addClass("btn_ReferenciasENG");
+        $(".btn_Creditos").addClass("btn_CreditosENG");
+        $(".ayuda-image").addClass("ayuda-image-ENG");
+    }
+
+    if( LanguageON == "NAH" ){
+        console.log("Idioma: ", LanguageON);
+        $(".btn_Glosario").addClass("btn_GlosarioNAH");
+        $(".btn_Referencias").addClass("btn_ReferenciasNAH");
+        $(".btn_Creditos").addClass("btn_CreditosNAH");
+        $(".ayuda-image").addClass("ayuda-image-NAH");
+    } 
+
+   
+
 } else {
    LanguageON = "ESP"; 
    console.log("Idioma: Default");
@@ -134,17 +153,128 @@ $(".ayuda-image").click(function() {
 
 // EVENTOS SELECT IDIOMA ===================
 
-$(".select_ESP").click(function() {
+$(".select_ESP").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ESP });
+    LanguageON = null;
+    event.stopPropagation();
 });
 
-$(".select_ENG").click(function() {
+$(".select_ENG").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ENG });
+    LanguageON = null;
+    event.stopPropagation();
 });
 
-$(".select_NAH").click(function() {
+$(".select_NAH").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_NAH});
+    LanguageON = null;
+    event.stopPropagation();
 });
+
+
+// EVENTOS GALLERIA ===================
+
+var num_total = 4;
+var num_init;
+var num_gal;
+
+
+$(".btn_close").click(function() {
+    $(".PopUpSlider").fadeOut();
+});
+
+$(".open_popUp").click(function() {
+  
+  valor_hp = $(this).attr('class').split(' ')[1];
+    console.log(valor_hp);
+
+    if( valor_hp == "btn_L-1-1" ){
+        num_gal = 1;
+        num_init = 1;
+    }
+
+    if( valor_hp == "btn_L-1-2" ){
+        num_gal = 1;
+        num_init = 2;
+    }
+
+    if( valor_hp == "btn_L-1-3" ){
+        num_gal = 1;
+        num_init = 3;
+    }
+
+    if( valor_hp == "btn_L-1-4" ){
+        num_gal = 1;
+        num_init = 4;
+    }
+
+    // para mostrar el btn de prev
+    if (num_init < 2 ){
+        $(".btn_prev").hide();
+    }
+    else{
+        $(".btn_prev").show();
+    }
+
+    // para mostrar el btn de next
+    if (num_init < 4  ){
+        $(".btn_next").show();
+    }
+    else{
+         $(".btn_next").hide();
+    }
+
+      $(".Textos").hide();
+      $(".PopUpSlider").fadeIn();
+      $(".seccion-m-"+num_init).fadeIn();
+
+});
+
+
+$(".btn_next").click(function() {
+     if (num_init == 3){
+        $(".btn_next").hide();
+     }
+
+    if (num_init > 0){
+        $(".btn_prev").show();
+     }
+
+
+    if (num_init < num_total){
+        $(".gal_img").hide();
+        $(".gal_desc_LG").hide();
+
+        num_init = num_init + 1;
+        console.log("num_init", num_init);
+        $(".Textos").hide();
+        $(".seccion-m-"+num_init).fadeIn();
+
+         
+    }
+});
+
+$(".btn_prev").click(function() {
+
+    if (num_init == 2){
+        $(".btn_prev").hide();
+     }
+
+    if (num_init > 1){
+        $(".gal_img").hide();
+        $(".gal_desc_LG").hide();
+
+        num_init = num_init - 1;
+        console.log("num_init", num_init);
+        $(".Textos").hide();
+        $(".seccion-m-"+num_init).fadeIn();
+
+        $(".btn_next").show();
+    }
+     
+
+});
+
 
 
 }); // =============== onDocumetReady
