@@ -393,11 +393,140 @@ body{
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 10%;
+	bottom: 20%;
 	margin: 0 auto;
 	display: block;
-
 }
+
+
+.BloqueM > .btn_Glosario{
+	width: 213px;
+	height: 117px;
+	background: #bc4b4b; 
+	position: absolute;
+	left: 0px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_glosario.png");
+	background-size: 213px 117px; 
+} 
+
+.BloqueM > .btn_GlosarioENG{
+	width: 213px;
+	height: 117px;
+	background: #bc4b4b; 
+	position: absolute;
+	left: 0px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_glosarioENG.png") !important;
+	background-size: 213px 117px !important;  
+} 
+
+.BloqueM > .btn_GlosarioNAH{
+	width: 213px;
+	height: 117px;
+	background: #bc4b4b; 
+	position: absolute;
+	left: 0px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_glosarioNAH.png") !important;
+	background-size: 213px 117px !important; 
+} 
+
+.BloqueM > .btn_Referencias{
+	width: 213px;
+	height: 117px;
+	background: #bc4b4b; 
+	position: absolute;
+	left: 213px;
+	top: 904px;  
+	background: url("../images/p02-home/btn_Referencias.png");
+	background-size: 213px 117px; 
+} 
+
+.BloqueM > .btn_ReferenciasENG{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 213px;
+	top: 904px;  
+	background: url("../images/p02-home/btn_referenciasENG.png") !important;
+	background-size: 213px 117px !important;  
+} 
+
+.BloqueM > .btn_ReferenciasNAH{
+	width: 213px;
+	height: 117px;
+	background: #bc4b4b; 
+	position: absolute;
+	left: 213px;
+	top: 904px;  
+	background: url("../images/p02-home/btn_ReferenciasNAH.png") !important;
+	background-size: 213px 117px !important; 
+} 
+
+.BloqueM > .btn_Creditos{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 426px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_creditos.png");
+	background-size: 213px 117px; 
+} 
+
+.BloqueM > .btn_CreditosENG{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 426px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_creditosENG.png") !important;
+	background-size: 213px 117px !important;  
+} 
+
+.BloqueM > .btn_CreditosNAH{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 426px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_creditosNAH.png") !important;
+	background-size: 213px 117px !important; 
+} 
+
+
+.BloqueM > .btn_Nahualitica{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 0px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_nahualitica.png");
+	background-size: 213px 117px; 
+} 
+
+.BloqueM > .btn_espanol{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 213px;
+	top: 904px;  
+	background: url("../images/p02-home/btn_espanol.png");
+	background-size: 213px 117px; 
+} 
+
+
+.BloqueM > .btn_english{
+	width: 213px;
+	height: 117px;
+	position: absolute;
+	left: 426px;
+	top: 904px; 
+	background: url("../images/p02-home/btn_english.png");
+	background-size: 213px 117px; 
+} 
+
+
 
 .BloqueA{
 	background: #bc4b4b; 
@@ -427,6 +556,30 @@ body{
 	top: 0;
 	left: 0;
 	background: url("../images/p02-home/ayuda.png");
+	background-size: cover; 
+	display: none;
+	z-index: 9999;
+}
+
+.home-Seccion > .ayuda-image-ENG{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("../images/p02-home/ayudaENG.png") !important;
+	background-size: cover; 
+	display: none;
+	z-index: 9999;
+}
+
+.home-Seccion > .ayuda-image-NAH{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("../images/p02-home/ayudaNAH.png") !important;
 	background-size: cover; 
 	display: none;
 	z-index: 9999;
