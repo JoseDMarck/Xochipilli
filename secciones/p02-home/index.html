@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../../css/style.css">
-	<title>Presentación</title>
+	<title>Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf8">
 
@@ -17,14 +17,26 @@
 			<div class="Background">
 				<div class="BloqueM BloqueA btn_Obra">
 					<div id="btn_obra" class="textos">Obra</div>
+
+					<div class="btn_Glosario"></div>
+					<div class="btn_Referencias"></div>
+					<div class="btn_Creditos"></div>
+
+
 				</div><!--BloqueA -->
 
 			 	<div class="BloqueM BloqueB btn_interpretacion">
 			 		<div id="btn_interpretacion" class="textos">Interpretación</div>
+
 			 	</div><!--BloqueB -->
 
 			 	<div class="BloqueM BloqueC btn_gabinete_botanico">
 			 		<div id="btn_gabinete" class="textos">Gabinete botánico</div>
+
+			 		<div class="btn_Nahualitica select_NAH"></div>
+					<div class="btn_espanol select_ESP"></div>
+					<div class="btn_english select_ENG"></div>
+
 			 	</div>
 			</div> <!-- Background -->
 
@@ -48,10 +60,10 @@
 			 	Nahuatlatoltica
 			  </div>
 
-			  <div id="btn_glosario" class="Bloques"></div>
-			  <div id="btn_referencias" class="Bloques"></div>
-			  <div id="btn_creditos" class="Bloques"></div>
-			  <div id="btn_info_access" class="Bloques"></div>
+			 <div id="btn_glosario" class="Bloques btn_L-1-1 open_popUp"></div>
+			  <div id="btn_referencias" class="Bloques btn_L-1-2 open_popUp"></div>
+			  <div id="btn_creditos" class="Bloques btn_L-1-3 open_popUp"></div>
+			  <div id="btn_info_access" class="Bloques btn_L-1-4 open_popUp"></div>
 
 
 
@@ -62,6 +74,39 @@
 			 <div class="btn_ayuda"></div>
 		
 	</div><!-- ScreenSaver-Seccion -->
+
+
+	<div class="PopUpSlider">
+
+		<div class="btn_close"></div>
+		<div class="btn_prev"></div>
+		<div class="btn_next"></div>
+
+		<div class="Seccion-info">
+			<div class="Textos seccion-m-1 flexcroll">
+				<div id="titulo_glosario" class="titulo"></div>
+				<div id="descripcion_glosario" class="descripcion"></div>
+			</div>
+
+			<div class="Textos seccion-m-2 flexcroll">
+				<div id="titulo_referencias" class="titulo"></div>
+				<div id="descripcion_referencias" class="descripcion"></div>
+			</div>
+
+			<div class="Textos seccion-m-3 flexcroll">
+				<div id="titulo_creditos" class="titulo"></div>
+				<div id="descripcion_creditos" class="descripcion"></div>
+			</div>
+
+			<div class="Textos seccion-m-4 flexcroll">
+				<div id="titulo_informacion" class="titulo"></div>
+				<div id="descripcion_informacion" class="descripcion"></div>
+			</div>
+
+
+		</div><!-- imagen_PopUpSlider -->
+
+	</div><!-- PopUpSldier -->
 	
 
 </div> <!--  main -->
