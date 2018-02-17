@@ -26,8 +26,8 @@ THREE.OrbitControls = function ( object, domElement ) {
 	this.target = new THREE.Vector3();
 
 	// How far you can dolly in and out ( PerspectiveCamera only )
-	this.minDistance = 0;
-	this.maxDistance = Infinity;
+	this.minDistance = 40;
+	this.maxDistance = 100;
 
 	// How far you can zoom in and out ( OrthographicCamera only )
 	this.minZoom = 0;
@@ -51,7 +51,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	// This option actually enables dollying in and out; left as "zoom" for backwards compatibility.
 	// Set to false to disable zooming
 	this.enableZoom = true;
-	this.zoomSpeed = 1.0;
+	this.zoomSpeed = .300;
 
 	// Set to false to disable rotating
 	this.enableRotate = true;
@@ -367,7 +367,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	}();
 
 	function dollyIn( dollyScale ) {
-
+		console.log("DollYIN****");
 		if ( scope.object instanceof THREE.PerspectiveCamera ) {
 
 			scale /= dollyScale;
@@ -411,6 +411,8 @@ THREE.OrbitControls = function ( object, domElement ) {
 	//
 	// event callbacks - update the object state
 	//
+
+	
 
 	function handleMouseDownRotate( event ) {
 
@@ -540,6 +542,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 			case scope.keys.LEFT:
 				pan( scope.keyPanSpeed, 0 );
 				scope.update();
+
 				break;
 
 			case scope.keys.RIGHT:

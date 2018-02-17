@@ -7,7 +7,6 @@ var renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.getElementById("inter-BloqueA").appendChild( renderer.domElement );
  
-
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.dampingFactor = 0.25;
@@ -26,7 +25,8 @@ scene.add(keyLight);
 scene.add(fillLight);
 scene.add(backLight);
 
- 
+
+
 
 var mtlLoader = new THREE.MTLLoader();
 mtlLoader.setTexturePath('../../images/p05-interpretacion/3DObject/');
@@ -38,7 +38,7 @@ mtlLoader.load('Xochipilli Final.mtl', function (materials) {
     var objLoader = new THREE.OBJLoader();
     objLoader.setMaterials(materials);
     objLoader.setPath('../../images/p05-interpretacion/3DObject/');
-    objLoader.load('Xochipilli Final.obj', function (object) {
+    objLoader.load('untitled.obj', function (object) {
 
         scene.add(object);
         object.position.y -= 50;
