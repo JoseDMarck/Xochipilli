@@ -31,14 +31,14 @@ scene.add(backLight);
 var mtlLoader = new THREE.MTLLoader();
 mtlLoader.setTexturePath('../../images/p05-interpretacion/3DObject/');
 mtlLoader.setPath('../../images/p05-interpretacion/3DObject/');
-mtlLoader.load('Xochipilli Final.mtl', function (materials) {
+mtlLoader.load('400milU.mtl', function (materials) {
 
     materials.preload();
 
     var objLoader = new THREE.OBJLoader();
     objLoader.setMaterials(materials);
     objLoader.setPath('../../images/p05-interpretacion/3DObject/');
-    objLoader.load('untitled.obj', function (object) {
+    objLoader.load('400milU.obj', function (object) {
 
         scene.add(object);
         object.position.y -= 50;

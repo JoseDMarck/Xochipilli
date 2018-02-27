@@ -1,0 +1,68 @@
+# Blender MTL File: 'None'
+# Material Count: 6
+
+newmtl Material_0
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Volumes/Obra contemporanea/Respaldo César (Temp)/FinalXochi/Xochipilli Baja/tex01.JPG
+
+newmtl Material_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Volumes/Obra contemporanea/Respaldo César (Temp)/FinalXochi/Xochipilli Baja/tex02.JPG
+
+newmtl Material_2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Volumes/Obra contemporanea/Respaldo César (Temp)/FinalXochi/Xochipilli Baja/tex03.JPG
+
+newmtl Material_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Volumes/Obra contemporanea/Respaldo César (Temp)/FinalXochi/Xochipilli Baja/tex04.JPG
+
+newmtl Material_4
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Volumes/Obra contemporanea/Respaldo César (Temp)/FinalXochi/Xochipilli Baja/tex05.JPG
+
+newmtl Material_5
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Volumes/Obra contemporanea/Respaldo César (Temp)/FinalXochi/Xochipilli Baja/tex06.JPG
