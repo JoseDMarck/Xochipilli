@@ -8,6 +8,7 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 document.getElementById("inter-BloqueA").appendChild( renderer.domElement );
  
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
+
 controls.enableDamping = true;
 controls.dampingFactor = 0.25;
 controls.enableZoom = true;
