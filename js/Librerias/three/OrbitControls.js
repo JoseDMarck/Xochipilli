@@ -133,35 +133,26 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	 
 
+	var oldValue = 0;
 	function moveCube(e){
 		var target = (e.target) ? e.target : e.srcElement;
-		var RangeZoom = target.value;
-		console.log(target.value);
-		dollyZoom(RangeZoom)
-		return  RangeZoom;
-	}
+		var newValue = target.value;
 
+		if(newValue > oldValue){
+			dollyOut( getZoomScale() );
 
-	function dollyZoom( dollyScale ) {
-		console.log("DollYIN****");
-		if ( scope.object instanceof THREE.PerspectiveCamera ) {
-
-			scale /= dollyScale;
-
-		} else if ( scope.object instanceof THREE.OrthographicCamera ) {
-
-			scope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom, scope.object.zoom * dollyScale ) );
-			scope.object.updateProjectionMatrix();
-			zoomChanged = true;
-
-		} else {
-
-			console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' );
-			scope.enableZoom = false;
-
+		}else if(newValue < oldValue){
+			dollyIn( getZoomScale() );
 		}
 
+		oldValue = newValue;
+		//dollyZoom(RangeZoom)
+		//return  RangeZoom;
+		
 	}
+
+
+	
 
 
 	// this method is exposed, but perhaps it would be better if we can make it private...
@@ -411,6 +402,29 @@ THREE.OrbitControls = function ( object, domElement ) {
 		};
 
 	}();
+
+
+	function dollyZoom( dollyScale ) {
+		console.log("Zoom: ", dollyScale);
+		if ( scope.object instanceof THREE.PerspectiveCamera ) {
+
+			scale /= dollyScale;
+
+		} else if ( scope.object instanceof THREE.OrthographicCamera ) {
+
+			scope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom ) );
+			scope.object.updateProjectionMatrix();
+			zoomChanged = true;
+
+		} else {
+
+			console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' );
+			scope.enableZoom = false;
+
+		}
+
+	}
+
 
 	function dollyIn( dollyScale ) {
 		console.log("DollYIN****", dollyScale);
