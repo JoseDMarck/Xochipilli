@@ -15,18 +15,18 @@ if (LanguageON != "" ){
     
     if( LanguageON == "ENG" ){
         console.log("Idioma: ", LanguageON);
-        $(".btn_Glosario").addClass("btn_GlosarioENG");
+       /* $(".btn_Glosario").addClass("btn_GlosarioENG");
         $(".btn_Referencias").addClass("btn_ReferenciasENG");
         $(".btn_Creditos").addClass("btn_CreditosENG");
-        $(".ayuda-image").addClass("ayuda-image-ENG");
+        $(".ayuda-image").addClass("ayuda-image-ENG");*/
     }
 
     if( LanguageON == "NAH" ){
         console.log("Idioma: ", LanguageON);
-        $(".btn_Glosario").addClass("btn_GlosarioNAH");
+        /*$(".btn_Glosario").addClass("btn_GlosarioNAH");
         $(".btn_Referencias").addClass("btn_ReferenciasNAH");
         $(".btn_Creditos").addClass("btn_CreditosNAH");
-        $(".ayuda-image").addClass("ayuda-image-NAH");
+        $(".ayuda-image").addClass("ayuda-image-NAH");*/
     } 
 
    
@@ -78,11 +78,11 @@ var Change_idioma_NAH = function () {
 
 
 var closem = function () {
-    TweenMax.to(".menu-General", 1, {right:"-11%", alpha:1 });
+    //TweenMax.to(".menu-General", 1, {right:"-11%", alpha:1 });
 };
 
 var opensem = function () {
-    TweenMax.to(".menu-General", 1, {right:"0%", alpha:1, onComplete: closem });
+    //TweenMax.to(".menu-General", 1, {right:"0%", alpha:1, onComplete: closem });
     //$(".textos").fadeIn();
 };
 
@@ -113,20 +113,52 @@ $(".btn_interpretacion").click(function() {
 
 
 var InitScreen = function () {
+
+    // Al iniciar el Body
     TweenMax.to("body", 3, {alpha:1});
+
+    // Para efecto de ayuda
+    TweenMax.to(".Ayuda", 0.5, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0, rotation:360,  ease: Circ.easeOut, onComplete: 
+        close = function(){
+
+            CloseAyudaOnInitEvent = setTimeout(function(){ 
+                TweenMax.to(".Ayuda", 0.3, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, rotation:180, ease: Circ.easeOut})
+                move_screen_buttos();
+            }, 5000);
+            
+        }   
+    })
+
+
+   
+    move_screen_buttos = function(){
+        TweenMax.to(".btn_obra", 1, {alpha:1, y:272 });
+        TweenMax.to(".btn_interpretacion", 1, {alpha:1, y: 421 });
+        TweenMax.to(".btn_gabinete", 1, {alpha:1, y: 570 });
+        
+    }
+  
+    
+    
     //TweenMax.to(".menu-General", 1, {right:"0%", alpha:1, onComplete: closem });
 
-    TweenMax.to(".BloqueA",1.5, {left:"0%",     alpha:1, ease: Sine.easeOut });
+
+
+    /*TweenMax.to(".BloqueA",1.5, {left:"0%",     alpha:1, ease: Sine.easeOut });
     TweenMax.to(".BloqueB",1.5, {left:"33.33%", alpha:1, ease: Sine.easeOut });
-    TweenMax.to(".BloqueC",1.5, {left:"66.66%", alpha:1, ease: Sine.easeOut, onComplete: opensem  });
+    TweenMax.to(".BloqueC",1.5, {left:"66.66%", alpha:1, ease: Sine.easeOut, onComplete: opensem  });*/
 };
+
 
 InitScreen();
 
 
+
+
+
 // EVENTOS MENU ===================
 
-$(".btn_open_menu").click(function() {
+/*$(".btn_open_menu").click(function() {
     TweenMax.to(".menu-General", 0.5, {right:"0%", alpha:1});
     $(".btn_open_menu").hide();
     $(".btn_close_menu").show();
@@ -137,23 +169,38 @@ $(".btn_close_menu").click(function() {
     TweenMax.to(".menu-General", 0.5, {right:"-11%", alpha:1});
     $(".btn_open_menu").show();
     $(".btn_close_menu").hide();
-});
+});*/
 
 
 // EVENTOS AYUDA ===================
 
+
 $(".btn_ayuda").click(function() {
-    $(".ayuda-image").fadeIn();   
+    TweenMax.to(".Ayuda", 0.5, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
 });
 
-$(".ayuda-image").click(function() {
-    $(".ayuda-image").fadeOut();   
+$(".Ayuda").click(function() {
+    TweenMax.to(".Ayuda", 0.3, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+    clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+    move_screen_buttos();
 });
+
+
+
+
+
+$(".btn_obra").click(function() {
+
+});
+
+
+
+ 
 
 
 // EVENTOS SELECT IDIOMA ===================
 
-$(".select_ESP").click(function(event) {
+/*$(".select_ESP").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ESP });
     LanguageON = null;
     event.stopPropagation();
@@ -169,12 +216,12 @@ $(".select_NAH").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_NAH});
     LanguageON = null;
     event.stopPropagation();
-});
+});*/
 
 
 // EVENTOS GALLERIA ===================
 
-var num_total = 4;
+/*var num_total = 4;
 var num_init;
 var num_gal;
 
@@ -273,7 +320,7 @@ $(".btn_prev").click(function() {
     }
      
 
-});
+}); */
 
 
 
