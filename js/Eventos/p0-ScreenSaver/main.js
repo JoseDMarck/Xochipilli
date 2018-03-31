@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
 
 var ExitScreen = function () {
-    window.location.href = 'secciones/p01-presentacion/index.html'+ '#'+ 'ESP';
+    window.location.href = 'secciones/p02-home/index.html'+ '#'+ 'ESP';
 };
 
 var InitScreen = function () {

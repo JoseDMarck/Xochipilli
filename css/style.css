@@ -150,102 +150,67 @@ body{
 .ScreenSaver-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: #000;
+	background: url("../images/Generales/background.png");
 	background-size: cover; 
 }
 
+.ScreenSaver-Seccion > .tituloImage{
+	width: 700px;
+	height: 277px;
+	background: url("../images/p0-screenSaver/logo_xochi.png");
+	background-size: cover; 
+	position: absolute;
+	top: 252px;
+	left: 105px;
+}
 
 
 .ScreenSaver-Seccion > .imagen_1{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/1.png") no-repeat center center fixed;   
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
+    width: 906px;
+    height: 1536px;
+    background: url("../images/p0-screenSaver/xochi1-min.png");  
+	background-size: 906px 1536px;
+	top: -50px;
+	right: 60px;
+	opacity: 0;
     position: absolute;
 }
 
 
 .ScreenSaver-Seccion > .imagen_2{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/2.png") no-repeat center center fixed;   
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
+    width: 906px;
+    height: 1536px;
+    background: url("../images/p0-screenSaver/xochi2-min.png"); 
+    background-size: 906px 1536px;
+	top: -50px;
+	right: 60px;
+	opacity: 0;
     position: absolute;
 }
 
 
 .ScreenSaver-Seccion > .imagen_3{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/3.png") no-repeat center center fixed;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
+    width: 906px;
+    height: 1536px;
+    background: url("../images/p0-screenSaver/xochi3-min.png");    
+	background-size: 906px 1536px;
+	top: -50px;
+	right: 60px;
+	opacity: 0;
     position: absolute;
 }
-
-.ScreenSaver-Seccion > .imagen_4{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/4.png") no-repeat center center fixed;    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    position: absolute;
-}
-
-.ScreenSaver-Seccion > .imagen_5{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/5.png") no-repeat center center fixed;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    position: absolute;
-}
-
-
-.ScreenSaver-Seccion > .imagen_6{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/6.jpg") no-repeat center center fixed;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    position: absolute;
-}
-
-.ScreenSaver-Seccion > .imagen_7{
-    width: 100%;
-    height: 100%;
-    background: url("../images/p0-screenSaver/7.jpg") no-repeat center center fixed;    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    position: absolute;
-}
+ 
 
 
 
 .ScreenSaver-Seccion > .btnIniciar{
-	width: 354px;
-	height: 146px;
-	background: url("../images/p0-screenSaver/iniciarBtn.png");
-	background-size: 354px 146px;
+	width: 441px;
+	height: 77px;
+	background: url("../images/p0-screenSaver/Toca.png");
+	background-size: cover;
 	position: absolute;
-	top: 785px;
-	left: 845px;
+	bottom: 180px;
+	left: 234px;
 }
 
 
@@ -367,14 +332,212 @@ body{
 .home-Seccion{
 	width: 100%;
 	height: auto;
+	position: relative
 }
 
 .home-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p02-home/background.png");
+	background: url("../images/Generales/background.png");
 	background-size: cover; 
+	position: relative
 }
+
+.home-Seccion > .Ayuda{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p02-Home/ayuda_home.png");
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+
+
+/* --------------------------------------------------------
+/* ---- P02: MENU
+-------------------------------------------------------- */
+
+
+.home-Seccion > .Background > .menuBarra{
+	width: 1920px;
+	height: 180px;
+	background: url("../images/p02-Home/barra.png");
+	background-size: 1920px 180px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_back{
+	width: 133px;
+	height: 35px;
+	background: url("../images/p02-Home/atras_button.png");
+	background-size: 133px 35px;
+	position: absolute;
+	bottom: 100px;
+	left: 60px; 
+}
+
+
+.home-Seccion > .Background > .menuBarra > .btn_inicio{
+	width: 124px;
+	height: 26px;
+	background: url("../images/p02-Home/home_button.png");
+	background-size: 124px 26px;
+	position: absolute;
+	bottom: 26px;
+	left: 60px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_ayuda{
+	width: 135px;
+	height: 28px;
+	background: url("../images/p02-Home/ayuda_button.png");
+	background-size: 135px 28px;
+	position: absolute;
+	bottom: 26px;
+	left: 215px; 
+}
+
+
+
+
+.home-Seccion > .Background > .menuBarra > .btn_conservacion{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+ 
+.home-Seccion > .Background > .menuBarra > .btn_glosario{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+ 
+.home-Seccion > .Background > .menuBarra > .btn_referencias{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
+
+.home-Seccion > .Background > .menuBarra > .btn_creditos{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos-button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+ 
+
+
+/* --------------------------------------------------------
+/* ---- P02: BOTONES HOME SECCIONES
+-------------------------------------------------------- */
+
+.home-Seccion > .Background > .btn_obra{
+	width: 461px;
+	height: 83px;
+	background: url("../images/p02-Home/obra_button.png");
+	background-size: 461px 83px;
+	position: absolute;
+	top: -100px;
+	left: 1236px; 
+}
+
+
+.home-Seccion > .Background > .btn_interpretacion{
+	width: 461px;
+	height: 83px;
+	background: url("../images/p02-Home/interpretacion_button.png");
+	background-size: 461px 83px;
+	position: absolute;
+	top: -100px;
+	left: 1236px; 
+}
+
+
+.home-Seccion > .Background > .btn_gabinete{
+	width: 461px;
+	height: 83px;
+	background: url("../images/p02-Home/gabinete_button.png");
+	background-size: 461px 83px;
+	position: absolute;
+	top: -100px;
+	left: 1236px; 
+}
+
+
+
+
+/* --------------------------------------------------------
+/* ---- P02: BOTONES IDIOMAS
+-------------------------------------------------------- */
+
+
+
+.home-Seccion > .Background > .menuBarra > .btn_idioma_es{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/es_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	top: 30px;
+	right: 80px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_idioma_es_on{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/es_on.png");
+	background-size: 150px 28px;
+	position: absolute;
+	top: 30px;
+	right: 80px; 
+}
+
+
+.home-Seccion > .Background > .menuBarra > .btn_idioma_na{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/na_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	top: 80px;
+	right: 80px; 
+}
+
+
+.home-Seccion > .Background > .menuBarra > .btn_idioma_en{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/en_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	top: 130px;
+	right: 80px; 
+}
+
+
+
+
 .BloqueM{
 	width: 33.33%;
 	height: 1080px;
