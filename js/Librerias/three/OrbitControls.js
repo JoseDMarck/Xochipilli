@@ -145,11 +145,16 @@ THREE.OrbitControls = function ( object, domElement ) {
 			dollyIn( getZoomScale() );
 		}
 
+		 
+
+	
 		oldValue = newValue;
 		//dollyZoom(RangeZoom)
 		//return  RangeZoom;
+		return true;
 		
 	}
+
 
 
 	
@@ -320,6 +325,11 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	}
 
+
+	function getZoomScale2($var) {
+		return Math.pow( $var, scope.zoomSpeed );
+	}
+
 	function rotateLeft( angle ) {
 
 		sphericalDelta.theta -= angle;
@@ -404,26 +414,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	}();
 
 
-	function dollyZoom( dollyScale ) {
-		console.log("Zoom: ", dollyScale);
-		if ( scope.object instanceof THREE.PerspectiveCamera ) {
-
-			scale /= dollyScale;
-
-		} else if ( scope.object instanceof THREE.OrthographicCamera ) {
-
-			scope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom ) );
-			scope.object.updateProjectionMatrix();
-			zoomChanged = true;
-
-		} else {
-
-			console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' );
-			scope.enableZoom = false;
-
-		}
-
-	}
+	
 
 
 	function dollyIn( dollyScale ) {
