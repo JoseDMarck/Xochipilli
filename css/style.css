@@ -866,21 +866,278 @@ body{
 .obra-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p03-obra/background.png");
+	background: url("../images/Generales/background.png");
 	background-size: cover; 
 	position: absolute;
 }
 
 .obra-Seccion > .ayuda-image{
-	width: 1920px;
-	height: 1080px;
-	position: absolute;
-	top: 0;
-	left: 0;
+	width: 0px;
+	height: 0px;
 	background: url("../images/p03-obra/ayuda.png");
 	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+
+/* --------------------------------------------------------
+/* ---- P02: BARRA GENERAL
+-------------------------------------------------------- */
+
+
+.menuBarraGeneral{
+	width: 1920px;
+	height: 180px;
+	background: url("../images/p02-Home/barra.png");
+	background-size: 1920px 180px;
+	position: absolute;
+	bottom: -180px;
+	left: 0px; 
+	z-index: 99;
+}
+
+.menuBarraGeneral > .btn_up{
+	width: 80px;
+	height: 32px;
+	background: url("../images/p03-obra/up.png");
+	background-size: 80px 32px;
+	position: absolute;
+	top: -32px;
+	left: 0px; 
+	right: 0px;
+	margin: 0 auto;
+	z-index: 99;
+}
+
+.menuBarraGeneral > .btn_back{
+	width: 133px;
+	height: 35px;
+	background: url("../images/p02-Home/atras_button.png");
+	background-size: 133px 35px;
+	position: absolute;
+	bottom: 100px;
+	left: 60px; 
 	display: none;
-	z-index: 9999;
+}
+
+
+.btn_inicio_General{
+	width: 124px;
+	height: 26px;
+	background: url("../images/p02-Home/home_button.png");
+	background-size: 124px 26px;
+	position: absolute;
+	bottom: 26px;
+	left: 60px; 
+	z-index: 99;
+}
+
+.btn_ayuda_General{
+	width: 135px;
+	height: 28px;
+	background: url("../images/p02-Home/ayuda_button.png");
+	background-size: 135px 28px;
+	position: absolute;
+	bottom: 26px;
+	left: 215px; 
+	display: block;
+	z-index: 99;
+}
+
+
+
+.btn_idioma_es_General{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/es_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	bottom: 130px;
+	right: 80px; 
+	z-index: 99;	
+}
+
+.btn_idioma_es_on_General{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/es_on.png") !important;
+	background-size: 150px 28px;
+	position: absolute;
+	bottom: 130px;
+	right: 80px; 
+	z-index: 99;	
+}
+
+
+.btn_idioma_na_General{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/na_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	bottom: 80px;
+	right: 80px; 
+	z-index: 99;	
+}
+
+.btn_idioma_na_on_General{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/na_on.png");
+	background-size: 150px 28px;
+	position: absolute;
+	bottom: 80px;
+	right: 80px; 
+	z-index: 99;	
+}
+
+
+.btn_idioma_en_General{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/en_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	bottom: 30px;
+	right: 80px; 
+	z-index: 99;	
+}
+
+.btn_idioma_en_on_General{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/en_on.png");
+	background-size: 150px 28px;
+	position: absolute;
+	bottom: 30px;
+	right: 80px; 
+	z-index: 99;
+}
+
+
+ 
+
+
+.menuBarraGeneral > .btn_conservacion{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+
+.menuBarraGeneral > .btn_conservacion_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_on.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+ 
+.menuBarraGeneral > .btn_glosario{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+
+.menuBarraGeneral > .btn_glosario_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_on.png") !important;;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+ 
+.menuBarraGeneral > .btn_referencias{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
+.menuBarraGeneral > .btn_referencias_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_on.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
+
+.menuBarraGeneral > .btn_creditos{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos-button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+
+.menuBarraGeneral > .btn_creditos_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos_on.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+ 
+
+
+/* --------------------------------------------------------
+/* ---- P02: BOTONES HOME SECCIONES
+-------------------------------------------------------- */
+
+.home-Seccion > .Background > .btn_obra{
+	width: 461px;
+	height: 83px;
+	background: url("../images/p02-Home/obra_button.png");
+	background-size: 461px 83px;
+	position: absolute;
+	top: -100px;
+	left: 1236px; 
+}
+
+
+.home-Seccion > .Background > .btn_interpretacion{
+	width: 461px;
+	height: 83px;
+	background: url("../images/p02-Home/interpretacion_button.png");
+	background-size: 461px 83px;
+	position: absolute;
+	top: -100px;
+	left: 1236px; 
+}
+
+
+.home-Seccion > .Background > .btn_gabinete{
+	width: 461px;
+	height: 83px;
+	background: url("../images/p02-Home/gabinete_button.png");
+	background-size: 461px 83px;
+	position: absolute;
+	top: -100px;
+	left: 1236px; 
 }
 
 
@@ -889,15 +1146,16 @@ body{
 -------------------------------------------------------- */
 
 .obra-Seccion > .ObraBloqueA{
-	width: 45%;
-	height: 1080px;
+	width: 685px;
+	height: 632px;
 	position: absolute;
-	left: 0;
+	top: 106px;
+	left: 1121px;
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor{
-	width: 80%;
-	height: 900px;
+	width: 685px;
+	height: 632px;
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
@@ -905,15 +1163,16 @@ body{
 	padding-bottom: 50px;
 }
 
-.obra-Seccion > .ObraBloqueA > .Contenedor > .titulo{
-	width: 100%;
-	height: auto;
-	font-family: "Gotham-Bold";
-	font-size: 40px;
-	color: #FFF;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
+.obra-Seccion > .titulo{
+	width: 147px;
+	height: 46px;
+	position: absolute;
+	background: url("../images/p03-obra/Obra.png");
+	background-size: 147px 46px;
+	top: 60px;
+	left: 1127px;
+
+
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .descripcion{
@@ -924,12 +1183,13 @@ body{
 	line-height: 25px;
 	color: #FFF;
 	text-align: left;
-	overflow: scroll;
+	overflow-y: scroll;
 	padding-bottom: 30px;
 }
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .descripcion p{
 	margin-bottom: 20px;
+	padding-right: 20px;
 }
 
 
@@ -937,17 +1197,19 @@ body{
 /* ---- P02: OBRA - BLOQUE B
 -------------------------------------------------------- */
 .obra-Seccion > .ObraBloqueB{
-	width: 50%;
-	height: 1080px;
+	width: 800px;
+	height: 680px;
 	position: absolute;
-	right:  4%;
-	margin-top: 40px;
+	left: 161px;
+	top: 60px;
 }
 
 .obra-Seccion > .ObraBloqueB > .ContendorGaleria{
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	margin: 0 auto;
+	background: url("../images/p03-obra/imagen.png");
+	background-size: 800px 680px;
 	margin-bottom: 20px; 
 	overflow: hidden;
 	position: relative;
@@ -960,7 +1222,7 @@ body{
 }
 
 .obra-Seccion > .ObraBloqueB > .descripcion > .textos {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	font-family: "Gotham-Light";
 	font-size: 20px;
@@ -978,16 +1240,13 @@ body{
 	display: block;
 }
 
-.obra-Seccion > .ObraBloqueB > .descripcion > .btn_otrasPres {
-	width: 20%;
-	height: auto;
-	font-family: "Gotham-Light";
-	font-size: 18px;
-	text-align: center;
-	color: #FFF;
-	background: #222;
-	padding: 10px;
-	float: right;
+.obra-Seccion > .btn_otrasPres {
+	width: 421px;
+	height: 70px;
+	background: url('../images/p03-obra/otras_button.png');	
+	position: absolute;
+	top: 814px;
+	left: 561px;
 }
 
 
@@ -997,36 +1256,46 @@ body{
 	position: absolute;
 }
 
-.ObraBloqueB > .ContendorGaleria > .next_btn{
-	width: 32px;
-	height: 32px;
-	background: url("../images/generales/galeria/next.png");
-	background-size: 32px 32px;
+
+ 
+
+ 
+
+
+.prev_btn_obra{
+	width: 30px;
+	height: 45px;
+	background: url("../images/generales/galeria/atras_on.png");
+	background-size: 30px 45px;
 	position: absolute;
-	right: 0;
-	top: 50%;
+	left: 103px;
+	top: 398px;
+	display: none;
+	z-index: 999;
 }
 
-.ObraBloqueB > .ContendorGaleria > .prev_btn{
-	width: 32px;
-	height: 32px;
-	background: url("../images/generales/galeria/prev.png");
-	background-size: 32px 32px;
+
+.next_btn_obra{
+	width: 30px;
+	height: 45px;
+	background: url("../images/generales/galeria/adelante_on.png");
+	background-size: 30px 45px;
 	position: absolute;
-	left: 0;
-	top: 50%;
-	display: none;
+	left: 1000px;
+	top: 398px;
+	display: block;
+	z-index: 999;
 }
 
 
 .ObraBloqueB > .ContendorGaleria > .full_btn{
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	background: url("../images/generales/galeria/fullScreen.png");
-	background-size: 50px 50px;
+	background-size: 40px 40px;
 	position: absolute;
-	right:  0;
-	bottom:  0;
+	left:  20px;
+	bottom:  20px;
 	display: block;
 }
 
@@ -1034,7 +1303,7 @@ body{
 
 .obra_img_1 {
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	position: absolute;
 	background: url("../images/p03-obra/image_1.jpg"); 
 	background-size: cover;
@@ -1043,7 +1312,7 @@ body{
 
 .obra_img_2 {
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	position: absolute;
 	background: url("../images/p03-obra/image_2.jpg"); 
 	background-size: cover;
@@ -1053,7 +1322,7 @@ body{
 
 .obra_img_3 {
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	position: absolute;
 	background: url("../images/p03-obra/image_3.jpg"); 
 	background-size: cover;
@@ -1063,7 +1332,7 @@ body{
 
 .repres_img_1 {
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	position: absolute;
 	background: url("../images/p04-representaciones/image_1.jpg"); 
 	background-size: cover;
@@ -1072,7 +1341,7 @@ body{
 
 .repres_img_2 {
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	position: absolute;
 	background: url("../images/p04-representaciones/image_2.jpg"); 
 	background-size: cover;
@@ -1082,7 +1351,7 @@ body{
 
 .repres_img_3 {
 	width: 100%;
-	height: 800px;
+	height: 680px;
 	position: absolute;
 	background: url("../images/p04-representaciones/image_3.jpg"); 
 	background-size: cover;
