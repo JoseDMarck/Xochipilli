@@ -62,8 +62,14 @@ body{
  
 /* Let's get this party started */
 .flexcroll::-webkit-scrollbar {
-    width: 2px;
+	width: 10px;
+	background: #555555;
+	overflow-x: hidden;
 }
+
+
+ 
+
 
 .flexcroll{
     scrollbar-face-color: #FFDB00;
@@ -72,23 +78,24 @@ body{
     scrollbar-3dlight-color: #FFDB00;
     scrollbar-darkshadow-color: #FFDB00;
     scrollbar-track-color: #FFDB00;
-    scrollbar-arrow-color: #FFDB00;
+	scrollbar-arrow-color: #FFDB00;
+	overflow-x: hidden;
 }
 
 
 /* Track */
 .flexcroll::-webkit-scrollbar-track {
-    -webkit-box-shadow:  inset 0 0 6px rgba(0,0,0,0.0); 
+    -webkit-box-shadow:  inset 0 0 6px rgba(85,85,85,0.0); 
     -webkit-border-radius: 15px;
     border-radius: 15px;
 }
  
 /* Handle */
 .flexcroll::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
-    background: rgba(255,219,0,0.9);  
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0); 
+	width: 20px;
+	height: 20px !important;
+	background: #707D3C;
+	background-size: 20px 20px;
 }
 
 
@@ -355,6 +362,30 @@ body{
 }
 
 
+.home-Seccion > .AyudaMenus{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p02-Home/slider/ayuda_glosario.png");
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+ 
+
+
+.home-Seccion > .Background > .Figura{
+    width: 906px;
+    height: 1536px;
+    background: url("../images/p0-screenSaver/xochi1-min.png");    
+	background-size: 906px 1536px;
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+    position: absolute;
+}
 
 /* --------------------------------------------------------
 /* ---- P02: MENU
@@ -369,6 +400,7 @@ body{
 	position: absolute;
 	bottom: 0px;
 	left: 0px; 
+	z-index: 99;
 }
 
 .home-Seccion > .Background > .menuBarra > .btn_back{
@@ -400,6 +432,19 @@ body{
 	position: absolute;
 	bottom: 26px;
 	left: 215px; 
+	display: block
+}
+
+
+.home-Seccion > .Background > .menuBarra > .btn_ayuda-m{
+	width: 135px;
+	height: 28px;
+	background: url("../images/p02-Home/ayuda_button.png");
+	background-size: 135px 28px;
+	position: absolute;
+	bottom: 26px;
+	left: 215px; 
+	display: none;
 }
 
 
@@ -414,11 +459,31 @@ body{
 	bottom: 100px;
 	left: 655px; 
 }
+
+.home-Seccion > .Background > .menuBarra > .btn_conservacion_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_on.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
  
 .home-Seccion > .Background > .menuBarra > .btn_glosario{
 	width: 246px;
 	height: 46px;
 	background: url("../images/p02-Home/glosario_button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_glosario_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_on.png") !important;;
 	background-size: 246px 46px;
 	position: absolute;
 	bottom: 100px;
@@ -435,11 +500,31 @@ body{
 	left: 655px; 
 }
 
+.home-Seccion > .Background > .menuBarra > .btn_referencias_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_on.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
 
 .home-Seccion > .Background > .menuBarra > .btn_creditos{
 	width: 246px;
 	height: 46px;
 	background: url("../images/p02-Home/creditos-button.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_creditos_on{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos_on.png") !important;
 	background-size: 246px 46px;
 	position: absolute;
 	bottom: 25px;
@@ -506,7 +591,7 @@ body{
 .home-Seccion > .Background > .menuBarra > .btn_idioma_es_on{
 	width: 150px;
 	height: 28px;
-	background: url("../images/p02-Home/es_on.png");
+	background: url("../images/p02-Home/es_on.png") !important;
 	background-size: 150px 28px;
 	position: absolute;
 	top: 30px;
@@ -524,11 +609,31 @@ body{
 	right: 80px; 
 }
 
+.home-Seccion > .Background > .menuBarra > .btn_idioma_na_on{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/na_on.png");
+	background-size: 150px 28px;
+	position: absolute;
+	top: 80px;
+	right: 80px; 
+}
+
 
 .home-Seccion > .Background > .menuBarra > .btn_idioma_en{
 	width: 150px;
 	height: 28px;
 	background: url("../images/p02-Home/en_off.png");
+	background-size: 150px 28px;
+	position: absolute;
+	top: 130px;
+	right: 80px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_idioma_en_on{
+	width: 150px;
+	height: 28px;
+	background: url("../images/p02-Home/en_on.png");
 	background-size: 150px 28px;
 	position: absolute;
 	top: 130px;
@@ -1339,35 +1444,94 @@ input[type=range] {
 
 
 .PopUpSlider{
-	width: 100%;
-	height: 100%;
+	width: 1920px;
+	height: 1080px;
 	position: absolute;
-	background: rgba(0,0,0,0.9);
+	background: url("../images/Generales/background.png");
+	background-size: cover; 
 	top: 0;
 	left: 0;
-	z-index: 999;
+	z-index: 98;
 	display: none;
 }
 
-.PopUpSlider > .btn_prev{
-	width: 32px;
-	height: 32px;
-	background: url("../images/generales/galeria/prev.png");
-	background-size: 32px 32px;
+.PopUpSlider > .SeccionTitulo{
+	width: 544px;
+	height: 43px;
 	position: absolute;
-	left: 10%;
-	top: 50%;
+	left: 362px;
+	top: 59px;
+}
+
+
+.PopUpSlider > .SeccionTitulo > .titulo_conservacion{
+	width: 544px;
+	height: 43px;
+	background: url("../images/p02-Home/slider/Otras.png");
+	background-size: 544px 43px; 
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+.PopUpSlider > .SeccionTitulo > .titulo_glosario{
+	width: 243px;
+	height: 46px;
+	background: url("../images/p02-Home/slider/Glosario.png");
+	background-size: 243px 46px; 
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+	
+}
+
+.PopUpSlider > .SeccionTitulo > .titulo_referencias{
+	width: 358px;
+	height: 43px;
+	background: url("../images/p02-Home/slider/Referencias.png");
+	background-size: 358px 43px; 
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+	
+}
+
+.PopUpSlider > .SeccionTitulo > .titulo_creditos{
+	width: 259px;
+	height: 46px;
+	background: url("../images/p02-Home/slider/creditos.png");
+	background-size: 259px 46px; 
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+
+
+
+.PopUpSlider > .btn_prev{
+	width: 30px;
+	height: 45px;
+	background: url("../images/generales/galeria/atras_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 265px;
+	top: 427px;
 	display: block;
 }
 
 .PopUpSlider > .btn_next{
-	width: 32px;
-	height: 32px;
-	background: url("../images/generales/galeria/next.png");
-	background-size: 32px 32px;
+	width: 30px;
+	height: 45px;
+	background: url("../images/generales/galeria/adelante_on.png");
+	background-size: 30px 45px;
 	position: absolute;
-	right:  10%;
-	top: 50%;
+	right:  265px;
+	top: 427px;
 	display: block;
 }
 
@@ -1393,6 +1557,9 @@ input[type=range] {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+
+
+ 
 
 .imagen-1-1{
 	width: 1024px;
@@ -2702,7 +2869,7 @@ input[type=range] {
 -------------------------------------------------------- */
 
 .Seccion-info{
-	width: 1024px;
+	width: 1250px;
     height: 768px;
     position: absolute;
     left: 50%;
@@ -2714,8 +2881,8 @@ input[type=range] {
 
  .Seccion-info > .Textos{
  	width: 100%;
- 	height: 768px;
- 	overflow: scroll;
+ 	height: 700px;
+ 	overflow-y: scroll;
  	display: none;
  }
 
@@ -2730,11 +2897,13 @@ input[type=range] {
   }
 
    .Seccion-info > .Textos > .descripcion{
-  	width: 100%;
-  	height: auto;
+  	width: 95%;
+	  height: auto;
+	  margin: 0 auto;
   	font-family: "Gotham-Medium";
   	font-size: 16px;
-  	line-height:  22px;
+	  line-height:  22px;
+	  padding: 0px 10px 0px 10px;
   	color: #FFF;
   }
 
