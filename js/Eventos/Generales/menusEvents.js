@@ -1,0 +1,222 @@
+// EVENTOS GALLERIA MENUS ===================
+
+var num_total = 4;
+var num_init;
+var num_gal;
+
+
+$(".btn_close").click(function() {
+    $(".PopUpSlider").fadeOut();
+
+    $(".btn_conservacion").removeClass("btn_conservacion_on");        
+    $(".btn_glosario").removeClass("btn_glosario_on");
+    $(".btn_referencias").removeClass("btn_referencias_on");
+    $(".btn_creditos").removeClass("btn_creditos_on");
+
+
+    $(".btn_ayuda").show();
+    $(".btn_ayuda-m").hide();
+    
+});
+
+
+$(".open_popUp").click(function() {
+  
+  valor_hp = $(this).attr('class').split(' ')[1];
+    console.log(valor_hp);
+
+    $(".btn_ayuda").hide();
+    $(".btn_ayuda-m").show();
+
+
+    if( valor_hp == "btn_L-1-1" ){
+        num_gal = 1;
+        num_init = 1;
+
+        //PARA BOTONES DE SELECCIÓN
+        $(".btn_conservacion").addClass("btn_conservacion_on");
+        $(".btn_glosario").removeClass("btn_glosario_on");
+        $(".btn_referencias").removeClass("btn_referencias_on");
+        $(".btn_creditos").removeClass("btn_creditos_on");
+
+        //PARA TIULOS SECCIONES               
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_conservacion").fadeIn();
+
+
+    }
+
+    if( valor_hp == "btn_L-1-2" ){
+        num_gal = 1;
+        num_init = 2;
+
+        //PARA BOTONES DE SELECCIÓN        
+        $(".btn_glosario").addClass("btn_glosario_on");
+        $(".btn_conservacion").removeClass("btn_conservacion_on");        
+        $(".btn_referencias").removeClass("btn_referencias_on");
+        $(".btn_creditos").removeClass("btn_creditos_on");
+
+        //PARA TIULOS SECCIONES               
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_glosario").fadeIn();
+        
+    }
+
+    if( valor_hp == "btn_L-1-3" ){
+        num_gal = 1;
+        num_init = 3;
+
+        //PARA BOTONES DE SELECCIÓN        
+        $(".btn_referencias").addClass("btn_referencias_on");
+        $(".btn_conservacion").removeClass("btn_conservacion_on");        
+        $(".btn_glosario").removeClass("btn_glosario_on");
+        $(".btn_creditos").removeClass("btn_creditos_on");
+
+        //PARA TIULOS SECCIONES               
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_referencias").fadeIn();
+        
+        
+    }
+
+    if( valor_hp == "btn_L-1-4" ){
+        num_gal = 1;
+        num_init = 4;
+
+        //PARA BOTONES DE SELECCIÓN        
+        $(".btn_creditos").addClass("btn_creditos_on");
+        $(".btn_conservacion").removeClass("btn_conservacion_on");        
+        $(".btn_glosario").removeClass("btn_glosario_on");
+        $(".btn_referencias").removeClass("btn_referencias_on");
+        
+        //PARA TIULOS SECCIONES       
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_creditos").fadeIn();
+    }
+
+    // para mostrar el btn de prev
+    if (num_init < 2 ){
+        $(".btn_prev").hide();
+    }
+    else{
+        $(".btn_prev").show();
+    }
+
+    // para mostrar el btn de next
+    if (num_init < 4  ){
+        $(".btn_next").show();
+    }
+    else{
+         $(".btn_next").hide();
+    }
+
+      $(".Textos").hide();
+      $(".PopUpSlider").fadeIn();
+      $(".seccion-m-"+num_init).fadeIn();
+
+});
+
+
+$(".btn_next").click(function() {
+     if (num_init == 3){
+        $(".btn_next").hide();
+     }
+
+    if (num_init > 0){
+        $(".btn_prev").show();
+     }
+
+
+    if (num_init < num_total){
+        $(".gal_img").hide();
+        $(".gal_desc_LG").hide();
+
+        num_init = num_init + 1;
+        console.log("num_init", num_init);
+        $(".Textos").hide();
+        $(".btn_titulo_Seccion").hide();
+
+
+        if(num_init == 1){
+            $(".btn_conservacion").addClass("btn_conservacion_on");
+            $(".btn_glosario").removeClass("btn_glosario_on");
+            $(".btn_referencias").removeClass("btn_referencias_on");
+            $(".btn_creditos").removeClass("btn_creditos_on");
+        }
+        else if(num_init == 2){
+            $(".btn_conservacion").removeClass("btn_conservacion_on");
+            $(".btn_glosario").addClass("btn_glosario_on");
+            $(".btn_referencias").removeClass("btn_referencias_on");
+            $(".btn_creditos").removeClass("btn_creditos_on");
+        }
+
+        else if(num_init == 3){
+            $(".btn_conservacion").removeClass("btn_conservacion_on");
+            $(".btn_glosario").removeClass("btn_glosario_on");
+            $(".btn_referencias").addClass("btn_referencias_on");
+            $(".btn_creditos").removeClass("btn_creditos_on");
+        }
+
+        else if(num_init == 4){
+            $(".btn_conservacion").removeClass("btn_conservacion_on");
+            $(".btn_glosario").removeClass("btn_glosario_on");
+            $(".btn_referencias").removeClass("btn_referencias_on");
+            $(".btn_creditos").addClass("btn_creditos_on");
+        }
+
+        $(".seccion-m-"+num_init).fadeIn();
+
+       
+    }
+});
+
+$(".btn_prev").click(function() {
+
+    if (num_init == 2){
+        $(".btn_prev").hide();
+     }
+
+    if (num_init > 1){
+        $(".gal_img").hide();
+        $(".gal_desc_LG").hide();
+
+        num_init = num_init - 1;
+        console.log("num_init", num_init);
+        $(".Textos").hide();
+        $(".btn_titulo_Seccion").hide();
+
+
+        if(num_init == 1){
+            $(".btn_conservacion").addClass("btn_conservacion_on");
+            $(".btn_glosario").removeClass("btn_glosario_on");
+            $(".btn_referencias").removeClass("btn_referencias_on");
+            $(".btn_creditos").removeClass("btn_creditos_on");
+        }
+        else if(num_init == 2){
+            $(".btn_conservacion").removeClass("btn_conservacion_on");
+            $(".btn_glosario").addClass("btn_glosario_on");
+            $(".btn_referencias").removeClass("btn_referencias_on");
+            $(".btn_creditos").removeClass("btn_creditos_on");
+        }
+
+        else if(num_init == 3){
+            $(".btn_conservacion").removeClass("btn_conservacion_on");
+            $(".btn_glosario").removeClass("btn_glosario_on");
+            $(".btn_referencias").addClass("btn_referencias_on");
+            $(".btn_creditos").removeClass("btn_creditos_on");
+        }
+
+        else if(num_init == 4){
+            $(".btn_conservacion").removeClass("btn_conservacion_on");
+            $(".btn_glosario").removeClass("btn_glosario_on");
+            $(".btn_referencias").removeClass("btn_referencias_on");
+            $(".btn_creditos").addClass("btn_creditos_on");
+        }
+
+        $(".seccion-m-"+num_init).fadeIn();
+
+        $(".btn_next").show();
+    }
+     
+
+});
