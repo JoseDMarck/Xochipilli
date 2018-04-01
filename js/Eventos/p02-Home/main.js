@@ -12,25 +12,28 @@ LanguageON = window.location.hash.substring(1)
 console.log("Idioma Inicial: ", LanguageON);
 
 if (LanguageON != "" ){
+
+    if( LanguageON == "ESP" ){
+        console.log("Idioma: ", LanguageON);
+        $(".btn_idioma_es").addClass("btn_idioma_es_on");
+
+    } 
     
     if( LanguageON == "ENG" ){
         console.log("Idioma: ", LanguageON);
-       /* $(".btn_Glosario").addClass("btn_GlosarioENG");
-        $(".btn_Referencias").addClass("btn_ReferenciasENG");
-        $(".btn_Creditos").addClass("btn_CreditosENG");
-        $(".ayuda-image").addClass("ayuda-image-ENG");*/
+        $(".btn_idioma_en").addClass("btn_idioma_en_on");
+        
+      
     }
 
     if( LanguageON == "NAH" ){
         console.log("Idioma: ", LanguageON);
-        /*$(".btn_Glosario").addClass("btn_GlosarioNAH");
-        $(".btn_Referencias").addClass("btn_ReferenciasNAH");
-        $(".btn_Creditos").addClass("btn_CreditosNAH");
-        $(".ayuda-image").addClass("ayuda-image-NAH");*/
+        $(".btn_idioma_na").addClass("btn_idioma_na_on");
+        
+       
     } 
 
    
-
 } else {
    LanguageON = "ESP"; 
    console.log("Idioma: Default");
@@ -56,7 +59,7 @@ var GotoHome = function () {
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p01-presentacion/index.html'+'#'+LanguageON;
+    window.location.href = '../../index.html'
 };
 
 
@@ -97,7 +100,7 @@ $(".btn_back").click(function() {
 });
 
 
-$(".btn_Obra").click(function() {
+$(".btn_obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:   GotoObra });
 });
 
@@ -186,13 +189,19 @@ $(".Ayuda").click(function() {
 });
 
 
-
-
-
-$(".btn_obra").click(function() {
-
+$(".btn_ayuda-m").click(function() {
+    TweenMax.to(".AyudaMenus", 0.5, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
 });
 
+$(".AyudaMenus").click(function() {
+    TweenMax.to(".AyudaMenus", 0.3, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+});
+
+
+
+
+
+ 
 
 
  
@@ -200,59 +209,120 @@ $(".btn_obra").click(function() {
 
 // EVENTOS SELECT IDIOMA ===================
 
-/*$(".select_ESP").click(function(event) {
+$(".btn_idioma_es").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ESP });
     LanguageON = null;
     event.stopPropagation();
 });
 
-$(".select_ENG").click(function(event) {
+$(".btn_idioma_en").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_ENG });
     LanguageON = null;
     event.stopPropagation();
 });
 
-$(".select_NAH").click(function(event) {
+$(".btn_idioma_na").click(function(event) {
     TweenMax.to("body", 1, {alpha:0, onComplete: Change_idioma_NAH});
     LanguageON = null;
     event.stopPropagation();
-});*/
+});
 
 
 // EVENTOS GALLERIA ===================
 
-/*var num_total = 4;
+var num_total = 4;
 var num_init;
 var num_gal;
 
 
 $(".btn_close").click(function() {
     $(".PopUpSlider").fadeOut();
+
+    $(".btn_conservacion").removeClass("btn_conservacion_on");        
+    $(".btn_glosario").removeClass("btn_glosario_on");
+    $(".btn_referencias").removeClass("btn_referencias_on");
+    $(".btn_creditos").removeClass("btn_creditos_on");
+
+
+    $(".btn_ayuda").show();
+    $(".btn_ayuda-m").hide();
+    
 });
+
+
 
 $(".open_popUp").click(function() {
   
   valor_hp = $(this).attr('class').split(' ')[1];
     console.log(valor_hp);
 
+    $(".btn_ayuda").hide();
+    $(".btn_ayuda-m").show();
+
+
     if( valor_hp == "btn_L-1-1" ){
         num_gal = 1;
         num_init = 1;
+
+        //PARA BOTONES DE SELECCIÓN
+        $(".btn_conservacion").addClass("btn_conservacion_on");
+        $(".btn_glosario").removeClass("btn_glosario_on");
+        $(".btn_referencias").removeClass("btn_referencias_on");
+        $(".btn_creditos").removeClass("btn_creditos_on");
+
+        //PARA TIULOS SECCIONES               
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_conservacion").fadeIn();
+
+
     }
 
     if( valor_hp == "btn_L-1-2" ){
         num_gal = 1;
         num_init = 2;
+
+        //PARA BOTONES DE SELECCIÓN        
+        $(".btn_glosario").addClass("btn_glosario_on");
+        $(".btn_conservacion").removeClass("btn_conservacion_on");        
+        $(".btn_referencias").removeClass("btn_referencias_on");
+        $(".btn_creditos").removeClass("btn_creditos_on");
+
+        //PARA TIULOS SECCIONES               
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_glosario").fadeIn();
+        
     }
 
     if( valor_hp == "btn_L-1-3" ){
         num_gal = 1;
         num_init = 3;
+
+        //PARA BOTONES DE SELECCIÓN        
+        $(".btn_referencias").addClass("btn_referencias_on");
+        $(".btn_conservacion").removeClass("btn_conservacion_on");        
+        $(".btn_glosario").removeClass("btn_glosario_on");
+        $(".btn_creditos").removeClass("btn_creditos_on");
+
+        //PARA TIULOS SECCIONES               
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_referencias").fadeIn();
+        
+        
     }
 
     if( valor_hp == "btn_L-1-4" ){
         num_gal = 1;
         num_init = 4;
+
+        //PARA BOTONES DE SELECCIÓN        
+        $(".btn_creditos").addClass("btn_creditos_on");
+        $(".btn_conservacion").removeClass("btn_conservacion_on");        
+        $(".btn_glosario").removeClass("btn_glosario_on");
+        $(".btn_referencias").removeClass("btn_referencias_on");
+        
+        //PARA TIULOS SECCIONES       
+        $(".btn_titulo_Seccion").hide();
+        $(".titulo_creditos").fadeIn();
     }
 
     // para mostrar el btn de prev
@@ -320,7 +390,7 @@ $(".btn_prev").click(function() {
     }
      
 
-}); */
+});
 
 
 
