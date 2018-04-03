@@ -6,7 +6,6 @@ $( document ).ready(function() {
 -------------------------------------------------------- */
 
 HomeURL = '../../index.html';
-statusMenu = 0;
 
 // IDIOMA DETECCIÓN
 LanguageON = window.location.hash.substring(1)
@@ -29,8 +28,6 @@ if (LanguageON != "" ){
         if( LanguageON == "NAH" ){
             console.log("Idioma: ", LanguageON);
             $(".btn_idioma_na_General").addClass("btn_idioma_na_on_General");
-            
-           
         } 
     
        
@@ -87,7 +84,7 @@ var Change_idioma_NAH = function () {
 
  
 
-$(".btn_home").click(function() {
+$(".btn_inicio_General").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoHome});
 });
 
@@ -110,25 +107,6 @@ $(".btn_otrasPres").click(function() {
 });
 
 
-$(".btn_up").click(function() {
-    if(statusMenu == 0){
-        TweenMax.to(".menuBarraGeneral", 1, {y:-180, onComplete: show = function(){
-           $(".btn_back").fadeIn(); 
-           TweenMax.to(".btn_up", 0.5, {rotation:180, y:32,  ease: Circ.easeOut})
-        }});
-        
-        statusMenu = 1;
-    }else{
-        $(".btn_back").hide(); 
-        TweenMax.to(".menuBarraGeneral", 1, {y:0, onComplete: returPos = function(){
-            TweenMax.to(".btn_up", 0.5, {rotation:0, y:0,  ease: Circ.easeOut})
-        }});
-        
-        
-        statusMenu = 0;
-
-    }
-});
 
 
 
@@ -137,11 +115,11 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
      // Para efecto de ayuda
-     TweenMax.to(".ayuda-image", 0.5, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0, rotation:360,  ease: Circ.easeOut, onComplete: 
+     TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0, rotation:360,  ease: Circ.easeOut, onComplete: 
         close = function(){
 
             CloseAyudaOnInitEvent = setTimeout(function(){ 
-                TweenMax.to(".ayuda-image", 0.3, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, rotation:180, ease: Circ.easeOut})
+                TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, rotation:180, ease: Circ.easeOut})
             }, 5000);
             
         }   
@@ -152,16 +130,13 @@ var InitScreen = function () {
 
 InitScreen();
 
-
-
-
 // EVENTOS AYUDA ===================
 $(".btn_ayuda_General").click(function() {
-    TweenMax.to(".ayuda-image", 0.5, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
+    TweenMax.to(".ayuda-image", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
 });
 
 $(".ayuda-image").click(function() {
-    TweenMax.to(".ayuda-image", 0.3, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+    TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
     clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
 });
 
