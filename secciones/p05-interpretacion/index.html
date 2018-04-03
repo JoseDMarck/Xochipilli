@@ -27,48 +27,96 @@
 
 
 
-			<div class="Background"></div>
 
-			<div class="loading"></div>
+			<div class="Background">
 
-			<div id="inter-BloqueA" class="inter-BloqueA">
-				
-		<script>
-			
-		</script>
-			</div><!-- inter-BloqueA -->
+					<div class="menuBarraGeneral">
+							<div class="btn_back"></div>
+							
+							<div class="btn_up"></div>
+
+							<div class="btn_conservacion btn_L-1-1 open_popUp"></div>
+							<div class="btn_glosario btn_L-1-2 open_popUp"></div>
+							<div class="btn_referencias btn_L-1-3 open_popUp"></div>
+							<div class="btn_creditos btn_L-1-4 open_popUp"></div>
+								
+					</div>
 
 
-
-
-			<div class="inter-BloqueB">
-				<div id="titulo" class="titulo"></div>
-				
-
-				<div id="btn_lectura" class="botones btn_lectura"></div>
-				<div id="btn_atavios_sol" class="botones btn_atavios_sol"></div>
-				<div id="btn_atavios_tierra" class="botones btn_atavios_tierra"></div>
-				<div id="btn_atavios_florido" class="botones btn_atavios_florido"></div>
-				<div id="btn_trono" class="botones btn_trono"></div>
-				<div id="" class="botones">
-					<input type="range" id="slider" value="1" min="1" max="50" step="1" />
 					
-					<br />
-					
-					<span id="slider_value">Nothing yet.</span>
-				</div>
-				
-				
-				
-			</div><!-- inter-BloqueB -->
-			
+					<div class="btn_inicio_General"></div>
+					<div class="btn_ayuda_General"></div>
+
+					<div class="btn_idioma_es_General"></div>
+					<div class="btn_idioma_en_General"></div>
+					<div class="btn_idioma_na_General"></div>
+
+			</div><!--Background -->
 
 
-			<div class="ayuda-image"></div>
-			<div class="btn_home"></div>
-			<div class="btn_ayuda"></div>
-		
+			<div class="titulo"></div>
+
+		 	<div class="imagen360">
+				 <div class="icono"></div>
+			 </div>
+
+
+			 <!-- Botones -->
+
+			 <div class="btn_senior_flores"></div>
+			 <div class="btn_pedestal"></div>
+			 <div class="btn_atavios_sol"></div>
+			 <div class="btn_atavios_tierra"></div>
+			 <div class="btn_atavio_florido"></div>
+
+
+
+			 <div class="ayuda-image"></div>
+
 	</div><!-- ScreenSaver-Seccion -->
+
+
+
+	<div class="PopUpSlider">
+			
+			
+					<div class="SeccionTitulo">
+						<div class="titulo_conservacion btn_titulo_Seccion seccion-m-1 "></div>
+						<div class="titulo_glosario btn_titulo_Seccion seccion-m-2"></div>
+						<div class="titulo_referencias btn_titulo_Seccion seccion-m-3"></div>
+						<div class="titulo_creditos btn_titulo_Seccion seccion-m-4"></div>
+					</div>
+			
+			
+					<div class="btn_close"></div>
+					<div class="btn_prev"></div>
+					<div class="btn_next"></div>
+			
+					<div class="Seccion-info">
+					
+						<div class="Textos seccion-m-1 flexcroll">
+								<div id="descripcion_conservacion" class="descripcion"></div>
+						</div>
+			
+			
+						<div class="Textos seccion-m-2 flexcroll">
+							<div id="descripcion_glosario" class="descripcion"></div>
+						</div>
+			
+						<div class="Textos seccion-m-3 flexcroll">
+							<div id="descripcion_referencias" class="descripcion"></div>
+						</div>
+			
+						<div class="Textos seccion-m-4 flexcroll">
+							<div id="descripcion_creditos" class="descripcion"></div>
+						</div>
+			
+						
+			
+			
+					</div><!-- imagen_PopUpSlider -->
+			
+		</div><!-- PopUpSldier -->
 	
 
 </div> <!--  main -->
@@ -84,7 +132,11 @@
 <script type="text/javascript" src="../../js/Eventos/generales/screenSaver.js"></script>
 <script type="text/javascript" src="../../json/p05-interpretacion/interpretacion.js"></script>
 <script type="text/javascript" src="../../js/Eventos/p05-interpretacion/jsonEvents.js"></script>
-<script src="../../js/Eventos/p05-interpretacion/3DEvents.js"></script>
+
+<!-- para los json de los botones: Conservación, Glosario, Créditos -->
+<script type="text/javascript" src="../../json/MenusBotones/botones.js"></script>
+<script type="text/javascript" src="../../js/Eventos/Generales/jsonEventsMenus.js"></script>
+<script type="text/javascript" src="../../js/Eventos/Generales/menusEvents.js"></script>
 
 
 
