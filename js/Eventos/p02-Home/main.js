@@ -178,22 +178,22 @@ $(".btn_close_menu").click(function() {
 
 
 $(".btn_ayuda").click(function() {
-    TweenMax.to(".Ayuda", 0.5, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
+    TweenMax.to(".Ayuda", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
 });
 
 $(".Ayuda").click(function() {
-    TweenMax.to(".Ayuda", 0.3, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
     clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
     move_screen_buttos();
 });
 
 
 $(".btn_ayuda-m").click(function() {
-    TweenMax.to(".AyudaMenus", 0.5, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
+    TweenMax.to(".AyudaMenus", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
 });
 
 $(".AyudaMenus").click(function() {
-    TweenMax.to(".AyudaMenus", 0.3, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+    TweenMax.to(".AyudaMenus", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
 });
 
 
