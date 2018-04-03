@@ -1656,68 +1656,64 @@ input[type=range] {
 .lectura-general-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p06-lectura-general/background.png");
+	background: url("../images/Generales/background.png");
 	background-size: cover; 
 	position: absolute;
 }
 
 .lectura-general-Seccion > .ayuda-image{
-	width: 1920px;
-	height: 1080px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: url("../images/p06-lectura-general/ayuda.png");
-	background-size: cover; 
-	display: none;
-	z-index: 9999;
+	width: 0px;
+    height: 0px;
+    background: url("../images/Generales/ayuda_secciones_es.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
 }
 
 /* --------------------------------------------------------
 /* ---- P06: LECTURA GENERAL - BLOQUE A
 -------------------------------------------------------- */
 
-.lectura-general-Seccion > .LecturaGnral-BloqueA{
-	width: 45%;
-	height: 1080px;
+.lectura-general-Seccion > .titulo{
+	width: 695px;
+	height: 45px;
+	background: url("../images/p07-senior-flores/Xochipilli.png");
+	background-size: 695px 45px;
 	position: absolute;
-	left: 0;
+	top: 58px;
+	left: 1124px;
 }
+	
+ 
 
-.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor{
-	width: 80%;
-	height: 900px;
-	position: relative;
+
+.lectura-general-Seccion  > .Contenedor{
+	width: 690px;
+	height: 600px;
+	position: absolute;
 	margin: 0 auto;
-	overflow: hidden;
-	padding: 15px;
-	padding-bottom: 50px;
+	top: 147px;
+	left: 1124px;
 }
 
-.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor > .titulo{
-	width: 100%;
-	height: auto;
-	font-family: "Gotham-Bold";
-	font-size: 40px;
-	color: #FFF;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
+ 
 
-.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor > .descripcion{
+.lectura-general-Seccion > .Contenedor > .descripcion{
 	width: 100%;
-	height: 900px;
+	height: 700px;
 	font-family: "Gotham-Light";
 	font-size: 22px;
 	line-height: 25px;
 	color: #FFF;
 	text-align: left;
-	overflow: scroll;
+	overflow-y: scroll;
+	padding-right: 15px;
 	padding-bottom: 30px;
 }
 
-.lectura-general-Seccion > .LecturaGnral-BloqueA > .Contenedor > .descripcion p{
+.lectura-general-Seccion > .Contenedor > .descripcion p{
 	margin-bottom: 20px;
 }
 
@@ -1725,59 +1721,58 @@ input[type=range] {
 /* ---- P06: LECTURA GENERAL - BLOQUE B
 -------------------------------------------------------- */
 .lectura-general-Seccion > .LecturaGnral-BloqueB{
-	width: 40%;
+	width: 50%;
 	height: 1080px;
 	position: absolute;
-	right:  10%;
-	margin-top: 40px;
+	left:  0px;
 }
 
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_1{
-	width: 304px;
-	height: 415px;
-	background: url("../images/p06-lectura-general/asset_figura.png");
-	background-size: cover; 
+	width: 300px;
+	height: 380px;
+	background: url("../images/Generales/asset_figura.png");
+	background-size: 300px 380px;
 	position: absolute;
-	top: 0;
-	left:  0;
+	top: 59px;
+	left: 229px;
 }
 
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_2{
-	width: 304px;
-	height: 415px;
-	background: url("../images/p06-lectura-general/asset_figura.png");
-	background-size: cover; 
+	width: 300px;
+	height: 380px;
+	background: url("../images/Generales/asset_figura.png");
+	background-size: 300px 380px;
 	position: absolute;
-	top: 0;
-	right:   0;
+	top: 59px;
+	left: 551px;
 }
 
 
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_3{
-	width: 304px;
-	height: 415px;
-	background: url("../images/p06-lectura-general/asset_figura.png");
-	background-size: cover; 
+	width: 300px;
+	height: 380px;
+	background: url("../images/Generales/asset_figura.png");
+	background-size: 300px 380px;
 	position: absolute;
-	top: 50%;
-	left:  0;
+	top: 469px;
+	left: 229px;
 }
 
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_4{
-	width: 304px;
-	height: 415px;
-	background: url("../images/p06-lectura-general/asset_figura.png");
-	background-size: cover; 
+	width: 300px;
+	height: 380px;
+	background: url("../images/Generales/asset_figura.png");
+	background-size: 300px 380px;
 	position: absolute;
-	top: 50%;
-	right: 0;
+	top: 469px;
+	left: 551px;
 }
 
 .btn_hotspots-LG{
-	border-radius: 50%;
-	width: 50px;
-	height: 50px; 
-	background: #DDD;
+	width: 60px;
+	height: 60px;
+	background: url("../images/Generales/hotspot.png");
+	background-size: 60px 60px;
 }
 
 
