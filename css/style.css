@@ -2018,13 +2018,13 @@ input[type=range] {
 
 
 .PopUpSlider_HP > .btn_close_HP{
-	width: 32px;
-	height: 32px;
-	background: url("../images/Generales/close.png");
-	background-size: 32px 32px;
+	width: 204px;
+	height: 47px;
+	background: url("../images/Generales/cerrar_button.png");
+	background-size: 204px 47px;
 	position: absolute;
-	right:  5%;
-	top: 5%;
+	left:  1701px;
+	top: 852px;
 	display: block;
 }
 
