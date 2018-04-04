@@ -98,6 +98,10 @@ var GotoSeniorFlores = function(){
     window.location.href = '../../secciones/p07-senior-flores/index.html' +'#'+LanguageON;
 }
 
+var GotoPedestal = function(){
+    window.location.href = '../../secciones/p08-pedestal/index.html' +'#'+LanguageON;
+}
+
 
 var GotoAtavios_sol = function () {
     window.location.href = '../../secciones/p07-atavios-de-sol/index.html' +'#'+LanguageON;
@@ -156,6 +160,12 @@ $(".btn_lectura").click(function() {
 $(".btn_senior_flores").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoSeniorFlores });
 });
+
+$(".btn_pedestal").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoPedestal });
+});
+
+
 
 
 $(".btn_atavios_tierra").click(function() {
