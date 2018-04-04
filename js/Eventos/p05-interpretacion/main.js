@@ -80,7 +80,6 @@ var GotoObra = function () {
     window.location.href = '../../secciones/p03-obra/index.html';
 };
 
-
 var GotoHome = function () {
     window.location.href = '../../secciones/p02-home/index.html' +'#'+LanguageON;
 };
@@ -88,11 +87,6 @@ var GotoHome = function () {
 var GotoBack = function () {
     window.location.href = '../../secciones/p03-obra/index.html' +'#'+LanguageON;
 };
-
-var GotoLectura = function () {
-    window.location.href = '../../secciones/p06-lectura-general/index.html' +'#'+LanguageON;
-};
-
 
 var GotoSeniorFlores = function(){
     window.location.href = '../../secciones/p07-senior-flores/index.html' +'#'+LanguageON;
@@ -102,29 +96,18 @@ var GotoPedestal = function(){
     window.location.href = '../../secciones/p08-pedestal/index.html' +'#'+LanguageON;
 }
 
-
 var GotoAtavios_sol = function () {
     window.location.href = '../../secciones/p09-atavios-sol/index.html' +'#'+LanguageON;
 };
 
 var GotoAtavios_tierra = function () {
-    window.location.href = '../../secciones/p08-atavios-de-tierra/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p10-atavios-de-tierra/index.html' +'#'+LanguageON;
 };
 
 var GotoAtavios_florido = function () {
-    window.location.href = '../../secciones/p09-atavios-floridos/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p11-atavio-florido/index.html' +'#'+LanguageON;
 };
-
-var GotoTrono = function () {
-    window.location.href = '../../secciones/p10-trono/index.html' +'#'+LanguageON;
-};
-
-
-
-
-
-
-
+ 
 
 var closem = function () {
     TweenMax.to(".menu-General", 1, {right:"-11%", alpha:1 });
@@ -136,7 +119,6 @@ var opensem = function () {
 };
 
 
- 
 
 $(".btn_back").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoHome});
@@ -152,10 +134,6 @@ $(".btn_Obra").click(function() {
 });
 
 
-$(".btn_lectura").click(function() {
-    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoLectura });
-});
-
 
 $(".btn_senior_flores").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoSeniorFlores });
@@ -166,25 +144,18 @@ $(".btn_pedestal").click(function() {
 });
 
 
-
-
 $(".btn_atavios_tierra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_tierra });
 });
-
-
-$(".btn_atavios_florido").click(function() {
-    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_florido });
-});
-
 
 
 $(".btn_atavios_sol").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_sol });
 });
 
-$(".btn_trono").click(function() {
-    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoTrono });
+
+$(".btn_atavio_florido").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_florido });
 });
 
 
