@@ -156,11 +156,11 @@ $(".ayuda-image").click(function() {
 
  
 
-// EVENTOS GALLERIA ===================
+// EVENTOS GALLERIA HP ===================
 
-var num_total = 4;
-var num_init;
-var num_gal;
+var num_total_HP = 4;
+var num_init_HP;
+var num_gal_HP;
 
 
 $(".btn_hotspots-LG").click(function() {
@@ -168,187 +168,187 @@ $(".btn_hotspots-LG").click(function() {
     valor_hp = $(this).attr('class').split(' ')[1];
     console.log(valor_hp);
 
-    if( valor_hp == "btn_L-1-1" ){
-        num_gal = 1;
-        num_init = 1;
+    if( valor_hp == "btn_L-1-1_HP" ){
+        num_gal_HP = 1;
+        num_init_HP = 1;
     }
 
-    if( valor_hp == "btn_L-1-2" ){
-        num_gal = 1;
-        num_init = 2;
+    if( valor_hp == "btn_L-1-2_HP" ){
+        num_gal_HP = 1;
+        num_init_HP = 2;
     }
 
-    if( valor_hp == "btn_L-1-3" ){
-        num_gal = 1;
-        num_init = 3;
+    if( valor_hp == "btn_L-1-3_HP" ){
+        num_gal_HP = 1;
+        num_init_HP = 3;
     }
 
-    if( valor_hp == "btn_L-1-4" ){
-        num_gal = 1;
-        num_init = 4;
-    }
-
-
-    if( valor_hp == "btn_L-2-1" ){
-        num_gal = 2;
-        num_init = 1;
-    }
-
-    if( valor_hp == "btn_L-2-2" ){
-        num_gal = 2;
-        num_init = 2;
-    }
-
-    if( valor_hp == "btn_L-2-3" ){
-        num_gal = 2;
-        num_init = 3;
-    }
-
-    if( valor_hp == "btn_L-2-4" ){
-        num_gal = 2;
-        num_init = 4;
+    if( valor_hp == "btn_L-1-4_HP" ){
+        num_gal_HP = 1;
+        num_init_HP = 4;
     }
 
 
-    if( valor_hp == "btn_L-3-1" ){
-        num_gal = 3;
-        num_init = 1;
+    if( valor_hp == "btn_L-2-1_HP" ){
+        num_gal_HP = 2;
+        num_init_HP = 1;
     }
 
-    if( valor_hp == "btn_L-3-2" ){
-        num_gal = 3;
-        num_init = 2;
+    if( valor_hp == "btn_L-2-2_HP" ){
+        num_gal_HP = 2;
+        num_init_HP = 2;
     }
 
-    if( valor_hp == "btn_L-3-3" ){
-        num_gal = 3;
-        num_init = 3;
+    if( valor_hp == "btn_L-2-3_HP" ){
+        num_gal_HP = 2;
+        num_init_HP = 3;
     }
 
-    if( valor_hp == "btn_L-3-4" ){
-        num_gal = 3;
-        num_init = 4;
+    if( valor_hp == "btn_L-2-4_HP" ){
+        num_gal_HP = 2;
+        num_init_HP = 4;
     }
 
 
-    if( valor_hp == "btn_L-3-1" ){
-        num_gal = 3;
-        num_init = 1;
+    if( valor_hp == "btn_L-3-1_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 1;
     }
 
-    if( valor_hp == "btn_L-3-2" ){
-        num_gal = 3;
-        num_init = 2;
+    if( valor_hp == "btn_L-3-2_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 2;
     }
 
-    if( valor_hp == "btn_L-3-3" ){
-        num_gal = 3;
-        num_init = 3;
+    if( valor_hp == "btn_L-3-3_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 3;
     }
 
-    if( valor_hp == "btn_L-3-4" ){
-        num_gal = 3;
-        num_init = 4;
+    if( valor_hp == "btn_L-3-4_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 4;
     }
 
-    if( valor_hp == "btn_L-4-1" ){
-        num_gal = 4;
-        num_init = 1;
+
+    if( valor_hp == "btn_L-3-1_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 1;
     }
 
-    if( valor_hp == "btn_L-4-2" ){
-        num_gal = 4;
-        num_init = 2;
+    if( valor_hp == "btn_L-3-2_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 2;
     }
 
-    if( valor_hp == "btn_L-4-3" ){
-        num_gal = 4;
-        num_init = 3;
+    if( valor_hp == "btn_L-3-3_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 3;
     }
 
-    if( valor_hp == "btn_L-4-4" ){
-        num_gal = 4;
-        num_init = 4;
+    if( valor_hp == "btn_L-3-4_HP" ){
+        num_gal_HP = 3;
+        num_init_HP = 4;
+    }
+
+    if( valor_hp == "btn_L-4-1_HP" ){
+        num_gal_HP = 4;
+        num_init_HP = 1;
+    }
+
+    if( valor_hp == "btn_L-4-2_HP" ){
+        num_gal_HP = 4;
+        num_init_HP = 2;
+    }
+
+    if( valor_hp == "btn_L-4-3_HP" ){
+        num_gal_HP = 4;
+        num_init_HP = 3;
+    }
+
+    if( valor_hp == "btn_L-4-4_HP" ){
+        num_gal_HP = 4;
+        num_init_HP = 4;
     }
 
 
 
 
     // para mostrar el btn de prev
-    if (num_init < 2 ){
-        $(".btn_prev").hide();
+    if (num_init_HP < 2 ){
+        $(".btn_prev_HP").hide();
     }
     else{
-        $(".btn_prev").show();
+        $(".btn_prev_HP").show();
     }
 
     // para mostrar el btn de next
-    if (num_init < 4  ){
-        $(".btn_next").show();
+    if (num_init_HP < 4  ){
+        $(".btn_next_HP").show();
     }
     else{
-         $(".btn_next").hide();
+         $(".btn_next_HP").hide();
     }
 
-    $(".PopUpSlider").fadeIn();
-    $(".imagen-AS-"+num_gal+"-"+num_init).fadeIn();
-    $(".desc-"+num_gal+"-"+num_init).fadeIn();
+    $(".PopUpSlider_HP").fadeIn();
+    $(".imagen-SF-"+num_gal_HP+"-"+num_init_HP).fadeIn();
+    $(".desc-"+num_gal_HP+"-"+num_init_HP).fadeIn();
 
 });
 
 
 
-$(".btn_next").click(function() {
-     if (num_init == 3){
-        $(".btn_next").hide();
+$(".btn_next_HP").click(function() {
+     if (num_init_HP == 3){
+        $(".btn_next_HP").hide();
      }
 
-    if (num_init > 0){
-        $(".btn_prev").show();
+    if (num_init_HP > 0){
+        $(".btn_prev_HP").show();
      }
 
 
-    if (num_init < num_total){
+    if (num_init_HP < num_total_HP){
         $(".gal_img").hide();
         $(".gal_desc_LG").hide();
 
-        num_init = num_init + 1;
-        console.log("num_init", num_init);
-        $(".imagen-AS-"+num_gal+"-"+num_init).fadeIn();
-        $(".desc-"+num_gal+"-"+num_init).fadeIn();
+        num_init_HP = num_init_HP + 1;
+        console.log("num_init_HP", num_init_HP);
+        $(".imagen-SF-"+num_gal_HP+"-"+num_init_HP).fadeIn();
+        $(".desc-"+num_gal_HP+"-"+num_init_HP).fadeIn();
 
          
     }
 });
 
 
-$(".btn_prev").click(function() {
+$(".btn_prev_HP").click(function() {
 
-    if (num_init == 2){
-        $(".btn_prev").hide();
+    if (num_init_HP == 2){
+        $(".btn_prev_HP").hide();
      }
 
-    if (num_init > 1){
+    if (num_init_HP > 1){
         $(".gal_img").hide();
         $(".gal_desc_LG").hide();
 
-        num_init = num_init - 1;
-        console.log("num_init", num_init);
-        $(".imagen-AS-"+num_gal+"-"+num_init).fadeIn();
-        $(".desc-"+num_gal+"-"+num_init).fadeIn();
+        num_init_HP = num_init_HP - 1;
+        console.log("num_init_HP", num_init_HP);
+        $(".imagen-SF-"+num_gal_HP+"-"+num_init_HP).fadeIn();
+        $(".desc-"+num_gal_HP+"-"+num_init_HP).fadeIn();
 
-        $(".btn_next").show();
+        $(".btn_next_HP").show();
     }
      
 
 });
 
 
-$(".btn_close").click(function() {
-    $(".PopUpSlider").fadeOut();
+$(".btn_close_HP").click(function() {
+    $(".PopUpSlider_HP").fadeOut();
     $(".gal_img").hide();
     $(".gal_desc_LG").hide();
-    num_init = 1;
+    num_init_HP = 1;
     
 });
 
