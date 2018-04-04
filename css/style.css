@@ -1718,6 +1718,19 @@ input[type=range] {
 	top: 58px;
 	left: 1124px;
 } 
+
+
+.lectura-general-Seccion > .titulo_Atavio_Florido{
+	width: 695px;
+	height: 45px;
+	background: url("../images/p11-atavio-florido/Xochipilli.png");
+	background-size: 695px 45px;
+	position: absolute;
+	top: 58px;
+	left: 1124px;
+} 
+
+
  
 
 
@@ -2216,192 +2229,7 @@ input[type=range] {
 }
 
 
-.imagen-AF-1-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_1.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
 
-}
-
- 
-
-.imagen-AF-1-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_2.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-1-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_3.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-1-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_4.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-.imagen-AF-2-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_5.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-AF-2-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_6.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-2-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_7.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-2-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_8.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
-.imagen-AF-3-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_9.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-AF-3-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_10.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-3-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_11.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-3-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_12.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
-.imagen-AF-4-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_13.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-AF-4-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_14.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-4-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_15.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AF-4-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p07-senior-flores/img_16.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
 
 /* PEDESTAL */
 
@@ -2793,7 +2621,7 @@ input[type=range] {
 .imagen-AT-1-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_1.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_1.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2806,7 +2634,7 @@ input[type=range] {
 .imagen-AT-1-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_2.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_2.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2817,7 +2645,7 @@ input[type=range] {
 .imagen-AT-1-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_3.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_3.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2828,7 +2656,7 @@ input[type=range] {
 .imagen-AT-1-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_4.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_4.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2840,7 +2668,7 @@ input[type=range] {
 .imagen-AT-2-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_5.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_5.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2852,7 +2680,7 @@ input[type=range] {
 .imagen-AT-2-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_6.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_6.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2863,7 +2691,7 @@ input[type=range] {
 .imagen-AT-2-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_7.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_7.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2874,7 +2702,7 @@ input[type=range] {
 .imagen-AT-2-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_8.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_8.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2887,7 +2715,7 @@ input[type=range] {
 .imagen-AT-3-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_9.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_9.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2899,7 +2727,7 @@ input[type=range] {
 .imagen-AT-3-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_10.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_10.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2910,7 +2738,7 @@ input[type=range] {
 .imagen-AT-3-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_11.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_11.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2921,7 +2749,7 @@ input[type=range] {
 .imagen-AT-3-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_12.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_12.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2934,7 +2762,7 @@ input[type=range] {
 .imagen-AT-4-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_13.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_13.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2946,7 +2774,7 @@ input[type=range] {
 .imagen-AT-4-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_14.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_14.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2957,7 +2785,7 @@ input[type=range] {
 .imagen-AT-4-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_15.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_15.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2968,7 +2796,7 @@ input[type=range] {
 .imagen-AT-4-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p09p10-atavios-de-tierra/img_16.jpg");
+	background: url("../images/p10-atavios-de-tierra/img_16.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2979,10 +2807,14 @@ input[type=range] {
 
 
 
-.imagen-1-1{
+
+/* ATAVIOS DE TIERRA */
+
+
+.imagen-AF-1-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_1.jpg");
+	background: url("../images/p11-atavio-florido/img_1.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -2991,10 +2823,11 @@ input[type=range] {
 
 }
 
-.imagen-1-2{
+
+.imagen-AF-1-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_2.jpg");
+	background: url("../images/p11-atavio-florido/img_2.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3002,10 +2835,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-1-3{
+.imagen-AF-1-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_3.jpg");
+	background: url("../images/p11-atavio-florido/img_3.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3013,10 +2846,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-1-4{
+.imagen-AF-1-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_4.jpg");
+	background: url("../images/p11-atavio-florido/img_4.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3025,10 +2858,10 @@ input[type=range] {
 }
 
 
-.imagen-2-1{
+.imagen-AF-2-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_5.jpg");
+	background: url("../images/p11-atavio-florido/img_5.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3037,10 +2870,10 @@ input[type=range] {
 }
 
  
-.imagen-2-2{
+.imagen-AF-2-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_6.jpg");
+	background: url("../images/p11-atavio-florido/img_6.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3048,10 +2881,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-2-3{
+.imagen-AF-2-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_7.jpg");
+	background: url("../images/p11-atavio-florido/img_7.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3059,57 +2892,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-2-4{
+.imagen-AF-2-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_8.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
-.imagen-3-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p06-lectura-general/img_9.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-3-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p06-lectura-general/img_10.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-3-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p06-lectura-general/img_11.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-3-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p06-lectura-general/img_12.jpg");
+	background: url("../images/p11-atavio-florido/img_8.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3119,12 +2905,10 @@ input[type=range] {
 
 
 
-
-
-.imagen-4-1{
+.imagen-AF-3-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_13.jpg");
+	background: url("../images/p11-atavio-florido/img_9.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3133,10 +2917,10 @@ input[type=range] {
 }
 
  
-.imagen-4-2{
+.imagen-AF-3-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_14.jpg");
+	background: url("../images/p11-atavio-florido/img_10.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3144,10 +2928,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-4-3{
+.imagen-AF-3-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_15.jpg");
+	background: url("../images/p11-atavio-florido/img_11.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3155,58 +2939,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-4-4{
+.imagen-AF-3-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p06-lectura-general/img_16.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-.imagen-AT-1-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_1.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-
-}
-
- 
-
-.imagen-AT-1-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_2.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AT-1-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_3.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AT-1-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_4.jpg");
+	background: url("../images/p11-atavio-florido/img_12.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3215,10 +2951,11 @@ input[type=range] {
 }
 
 
-.imagen-AT-2-1{
+
+.imagen-AF-4-1{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_5.jpg");
+	background: url("../images/p11-atavio-florido/img_13.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3227,10 +2964,10 @@ input[type=range] {
 }
 
  
-.imagen-AT-2-2{
+.imagen-AF-4-2{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_6.jpg");
+	background: url("../images/p11-atavio-florido/img_14.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3238,10 +2975,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-AT-2-3{
+.imagen-AF-4-3{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_7.jpg");
+	background: url("../images/p11-atavio-florido/img_15.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3249,57 +2986,10 @@ input[type=range] {
 	display: none;
 }
 
-.imagen-AT-2-4{
+.imagen-AF-4-4{
 	width: 1024px;
 	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_8.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
-.imagen-AT-3-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_9.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-AT-3-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_10.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AT-3-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_11.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AT-3-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_12.jpg");
+	background: url("../images/p11-atavio-florido/img_16.jpg");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3309,237 +2999,7 @@ input[type=range] {
 
 
 
-.imagen-AT-4-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_13.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
 
- 
-.imagen-AT-4-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_14.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AT-4-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_15.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-AT-4-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-atavios-de-tierra/img_16.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-1-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_1.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-
-}
-
- 
-
-.imagen-T-1-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_2.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-1-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_3.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-1-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_4.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-.imagen-T-2-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_5.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-T-2-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_6.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-2-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_7.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-2-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_8.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
-.imagen-T-3-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_9.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-T-3-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_10.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-3-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_11.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-3-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_12.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
-.imagen-T-4-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_13.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
- 
-.imagen-T-4-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_14.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-4-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_15.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-T-4-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p10-trono/img_16.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
 
 
 .gal_desc_LG{
