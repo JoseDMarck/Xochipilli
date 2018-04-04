@@ -104,7 +104,7 @@ var GotoPedestal = function(){
 
 
 var GotoAtavios_sol = function () {
-    window.location.href = '../../secciones/p07-atavios-de-sol/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p09-atavios-sol/index.html' +'#'+LanguageON;
 };
 
 var GotoAtavios_tierra = function () {
@@ -175,6 +175,12 @@ $(".btn_atavios_tierra").click(function() {
 
 $(".btn_atavios_florido").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_florido });
+});
+
+
+
+$(".btn_atavios_sol").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_sol });
 });
 
 $(".btn_trono").click(function() {
