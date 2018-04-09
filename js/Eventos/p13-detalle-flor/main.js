@@ -134,6 +134,81 @@ if(id_flor == 6 ){
 }
 
 
+if(id_flor == 7 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 6;
+
+    pos_do_init = 7;
+    pos_do_end = 10;
+}
+
+
+if(id_flor == 8 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 5;
+
+    pos_do_init = 6;
+    pos_do_end = 17;
+}
+
+
+if(id_flor == 9 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 4;
+
+    pos_do_init = 5;
+    pos_do_end = 9;
+}
+
+
+if(id_flor == 10 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 5;
+
+    pos_do_init = 6;
+    pos_do_end = 9;
+}
+
+
+if(id_flor == 11 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 5;
+
+    pos_do_init = 6;
+    pos_do_end = 7;
+}
+
+
+if(id_flor == 12 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 5;
+
+    pos_do_init = 6;
+    pos_do_end = 8;
+}
+
+
+
+
+
 
 on_init = pos_xo_init;
 on_end = pos_xo_end;
