@@ -50,7 +50,8 @@ var obj_gabinete_ESP = {
       img_01: "GBF_02_x01_ES.png",
       img_02: "GBF_02_x02_ES.png",
       img_03: "GBF_02_x03_ES.png",
-      img_04: "GBF_02_x0n_ES.png",
+      img_04: "GBF_02_x04_ES.png",
+      img_05: "GBF_02_x05_ES.png",
     }
     ],
     galeria_naturaleza: [
@@ -58,7 +59,8 @@ var obj_gabinete_ESP = {
       img_01: "GBF_02_n01_ES.png",
       img_02: "GBF_02_n02_ES.png",
       img_03: "GBF_02_n03_ES.png",
-      img_04: "GBF_02_n0n_ES.png",
+      img_04: "GBF_02_n04_ES.png",
+      img_05: "GBF_02_n05_ES.png",
     }
     ],
     galeria_documentos: [
@@ -66,7 +68,11 @@ var obj_gabinete_ESP = {
       img_01: "GBF_02_d01_ES.png",
       img_02: "GBF_02_d02_ES.png",
       img_03: "GBF_02_d03_ES.png",
-      img_04: "GBF_02_d0n_ES.png",
+      img_04: "GBF_02_d04_ES.png",
+      img_05: "GBF_02_d05_ES.png",
+      img_06: "GBF_02_d06_ES.png",      
+      img_07: "GBF_02_d07_ES.png",
+      img_08: "GBF_02_d08_ES.png",
     }
     ],
     descripcion: [
@@ -80,7 +86,7 @@ var obj_gabinete_ESP = {
     },
     {
       title: "Documentos antiguos que la mencionan",
-      txt: "",
+      txt: "<p><b>Sobre ololiuhqui:</b></p><p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, <i>ca</i>. 1540.</li><ul style='list-style-type:circle'><li><i>Libro IV, de la astrología judiciaria o arte adivinatoria indiana; capítulo veintiuno, del décimo signo llamado ce tecpatl</i>, en f. 47r, como \"ololiuhqui\".</li><li><i>Libro XI, de las cosas naturales; capítulo séptimo, en que se trata de todas las hierbas; párrafo primero, de ciertas hierbas que emborrachan</i>, en f. 129v como "Coatlxoxouhqui"; <i>párrafo quinto, de las hierbas medicinales, núm. 94</i>, en f. 157r como "ololiuhqui o xixicamatic"; <i>párrafo quinto, de las hierbas medicinales, núm. 110</i>, en f. 162r como "ololiuhqui o huey itzotecon".</li></ul><li>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, <i>ca</i> 1579: Parte segunda, capítulo V, <i>Del edificio que el templo de Tezcatlipoca tenía y del orden que entre las dignidades de él había y ceremonias</i>, en f. 248r como "ololiuhqui".</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, <i>ca</i>. 1577: Libro decimocuarto, capítulo I, <i>Del Ololiuhqui o planta de hojas redondas</i>.</li></ul></p><p><b>Sobre toloache:</b></p><p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún, <i>Historia general de las cosas de la Nueva España</i>, <i>ca</i>. 1540: <i>Libro XI: de las cosas naturales; capítulo séptimo, en que se trata de todas las hierbas</i>; <i>párrafo primero, de ciertas hierbas que emborrachan,</i> en f. 130r como "tlapatl"; <i>párrafo quinto, de las hierbas medicinales, núm. 28,</i> en f. 142v como "tlapatl", <i>núm. 31</i> en f. 142v como "toloa".</li><li>Martín de la Cruz, <i>Códice De la Cruz-Badiano</i>, 1552, f. 25r, referida como "Tolouaxihuitl" y f. 29r como "Tolohuaxihuitl".</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, <i>ca</i>. 1577: Capítulo XXXV, <i>Del Tlápatl</i>; <i>capítulo XLIII, De la Esqua; capítulo LXIII, Del Toloatzin</i>.</li></ul></p>",
     }
     ]
   },
