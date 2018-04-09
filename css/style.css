@@ -1301,8 +1301,6 @@ body{
 }
 
 
-
-
 .obra_img_G_1 {
 	width: 100%;
 	height: 680px;
@@ -3016,7 +3014,7 @@ input[type=range] {
  
 
 /* --------------------------------------------------------
-/* ---- P11: GABINETE BOTÁNICO
+/* ---- P12: GABINETE BOTÁNICO
 -------------------------------------------------------- */
 
 
@@ -3049,7 +3047,7 @@ input[type=range] {
 
 
 /* --------------------------------------------------------
-/* ---- P06: LECTURA GENERAL - BLOQUE A
+/* ----  
 -------------------------------------------------------- */
 
 .gabinete-botanico-Seccion > .titulo{
@@ -3087,10 +3085,6 @@ input[type=range] {
     left: 989px;
     z-index: 9;
 }
-
-
-
-
 
 .gabinete-botanico-Seccion  > .Contenedor{
 	width: 690px;
@@ -3253,6 +3247,290 @@ input[type=range] {
 
  
 
+ 
+/* --------------------------------------------------------
+/* ---- P13: DETALLE FLOR
+-------------------------------------------------------- */
+
+
+.detalle-flor-Seccion{
+	width: 100%;
+	height: auto;
+}
+
+.detalle-flor-Seccion > .Background{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/Generales/background.png");
+	background-size: cover; 
+	position: absolute;
+}
+
+.detalle-flor-Seccion > .ayuda-image{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p13-detalle-flor/ayuda.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+
+.detalle-flor-Seccion > .titulo{
+	width: 548px;
+	height: 46px;
+	position: absolute;
+	top: 234px;
+	left: 1124px;
+	z-index: 10;
+	font-family: "Gotham-Bold";
+	font-size: 40px;
+	text-align: left;
+	color: #FFF;
+	margin-bottom: 10px;
+	
+}
+
+
+.detalle-flor-Seccion > .overlay_up{
+	width: 959px;
+	height: 178px;
+	background: url("../images/p12-gabinete-botanico/overlay_up.png");
+	background-size: 959px 178px;
+    position: absolute;
+    top: 0px;
+    left: 973px;
+    z-index: 9;
+}
+
+
+.detalle-flor-Seccion > .overlay_down{
+	width: 959px;
+	height: 148px;
+	background: url("../images/p12-gabinete-botanico/overlay_down.png");
+	background-size: 959px 148px;
+    position: absolute;
+    bottom: 99px;
+    left: 989px;
+    z-index: 9;
+}
+
+
+.detalle-flor-Seccion > .ficha{
+	width: 700px;
+	height: 140px;
+	background: url("../images/p13-detalle-flor/ficha_tecnica.png");
+	background-size: 700px 140px;
+    position: absolute;
+    top: 60px;
+    right: 108px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion  > .Contenedor{
+	width: 690px;
+	height: 500px;
+	position: absolute;
+	margin: 0 auto;
+	top: 308px;
+	left: 1124px;
+}
+
+ 
+.detalle-flor-Seccion > .Contenedor > .descripcion{
+	width: 100%;
+	height: 500px;
+	font-family: "Gotham-Light";
+	font-size: 22px;
+	line-height: 25px;
+	color: #FFF;
+	text-align: left;
+	overflow-y: scroll;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+
+
+
+/* --------------------------------------------------------
+/* ---- DETALE DE FLOR GALERIA
+-------------------------------------------------------- */
+.detalle-flor-Seccion  > .ContendorGaleria{
+	width: 800px;
+	height: 680px;
+	position: absolute;
+	left: 161px;
+	top: 60px;
+	overflow: hidden;
+}
+
+.gal_txt_G{
+	display: none;
+}
+
+.gal_txt_G_1{
+	display: block;
+}
+
+
+
+
+
+ 
+/* EN LA XOCHIPILI */
+.detalle-flor-Seccion  >  .btn_en_xochipili{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/xochi_button_off.png");
+	background-size: 254px 34px;
+	position: absolute;
+	left: 154px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_xochipili_on{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/xochi_button_on.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 154px !important;
+	top: 800px !important;
+}
+
+/* EN NATURALEZA */
+.detalle-flor-Seccion  >  .btn_en_naturaleza{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/natura_button_off.png");
+	background-size: 254px 34px;
+	position: absolute;
+	left: 434px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_naturaleza_on{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/natura_button_on.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 434px !important;
+	top: 800px !important;
+}
+
+
+/* EN DOCUMENTOS */
+
+.detalle-flor-Seccion  >  .btn_en_documentos{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/otros_button_off.png");
+	background-size: 254px 34px;
+	position: absolute;
+	left: 707px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_documentos_on{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/otros_button_on.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 707px !important;
+	top: 800px !important;
+}
+
+
+.detalle-flor-Seccion  >  .contenedorGal{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+}
+
+
+.detalle-flor-Seccion  >  .prev_btn_obra{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/atras_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 103px;
+	top: 398px;
+	display: none;
+}
+
+
+.detalle-flor-Seccion  >  .next_btn_obra{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/adelante_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 1000px;
+	top: 398px;
+	display: block;
+}
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES DETALLE FLOR NUM 1 
+-------------------------------------------------------- */
+
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_0_img_G_0_ESP{
+	width: 100%;
+	height: 680px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_01_x01_ES.png"); 
+	background-size: cover;
+	display: block;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_0_img_G_1_ESP{
+	width: 100%;
+	height: 680px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_01_n01_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_0_img_G_2_ESP{
+	width: 100%;
+	height: 680px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_01_d01_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_0_img_G_3_ESP{
+	width: 100%;
+	height: 680px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_01_d02_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_0_img_G_4_ESP{
+	width: 100%;
+	height: 680px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_01_d03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+ 
+
+ 
  
 
 
