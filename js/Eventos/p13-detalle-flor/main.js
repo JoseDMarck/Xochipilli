@@ -6,9 +6,18 @@ $( document ).ready(function() {
 -------------------------------------------------------- */
 
 HomeURL = '../../index.html';
-pos_xo = null;
-pos_na = null;
-pos_do = null;
+pos_xo_init = null;
+pos_na_init = null;
+pos_do_init = null;
+pos_xo_end = null;
+pos_na_end = null;
+pos_do_end = null;
+on_init = null
+on_end = null
+
+
+
+
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -22,7 +31,7 @@ var urlParams;
     urlParams = {};
     while (match = search.exec(query))
        urlParams[decode(match[1])] = decode(match[2]);
-})();
+})();   
 
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
@@ -34,7 +43,8 @@ id_total_g = urlParams["total_g"]
 
 //Valores inicales galeria;
 var num_total_G = Number(id_num_xo);
-var num_init_G = 1;
+var num_init_G = 0;
+
 
 
 //PARA LA POSICIÓN DE LAS IMAGENES EN LAS GALERIAS 
@@ -42,10 +52,69 @@ var num_init_G = 1;
 
 //Flor numero 1
 if(id_flor == 0 ){
-    pos_xo = 0;
-    pos_na = 1;
-    pos_do = 2;
+    pos_xo_init = 0;
+    pos_xo_end = 0;
+
+    pos_na_init = 1;
+    pos_na_end = 1;
+
+    pos_do_init = 2;
+    pos_do_end = 4;
+
 }
+
+if(id_flor == 1 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 8;
+
+    pos_do_init = 9;
+    pos_do_end = 16
+}
+
+if(id_flor == 2 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 5;
+
+    pos_do_init = 6;
+    pos_do_end = 8;
+}
+
+
+
+if(id_flor == 3 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 4;
+
+    pos_do_init = 5;
+    pos_do_end = 12;
+}
+
+if(id_flor == 4 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 8;
+
+    pos_do_init = 9;
+    pos_do_end = 19;
+}
+
+
+
+on_init = pos_xo_init;
+on_end = pos_xo_end;
+
+console.log("")
 
 
 if (LanguageON != "" ){
@@ -70,6 +139,7 @@ if (LanguageON != "" ){
             console.log("id_flor", id_flor);
             $(".btn_idioma_en_General").addClass("btn_idioma_en_on_General");
             
+            
           
         }
     
@@ -87,18 +157,36 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'ESP' + '&idflor='+ id_flor; 
+        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'ESP'+
+        '&idflor='+ id_flor +
+        '&num_xo='+ id_num_xo +
+        '&num_na='+ id_num_na +
+        '&num_do='+ id_num_do +
+        '&total_g=' + id_total_g;    
+        
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'ENG' + '&idflor='+ id_flor; 
+        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'ENG'+
+        '&idflor='+ id_flor +
+        '&num_xo='+ id_num_xo +
+        '&num_na='+ id_num_na +
+        '&num_do='+ id_num_do +
+        '&total_g=' + id_total_g;             
     };
     
     var Change_idioma_NAH = function () {
-        location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'NAH' + '&idflor='+ id_flor; 
+        location.reload(); 
+        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'NAH'+
+        '&idflor='+ id_flor +
+        '&num_xo='+ id_num_xo +
+        '&num_na='+ id_num_na +
+        '&num_do='+ id_num_do +
+        '&total_g=' + id_total_g;
+       
+           
     };
     
 
@@ -217,48 +305,41 @@ for (i = 0; i < id_total_g; i++) {
 }
 
 
-
-if (num_init_G == 1){
+if (id_num_xo < 2){
     $(".next_btn_obra").hide();
 } else{
     $(".next_btn_obra").show();
-    
+
 }
+ 
 
 
 $(".next_btn_obra").click(function() {
 
-     if (num_init_G == num_total_G){
-       $(".next_btn_obra").hide();
-     }
-
-    if (num_init_G > 0){
-        $(".prev_btn_obra").show();
-     }
-
-
-    if (num_init_G  <= num_total_G ){
+    if (num_init_G  < on_end  ){
         $(".gal_img_G").hide();
-        $(".gal_txt_G").hide();
-
         num_init_G = num_init_G + 1;
-        console.log("num_init_G_", num_init_G);
+        console.log("num_init_G", num_init_G);
         console.log("num_total_G", num_total_G);
-        
         $(".gal_img_G_"+num_init_G).fadeIn();
     }
      
+    if (num_init_G == on_end ){
+        $(".next_btn_obra").hide();
+    }
+ 
+     if (num_init_G > on_init){
+         $(".prev_btn_obra").show();
+     }
+
 
 });
 
 
 $(".prev_btn_obra").click(function() {
     
-         if (num_init_G == num_total_G){
-            $(".prev_btn_obra").hide();
-         }
     
-        if (num_init_G > 1){
+        if (num_init_G > on_init ){
             $(".gal_img_G").hide();
             $(".gal_txt_G").hide();
     
@@ -268,6 +349,13 @@ $(".prev_btn_obra").click(function() {
     
             $(".next_btn_obra").show();
         }
+
+        console.log("num_init_G", num_init_G);
+        console.log("num_total_G", num_total_G);
+
+         if (num_init_G == on_init){
+            $(".prev_btn_obra").hide();
+         }
          
     });
  
@@ -279,12 +367,20 @@ $(".prev_btn_obra").click(function() {
 // EN XOCHIPILLI
 $(".btn_en_xochipili").addClass("btn_en_xochipili_on"); // on init 
 $(".btn_en_xochipili").click(function() {
-    num_init_G = pos_xo;
+    
+    num_init_G = pos_xo_init;
     num_total_G = Number(id_num_xo);
-    console.log("num_total_G", num_total_G);
+    on_init = pos_xo_init;
+    on_end = pos_xo_end;
+
+   
+    console.log("on_init", on_init);
+    console.log("on_end", on_end);
+    console.log("num_init_G", num_init_G);
+    
 
     $(".gal_img_G").hide();
-    $(".gal_img_G_"+pos_xo).fadeIn();
+    $(".gal_img_G_"+pos_xo_init).fadeIn();
 
     // PARA EL BOTON DE NEXT
     if (num_total_G == 1){
@@ -295,27 +391,35 @@ $(".btn_en_xochipili").click(function() {
     }
 
     //PARA EL BOTON DE PREV
-    if (num_init_G <= 2){
-        $(".prev_btn_obra").hide();
-    }
-
-    
-
+    $(".prev_btn_obra").hide();
+      
     $(".btn_en_xochipili").addClass("btn_en_xochipili_on");
     $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on");
     $(".btn_en_documentos").removeClass("btn_en_documentos_on");
+
+
+    $(".Contenedor").hide();
+    $(".cont_Xochi").fadeIn();
+
+    
+
 });
 
 
 // EN NATURALEZA
 $(".btn_en_naturaleza").click(function() {
-    num_init_G = pos_na;    
-    num_total_G = Number(id_num_na);
-    console.log("num_total_G", num_total_G);
 
+    num_init_G = pos_na_init;    
+    num_total_G = Number(id_num_na);
+    on_init = pos_na_init;
+    on_end = pos_na_end;
+
+    console.log("on_init", on_init);
+    console.log("on_end", on_end);
+    console.log("num_init_G", num_init_G);
 
     $(".gal_img_G").hide();
-    $(".gal_img_G_"+pos_na).fadeIn();
+    $(".gal_img_G_"+ pos_na_init).fadeIn();
     
     if (num_total_G == 1){
         $(".next_btn_obra").hide();
@@ -324,26 +428,35 @@ $(".btn_en_naturaleza").click(function() {
         $(".next_btn_obra").fadeIn();
     }
 
-     //PARA EL BOTON DE PREV
-     if (num_init_G <= 2){
-        $(".prev_btn_obra").hide();
-    }
+    //PARA EL BOTON DE PREV
+    $(".prev_btn_obra").hide();
+       
 
     $(".btn_en_naturaleza").addClass("btn_en_naturaleza_on");
     $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");    
     $(".btn_en_documentos").removeClass("btn_en_documentos_on");
+
+
+    $(".Contenedor").hide();
+    $(".cont_Natu").fadeIn();
+
 });
 
 // EN DOCUMENTOSS
 $(".btn_en_documentos").click(function() {
-    num_init_G = pos_do;    
+    num_init_G = pos_do_init;    
     num_total_G = Number(id_num_do);
-    console.log("num_init_G", num_init_G);    
-    console.log("num_total_G", num_total_G);
-   
+
+    on_init = pos_do_init;
+    on_end = pos_do_end;
+    
+    console.log("on_init", on_init);
+    console.log("on_end", on_end);
+    console.log("num_init_G", num_init_G);
+    
 
     $(".gal_img_G").hide();
-    $(".gal_img_G_"+pos_do).fadeIn();
+    $(".gal_img_G_"+pos_do_init).fadeIn();
 
     // PARA EL BOTON DE NEXT
     if (num_total_G == 1){
@@ -354,13 +467,18 @@ $(".btn_en_documentos").click(function() {
     }
 
      //PARA EL BOTON DE PREV
-     if (num_init_G <= 2){
-        $(".prev_btn_obra").hide();
-    }
+    $(".prev_btn_obra").hide();
+
 
     $(".btn_en_documentos").addClass("btn_en_documentos_on");
     $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
     $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on");
+
+
+    $(".Contenedor").hide();
+    $(".cont_Otras").fadeIn();
+
+
 });
 
 
