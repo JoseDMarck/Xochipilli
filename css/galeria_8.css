@@ -68,6 +68,15 @@
 	display: none;
 }
 
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_6_ESP{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_08_n03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
 
 
 
@@ -75,7 +84,7 @@
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
 -------------------------------------------------------- */
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_6_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_7_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -84,7 +93,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_7_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_8_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -93,7 +102,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_8_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_9_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -102,7 +111,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_9_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_10_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -183,6 +192,15 @@
 	display: none;
 }
 
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_6_ENG{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_08_n03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
 
 
 
@@ -190,7 +208,7 @@
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
 -------------------------------------------------------- */
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_6_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_7_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -199,7 +217,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_7_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_8_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -208,7 +226,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_8_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_9_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -217,7 +235,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_9_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_10_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -300,6 +318,14 @@
 	display: none;
 }
 
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_6_NAH{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_08_n03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
 
 
 
@@ -307,7 +333,7 @@
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
 -------------------------------------------------------- */
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_6_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_7_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -316,7 +342,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_7_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_8_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -325,7 +351,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_8_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_9_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -334,7 +360,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_9_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_7_img_G_10_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
