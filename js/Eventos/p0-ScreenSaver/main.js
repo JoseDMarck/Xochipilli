@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
 
 var ExitScreen = function () {
-    window.location.href = 'secciones/p02-home/index.html'+ '#'+ 'ESP';
+    window.location.href = 'secciones/p02-home/index.html'+ '?idioma='+ 'ESP';
 };
 
 var InitScreen = function () {

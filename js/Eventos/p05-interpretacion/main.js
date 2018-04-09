@@ -7,8 +7,24 @@ $( document ).ready(function() {
 
 HomeURL = '../../index.html';
 
-// IDIOMA DETECCIÓN
-LanguageON = window.location.hash.substring(1)
+
+// FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
+var urlParams;
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query))
+       urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+// IDIOMA DETECCIÓN VARIABLES
+LanguageON = urlParams["idioma"];
+
 
 if (LanguageON != "" ){
     
@@ -38,18 +54,18 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p05-interpretacion/index.html'+'#'+'ESP';
+        window.location.href = '../../secciones/p05-interpretacion/index.html'+'?idioma='+'ESP';
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p05-interpretacion/index.html'+'#'+'ENG';
+        window.location.href = '../../secciones/p05-interpretacion/index.html'+'?idioma='+'ENG';
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
-        window.location.href = '../../secciones/p05-interpretacion/index.html'+'#'+'NAH';
+        window.location.href = '../../secciones/p05-interpretacion/index.html'+'?idioma='+'NAH';
     };
     
 
@@ -81,31 +97,31 @@ var GotoObra = function () {
 };
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p03-obra/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p03-obra/index.html' +'?idioma='+LanguageON;
 };
 
 var GotoSeniorFlores = function(){
-    window.location.href = '../../secciones/p07-senior-flores/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p07-senior-flores/index.html' +'?idioma='+LanguageON;
 }
 
 var GotoPedestal = function(){
-    window.location.href = '../../secciones/p08-pedestal/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p08-pedestal/index.html' +'?idioma='+LanguageON;
 }
 
 var GotoAtavios_sol = function () {
-    window.location.href = '../../secciones/p09-atavios-sol/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p09-atavios-sol/index.html' +'?idioma='+LanguageON;
 };
 
 var GotoAtavios_tierra = function () {
-    window.location.href = '../../secciones/p10-atavios-de-tierra/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p10-atavios-de-tierra/index.html' +'?idioma='+LanguageON;
 };
 
 var GotoAtavios_florido = function () {
-    window.location.href = '../../secciones/p11-atavio-florido/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p11-atavio-florido/index.html' +'?idioma='+LanguageON;
 };
  
 

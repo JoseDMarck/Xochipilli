@@ -7,8 +7,22 @@ $( document ).ready(function() {
 
 HomeURL = '../../index.html';
 
-// IDIOMA DETECCIÓN
-LanguageON = window.location.hash.substring(1)
+// FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
+var urlParams;
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query))
+       urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+// IDIOMA DETECCIÓN VARIABLES
+LanguageON = urlParams["idioma"];
 
 
 
@@ -40,18 +54,18 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p07-senior-flores/index.html'+'#'+'ESP';
+        window.location.href = '../../secciones/p08-pedestal/index.html'+'?idioma='+'ESP';
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p07-senior-flores/index.html'+'#'+'ENG';
+        window.location.href = '../../secciones/p08-pedestal/index.html'+'?idioma='+'ENG';
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
-        window.location.href = '../../secciones/p07-senior-flores/index.html'+'#'+'NAH';
+        window.location.href = '../../secciones/p08-pedestal/index.html'+'?idioma='+'NAH';
     };
     
 
@@ -82,11 +96,11 @@ var GotoObra = function () {
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.html' +'?idioma='+LanguageON;;
 };
 
 

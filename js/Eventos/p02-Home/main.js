@@ -7,8 +7,25 @@ $( document ).ready(function() {
 
 HomeURL = '../../index.html';
 
-// IDIOMA DETECCIÓN
-LanguageON = window.location.hash.substring(1)
+// FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
+var urlParams;
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query))
+       urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+// IDIOMA DETECCIÓN VARIABLES
+LanguageON = urlParams["idioma"];
+
+
+
 console.log("Idioma Inicial: ", LanguageON);
 
 if (LanguageON != "" ){
@@ -42,16 +59,16 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html'+'#'+LanguageON;
+    window.location.href = '../../secciones/p03-obra/index.html'+'?idioma='+LanguageON;
 };
 
 var GotoInterpretacion = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html'+'#'+LanguageON;
+    window.location.href = '../../secciones/p05-interpretacion/index.html'+'?idioma='+LanguageON;
 };
 
 
 var GotoGabineteBotanico = function () {
-    window.location.href = '../../secciones/p11-gabinete-botanico/index.html'+'#'+LanguageON;
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+LanguageON;
 };
 
 var GotoHome = function () {
@@ -65,18 +82,18 @@ var GotoBack = function () {
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p02-home/index.html'+'#'+'ESP';
+    window.location.href = '../../secciones/p02-home/index.html'+'?idioma='+'ESP';
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p02-home/index.html'+'#'+'ENG';
+    window.location.href = '../../secciones/p02-home/index.html'+'?idioma='+'ENG';
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p02-home/index.html'+'#'+'NAH';
+    window.location.href = '../../secciones/p02-home/index.html'+'?idioma='+'NAH';
 };
 
 
@@ -104,7 +121,7 @@ $(".btn_obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:   GotoObra });
 });
 
-$(".btn_gabinete_botanico").click(function() {
+$(".btn_gabinete").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:   GotoGabineteBotanico });
 });
 
