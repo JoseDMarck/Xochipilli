@@ -6,10 +6,28 @@ $( document ).ready(function() {
 -------------------------------------------------------- */
 
 HomeURL = '../../index.html';
+num_flor = null; 
+num_xo = null; 
+num_na = null; 
+num_do = null;
+total_g = null;
 
-// IDIOMA DETECCIÓN
-LanguageON = window.location.hash.substring(1)
+// FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
+var urlParams;
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
 
+    urlParams = {};
+    while (match = search.exec(query))
+       urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+// IDIOMA DETECCIÓN VARIABLES
+LanguageON = urlParams["idioma"];
 
 
 if (LanguageON != "" ){
@@ -40,18 +58,18 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p11-atavio-florido/index.html'+'#'+'ESP';
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+'ESP';
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p11-atavio-florido/index.html'+'#'+'ENG';
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+'ENG';
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
-        window.location.href = '../../secciones/p11-atavio-florido/index.html'+'#'+'NAH';
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+'NAH';
     };
     
 
@@ -82,13 +100,26 @@ var GotoObra = function () {
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.html' +'?idioma='+LanguageON;;
 };
 
+
+var GotoDetalleFlor = function(){
+    
+    window.location.href = '../../secciones/p13-detalle-flor/index.html' +
+    '?idioma='+LanguageON + 
+    '&idflor='+ num_flor + 
+    '&num_xo='+ num_xo +
+    '&num_na='+ num_na +
+    '&num_do='+ num_do +
+    '&total_g=' + total_g;
+
+    
+}
 
 
 var closem = function () {
@@ -118,6 +149,20 @@ $(".btn_Obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoObra });
 });
 
+
+
+$(".goToDetalleFlor").click(function() {
+    num_flor = $(this).attr('class').split(' ')[2];
+    num_xo = $(this).attr('class').split(' ')[3];
+    num_na = $(this).attr('class').split(' ')[4];
+    num_do = $(this).attr('class').split(' ')[5];
+    total_g = $(this).attr('class').split(' ')[6];
+
+    console.log("num_xo", num_xo);
+    console.log("num_na", num_na);
+    console.log("num_do", num_do);
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoDetalleFlor });
+});
 
 
 var InitScreen = function () {
