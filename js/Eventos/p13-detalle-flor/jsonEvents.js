@@ -9,6 +9,20 @@ if (LanguageON == "ESP"){
 
 // DESCRIPCIÓN OBRA
 document.getElementById("titulo").innerHTML = obj_gabinete_ESP.flores[id_flor].titulo; 
+document.getElementById("titulo_box_1").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[0].title; 
+document.getElementById("texto_box_1").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[0].txt; 
+
+document.getElementById("titulo_box_1").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[1].title; 
+document.getElementById("texto_box_1").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[1].txt; 
+
+document.getElementById("titulo_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].title; 
+document.getElementById("texto_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].txt; 
+
+
+
+
+ 
+
 
 // Titulos para los botones
 /*document.getElementById("titulo_btn_1").innerHTML = obj_ESP.titulos_btns[0].figura_1; 
