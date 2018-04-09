@@ -110,6 +110,30 @@ if(id_flor == 4 ){
 }
 
 
+if(id_flor == 5 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 4;
+
+    pos_do_init = 5;
+    pos_do_end = 10;
+}
+
+
+if(id_flor == 6 ){
+    pos_xo_init = 0;
+    pos_xo_end = 3;
+
+    pos_na_init = 4;
+    pos_na_end = 5;
+
+    pos_do_init = 6;
+    pos_do_end = 11;
+}
+
+
 
 on_init = pos_xo_init;
 on_end = pos_xo_end;
