@@ -3360,9 +3360,9 @@ input[type=range] {
 	width: 100%;
 	height: 500px;
 	font-family: "Gotham-Light";
-	font-size: 22px;
-	line-height: 25px;
-	color: #FFF;
+	font-size: 28px;
+	line-height: 40px;
+	color: #e6e7e8;
 	text-align: left;
 	overflow-y: scroll;
 	padding-right: 15px;
