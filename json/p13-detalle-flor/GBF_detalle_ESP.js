@@ -115,7 +115,6 @@ var obj_gabinete_ESP = {
       img_01: "GBF_03_d01_ES.png",
       img_02: "GBF_03_d02_ES.png",
       img_03: "GBF_03_d03_ES.png",
-      img_04: "GBF_03_d04_ES.png",
     }
     ],
     descripcion: [
@@ -158,7 +157,6 @@ var obj_gabinete_ESP = {
       img_06: "GBF_04_d06_ES.png",
       img_07: "GBF_04_d07_ES.png",
       img_08: "GBF_04_d08_ES.png",
-      img_09: "GBF_04_d09_ES.png",
     }
     ],
     descripcion: [
@@ -254,7 +252,6 @@ var obj_gabinete_ESP = {
       img_03: "GBF_06_d03_ES.png",
       img_04: "GBF_06_d04_ES.png",
       img_05: "GBF_06_d05_ES.png",
-      img_06: "GBF_06_d06_ES.png",
     }
     ],
     descripcion: [
@@ -388,9 +385,6 @@ var obj_gabinete_ESP = {
       img_10: "GBF_09_d10_ES.png",
       img_11: "GBF_09_d11_ES.png",
       img_12: "GBF_09_d12_ES.png",
-      img_13: "GBF_09_d13_ES.png",
-      img_14: "GBF_09_d14_ES.png",
-      img_15: "GBF_09_d15_ES.png",
     }
     ],
     descripcion: [
@@ -513,7 +507,6 @@ var obj_gabinete_ESP = {
     {
       img_01: "GBF_12_d01_ES.png",
       img_02: "GBF_12_d02_ES.png",
-      img_03: "GBF_12_d03_ES.png",
     }
     ],
     descripcion: [
@@ -554,7 +547,6 @@ var obj_gabinete_ESP = {
       img_01: "GBF_13_d01_ES.png",
       img_02: "GBF_13_d02_ES.png",
       img_03: "GBF_13_d03_ES.png",
-      img_04: "GBF_13_d04_ES.png",
     }
     ],
     descripcion: [
