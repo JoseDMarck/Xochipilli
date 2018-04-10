@@ -36,7 +36,7 @@ var obj_gabinete_ESP = {
     },
     {
       title: "Documentos antiguos que la mencionan",
-      txt: "<ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún, <i>Historia general de las cosas de la Nueva España</i>, <i>ca</i>. 1540: <i>Libro XI, de las cosas naturales; capítulo séptimo, en que se trata de todas las hierbas</i>; <i>párrafo décimo</i>,<i> de los arbustos que ni son bien árboles ni bien hierbas y de sus flores</i>; f. 192r, referida como “acuilloxochitl” en texto náhuatl, y f. 193r, referida como “tlacoizquixochitl” en texto náhuatl.</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, <i>ca.</i> 1577: <i>Capítulo LXXXIV</i>, <i>Del Aquílotl o planta voluble que nace junto a las aguas</i>.</li></ul>",
+      txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún, <i>Historia general de las cosas de la Nueva España</i>, <i>ca</i>. 1540: <i>Libro XI, de las cosas naturales; capítulo séptimo, en que se trata de todas las hierbas</i>; <i>párrafo décimo</i>,<i> de los arbustos que ni son bien árboles ni bien hierbas y de sus flores</i>; f. 192r, referida como “acuilloxochitl” en texto náhuatl, y f. 193r, referida como “tlacoizquixochitl” en texto náhuatl.</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, <i>ca.</i> 1577: <i>Capítulo LXXXIV</i>, <i>Del Aquílotl o planta voluble que nace junto a las aguas</i>.</li></ul></p>",
     }
 
     ]
