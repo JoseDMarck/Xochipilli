@@ -1,4 +1,4 @@
-// push desde mi casa
+// actualización de flores
 
 var obj_gabinete_ESP = {
   flores:[
@@ -43,7 +43,7 @@ var obj_gabinete_ESP = {
   },
   {
     id_flor: 2,
-    titulo: "Ololiuhqui y toloache",
+    titulo: "<i>Ololiuhqui</i> y toloache",
     ficha: "GBF_02_f_ES.png",
     galeria_xochipilli: [
     {
@@ -93,22 +93,19 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 3,
-    titulo: "Nombre español 3",
+    titulo: "<i>Yiexóchitl</i>, \"flor de tabaco\"",
     ficha: "GBF_03_f_ES.png",
     galeria_xochipilli: [
     {
       img_01: "GBF_03_x01_ES.png",
       img_02: "GBF_03_x02_ES.png",
       img_03: "GBF_03_x03_ES.png",
-      img_04: "GBF_03_x04_ES.png",
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_03_n01_ES.png",
       img_02: "GBF_03_n02_ES.png",
-      img_03: "GBF_03_n03_ES.png",
-      img_04: "GBF_03_n04_ES.png",
     }
     ],
     galeria_documentos: [
@@ -137,22 +134,16 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 4,
-    titulo: "Nombre español 4",
+    titulo: "<i>Xiloxóchitl<i>, \"flor de jilote\"",
     ficha: "GBF_04_f_ES.png",
     galeria_xochipilli: [
     {
       img_01: "GBF_04_x01_ES.png",
-      img_02: "GBF_04_x02_ES.png",
-      img_03: "GBF_04_x03_ES.png",
-      img_0n: "GBF_04_x04_ES.png",
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_04_n01_ES.png",
-      img_02: "GBF_04_n02_ES.png",
-      img_03: "GBF_04_n03_ES.png",
-      img_0n: "GBF_04_n03_ES.png",
     }
     ],
     galeria_documentos: [
@@ -160,7 +151,12 @@ var obj_gabinete_ESP = {
       img_01: "GBF_04_d01_ES.png",
       img_02: "GBF_04_d02_ES.png",
       img_03: "GBF_04_d03_ES.png",
-      img_0n: "GBF_04_d0n_ES.png",
+      img_04: "GBF_04_d04_ES.png",
+      img_05: "GBF_04_d05_ES.png",
+      img_06: "GBF_04_d06_ES.png",
+      img_07: "GBF_04_d07_ES.png",
+      img_08: "GBF_04_d08_ES.png",
+      img_09: "GBF_04_d09_ES.png",
     }
     ],
     descripcion: [
@@ -181,14 +177,18 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 5,
-    titulo: "Nombre español 5",
+    titulo: "Flores arquetípicas",
     ficha: "GBF_05_f_ES.png",
     galeria_xochipilli: [
     {
       img_01: "GBF_05_x01_ES.png",
       img_02: "GBF_05_x02_ES.png",
       img_03: "GBF_05_x03_ES.png",
-      img_0n: "GBF_05_x0n_ES.png",
+      img_04: "GBF_05_x04_ES.png",
+      img_05: "GBF_05_x05_ES.png",
+      img_06: "GBF_05_x06_ES.png",
+      img_07: "GBF_05_x07_ES.png",
+      img_08: "GBF_05_x08_ES.png",
     }
     ],
     galeria_naturaleza: [
@@ -196,7 +196,8 @@ var obj_gabinete_ESP = {
       img_01: "GBF_05_n01_ES.png",
       img_02: "GBF_05_n02_ES.png",
       img_03: "GBF_05_n03_ES.png",
-      img_0n: "GBF_05_n0n_ES.png",
+      img_04: "GBF_05_n04_ES.png",
+      img_05: "GBF_05_n05_ES.png",
     }
     ],
     galeria_documentos: [
@@ -204,7 +205,14 @@ var obj_gabinete_ESP = {
       img_01: "GBF_05_d01_ES.png",
       img_02: "GBF_05_d02_ES.png",
       img_03: "GBF_05_d03_ES.png",
-      img_0n: "GBF_05_d0n_ES.png",
+      img_04: "GBF_05_d04_ES.png",
+      img_05: "GBF_05_d05_ES.png",
+      img_06: "GBF_05_d06_ES.png",
+      img_07: "GBF_05_d07_ES.png",
+      img_08: "GBF_05_d08_ES.png",
+      img_09: "GBF_05_d08_ES.png",
+      img_10: "GBF_05_d10_ES.png",
+      img_11: "GBF_05_d11_ES.png",
     }
     ],
     descripcion: [
@@ -225,22 +233,16 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 6,
-    titulo: "Nombre español 6",
+    titulo: "<i>Cempoalxóchitl</i>, \"veinte flores\"",
     ficha: "GBF_06_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_06_x01_ES.png",
-      img_02: "GBF_06_x02_ES.png",
-      img_03: "GBF_06_x03_ES.png",
-      img_0n: "GBF_06_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_06_n01_ES.png",
-      img_02: "GBF_06_n02_ES.png",
-      img_03: "GBF_06_n03_ES.png",
-      img_0n: "GBF_06_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -248,7 +250,9 @@ var obj_gabinete_ESP = {
       img_01: "GBF_06_d01_ES.png",
       img_02: "GBF_06_d02_ES.png",
       img_03: "GBF_06_d03_ES.png",
-      img_0n: "GBF_06_d0n_ES.png",
+      img_04: "GBF_06_d04_ES.png",
+      img_05: "GBF_06_d05_ES.png",
+      img_06: "GBF_06_d06_ES.png",
     }
     ],
     descripcion: [
@@ -270,22 +274,16 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 7,
-    titulo: "Nombre español 7",
+    titulo: "<i>Yauhtli</i>, pericón o yerbanís",
     ficha: "GBF_07_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_07_x01_ES.png",
-      img_02: "GBF_07_x02_ES.png",
-      img_03: "GBF_07_x03_ES.png",
-      img_0n: "GBF_07_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_07_n01_ES.png",
-      img_02: "GBF_07_n02_ES.png",
-      img_03: "GBF_07_n03_ES.png",
-      img_0n: "GBF_07_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -293,7 +291,9 @@ var obj_gabinete_ESP = {
       img_01: "GBF_08_d01_ES.png",
       img_02: "GBF_08_d02_ES.png",
       img_03: "GBF_08_d03_ES.png",
-      img_0n: "GBF_08_d0n_ES.png",
+      img_04: "GBF_08_d04_ES.png",
+      img_05: "GBF_08_d05_ES.png",
+      img_06: "GBF_08_d06_ES.png",
     }
     ],
     descripcion: [
@@ -316,22 +316,17 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 8,
-    titulo: "Nombre español 8",
+    titulo: "<i>Cacaloxóchitl</i>, \"flor de cuervo\"",
     ficha: "GBF_08_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_08_x01_ES.png",
-      img_02: "GBF_08_x02_ES.png",
-      img_03: "GBF_08_x03_ES.png",
-      img_0n: "GBF_08_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_08_n01_ES.png",
       img_02: "GBF_08_n02_ES.png",
-      img_03: "GBF_08_n03_ES.png",
-      img_0n: "GBF_08_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -339,7 +334,7 @@ var obj_gabinete_ESP = {
       img_01: "GBF_08_d01_ES.png",
       img_02: "GBF_08_d02_ES.png",
       img_03: "GBF_08_d03_ES.png",
-      img_0n: "GBF_08_d0n_ES.png",
+      img_04: "GBF_08_d04_ES.png",
     }
     ],
     descripcion: [
@@ -362,22 +357,17 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 9,
-    titulo: "Nombre español 9",
+    titulo: "<i>Huacalxóchitl</i>, \"flor huacal\"",
     ficha: "GBF_09_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_09_x01_ES.png",
-      img_02: "GBF_09_x02_ES.png",
-      img_03: "GBF_09_x03_ES.png",
-      img_0n: "GBF_09_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_09_n01_ES.png",
       img_02: "GBF_09_n02_ES.png",
-      img_03: "GBF_09_n03_ES.png",
-      img_0n: "GBF_09_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -385,7 +375,18 @@ var obj_gabinete_ESP = {
       img_01: "GBF_09_d01_ES.png",
       img_02: "GBF_09_d02_ES.png",
       img_03: "GBF_09_d03_ES.png",
-      img_0n: "GBF_09_d0n_ES.png",
+      img_04: "GBF_09_d04_ES.png",
+      img_05: "GBF_09_d05_ES.png",
+      img_06: "GBF_09_d06_ES.png",
+      img_07: "GBF_09_d07_ES.png",
+      img_08: "GBF_09_d08_ES.png",
+      img_09: "GBF_09_d09_ES.png",
+      img_10: "GBF_09_d10_ES.png",
+      img_11: "GBF_09_d11_ES.png",
+      img_12: "GBF_09_d12_ES.png",
+      img_13: "GBF_09_d13_ES.png",
+      img_14: "GBF_09_d14_ES.png",
+      img_15: "GBF_09_d15_ES.png",
     }
     ],
     descripcion: [
@@ -408,22 +409,16 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 10,
-    titulo: "Nombre español 10",
+    titulo: "<i>Oceloxóchitl</i>, \"flor jaguar\"",
     ficha: "GBF_10_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_10_x01_ES.png",
-      img_02: "GBF_10_x02_ES.png",
-      img_03: "GBF_10_x03_ES.png",
-      img_0n: "GBF_10_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_10_n01_ES.png",
-      img_02: "GBF_10_n02_ES.png",
-      img_03: "GBF_10_n03_ES.png",
-      img_0n: "GBF_10_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -431,7 +426,8 @@ var obj_gabinete_ESP = {
       img_01: "GBF_10_d01_ES.png",
       img_02: "GBF_10_d02_ES.png",
       img_03: "GBF_10_d03_ES.png",
-      img_0n: "GBF_10_d0n_ES.png",
+      img_04: "GBF_10_d04_ES.png",
+      img_05: "GBF_10_d05_ES.png",
     }
     ],
     descripcion: [
@@ -454,22 +450,17 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 11,
-    titulo: "Nombre español 11",
+    titulo: "<i>Yolloxóchitl</i>, \"flor de corazón\"",
     ficha: "GBF_11_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_11_x01_ES.png",
-      img_02: "GBF_11_x02_ES.png",
-      img_03: "GBF_11_x03_ES.png",
-      img_0n: "GBF_11_x0n_ES.png",
+      img_01: null,
+
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_11_n01_ES.png",
-      img_02: "GBF_11_n02_ES.png",
-      img_03: "GBF_11_n03_ES.png",
-      img_0n: "GBF_11_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -477,7 +468,7 @@ var obj_gabinete_ESP = {
       img_01: "GBF_11_d01_ES.png",
       img_02: "GBF_11_d02_ES.png",
       img_03: "GBF_11_d03_ES.png",
-      img_0n: "GBF_11_d0n_ES.png",
+      img_04: "GBF_11_d04_ES.png",
     }
     ],
     descripcion: [
@@ -500,22 +491,16 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 12,
-    titulo: "Nombre español 12",
+    titulo: "<i>Omixóchitl</i>, \"flor de hueso\"",
     ficha: "GBF_12_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_12_x01_ES.png",
-      img_02: "GBF_12_x02_ES.png",
-      img_03: "GBF_12_x03_ES.png",
-      img_0n: "GBF_12_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_12_n01_ES.png",
-      img_02: "GBF_12_n02_ES.png",
-      img_03: "GBF_12_n03_ES.png",
-      img_0n: "GBF_12_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -523,7 +508,6 @@ var obj_gabinete_ESP = {
       img_01: "GBF_12_d01_ES.png",
       img_02: "GBF_12_d02_ES.png",
       img_03: "GBF_12_d03_ES.png",
-      img_0n: "GBF_12_d0n_ES.png",
     }
     ],
     descripcion: [
@@ -546,22 +530,16 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 13,
-    titulo: "Nombre español 13",
+    titulo: "<i>Macpalxóchitl</i>, \"flor de manita\"",
     ficha: "GBF_13_f_ES.png",
     galeria_xochipilli: [
     {
-      img_01: "GBF_13_x01_ES.png",
-      img_02: "GBF_13_x02_ES.png",
-      img_03: "GBF_13_x03_ES.png",
-      img_0n: "GBF_13_x0n_ES.png",
+      img_01: null,
     }
     ],
     galeria_naturaleza: [
     {
       img_01: "GBF_13_n01_ES.png",
-      img_02: "GBF_13_n02_ES.png",
-      img_03: "GBF_13_n03_ES.png",
-      img_0n: "GBF_13_n0n_ES.png",
     }
     ],
     galeria_documentos: [
@@ -569,7 +547,7 @@ var obj_gabinete_ESP = {
       img_01: "GBF_13_d01_ES.png",
       img_02: "GBF_13_d02_ES.png",
       img_03: "GBF_13_d03_ES.png",
-      img_0n: "GBF_13_d0n_ES.png",
+      img_04: "GBF_13_d04_ES.png",
     }
     ],
     descripcion: [
