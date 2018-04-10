@@ -14,6 +14,8 @@ var obj_gabinete_ESP = {
     galeria_naturaleza: [
     {
       img_01: "GBF_01_n01_ES.png",
+      img_02: "GBF_01_n02_ES.png",
+      img_03: "GBF_01_n03_ES.png",
     }
     ],
     galeria_documentos: [
@@ -284,6 +286,7 @@ var obj_gabinete_ESP = {
     galeria_naturaleza: [
     {
       img_01: "GBF_07_n01_ES.png",
+      img_02: "GBF_07_n02_ES.png",
     }
     ],
     galeria_documentos: [
@@ -327,6 +330,7 @@ var obj_gabinete_ESP = {
     {
       img_01: "GBF_08_n01_ES.png",
       img_02: "GBF_08_n02_ES.png",
+      img_03: "GBF_08_n03_ES.png",
     }
     ],
     galeria_documentos: [
@@ -461,6 +465,7 @@ var obj_gabinete_ESP = {
     galeria_naturaleza: [
     {
       img_01: "GBF_11_n01_ES.png",
+      img_02: "GBF_11_n02_ES.png",
     }
     ],
     galeria_documentos: [
@@ -501,6 +506,7 @@ var obj_gabinete_ESP = {
     galeria_naturaleza: [
     {
       img_01: "GBF_12_n01_ES.png",
+      img_02: "GBF_12_n02_ES.png",
     }
     ],
     galeria_documentos: [
@@ -540,6 +546,7 @@ var obj_gabinete_ESP = {
     galeria_naturaleza: [
     {
       img_01: "GBF_13_n01_ES.png",
+      img_02: "GBF_13_n02_ES.png",
     }
     ],
     galeria_documentos: [
