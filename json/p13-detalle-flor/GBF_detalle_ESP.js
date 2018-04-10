@@ -1,4 +1,4 @@
-// IDIOMA ESPAÑOL PRUEBA archivo josè
+// push desde mi casa
 
 var obj_gabinete_ESP = {
   flores:[
