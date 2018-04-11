@@ -56,10 +56,10 @@ if(id_flor == 0 ){
     pos_xo_end = 0;
 
     pos_na_init = 1;
-    pos_na_end = 1;
+    pos_na_end = 3;
 
-    pos_do_init = 2;
-    pos_do_end = 4;
+    pos_do_init = 4;
+    pos_do_end = 6;
 
 }
 
