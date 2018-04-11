@@ -147,14 +147,13 @@ if(id_flor == 6 ){
 
 
 if(id_flor == 7 ){
-    pos_xo_init = 0;
-    pos_xo_end = 3;
 
-    pos_na_init = 4;
-    pos_na_end = 6;
 
-    pos_do_init = 7;
-    pos_do_end = 10;
+    pos_na_init = 0;
+    pos_na_end = 2;
+
+    pos_do_init = 3;
+    pos_do_end = 6;
 }
 
 
