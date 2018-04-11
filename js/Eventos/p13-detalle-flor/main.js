@@ -42,8 +42,23 @@ id_num_do = urlParams["num_do"];
 id_total_g = urlParams["total_g"]
 
 //Valores inicales galeria;
+
+if(id_num_xo != 0){
 var num_total_G = Number(id_num_xo);
 var num_init_G = 0;
+} 
+else{
+    var num_total_G = Number(id_num_na);
+    var num_init_G = 0;
+
+    $(".btn_en_xochipili").hide();
+
+    $(document).ready(function(){
+        $( ".btn_en_naturaleza").trigger("click");
+    });
+}
+
+console.log("num_total_G: ", num_total_G);
 
 
 
@@ -111,14 +126,12 @@ if(id_flor == 4 ){
 
 
 if(id_flor == 5 ){
-    pos_xo_init = 0;
-    pos_xo_end = 3;
 
-    pos_na_init = 4;
-    pos_na_end = 4;
+    pos_na_init = 0;
+    pos_na_end = 0;
 
-    pos_do_init = 5;
-    pos_do_end = 10;
+    pos_do_init = 1;
+    pos_do_end = 5;
 }
 
 
