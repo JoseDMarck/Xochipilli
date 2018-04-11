@@ -76,13 +76,13 @@ if(id_flor == 1 ){
 
 if(id_flor == 2 ){
     pos_xo_init = 0;
-    pos_xo_end = 3;
+    pos_xo_end = 2;
 
-    pos_na_init = 4;
-    pos_na_end = 5;
+    pos_na_init = 3;
+    pos_na_end = 4;
 
-    pos_do_init = 6;
-    pos_do_end = 8;
+    pos_do_init = 5;
+    pos_do_end = 7;
 }
 
 
