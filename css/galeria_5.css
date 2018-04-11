@@ -44,16 +44,11 @@
 	display: none;
 }
 
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
--------------------------------------------------------- */
-
 .detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_4_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n01_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x05_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -62,7 +57,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n02_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x06_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -71,7 +66,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n03_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x07_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -80,12 +75,53 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x08_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
+-------------------------------------------------------- */
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_8_ESP{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n01_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_9_ESP{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n02_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_10_ESP{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_11_ESP{
+	width: 100%;
+	height: 720px;
+	position: absolute;
 	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n04_ES.png"); 
 	background-size: cover;
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_8_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_12_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -100,7 +136,7 @@
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
 -------------------------------------------------------- */
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_9_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_13_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -109,7 +145,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_10_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_14_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -118,7 +154,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_11_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_15_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -127,7 +163,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_12_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_16_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -136,7 +172,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_13_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_17_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -145,7 +181,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_14_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_18_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -154,7 +190,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_15_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_19_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -162,7 +198,7 @@
 	background-size: cover;
 	display: none;
 }
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_16_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_20_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -171,7 +207,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_17_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_21_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -180,8 +216,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_18_ESP{
-    
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_22_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -190,7 +225,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_19_ESP{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_23_ESP{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -202,9 +237,8 @@
 
 /* --------------------------------------------------------
 /* ---- FLOR NUMERO: 5 [4]
-/* ---- INGLES
+/* ---- ENG
 -------------------------------------------------------- */
-
 
 /* --------------------------------------------------------
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN XOCHIPILLI
@@ -247,16 +281,11 @@
 	display: none;
 }
 
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
--------------------------------------------------------- */
-
 .detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_4_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n01_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x05_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -265,7 +294,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n02_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x06_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -274,7 +303,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n03_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x07_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -283,12 +312,53 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x08_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
+-------------------------------------------------------- */
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_8_ENG{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n01_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_9_ENG{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n02_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_10_ENG{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_11_ENG{
+	width: 100%;
+	height: 720px;
+	position: absolute;
 	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n04_ES.png"); 
 	background-size: cover;
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_8_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_12_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -303,7 +373,7 @@
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
 -------------------------------------------------------- */
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_9_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_13_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -312,7 +382,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_10_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_14_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -321,7 +391,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_11_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_15_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -330,7 +400,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_12_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_16_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -339,7 +409,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_13_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_17_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -348,7 +418,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_14_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_18_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -357,7 +427,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_15_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_19_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -365,7 +435,7 @@
 	background-size: cover;
 	display: none;
 }
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_16_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_20_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -374,7 +444,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_17_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_21_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -383,8 +453,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_18_ENG{
-    
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_22_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -393,7 +462,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_19_ENG{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_23_ENG{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -402,12 +471,10 @@
 	display: none;
 }
  
-
 /* --------------------------------------------------------
 /* ---- FLOR NUMERO: 5 [4]
-/* ---- NAHUATL
+/* ---- NAH
 -------------------------------------------------------- */
-
 
 /* --------------------------------------------------------
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN XOCHIPILLI
@@ -450,16 +517,11 @@
 	display: none;
 }
 
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
--------------------------------------------------------- */
-
 .detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_4_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n01_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x05_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -468,7 +530,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n02_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x06_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -477,7 +539,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n03_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x07_ES.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -486,12 +548,53 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_x08_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
+-------------------------------------------------------- */
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_8_NAH{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n01_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_9_NAH{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n02_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_10_NAH{
+	width: 100%;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n03_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_11_NAH{
+	width: 100%;
+	height: 720px;
+	position: absolute;
 	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_05_n04_ES.png"); 
 	background-size: cover;
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_8_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_12_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -506,7 +609,7 @@
 /* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
 -------------------------------------------------------- */
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_9_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_13_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -515,7 +618,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_10_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_14_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -524,7 +627,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_11_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_15_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -533,7 +636,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_12_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_16_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -542,7 +645,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_13_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_17_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -551,7 +654,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_14_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_18_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -560,7 +663,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_15_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_19_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -568,7 +671,7 @@
 	background-size: cover;
 	display: none;
 }
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_16_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_20_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -577,7 +680,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_17_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_21_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -586,8 +689,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_18_NAH{
-    
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_22_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;
@@ -596,7 +698,7 @@
 	display: none;
 }
 
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_19_NAH{
+.detalle-flor-Seccion  > .ContendorGaleria > .flor_4_img_G_23_NAH{
 	width: 100%;
 	height: 720px;
 	position: absolute;

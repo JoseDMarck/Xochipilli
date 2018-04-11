@@ -100,13 +100,13 @@ if(id_flor == 3 ){
 
 if(id_flor == 4 ){
     pos_xo_init = 0;
-    pos_xo_end = 3;
+    pos_xo_end = 7;
 
-    pos_na_init = 4;
-    pos_na_end = 8;
+    pos_na_init = 8;
+    pos_na_end = 12;
 
-    pos_do_init = 9;
-    pos_do_end = 19;
+    pos_do_init = 13;
+    pos_do_end = 23;
 }
 
 
