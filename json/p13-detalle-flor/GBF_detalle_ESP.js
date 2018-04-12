@@ -4,7 +4,7 @@ var obj_gabinete_ESP = {
   flores:[
   {
     id_flor: 1,
-    titulo: "Flor de cuatro pétalos",
+//  titulo: "Flor de cuatro pétalos",
     ficha: "GBF_01_f_ES.png",
     galeria_xochipilli: [
     {
@@ -45,7 +45,7 @@ var obj_gabinete_ESP = {
   },
   {
     id_flor: 2,
-    titulo: "<i>Ololiuhqui</i> y toloache",
+//  titulo: "<i>Ololiuhqui</i> y toloache",
     ficha: "GBF_02_f_ES.png",
     galeria_xochipilli: [
     {
@@ -95,7 +95,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 3,
-    titulo: "<i>Yiexóchitl</i>, \"flor de tabaco\"",
+//  titulo: "<i>Yiexóchitl</i>, \"flor de tabaco\"",
     ficha: "GBF_03_f_ES.png",
     galeria_xochipilli: [
     {
@@ -135,7 +135,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 4,
-    titulo: "<i>Xiloxóchitl<i>, \"flor de jilote\"",
+//  titulo: "<i>Xiloxóchitl<i>, \"flor de jilote\"",
     ficha: "GBF_04_f_ES.png",
     galeria_xochipilli: [
     {
@@ -177,7 +177,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 5,
-    titulo: "Flores arquetípicas",
+//  titulo: "Flores arquetípicas",
     ficha: "GBF_05_f_ES.png",
     galeria_xochipilli: [
     {
@@ -233,7 +233,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 6,
-    titulo: "<i>Cempoalxóchitl</i>, \"veinte flores\"",
+//  titulo: "<i>Cempoalxóchitl</i>, \"veinte flores\"",
     ficha: "GBF_06_f_ES.png",
     galeria_xochipilli: [
     {
@@ -273,7 +273,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 7,
-    titulo: "<i>Yauhtli</i>, pericón o yerbanís",
+//  titulo: "<i>Yauhtli</i>, pericón o yerbanís",
     ficha: "GBF_07_f_ES.png",
     galeria_xochipilli: [
     {
@@ -316,7 +316,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 8,
-    titulo: "<i>Cacaloxóchitl</i>, \"flor de cuervo\"",
+//  titulo: "<i>Cacaloxóchitl</i>, \"flor de cuervo\"",
     ficha: "GBF_08_f_ES.png",
     galeria_xochipilli: [
     {
@@ -358,7 +358,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 9,
-    titulo: "<i>Huacalxóchitl</i>, \"flor huacal\"",
+//  titulo: "<i>Huacalxóchitl</i>, \"flor huacal\"",
     ficha: "GBF_09_f_ES.png",
     galeria_xochipilli: [
     {
@@ -407,7 +407,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 10,
-    titulo: "<i>Oceloxóchitl</i>, \"flor jaguar\"",
+//  titulo: "<i>Oceloxóchitl</i>, \"flor jaguar\"",
     ficha: "GBF_10_f_ES.png",
     galeria_xochipilli: [
     {
@@ -448,7 +448,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 11,
-    titulo: "<i>Yolloxóchitl</i>, \"flor de corazón\"",
+//  titulo: "<i>Yolloxóchitl</i>, \"flor de corazón\"",
     ficha: "GBF_11_f_ES.png",
     galeria_xochipilli: [
     {
@@ -490,7 +490,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 12,
-    titulo: "<i>Omixóchitl</i>, \"flor de hueso\"",
+//  titulo: "<i>Omixóchitl</i>, \"flor de hueso\"",
     ficha: "GBF_12_f_ES.png",
     galeria_xochipilli: [
     {
@@ -529,7 +529,7 @@ var obj_gabinete_ESP = {
 
   {
     id_flor: 13,
-    titulo: "<i>Macpalxóchitl</i>, \"flor de manita\"",
+//  titulo: "<i>Macpalxóchitl</i>, \"flor de manita\"",
     ficha: "GBF_13_f_ES.png",
     galeria_xochipilli: [
     {

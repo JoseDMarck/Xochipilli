@@ -3337,9 +3337,9 @@ input[type=range] {
 
 .detalle-flor-Seccion > .ficha{
 	width: 700px;
-	height: 140px;
+	height: 248px;
 	background: url("../images/p13-detalle-flor/ficha_tecnica.png");
-	background-size: 700px 140px;
+	background-size: 700px 248px;
     position: absolute;
     top: 60px;
     right: 108px;
