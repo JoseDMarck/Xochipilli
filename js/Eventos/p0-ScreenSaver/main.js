@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-   TweenMax.to(".btnIniciar", 2, {alpha:0,  repeat:-1, yoyo:true});
+   TweenMax.to(".btnIniciar", 3, {alpha:.18,  repeat:-1, yoyo:true});
 
 
 
