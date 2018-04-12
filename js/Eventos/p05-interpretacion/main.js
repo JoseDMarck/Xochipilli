@@ -69,6 +69,7 @@ if (LanguageON != "" ){
     };
     
 
+
     // EVENTOS SELECT IDIOMA ===================
 
     $(".btn_idioma_es_General").click(function(event) {
@@ -259,6 +260,11 @@ $(".prev_btn").click(function() {
     }
      
 
+});
+
+    // Evento para regresar a home - 12 abril
+    $(".btn_inicio_General").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoHome});
 });
 
 
