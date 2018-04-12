@@ -158,38 +158,34 @@ if(id_flor == 7 ){
 
 
 if(id_flor == 8 ){
-    pos_xo_init = 0;
-    pos_xo_end = 3;
 
-    pos_na_init = 4;
-    pos_na_end = 5;
+    pos_na_init = 0;
+    pos_na_end = 1;
 
-    pos_do_init = 6;
-    pos_do_end = 17;
+    pos_do_init = 2;
+    pos_do_end = 11;
 }
 
 
 if(id_flor == 9 ){
-    pos_xo_init = 0;
-    pos_xo_end = 3;
 
-    pos_na_init = 4;
-    pos_na_end = 4;
 
-    pos_do_init = 5;
-    pos_do_end = 9;
+    pos_na_init = 0;
+    pos_na_end = 0;
+
+    pos_do_init = 1;
+    pos_do_end = 5;
 }
 
 
 if(id_flor == 10 ){
-    pos_xo_init = 0;
-    pos_xo_end = 3;
 
-    pos_na_init = 4;
-    pos_na_end = 5;
 
-    pos_do_init = 6;
-    pos_do_end = 9;
+    pos_na_init = 0;
+    pos_na_end = 0;
+
+    pos_do_init = 1;
+    pos_do_end = 5;
 }
 
 
