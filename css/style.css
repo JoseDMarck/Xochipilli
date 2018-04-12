@@ -211,13 +211,13 @@ body{
 
 
 .ScreenSaver-Seccion > .btnIniciar{
-	width: 441px;
+	width: 577px;
 	height: 77px;
 	background: url("../images/p0-screenSaver/Toca.png");
 	background-size: cover;
 	position: absolute;
 	bottom: 180px;
-	left: 234px;
+	left: 166px;
 }
 
 
