@@ -182,9 +182,9 @@ if(id_flor == 10 ){
 
 
     pos_na_init = 0;
-    pos_na_end = 0;
+    pos_na_end = 1;
 
-    pos_do_init = 1;
+    pos_do_init = 2;
     pos_do_end = 5;
 }
 
