@@ -78,6 +78,7 @@ if(id_flor == 0 ){
 
 }
 
+//Flor numero 2
 if(id_flor == 1 ){
     pos_xo_init = 0;
     pos_xo_end = 4;
@@ -89,6 +90,7 @@ if(id_flor == 1 ){
     pos_do_end = 17
 }
 
+//Flor numero 3
 if(id_flor == 2 ){
     pos_xo_init = 0;
     pos_xo_end = 2;
@@ -100,8 +102,7 @@ if(id_flor == 2 ){
     pos_do_end = 7;
 }
 
-
-
+//Flor numero 4
 if(id_flor == 3 ){
     pos_xo_init = 0;
     pos_xo_end = 0;
@@ -113,6 +114,7 @@ if(id_flor == 3 ){
     pos_do_end = 7;
 }
 
+//Flor numero 5
 if(id_flor == 4 ){
     pos_xo_init = 0;
     pos_xo_end = 7;
@@ -124,7 +126,7 @@ if(id_flor == 4 ){
     pos_do_end = 23;
 }
 
-
+//Flor numero 6
 if(id_flor == 5 ){
 
     pos_na_init = 0;
@@ -134,7 +136,7 @@ if(id_flor == 5 ){
     pos_do_end = 5;
 }
 
-
+//Flor numero 7
 if(id_flor == 6 ){
 
 
@@ -145,7 +147,7 @@ if(id_flor == 6 ){
     pos_do_end = 7;
 }
 
-
+//Flor numero 8
 if(id_flor == 7 ){
 
 
@@ -156,7 +158,7 @@ if(id_flor == 7 ){
     pos_do_end = 6;
 }
 
-
+//Flor numero 9
 if(id_flor == 8 ){
 
     pos_na_init = 0;
@@ -166,7 +168,7 @@ if(id_flor == 8 ){
     pos_do_end = 11;
 }
 
-
+//Flor numero 10
 if(id_flor == 9 ){
 
 
@@ -178,6 +180,7 @@ if(id_flor == 9 ){
 }
 
 
+//Flor numero 11
 if(id_flor == 10 ){
 
 
@@ -189,6 +192,7 @@ if(id_flor == 10 ){
 }
 
 
+//Flor numero 12
 if(id_flor == 11 ){
     pos_xo_init = 0;
     pos_xo_end = 3;
@@ -200,16 +204,14 @@ if(id_flor == 11 ){
     pos_do_end = 7;
 }
 
-
+//Flor numero 13
 if(id_flor == 12 ){
-    pos_xo_init = 0;
-    pos_xo_end = 3;
 
-    pos_na_init = 4;
-    pos_na_end = 5;
+    pos_na_init = 0;
+    pos_na_end = 1;
 
-    pos_do_init = 6;
-    pos_do_end = 8;
+    pos_do_init = 2;
+    pos_do_end = 4;
 }
 
 
