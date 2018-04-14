@@ -164,13 +164,13 @@ $(".ayuda-image").click(function() {
 
 // EVENTOS GALLERIA ===================
 
-var num_total_G = 3;
+var num_total_G = 4;
 var num_init_G = 1;
 
 
 $(".next_btn_obra").click(function() {
 
-     if (num_init_G == 2){
+     if (num_init_G == 3){
         $(".next_btn_obra").hide();
      }
 
@@ -222,10 +222,17 @@ $(function () {
         var imgSrc = "../../images/p03-obra/full_img"+num_init_G+".jpg",
         highResolutionImage = $(this).data('high-res-img');
         viewer.show(imgSrc, highResolutionImage);
+
+        $(".ayuda-image-toca").fadeIn();
     });
 }); 
 
 
+
+$(".ayuda-image-toca").click(function(event) {
+    $(".ayuda-image-toca").fadeOut();
+    event.stopPropagation();
+})
 
 
 // EVENTOS SELECT IDIOMA ===================
