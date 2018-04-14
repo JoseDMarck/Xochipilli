@@ -1474,7 +1474,7 @@ body{
     background-size: 321px 69px;
     position: absolute;
     top: 412px;
-    left: 1123px;
+    left: 1490px;
 }
 
 
@@ -1483,9 +1483,10 @@ body{
     height: 69px;
     background: url("../images/p05-interpretacion/tierra_button.png");
     background-size: 321px 69px;
-    position: absolute;
-    top: 412px;
-    left: 1490px;
+	position: absolute;
+	top: 412px;
+    left: 1123px;
+    
 }
 
 
@@ -3516,6 +3517,35 @@ input[type=range] {
 
 
 
+
+/* --------------------------------------------------------
+/* ---- P14 360
+-------------------------------------------------------- */
+
+
+.p360-Seccion{
+	width: 100%;
+	height: auto;
+}
+
+.p360-Seccion > .Background{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/Generales/fondo_360.png");
+	background-size: cover; 
+	position: absolute;
+}
+
+.p360-Seccion > .ayuda-image{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p13-detalle-flor/ayuda.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
 
 
 
