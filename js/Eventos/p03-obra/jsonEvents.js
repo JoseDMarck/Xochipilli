@@ -13,6 +13,7 @@ document.getElementById("descripcion").innerHTML = obj_ESP.descripcion;
 document.getElementById("gal_txt_1").innerHTML = obj_ESP.galeria[0].texto_1; 
 document.getElementById("gal_txt_2").innerHTML = obj_ESP.galeria[0].texto_2; 
 document.getElementById("gal_txt_3").innerHTML = obj_ESP.galeria[0].texto_3; 
+document.getElementById("gal_txt_4").innerHTML = obj_ESP.galeria[0].texto_4; 
 
 }
 
@@ -29,6 +30,7 @@ document.getElementById("descripcion").innerHTML = obj_ENG.descripcion;
 document.getElementById("gal_txt_1").innerHTML = obj_ENG.galeria[0].texto_1; 
 document.getElementById("gal_txt_2").innerHTML = obj_ENG.galeria[0].texto_2; 
 document.getElementById("gal_txt_3").innerHTML = obj_ENG.galeria[0].texto_3; 
+document.getElementById("gal_txt_4").innerHTML = obj_ENG.galeria[0].texto_4; 
 
 
 }
@@ -45,6 +47,7 @@ document.getElementById("descripcion").innerHTML = obj_NAH.descripcion;
 document.getElementById("gal_txt_1").innerHTML = obj_NAH.galeria[0].texto_1; 
 document.getElementById("gal_txt_2").innerHTML = obj_NAH.galeria[0].texto_2; 
 document.getElementById("gal_txt_3").innerHTML = obj_NAH.galeria[0].texto_3; 
+document.getElementById("gal_txt_4").innerHTML = obj_NAH.galeria[0].texto_4; 
 
 
 } // END NAH
