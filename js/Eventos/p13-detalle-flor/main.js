@@ -664,9 +664,6 @@ $(".btn_en_xochipili").click(function() {
     $(".btn_en_documentos").removeClass("btn_en_documentos_on");
 
 
-    $(".Contenedor").hide();
-    $(".cont_Xochi").fadeIn();
-
     
 
 });
@@ -703,8 +700,7 @@ $(".btn_en_naturaleza").click(function() {
     $(".btn_en_documentos").removeClass("btn_en_documentos_on");
 
 
-    $(".Contenedor").hide();
-    $(".cont_Natu").fadeIn();
+
 
 });
 
@@ -741,8 +737,7 @@ $(".btn_en_documentos").click(function() {
     $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on");
 
 
-    $(".Contenedor").hide();
-    $(".cont_Otras").fadeIn();
+
 
 
 });
