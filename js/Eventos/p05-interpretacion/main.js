@@ -126,6 +126,11 @@ var GotoAtavios_florido = function () {
 };
  
 
+var Goto360 = function () {
+    window.location.href = '../../secciones/p14-360/index.html' +'?idioma='+LanguageON;
+};
+ 
+
 var closem = function () {
     TweenMax.to(".menu-General", 1, {right:"-11%", alpha:1 });
 };
@@ -151,7 +156,6 @@ $(".btn_Obra").click(function() {
 });
 
 
-
 $(".btn_senior_flores").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoSeniorFlores });
 });
@@ -174,6 +178,11 @@ $(".btn_atavios_sol").click(function() {
 $(".btn_atavio_florido").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoAtavios_florido });
 });
+
+
+$(".imagen360").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  Goto360 });
+}); 
 
 
 
