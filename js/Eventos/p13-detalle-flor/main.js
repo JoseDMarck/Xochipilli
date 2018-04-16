@@ -76,6 +76,19 @@ if(id_flor == 0 ){
     pos_do_init = 4;
     pos_do_end = 6;
 
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_1_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_1_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_1_ESP");
+    }
+
 }
 
 //Flor numero 2
@@ -88,6 +101,19 @@ if(id_flor == 1 ){
 
     pos_do_init = 10;
     pos_do_end = 17
+
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_2_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_2_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_2_ESP");
+    }
 }
 
 //Flor numero 3
@@ -100,6 +126,18 @@ if(id_flor == 2 ){
 
     pos_do_init = 5;
     pos_do_end = 7;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_3_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_3_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_3_ESP");
+    }
 }
 
 //Flor numero 4
@@ -112,6 +150,18 @@ if(id_flor == 3 ){
 
     pos_do_init = 2;
     pos_do_end = 7;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_4_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_4_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_4_ESP");
+    }
 }
 
 //Flor numero 5
@@ -124,6 +174,18 @@ if(id_flor == 4 ){
 
     pos_do_init = 13;
     pos_do_end = 23;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_5_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_5_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_5_ESP");
+    }
 }
 
 //Flor numero 6
@@ -134,6 +196,18 @@ if(id_flor == 5 ){
 
     pos_do_init = 1;
     pos_do_end = 5;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_6_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_6_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_6_ESP");
+    }
 }
 
 //Flor numero 7
@@ -145,6 +219,18 @@ if(id_flor == 6 ){
 
     pos_do_init = 2;
     pos_do_end = 7;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_7_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_7_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_7_ESP");
+    }
 }
 
 //Flor numero 8
@@ -156,6 +242,18 @@ if(id_flor == 7 ){
 
     pos_do_init = 3;
     pos_do_end = 6;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_8_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_8_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_8_ESP");
+    }
 }
 
 //Flor numero 9
@@ -166,6 +264,19 @@ if(id_flor == 8 ){
 
     pos_do_init = 2;
     pos_do_end = 11;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_9_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_9_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_9_ESP");
+    }
+
 }
 
 //Flor numero 10
@@ -177,6 +288,18 @@ if(id_flor == 9 ){
 
     pos_do_init = 1;
     pos_do_end = 5;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_10_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_10_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_10_ESP");
+    }
 }
 
 
@@ -189,6 +312,18 @@ if(id_flor == 10 ){
 
     pos_do_init = 2;
     pos_do_end = 5;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_11_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_11_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_11_ESP");
+    }
 }
 
 
@@ -201,6 +336,18 @@ if(id_flor == 11 ){
 
     pos_do_init = 2;
     pos_do_end = 3;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_12_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_12_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_12_ESP");
+    }
 }
 
 //Flor numero 13
@@ -211,6 +358,18 @@ if(id_flor == 12 ){
 
     pos_do_init = 2;
     pos_do_end = 4;
+
+    if(LanguageON == "ESP"){
+        $(".ficha").addClass("ficha_13_ESP");
+    }
+
+    if(LanguageON == "ENG"){
+        $(".ficha").addClass("ficha_13_ESP");
+    }
+
+    if(LanguageON == "NAH"){
+        $(".ficha").addClass("ficha_13_ESP");
+    }
 }
 
 

@@ -3356,16 +3356,164 @@ input[type=range] {
 }
 
 
+
+
 .detalle-flor-Seccion > .ficha{
-	width: 700px;
-	height: 248px;
-	background: url("../images/p13-detalle-flor/ficha_tecnica.png");
-	background-size: 700px 248px;
+	width: 630px;
+	height: 185px;
     position: absolute;
     top: 60px;
-    right: 108px;
+    left:1126px;
     z-index: 99;	
 }
+
+
+.detalle-flor-Seccion > .ficha_1_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_01_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_2_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_02_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_3_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_03_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+
+.detalle-flor-Seccion > .ficha_4_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_04_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+
+.detalle-flor-Seccion > .ficha_5_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_05_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_6_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_06_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_7_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_07_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_8_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_08_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_9_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_09_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_10_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_10_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_11_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_11_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_12_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_12_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+.detalle-flor-Seccion > .ficha_13_ESP{
+	width: 630px;
+	height: 185px;
+	background: url("../images/p13-detalle-flor/fichas/GBF_13_f_ES.png");
+	background-size: 630px 185px;
+    position: absolute;
+    top: 60px;
+    left:1126px;
+    z-index: 99;	
+}
+
+
 
 .detalle-flor-Seccion  > .Contenedor{
 	width: 690px;
