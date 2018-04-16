@@ -127,11 +127,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 		$RangeValues = $(this).val();
 		console.log($RangeValues);
 	});*/
-
-	var slider = document.getElementById("slider");
-	slider.addEventListener("input", moveCube);
-
-	 
+ 
 
 	var oldValue = 0;
 	function moveCube(e){

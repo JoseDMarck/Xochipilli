@@ -66,6 +66,10 @@ var GotoBack = function () {
 };
 
 
+var GotoInterpretacion = function(){
+    window.location.href = '../../secciones/p05-interpretacion/index.html' +'?idioma='+LanguageON;;
+}
+
 
 var closem = function () {
     TweenMax.to(".menu-General", 1, {right:"-11%", alpha:1 });
@@ -92,6 +96,12 @@ $(".btn_inicio_General").click(function() {
 $(".btn_Obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoObra });
 });
+
+
+$(".btn_cerrar").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoInterpretacion });
+});
+
 
 
 

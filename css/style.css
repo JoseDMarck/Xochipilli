@@ -3548,6 +3548,19 @@ input[type=range] {
 }
 
 
+.p360-Seccion > .btn_cerrar{
+	width: 203px;
+    height: 46px;
+    background: url("../images/p14-360/close_button.png");
+    background-size: cover;
+    position: absolute;
+    top: 518px;
+    left: 1666px;
+	z-index: 999;
+	display: none;
+}
+
+
 
 
 
