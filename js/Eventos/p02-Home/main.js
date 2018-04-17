@@ -152,9 +152,9 @@ var InitScreen = function () {
 
    
     move_screen_buttos = function(){
-        TweenMax.to(".btn_obra", 1, {alpha:1, y:272 });
-        TweenMax.to(".btn_interpretacion", 1, {alpha:1, y: 421 });
-        TweenMax.to(".btn_gabinete", 1, {alpha:1, y: 570 });
+        TweenMax.to(".btn_obra", 1, {alpha:1, y:372 });
+        TweenMax.to(".btn_interpretacion", 1, {alpha:1, y: 521 });
+        TweenMax.to(".btn_gabinete", 1, {alpha:1, y: 670 });
     }
   
     

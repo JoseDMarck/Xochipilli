@@ -23,13 +23,13 @@ $(".btn_close").click(function() {
 $(".btn_up").click(function() {
     if(statusMenu == 0){
         TweenMax.to(".menuBarraGeneral", 1, {y:-180, onComplete: show = function(){
-           $(".btn_back").fadeIn(); 
+           //$(".btn_back").fadeIn(); 
            TweenMax.to(".btn_up", 0.5, {rotation:180, y:32,  ease: Circ.easeOut})
         }});
         
         statusMenu = 1;
     }else{
-        $(".btn_back").hide(); 
+        //$(".btn_back").hide(); 
         TweenMax.to(".menuBarraGeneral", 1, {y:0, onComplete: returPos = function(){
             TweenMax.to(".btn_up", 0.5, {rotation:0, y:0,  ease: Circ.easeOut})
         }});
