@@ -35,6 +35,24 @@
     src: url(fuentes/Gotham/Gotham-Light.otf) format("truetype");
 }
 
+@font-face {
+    font-family: "Akizdez-Extended";
+    src: url(fuentes/Akizdez-Extended.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Akizdez-Regular";
+    src: url(fuentes/Akizdez-Regular.otf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "New_York";
+    src: url(fuentes/New_York.otf) format("truetype");
+}
+
+
+
 
 
 
@@ -3764,5 +3782,92 @@ input[type=range] {
 
 
 
+.Bloque-Glosario{
+	width: 100%;
+	height: auto;
+	font-family: "Akizdez-Regular";
+	font-size: 30px;
+	line-height:  22px;
+	padding: 0px 10px 0px 10px;
+	color: #e6e7e8;
+}
+
+
+
+.Bloque-Glosario > .LetraIndex{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+
+.Bloque-Glosario > .Bloque-M-A{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+.Bloque-Glosario > .Bloque-M-A > .palabra{
+	width: 90%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+
+.Bloque-Glosario > .Bloque-M-A > .palabra > p > b{
+	font-family: "Akizdez-Regular";
+	font-size: 30px;
+	line-height:  30px;
+	color: #e6e7e8; 
+	font-weight: 800;
+}
+
+
+.Bloque-Glosario > .Bloque-M-A> .palabra > p{
+	font-weight: 200;
+    font-family: "Akizdez-Regular";
+	font-size: 26px;
+	line-height:  32px;
+	color: #e6e7e8;
+}
+
+
+.Bloque-Glosario > .Bloque-M-B{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-bottom: 30px;
+	
+}
+
+
+
+.Bloque-Glosario > .Bloque-M-B > .palabra{
+	width: 90%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+ 
+.Bloque-Glosario > .Bloque-M-B > .palabra > p > b{
+	font-family: "Akizdez-Regular";
+	font-size: 30px;
+	line-height:  30px;
+	color: #e6e7e8; 
+	font-weight: 800;
+}
+
+
+.Bloque-Glosario > .Bloque-M-B > .palabra > p{
+	font-weight: 200;
+    font-family: "Akizdez-Regular";
+	font-size: 26px;
+	line-height:  32px;
+	color: #e6e7e8;
+}
+
+ 
 
 
