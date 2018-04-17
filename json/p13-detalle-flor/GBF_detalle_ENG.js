@@ -1,522 +1,556 @@
-// IDIOMA ESPAÑOL PRUEBA ARREGLO
+// Versión en inglés del gabinete
 
 var obj_gabinete_ENG = {
-flores:[
-{
-      id_flor: 1,
-      titulo: "Flor de cuatro pétalos",
-      ficha: "GBF_01_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_01_x01_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_01_n01_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_01_d01_ES.png",
-          img_02: "GBF_01_d02_ES.png",
-          img_03: "GBF_01_d03_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "Esta flor de olor muy intenso y de amplio uso ornamental florece durante los meses de agosto a noviembre en los encinares y en los bosques tropicales caducifolios. </br>Las hojas de esta planta tenían un uso medicinal: \"tomadas en cantidad de un puñado y con vino quitan la flatulencia, y machacadas y aplicadas aflojan los miembros contraídos y resuelven los tumores\", según lo cuenta Francisco Hernández en 1577.",
-          title_02: "Simbolismo",
-          txt_02: "Más allá de asociarse a una clasificación botánica particular, la reiterada representación de la flor de cuatro pétalos en todo el mundo mesoamericano es una metáfora de la geometría horizontal del universo, con sus cuatro rumbos y su centro. </br>En el universo floral mexica una especie de cuatro pétalos muy preciada era la <i>aquílotl</i>, no sólo porque reflejaba la estructura del mundo, sino por su belleza, que la hacía una de las flores predilectas para la elaboración de coronas y ramilletes, así como por su potente fragancia, cuya esencia era extraída \"bajo la acción del fuego\" para ser usada como perfume. Fray Bernardino de Sahagún exalta con especial énfasis las cualidades de seducción y fascinación de su fragancia, que \"es densa, se insinúa; abraza; continúa abrazando, envuelve\", evocando la dimensión sensual de las flores como fuente de regocijo y placer, aspecto a su vez presente en la compleja y rica naturaleza del dios Xochipilli. La unión de todas estas cualidades en la misma flor pudo haberla colocado entre una de las más preciadas por su relación con lo divino, debido a su forma, hermosura y aroma. </br>Sahagún la refiere también como \"tlazoizquixochitl\" y la describe como \"la acuilloxochitl blanca\", y con este mismo nombre aparece en el <i>Códice De la Cruz-Badiano</i>, pero en este caso parece tratarse de una especie distinta. </br>Hoy es conocida comúnmente como flor de jazmín y sigue siendo apreciada por su olor y belleza.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "<ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún, <i>Historia general de las cosas de la Nueva España</i>, <i>ca</i>. 1540: <i>Libro XI, de las cosas naturales; capítulo séptimo, en que se trata de todas las hierbas</i>; <i>párrafo décimo</i>,<i> de los arbustos que ni son bien árboles ni bien hierbas y de sus flores</i>; f. 192r, referida como “acuilloxochitl” en texto náhuatl, y f. 193r, referida como “tlacoizquixochitl” en texto náhuatl.</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, <i>ca.</i> 1577: <i>Capítulo LXXXIV</i>, <i>Del Aquílotl o planta voluble que nace junto a las aguas</i>.</li></ul>",
-        }
-      ]
-    },
-    
-    {
-      id_flor: 2,
-      titulo: "Ololiuhqui y toloache",
-      ficha: "GBF_02_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_02_x01_ES.png",
-          img_02: "GBF_02_x02_ES.png",
-          img_03: "GBF_02_x03_ES.png",
-          img_0n: "GBF_02_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_02_n01_ES.png",
-          img_02: "GBF_02_n02_ES.png",
-          img_03: "GBF_02_n03_ES.png",
-          img_0n: "GBF_02_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_02_d01_ES.png",
-          img_02: "GBF_02_d02_ES.png",
-          img_03: "GBF_02_d03_ES.png",
-          img_0n: "GBF_02_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "Las designaciones <i>ololiuhqui</i> y toloache corresponden a dos familias botánicas distintas que, a su vez, dan cabida a diversas especies, pero que pueden verse igualmente evocadas en la escultura de Xochipilli porque comparten algunas características morfológicas, así como por la capacidad de alterar en diversos grados el estado de conciencia, atributo relacionado con lo divino en el mundo mesoamericano. </br>Ambas familias de flores crecen en zonas templadas y tropicales, a la orilla de los caminos y entre las milpas, lo que las relaciona con el ciclo agrícola; se les puede encontrar en las sementeras desde el inicio de la época de lluvias hasta el mes de octubre. Se distinguen unas de otras en que las plantas de <i>ololiuhqui</i> crecen como enredadera, mientras que las de toloache son erguidas. </br>Ambos grupos de plantas poseen propiedades tanto psicotrópicas como medicinales. Es necesario precisar que la palabra náhuatl <i>ololiuhqui</i> se refiere a la semilla, mientras que el nombre de la planta en general es <i>coaxoxouhqui</i>, \"serpiente azul\". La ingestión de esta semilla molida puede producir alteraciones perceptivas. Sobre sus propiedades medicinales hay múltiples menciones en los códices <i>Florentino</i> y <i>Durán</i> y en la <i>Historia natural</i>… de Francisco Hernández. La semilla se aplica como remedio tópico para la gota. También, molida junto con el <i>picietl</i> o tabaco, tiene la \"extraña virtud de desvanecer y almadiar que aplicado por vía de emplasto amortigua las carnes\", y además alivia \"admirablemente los huesos luxados o rotos y la cintura relajada de las mujeres, fortaleciéndolas\". Del resto de la planta se mencionan también diversas bondades: la corteza molida alivia males estomacales, el corazón oprimido y la fiebre; la raíz molida funciona como purgante. </br>En cuanto al toloache, los efectos psicotrópicos son de alta intensidad. De acuerdo con Sahagún quitan el apetito, \"emborrachan y enloquecen perpetuamente\".</br>Las propiedades medicinales del toloache incluyen el alivio de la gota, de la hinchazón, de la fiebre y del dolor de pecho aplicado como ungüento; y mitiga la sordera instilado en las orejas, e induce el sueño poniendo sus hojas bajo la almohada.",
-          title_02: "Simbolismo",
-          txt_02: "En el mundo mesoamericano los hongos y las plantas que provocaban estados alterados de conciencia e inducían al trance en contextos rituales, ya fuera en la práctica médica o religiosa, fueron sumamente apreciados y a veces temidos. Su dimensión sagrada para los mexicas, y aún hoy para algunos pueblos originarios, reside en su poder para entablar comunicación con los dioses y para colocarse en un plano metafísico de la existencia. Su presencia en Xochipilli, a través de la evocación de las flores y vainas del <i>ololiuhqui</i> y el toloache, recalca la importancia de las flores en el mundo mexica como materia divina poseedora de innumerables cualidades, desde las más sensuales y terrenas como el aroma y la belleza, hasta las más sublimes como ser el camino para alcanzar el diálogo con lo divino. </br>Si bien fray Bernardino de Sahagún resalta los efectos del <i>ololiuhqui</i> como negativos, al advertir que \"esta semilla emborracha y aloquece […] y los que la comen parécenles que ven visiones y cosas espantables\", fray Diego Durán pone de manifiesto su contexto sagrado y ritual al mencionarla como ingrediente del \"endemoniado ungüento\" llamado <i>teotlacualli</i> o \"comida divina\" que se untaban los jóvenes del <i>telpochcalli</i>, la escuela religiosa para varones, en diversos contextos ceremoniales. De la misma forma, Hernández relata que \"los sacerdotes indios, cuando querían simular que conversaban con los dioses y recibían respuestas de ellos, comían esta planta para delirar y ver mil fantasmas y figuras de demonios\". </br>Las semillas de <i>ololiuhqui</i> eran también ingeridas por quienes iban a ser sacrificados, justo antes de su muerte, ya que provocaban una sensación de euforia y posteriormente sueño, además de modificar la percepción del dolor.</br>En el mismo contexto ritual y ceremonial, la flor del <i>ololiuhqui</i> es también referida. Sahagún la menciona como parte del conjunto de \"flores preciosas, de olor dulce y fragante\" que se ofrecían a Huitzilopochtli el día de su signo, uno pedernal, resaltando así la importancia de la flor en sí misma y de su aroma como algo precioso, digno de ser ofrendado.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	flores:[
+	{
+		id_flor: 1,
+		titulo: "",
+		ficha: "GBF_01_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: "GBF_01_x01_EN.png",
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_01_n01_EN.png",
+			img_02: "GBF_01_n02_EN.png",
+			img_03: "GBF_01_n03_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_01_d01_EN.png",
+			img_02: "GBF_01_d02_EN.png",
+			img_03: "GBF_01_d03_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>This intensely fragrant flower widely used for ornamental purposes blooms from August to November in oak groves and tropical deciduous forests.</p><p>The leaves of this plant had a medicinal use: \"taken by a handful with wine, they eliminate flatulence, and crushed and applied they loosen tight members and resolve tumors,\" according to Francisco Hernández in 1577.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>Beyond its association with a specific botanical classification, the four-petalled flower is repeatedly depicted throughout Mesoamerica as a metaphor for the horizontal geometry of the universe, with its four directions and center.</p><p>In the Mexica world of flowers, the <i>aquilotl</i> was a highly prized four-petalled species, not only because it reflected the world’s structure, but also for its beauty, which made it one of the preferred flowers for making crowns and bouquets, and for its intense fragrance, whose essence was extracted \"using the heat of fire\" to be used as a perfume. Fray Bernardino de Sahagún placed special emphasis on highlighting the qualities of seduction and fascination of its fragrance, which \"is dense, it insinuates, embraces, continues embracing, surrounds,\" evoking the sensual dimension of flowers as a source of joy and pleasure, a facet also present in the complex and rich nature of the god Xochipilli. The union of all these qualities in the same flower could have made it one of the most valued species for its ties to the divine, stemming from its shape, loveliness, and aroma.</p><p>Sahagún also refers to it as \"tlazoizquixochitl\" and describes is as the \"white acuilloxochitl,\" and this same name appears in the <i>Codex De la Cruz-Badiano</i>, but there it seems to be a different species.</p><p>Today it is commonly known as jasmine flower and it continues to be appreciated from its aroma and beauty.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún, <i>Historia general de las cosas de la Nueva España</i>, 1540-1577: (Florentine Codex) <i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Tenth Paragraph</i>, which<i> telleth of those... which also appear herb-like,</i> on fol. 192r, referred to as \"acuilloxochitl\" in the Nahuatl text, and fol. 193r, referred to as \"tlacoizquixochitl\" in the Nahuatl text. <i></li><li></i>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577: <i>Chapter 84</i>, <i>Of the Aquilotl or Voluble Plant that Is Born next to Waters</i>.</li></ul></p>",
+		}
+		]
+	},
+	{
+		id_flor: 2,
+		titulo: "",
+		ficha: "GBF_02_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: "GBF_02_x01_EN.png",
+			img_02: "GBF_02_x02_EN.png",
+			img_03: "GBF_02_x03_EN.png",
+			img_04: "GBF_02_x04_EN.png",
+			img_05: "GBF_02_x05_EN.png",
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_02_n01_EN.png",
+			img_02: "GBF_02_n02_EN.png",
+			img_03: "GBF_02_n03_EN.png",
+			img_04: "GBF_02_n04_EN.png",
+			img_05: "GBF_02_n05_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_02_d01_EN.png",
+			img_02: "GBF_02_d02_EN.png",
+			img_03: "GBF_02_d03_EN.png",
+			img_04: "GBF_02_d04_EN.png",
+			img_05: "GBF_02_d05_EN.png",
+			img_06: "GBF_02_d06_EN.png",      
+			img_07: "GBF_02_d07_EN.png",
+			img_08: "GBF_02_d08_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The names <i>ololiuhqui</i> and <i>toloache</i> correspond to two different botanical families, which also include diverse species. They are both evoked on the Xochipilli sculpture, because they share morphological characteristics and the capacity to alter human consciousness to differing degrees, an attribute tied to the divine in the Mesoamerica world.</p><p>Both families of flowers grow in temperate and tropical zones, beside paths and in milpas (corn fields), which relate them to the agricultural cycle; they can be found in sown fields from the start of the rainy season to October. They differ in that <i>ololiuhqui</i> grows like a creeper, whereas toloache grows erect.</p><p>Both plant groups have psychotropic and medicinal properties. It should be pointed out that the Nahuatl word <i>ololiuhqui</i> refers to the seed, while the name of the plant in general is <i>coaxoxouhqui</i>, \"blue serpent.\" Ingesting the pulverized seed can produce sensory alterations. As for its medicinal properties, multiple references appear in the <i>Florentine Codex</i>, in Durán’s <i>Historia</i>, and in Francisco Hernández’s <i>Historia natural</i>. The seed is applied as a topical remedy for gout. Also, ground up with <i>picietl</i> (tobacco), it has the \"strange virtue of causing faintness and dizziness which when applied as a poultice numbs flesh,\" and it also \"admirably [relieves] dislocated or broken bones and the relaxed waist of women, strengthening it.\" Other benefits of the rest of the plant are also mentioned; the ground bark relieves stomach ailments, pressure on the heart, and fever; the ground root works as a purgative.</p><p>As for <i>toloache</i>, it produces intense psychotropic effects. According to Sahagún it eliminates hunger and makes people \"perpetually perturbed and maddened.\"</p><p>Medicinal properties of <i>toloache</i> include relief from gout, swelling, fever, and chest pain when applied as a salve; it also mitigates deafness in the ears and induces drowsiness when its leaves are placed under the pillow.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>In the Mesoamerican world mushrooms and plants that provoked altered states of consciousness and induced trances in ritual contexts, whether medical or religious, were highly prized and at times feared. Their sacred dimension for the Mexicas and even today for some indigenous peoples, resided in their power to establish communication with the gods and to put people on a metaphysical plane of existence. Their presence on Xochipilli, through the evocation of <i>ololiuhqui</i> and <i>toloache</i> flowers and vines, reinforces the importance of flowers in the Mexica world as divine matter controlling innumerable qualities, from the sensory and earthly such as aroma and beauty, to the sublime, as the path establishing dialogue with the divine.</p><p>Although Fray Bernardino de Sahagún emphasized the effects of <i>ololiuhqui</i> as negative, by warning that \"this seed perturbs and maddens... and those who consume them seem to see visions and terrifying things,\" Fray Diego Durán describes their sacred and ritual context by listing it as an ingredient in the \"wicked salve\" called <i>teotlacualli </i>or \"divine food\" that was rubbed on youths in the <i>telpochcalli</i>, the religious school for boys, in various ceremonial contexts. Likewise, Hernández states that \"the Indian priests, when they wished to simulate that they were speaking with the gods and received answers from them, they ate this plant to become delirious and see a thousand ghosts and figures of devils.\"</p><p><i>Ololiuhqui</i> seeds were also ingested by those who were to be sacrificed, right before their death, because they provoked a sensation of euphoria and then drowsiness, while buffering their perception of pain.</p><p>In the same ritual and ceremonial context, <i>ololiuhqui</i> flowers are also mentioned. Sahagún speaks or if as part of the group of \"precious, sweet-smelling and fragrant flowers\" that were offered to Huitzilopochtli on the day of his calendrical sign, One Flint, thus highlighting the importance of the flower and its aroma as something precious, worthy of being offered.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><b>On <i>ololiuhqui</i>:</b></p><p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-first Chapter, which telleth of the tenth sign, called One Flint Knife,</i> on fol. 47r as \"ololiuhqui.\"</li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs; First Paragraph, in which are told the name of the many different herbs which perturb, madden one</i>, on fol. 129v as \"Coatlxoxouhqui\"; <i>Fifth Paragraph, which telleth of the medicinal herbs and of different herbs, no. 94</i>, on fol. 157r as \"ololiuhqui or xixicamatic\"; <i>Fifth Paragraph, which telleth of the medicinal herbs and of different herbs, no. 110,</i> on fol. 162r as \"ololiuhqui or huey itzotecon.\"</li></ul><li>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, ca. 1579: Second Part, Chapter 5, which<i> treats of the Temple of Tezcatlipoca, of the priestly hierarchies, and of the ceremonies</i>, on fol. 248r as \"ololiuhqui.\"<i> </li><li></i>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577: Fourteenth Book, Chapter 1, <i>Of</i> <i>Ololiuhqui or Plant with Round Leaves</i>.</li></ul></p><p><b>On toloache:</b></p><p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún, <i>Historia general de las cosas de la Nueva España</i>, 1540-1577: <i>Book 11: Earthly Things; Seventh Chapter, which telleth of all the different herbs; First Paragraph, in which are told the name of the many different herbs which perturb, madden one</i>, on fol. 130r as \"tlapatl\"; <i>Fifth Paragraph, which telleth of the medicinal herbs, no. 28,</i> on fol. 142v as \"tlapatl\"<i>,</i> <i>no. 31</i> on fol. 142v as \"toloa.\"<i></li><li></i>Martín de la Cruz, <i>Códice De la Cruz-Badiano, </i>1552, on fol. 25r referred to as \"Tolouaxihuitl\" and fol. 29r as \"Tolohuaxihuitl.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577: Chapter 35, <i>Of Tlapatl</i>; <i>Chapter 43, Of Esqua; Chapter 63, Of Toloatzin</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 3,
-      titulo: "Nombre inglés 3",
-      ficha: "GBF_03_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_03_x01_ES.png",
-          img_02: "GBF_03_x02_ES.png",
-          img_03: "GBF_03_x03_ES.png",
-          img_0n: "GBF_03_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_03_n01_ES.png",
-          img_02: "GBF_03_n02_ES.png",
-          img_03: "GBF_03_n03_ES.png",
-          img_0n: "GBF_03_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_03_d01_ES.png",
-          img_02: "GBF_03_d02_ES.png",
-          img_03: "GBF_03_d03_ES.png",
-          img_0n: "GBF_03_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "La planta del tabaco es principalmente de tierras tropicales y su esplendor coincide con la época de lluvias, aunque asistida con riego crece durante todo el año. La que se consumía en la cuenca de México en el siglo XVI para sus múltiples usos quizá se importaba de Oaxaca o de Veracruz. Era muy valorada tanto por sus semillas y hojas como por sus flores. </br>En su relación sobre hierbas medicinales, Sahagún se refiere al tabaco como <i>picietl</i> y menciona sus propiedades antiinflamatorias y vigorizantes; pero también advierte que, masticado, intoxica, marea y destruye el apetito. Durán, por su parte, relata que se mezclaba con cal para atenuar su toxicidad (<i>tenexyetl</i>), y afirma que el <i>picietl</i> \"es una yerba que los indios usan para amortiguar las carnes y no sentir el trabajo\", refiriendo así su uso cotidiano. Hernández lo confirma diciendo que es \"un medicamento de tal suerte apetecido por todos los indios, que los mercados están llenos de él\". Pero en lo que más hace énfasis Hernández es en sus múltiples usos medicinales. Las hojas puestas a secar y fumadas en cañutos de caña \"provocan admirablemente la expectoración, alivian el asma como por milagro\", y en otras diversas preparaciones tratan un sinnúmero de padecimientos, que van desde los dolores musculares y las complicaciones del útero hasta las caries dentales.</br>Pero al hablar de sus flores, Sahagún dedica elocuentes menciones a diversas variedades de <i>yiexóchitl</i> o flor de tabaco, la mayoría destinadas a ser cultivadas en jardines y de las que destacó enfáticamente su fragante perfume y su cualidad de agradar. Describe con especial detalle, evocando la labor casi contemplativa \"por arte de oficiales que hacen flores\", el proceso de floración de la <i>yiexóchitl</i>, durante el cual los botones \"engordan, se inflaman, se agrandan, se rompen, abren, se ensanchan y producen un aroma, un aroma agradable\"; designa este olor incluso como \"precioso\", algo que viene por \"merecimiento\", que da \"solaz\"; y relata finalmente sobre la <i>chalchiuhyiexóchitl</i>, variedad de color verde como el jade, que es \"maravillosa, admirable, deseable, siempre demandada, apetecida; útil, siempre útil\".",
-          title_02: "Simbolismo",
-          txt_02: "El amplísimo espectro de usos y significados de la planta del tabaco, junto con su inmenso poder, tan divino como peligroso, le dieron un lugar primordial entre las sustancias de mayor valor y arraigo en la sociedad mexica en todos los estratos y dimensiones de su cultura, desde las más cotidianas hasta las más sagradas; ya fuera para ser adquirida en el tianguis como <i>tenexyetl</i>, con el fin de hacer más llevaderas las labores cotidianas; o para ser ostentada en el cinto sólo por principales, médicos o parteras, o como parte de la parafernalia ceremonial en los templos dentro de \"una calabaza mediana […] toda injerta de rosas [donde] venían muchas pelotillas de piciete y otras de tizne: esta calabaza llamaban iyetecon\", según cuenta fray Diego Durán; o bien para ser ofrendadas sus semillas en el Templo Mayor de Tenochtitlan, según cuentan los hallazgos arqueológicos. El tabaco se elevaba hasta los estratos divinos al guardar estrecha relación con deidades como Toci y Cihuacóatl. </br>El tabaco como planta, con todas sus bondades, naturaleza sagrada e inmensa relevancia cultural para los mexicas, se hace presente en la escultura de Xochipilli a través de su flor. Su cualidad de \"útil\" tan apasionadamente reiterada por Sahagún quizá congrega simbólicamente en ella todas las virtudes de la planta. Pero son sus flores en sí mismas las que cobran una importancia mayor, nuevamente como símbolo de lo precioso, que en el caso particular de éstas, al ser valoradas como signo de \"merecimiento\" y fuente de \"solaz\", apelan más bien a estratos más profundos del espíritu, de mayor trascendencia que el mero placer que el aroma y la belleza son capaces de despertar. Según relata Sahagún, variedades amarillas y azules de <i>yiexóchitl</i> formaban parte del conjunto de \"flores preciosas, de olor dulce y fragante\" ofrecidas a Huitzilopochtli el día de su signo, uno pedernal, elevando la semántica de la fragancia de lo sensual a lo sagrado. Al mismo tiempo, en su relato sobre la fiesta <i>Uey Tecuilhuitl</i> dedicada a Xilonen, diosa del maíz tierno, Sahagún resalta cómo era permitido por vez primera en el año oler \"la dulzura de las flores, de la cempasúchil y la flor de tabaco\", de la misma manera en que se podían comer los primeros frutos de las cosechas. La fragancia de estas flores es allí metáfora de fertilidad y de vida en el universo ritual. </br>Pero también las flores como ofrenda aromática son alimento de los dioses, y al mismo tiempo, símbolo del canto, con todas sus connotaciones de alegría, regocijo y elocuencia de origen e inspiración divina: \"Preciosas flores de tabaco son/ nuestro adorno/ […] Sólo las tenemos prestadas en la/ tierra. […] Las flores embriagan mi corazón,/ suntuosas flores de tabaco abren/ su corola;/ ando en los pétalos de esas flores/ encantadoras\" (<i>Romances de los Señores de la Nueva España</i>). </br>Xochipilli manifiesta así, en cada una de las flores que porta, la complejidad y el sinfín de matices que se encarnan en una sola deidad, con sus aspectos más terrenales hasta los más trascendentes y divinos. </br>Hoy en día el tabaco fumado en un contexto ritual está presente en las ceremonias en torno de la lluvia, tanto de petición como de agradecimiento, y en diversas comunidades agrícolas del centro de México. Existe también un creciente interés en la planta del tabaco por los \"oficiales que hacen flores\" contemporáneos, con fines ornamentales para jardines y sembradíos, por la belleza de sus flores y más por su intensa fragancia en algunas de sus variedades.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 3,
+		titulo: "",
+		ficha: "GBF_03_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: "GBF_03_x01_EN.png",
+			img_02: "GBF_03_x02_EN.png",
+			img_03: "GBF_03_x03_EN.png",
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_03_n01_EN.png",
+			img_02: "GBF_03_n02_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_03_d01_EN.png",
+			img_02: "GBF_03_d02_EN.png",
+			img_03: "GBF_03_d03_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The tobacco plant is principally from tropical lands and its splendor coincides with the rainy season, although it can be grown year-round with the help of irrigation. The variety consumed in different ways in the Basin of Mexico in the sixteenth century might have been imported from Oaxaca or from Veracruz. It was highly valued for its seeds and leaves, as well as its flowers.</p><p>In his account of medicinal herbs, Sahagún refers to tobacco as <i>picietl</i> and mentions its anti-inflammatory and invigorating properties, but he also warns that, if chewed, it intoxicates, causes dizziness, and kills the appetite. Durán, in turn, states it was mixed with lime to diminish its toxicity (<i>tenexyetl</i>), and he states that <i>picietl</i> \"is an herb that the Indians use to deaden the flesh to not feel work,\" referring to its everyday use. Hernández confirms this by saying it is \"a medicine so craved by all the Indians that the markets are filled with it.\" But what Hernández emphasizes the most are its multiple medicinal uses. The leaves when dried and smoked in reed tubes \"admirably provoke expectoration, they relieve asthma as if miraculously,\" and in other preparations they are used to treat countless ailments, ranging from muscle pain and uterine complications to dental cavities.</p><p>But speaking of its flowers, Sahagún devotes eloquent passages to diverse varieties of <i>yiexochitl</i> or tobacco flowers, mostly grown in gardens; he emphatically refers to its fragrant perfume and its pleasing quality. He describes it in special detail, evoking the almost contemplative work done \"by the art of craftspeople who make flowers,\" the flowering process of the <i>yiexochitl</i> when the buds \"become fat, swell, become large, burst, open, expand, and produce an aroma, a pleasing aroma.\" Even the smell is described as \"precious,\" something that comes for \"merit,\" that gives \"solace.\" Finally he tells of the <i>chalchiuhyiexochitl</i>, a variety green like jade, which is \"marvelous, admirable, desirable, always in demand, craved; useful, always useful.\"</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The broad spectrum of the tobacco plant’s uses and meanings, together with its immense power, both divine and dangerous, earned it a primordial place among the substances of greatest value and tradition at all levels of Mexica society in all its cultural dimensions, from the most ordinary to the most sacred contexts. It could be acquired in outdoor markets as <i>tenexyetl</i> to relieve fatigue from daily physical labor or be flaunted on the belts of noblemen, doctors, or midwives, or serve as part of the ceremonial paraphernalia in temples in \"a medium-sized gourd... perforated with holes, and in each one of these had been placed a flower. It was also adorned with little balls of tobacco and soot; this gourd was called Iyetecon (his little gourd),\" according to Fray Diego Durán; or else for its seeds to be offered in the Templo Mayor (Great Temple) of Tenochtitlan, as borne out by archaeological finds. Tobacco was raised to divine status given its close relationship with deities such as Toci and Cihuacoatl.</p><p>Tobacco as a plant, with all its boons, sacred nature, and immense cultural importance for the Mexicas, is present as a flower on the Xochipilli sculpture. Its \"usefulness\" so passionately lauded by Sahagún perhaps symbolically brings to bear all the plant’s virtues. However, tobacco flowers take on the greatest significance as a symbol of preciousness, which in this particular case, are valued as a sign of \"merit\" and a source of \"solace,\" appealing more to the spirit’s innermost depths and of greater transcendence than the mere pleasure its aroma and beauty could arouse. In Sahagún’s account, yellow and blue varieties of <i>yiexochitl</i> were part of the group of \"precious flowers, sweet-smelling and fragrant\" offered to Huitzilopochtli on the day of his calendrical sign, One Flint, elevating the semantics of the fragrance from the sensory to the sacred. At the same time, in his account on the feast day <i>Uey Tecuilhuitl</i> dedicated to Xilonen, the young maize goddess, Sahagún points out how it was permitted for the first time in the year to smell \"the sweetness of the flowers, of the marigold, of the tobacco flower,\" in the same way that the first fruits of the harvest could be eaten. There the fragrance of these flowers becomes a metaphor for fertility and life in the ritual universe.</p><p>However, flowers as an aromatic offering were also food for the gods, as well as the symbol of song, with all its connotations of joy, delight, and eloquence of divine origin and inspiration: \"Precious tobacco flowers are / our adornment /... They are only lent to us on / earth.... The flowers intoxicate my heart, / sumptuous tobacco flowers open / their corolla; / I wander in the petals of those enchanting / flowers\" (<i>Romances de los Señores de la Nueva España</i>).</p><p>Thus, in each of the flowers on his body, Xochipilli expresses the complexity and infinite nuances embodied in a single deity, with his most earthly aspects to the most transcendent and divine.</p><p>Today tobacco smoked in a ritual context is present in various agricultural communities in Central Mexico in ceremonies for rain, both to petition it and to give thanks to it. There is also a growing interest in the tobacco plant on the part of contemporary landscape architects for ornamental purposes in gardens and planted fields, for the beauty of its flowers not to mention the intense fragrance of some tobacco varieties.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods; Twenty-seventh Chapter, which telleth of the feasts and sacrifices which they made upon the days of the eighth month, which was called Uey tecuilhuitl,</i> on fol. 57r as \"in jesuchitl\" in the Nahuatl text. </li><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-first Chapter, which telleth of the tenth sign, called One Flint Knife, </i>on fol. 47r as \"in coztic iiexochitl, auh in xoxouhqui iiexochitl,\" \"yellow and blue tobacco flowers,\" in the Nahuatl text. </li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Fifth Paragraph, which telleth of the medicinal herbs, no. 25</i>, on fol. 142r as \"Picietl\"<i>; Eighth Paragraph, which telleth of blossom petals and of stalks,</i> on fol. 185v as \"Cozauhqui yiexochitl<i>\"</i> and as \"Chalchiuhyiexochitl\"; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like, </i>on fol. 193r as \"Iiesichutl\" and as \"Cozticyiesuchitl\"; and on fol. 193v as \"Quauhyiesuchitl.\" <i></li><li>Book 12, The Conquest of Mexico; Sixteenth Chapter, here is related how Moctezuma went in peace and calm to meet the Spaniards there at Xoloco,</i> on fol. 24v, as \"iiesuchitl\" in the Nahuatl text.<i></li></ul><li></i>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, ca.1579. Second part, <i>Chapter 4, which treats of the god known as Tezcatlipoca and of the manner in which he was honored,</i> on fol. 244r as \"piciete\"; <i>Chapter 5, which treats of the Temple of Tezcatlipoca, of the priestly hierarchies, and of the ceremonies,</i> on fols. 247v and 248r as \"piciete.\" </li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577, <i>Chapter 109,</i> <i>Of Picietl or Yetl Herb</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 4,
-      titulo: "Nombre inglés 4",
-      ficha: "GBF_04_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_04_x01_ES.png",
-          img_02: "GBF_04_x02_ES.png",
-          img_03: "GBF_04_x03_ES.png",
-          img_0n: "GBF_04_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_04_n01_ES.png",
-          img_02: "GBF_04_n02_ES.png",
-          img_03: "GBF_04_n03_ES.png",
-          img_0n: "GBF_04_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_04_d01_ES.png",
-          img_02: "GBF_04_d02_ES.png",
-          img_03: "GBF_04_d03_ES.png",
-          img_0n: "GBF_04_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "\"Ay unas flores que se llaman Xilosuchitl, son coloradas y a manera de borlas deshiladas […] no son olorosas pero son hermosas\", dice fray Bernardino de Sahagún en su relación en castellano sobre las flores de árboles y arbustos. Esta especie crece en la selva baja caducifolia y en los bosques templados y florece a finales de la época seca, cuando su árbol no tiene hojas. </br>Quizá para los mexicas su característica más llamativa hayan sido sus estambres o filamentos, tan evocativos de los cabellos de la mazorca tierna, en un vivísimo tono escarlata, según lo enfatiza Sahagún: \"son rojos como el chile, se extienden, irradian, se esparcen, como seda de maíz\". Resulta muy significativo que, sin estar relacionada con la planta del maíz, los mexicas la hayan denominado \"flor de jilote\". </br>Francisco Hernández menciona propiedades medicinales de la corteza de la raíz de la planta, como antiséptica y analgésica bucal y beneficiosa para los riñones. </br>Pero su relevancia radica en su condición de flor <i>preciosa</i> y de ofrecimiento, tal vez por su tan característica fisonomía, muy atractiva por lo sugerente de su color y forma en el contexto del universo simbólico mexica. El mismo Hernández puntualiza que hay otras variedades de esta planta sumamente similares en forma y propiedades, abriendo el abanico hacia distintas flores y, al mismo tiempo, resaltando aquellas particularidades de fisonomía que las unen en un mismo ente simbólico. ",
-          title_02: "Simbolismo",
-          txt_02: "La <i>xiloxóchitl</i> o \"flor de jilote\" es una de las flores más paradigmáticas en el arte mexica por su rica y reiterada representación. Iconográficamente se arraiga con profundidad en su imaginario visual; en algunos casos por ser la elegida para plasmar a la flor en sí misma, apelando a todos sus significados y valores cosmogónicos; en otros, por la intención de evocar específicamente a la <i>xiloxóchitl</i> y los signos propios de su naturaleza. Aparece en documentos antiguos como parte del atavío de diversas deidades y en otros diferentes contextos, además de en la producción artística mexica, como en la escultura de Xochipilli, lo que denota su amplio y rico universo simbólico.</br>El elocuente glifo toponímico de Xiloxochitlán del <i>Códice Mendoza</i>, que ostenta tres de estas flores con su color rojo intenso brotando de un árbol, es el que nos da la clave y punto de partida para sus siguientes niveles de lectura. En seguida, los textos de Sahagún nos abren más la puerta al universo de profundos significados sobre esta flor. Su presencia en fiestas del calendario ritual mexica como regalo sagrado para los dioses se ejemplifica en su narración de la fiesta de la \"ofrenda de flores\" o <i>Tlaxochimaco</i>, dedicada a Huitzilopochtli, dios tutelar mexica, y a todos los dioses; en ella relata que \"dos días antes que llegase esta fiesta, toda la gente se derramaba por los campos y maizales a buscar flores\", entre las que se nombra a la <i>xiloxóchitl</i>, para urdirlas todas juntas al amanecer en gruesas y largas guirnaldas de múltiples y diversas flores que \"eran manejadas con estima y reverencia\". Así, la flor, en todo su esplendor, variedades, formas y colores, era buscada, recolectada, preparada y ofrendada como el regalo más precioso del pueblo a su dios. </br>De esta misma manera, como parte de un todo diverso y sagrado, la <i>xiloxóchitl</i> aparece retoñando del árbol florido, símbolo del árbol cósmico o <i>axis mundi</i> que contiene el eterno fluir de la vida y la muerte, en el <i>Códice Magliabechiano</i>. </br>No pasa inadvertido que la <i>xiloxóchitl</i> aparece en ambos lados del tronco y además lo corona, y que una mariposa liba de sus estambres. Sobre esto, Sahagún nos revela que las mariposas, junto con los colibríes y otras aves, encarnan las almas de los guerreros muertos en batalla pasados cuatro años de su estancia en la casa del sol, y en esta forma regresan a la tierra a libar la miel precisamente de la <i>xiloxóchitl</i> y de otras flores que ostentan, como ella, prolongaciones de color rojo escarlata. Así se ilustra en el <i>Códice Tudela</i>, en el que vemos un colibrí libando del tocado de flores de <i>xiloxóchitl</i> que portan algunas deidades.</br>Todo ello nos arroja luz sobre el significado de la mariposa como reiterado motivo sobre el pedestal de la escultura de Xochipilli. </br>La <i>xiloxóchitl</i> también se relaciona con el grupo de dioses de Macuilxóchitl-Xochipilli, conjunto que abarca un amplio universo en el que, sumados a las flores, se encuentran la música, el juego, la poesía, el gozo y la sensualidad. Además de vestir al dios Macuilxóchitl en una escena de juego en el <i>Códice Tudela</i>, la <i>xiloxóchitl</i> aparece saliendo de la boca de un personaje como vírgula florida, símbolo de la palabra dicha en el canto. </br>En la escultura de Xochipilli, esta flor cumple ambas funciones: la de representar a la <i>xiloxóchitl</i> como una de las flores más preciadas del universo floral mexica por los atributos y las evocaciones propios de su naturaleza, y la de hacer presente a la flor como ente universal y diverso a través de su amplísimo y complejo repertorio iconográfico, y del que esta flor en particular es ícono predilecto.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 4,
+		titulo: "",
+		ficha: "GBF_04_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: "GBF_04_x01_EN.png",
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_04_n01_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_04_d01_EN.png",
+			img_02: "GBF_04_d02_EN.png",
+			img_03: "GBF_04_d03_EN.png",
+			img_04: "GBF_04_d04_EN.png",
+			img_05: "GBF_04_d05_EN.png",
+			img_06: "GBF_04_d06_EN.png",
+			img_07: "GBF_04_d07_EN.png",
+			img_08: "GBF_04_d08_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>\"<i>There are flowers that are called xilosuchitl, they are red and like frayed tassels...:they are not fragrant, but they are beautiful,\"</i> says Fray Bernardino de Sahagún in his account in Spanish on the flowers on trees and shrubs. This species grows in deciduous forests and in temperate forests and they bloom at the end of the dry season, when the tree has lost its leaves.</p><p>Perhaps for the Mexicas its most noteworthy characteristics were its stamens or filaments, strongly evocative in its vivid scarlet hue of the hairs on the young maize, as Sahagún emphasizes: they are \"chili red, extending, radiating, spreading, like maize silk.\" It is highly significant that, without actually being related to the maize plant, the Mexicas had dubbed it \"jilote (corn) flower.\"</p><p>Francisco Hernández mentions the medicinal properties of the skin covering the plant’s root, as an antiseptic and analgesic for the mouth and as beneficial for the kidneys.</p><p>However, its significance resides in its status as <i>precious</i> flower appropriate for offerings, perhaps for its characteristic physiognomy, highly attractive for its suggestive color and shape in the Mexica symbolic universe. Hernández comments on other varieties of this plant extremely similar in form and properties, opening the array to different flowers, while also highlighting the formal particularities that united them into a single symbolic entity.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The <i>xiloxochitl</i> or \"jilote (corn) flower\" is one of the most paradigmatic flowers in Mexica art for its richness and recurrent depiction. Iconographically, it has deep roots in Mexica visual imagery; at times showing the flower itself, alluding to all its meanings and cosmogonic values; at others, specifically evoking the <i>xiloxochitl</i> and signs of its nature. It appears in ancient documents among the insignia of diverse deities and in other contexts, as well as in Mexica art, such as the Xochipilli sculpture, which denotes its broad, complex symbolic universe.</p><p>The eloquent place name of Xiloxochitlan in the <i>Codex Mendoza</i>, showing three of these flowers with their intense red color sprouting from a tree, provides the key and starting point for the next levels of its interpretation. Sahagún’s texts open the door to the universe of this flower’s profound meanings. Its presence at feast day celebrations in the Mexica ritual calendar as a sacred gift for the gods is exemplified in the description of the celebration of \"The Flowers Are Offered\" or <i>Tlaxochimaco</i> to honor Huitzilopochtli, the Mexica patron god, and all the gods; in it Sahagún states, \"two days before the feast, when flowers were sought, all scattered over the mountains, that every flower might be found,\" followed by a list of flowers, including the <i>xiloxochitl</i>, to string them together at dawn into thick, long garlands of a variety of flowers that \"were handled with esteem, and cared for with reverence.\" In this way, the flower, in all its splendor, varieties, forms, and colors, was sought, gathered, prepared, and offered as the people’s most precious gift to their gods.</p><p>Similarly, as part of a diverse and sacred whole, the <i>xiloxochitl</i> appears sprouting from the flowery tree, the symbol of the cosmic tree or <i>axis mundi</i> holding the eternal fruit of life and death in the <i>Codex Magliabecchi</i>.</p><p>Significantly, the <i>xiloxichitl</i> appears on both sides of the trunk as well as crowning it, as a butterfly sips from its stamens. On this point, Sahagún reveals that butterflies along with hummingbirds and other birds embody the souls of warriors who died in battle after spending four years in the House of the Sun, only to return to earth to sip the nectar of the <i>xiloxochitl</i> and other flowers also with long feathery scarlet filaments. This is illustrated in the <i>Códice Tudela</i>, where we can see a hummingbird sipping from the <i>xiloxochitl</i> flowers in the headdress worn by some deities.</p><p>All of this sheds light on the significance of the butterfly as a recurrent motif on the pedestal of the Xochipilli sculpture.</p><p>The <i>xiloxochitl</i> is also related to the deity group Macuilxochitl-Xochipilli, which encompasses a sweeping universe of flowers, music, games, poetry, enjoyment, and sensuality. In addition to dressing the god Macuilxochitl in a scene showing the <i>patolli</i> game in the <i>Códice Tudela</i>, the <i>xiloxochitl</i> appears as a flowery speech scroll from the mouth of one of the participants, symbolizing the words of a song.</p><p>In the Xochipilli sculpture, this flower fulfills both functions: representing the <i>xiloxochitl</i> as one of the most highly prized flowers in the Mexica floral universe through the attributes and evocations of its nature, and invoking the flower as a rich universal entity through its complex iconographic repertoire, in which this flower in particular was a favored icon.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods; Twenty-eighth Chapter, which telleth of the feast and offerings which they made upon the feast days of the ninth month, which was named Tlaxochimaco,</i> on fol. 59r as \"xilosuchitl\" in the Spanish text. </li><li><i>Book 3, The Origin of the Gods; Appendix, Third Chapter, in which are recorded those who went to heaven,</i> on fol. 29r as \"xilohxochitl\" in the Nahuatl text.</li><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-first Chapter, which telleth of the tenth sign, called One Flint Knife,</i> on fol. 47r as \"xiloxochitl\" in the Nahuatl text. </li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Tenth Paragraph</i>, which<i> telleth of those... which also appear herb-like,</i> on fol. 191v as \"xiloxochitl.\" <i></li></ul><li></i>Martín de la Cruz, <i>Códice De la Cruz-Badiano, </i>1552, fol. 49r, referred to as \"xiloxochitl.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 174, <i>Of the Xiloxochitl</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 5,
-      titulo: "Nombre inglés 5",
-      ficha: "GBF_05_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_05_x01_ES.png",
-          img_02: "GBF_05_x02_ES.png",
-          img_03: "GBF_05_x03_ES.png",
-          img_0n: "GBF_05_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_05_n01_ES.png",
-          img_02: "GBF_05_n02_ES.png",
-          img_03: "GBF_05_n03_ES.png",
-          img_0n: "GBF_05_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_05_d01_ES.png",
-          img_02: "GBF_05_d02_ES.png",
-          img_03: "GBF_05_d03_ES.png",
-          img_0n: "GBF_05_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "En el atavío florido que reviste la escultura de Xochipilli se ven diseños de flores, tanto en botón como abiertas, que aunque a simple vista son inmediatamente reconocibles como flores por la claridad y simpleza de sus elementos, no resultan tan identificables en la naturaleza como alguna especie botánica en particular, precisamente por lo genérico o arquetípico de su trazo. He allí la fineza y riqueza de la expresión artística mexica, revelada en su fase de mayor esplendor a través del Xochipilli de Tlalmanalco. Xochipilli se presenta como Señor de las Flores, de <i>todas</i> las flores en su diversidad y exuberancia. La diversidad se expresa a través de los trazos con rasgos iconográficos más específicos y diferenciados que sugieren algunas flores con valores y atributos propios muy preciados. Por otro lado, la exuberancia se plasma a través de los motivos reiterados y numerosos, como estas flores de rasgos arquetípicos que se presentan en la escultura como flores abiertas y en dos formas de botón. </br>Las flores abiertas –de seis pétalos sobre el cuerpo de Xochipilli y de doce en las cuatro caras de su pedestal– son todas de idéntica forma: pétalos redondeados en una hilera delantera y otra trasera alrededor de un claro centro circular. En este estilo de representación de la flor, identificable a su vez en muchas otras piezas arqueológicas y en los <i>Primeros Memoriales</i> de fray Bernardino de Sahagún, el rasgo distintivo en el trazo es la curva en la que se enroscan los pétalos en sus extremos hacia dentro de sí mismos. </br>En el caso de los botones, encontramos que uno de ellos tiene este mismo gesto de curva enroscada aún estando los pétalos cerrados, lo que lo relaciona con la flor abierta, como si fuera su versión en botón; pero al mismo tiempo este peculiar trazo lo vuelve un elemento iconográfico más arquetípico aún, por no tener ningún tipo de semejanza con alguna especie botánica, y porque mantiene su semántica en tanto que es claro que se trata de una flor cerrada. El otro tipo de botón genérico, en cambio, es mucho más orgánico y natural en su trazo, y el problema de identificación que presenta es que sugiere el brote de un sinfín de especies de flores. </br>Sin embargo, en el afán de buscar relaciones y respuestas en el universo floral mexica y su contexto natural, podemos vincular este conjunto iconográfico con las especies botánicas pertenecientes a la familia de las asteráceas (de <i>aster</i>; estrella), y más específicamente con los géneros <i>Dhalia </i>(dalia), <i>Bidens</i> (flor de té) y <i>Tithonia</i> (acahual). La gran proliferación de estas especies en la cuenca de México y sus alrededores y la predilección de la que hasta hoy gozan por su belleza y colorido nos hacen pensar en ellas al contemplar este insistente motivo floral en Xochipilli; que además es coincidente con su fisonomía por su forma estrellada con varios pétalos que emergen de un centro circular muy definido, y la particularidad que tienen los pétalos de estas especies de fruncirse a lo largo de su contorno y principalmente en la base.</br>Las dalias crecen de manera natural en los bosques de encinos, entre los meses de junio a noviembre, pero también se cultivan y generalmente se pueden obtener durante todo el año.</br>En palabras de Francisco Hernández, \"hay muchas variedades de esta planta de ornato distintas sólo por el color y tamaño de las flores, que en algunas son blancas, en otras amarillas, o purpúreas, o rojas, blancas con púrpura, amarillas con algo de rojizo o de otras mil maneras; se usan en coronas, guirnaldas y ramilletes\".</br>Además de su amplio uso ornamental, las raíces de la dalia se consideraban de mucho provecho por ser tubérculos comestibles que, además, son buenos para tratar la tos crónica. ",
-          title_02: "Simbolismo",
-          txt_02: "Como ya menciona Hernández, el extendido uso de esta flor como ornamento y en la elaboración de coronas, guirnaldas y ramilletes la colocan dentro del universo de flores que participaba en la vida ritual y en las fiestas. Según el relato de Sahagún, la <i>acocoxóchitl</i> encabeza la lista de flores que la gente iba a buscar a los campos y maizales desde dos días antes del inicio de la fiesta de la \"ofrenda de flores\", o <i>Tlaxochimaco</i>, las cuales eran tejidas en largas y gruesas guirnaldas para ser ofrecidas a Huitzilopochtli, dios tutelar, y a todos los dioses. En este contexto ritual la dalia se convertía en flor preciosa, digna de ser ofrecida a la divinidad. </br>Pero más allá de la especie botánica con la que se le pueda identificar, esta flor que viste a Xochipilli en su representación abierta es la más reiterada en la escultura y en las cuatro caras del pedestal que la sostiene. Así, sobre el cuerpo de Xochipilli esta flor evoca la pluralidad de las flores y se suma como flor sagrada al resto de las especies evocadas en la escultura, cada una con sus atributos y cualidades específicas. Sobre el pedestal, es el elemento iconográfico predominante que une y armoniza su mitad inferior con la superior, casi opuestas entre sí por la disparidad de sus trazos –los inferiores completamente geométricos, mientras que los superiores son sinuosos y orgánicos– en un juego de dualidades iconográficas armónicas. Así como el inframundo se contrapone y complementa con el mundo celeste en la cosmovisión mexica, la flor de este pedestal se presenta como el elemento armonizador entre las dualidades, siendo producto de la unión de los elementos de la tierra con los elementos del sol –al igual que el propio Xochipilli, al ser el fruto de un dios solar con una diosa de la tierra–. Y como elemento conclusivo la flor se corona con la mariposa, que además de evocar a las almas de los guerreros muertos en batalla que han alimentado con su sangre al sol, generador a su vez de toda la vida en la tierra, es un ente de transición por excelencia al atravesar la metamorfosis que la despierta del mundo nocturno de oscuridad y humedad, al universo diurno de la vida y el sol. </br>En cuanto a los botones, mientras que los de trazo más naturalista nos evocan la fase de transformación de todas las flores antes de llegar a su estado efímero de esplendor, los de trazo más arquetípico nos remiten a otro tipo de universo simbólico, sobre todo cuando las identificamos en otras piezas arqueológicas precisamente relacionadas con el grupo de dioses de Xochipilli-Macuilxóchitl. Macuilxóchitl, \"cinco flor\", es la deidad relacionada con el juego y la música y comparte la dimensión simbólica con Xochipilli de lo gozoso y lo festivo. Esta misma representación de la flor en botón la encontramos también en dos tipos de tambor de piedra de manufactura mexica: un <i>teponaztli</i> o tambor horizontal del dios Macuilxóchitl y en un <i>huéhuetl</i> o tambor vertical donde estas flores están representadas en hilera, alternadas con un elemento con forma de corazón, dispuestas encima de la base del tambor, que está adornada con un trazo geométrico igual al de la base del pedestal de Xochipilli. Aunque hace falta profundizar más sobre estas relaciones iconográficas y simbólicas para comprenderlas mejor, en un primer acercamiento nos hablan de las flores como elemento fundamental en el contexto de la música, el gozo y las festividades. Las encontramos también, con este mismo estilo iconográfico, como parte del atavío de deidades relacionadas con la fertilidad; o bien como retoños del árbol florido, representación del <i>axis mundi</i>; o talladas en concha derramando un torrente de agua preciosa coronado con un chalchihuite; o bien exentas y representadas con diversas estilizaciones como parte de la maravillosa producción escultórica de Xochimilco, región de las flores por excelencia. </br>Hoy en día, la dalia está tan arraigada en la cultura contemporánea de México que es considerada la flor nacional. Se cultiva, ofrenda, regala y emplea como ornamento en cada vez más colores y formas, al haberse ampliado genéticamente sus variedades. </br>Pero refiriéndonos a la flor en general, en su significado más universal, la flor conserva su semántica múltiple y rica, que abarca desde los territorios de lo sensual y terreno hasta los más espirituales como signo de ofrenda social y religiosa. </br>Estas flores arquetípicas en Xochipilli nos hacen reflexionar sobre su condición de Señor de <i>todas</i> las flores, en toda su diversidad y exuberancia; y que si bien cada una de las especies botánicas que formaban parte del universo natural, simbólico y ritual mexica gozaba de un lugar irremplazable por su carácter y atributos propios, la flor en sí misma es un ente cultural fundamental que permeaba todos los estratos de la vida como entidad generadora de placer, dadora de solaz y gozo, imagen de la belleza, poseedora de poderes curativos y sobrenaturales, símbolo de merecimiento, regalo sagrado, símil de lo precioso y signo de lo divino.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 5,
+		titulo: "",
+		ficha: "GBF_05_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: "GBF_05_x01_EN.png",
+			img_02: "GBF_05_x02_EN.png",
+			img_03: "GBF_05_x03_EN.png",
+			img_04: "GBF_05_x04_EN.png",
+			img_05: "GBF_05_x05_EN.png",
+			img_06: "GBF_05_x06_EN.png",
+			img_07: "GBF_05_x07_EN.png",
+			img_08: "GBF_05_x08_EN.png",
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_05_n01_EN.png",
+			img_02: "GBF_05_n02_EN.png",
+			img_03: "GBF_05_n03_EN.png",
+			img_04: "GBF_05_n04_EN.png",
+			img_05: "GBF_05_n05_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_05_d01_EN.png",
+			img_02: "GBF_05_d02_EN.png",
+			img_03: "GBF_05_d03_EN.png",
+			img_04: "GBF_05_d04_EN.png",
+			img_05: "GBF_05_d05_EN.png",
+			img_06: "GBF_05_d06_EN.png",
+			img_07: "GBF_05_d07_EN.png",
+			img_08: "GBF_05_d08_EN.png",
+			img_09: "GBF_05_d08_EN.png",
+			img_10: "GBF_05_d10_EN.png",
+			img_11: "GBF_05_d11_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The flower insignia covering the Xochipilli sculpture show floral designs, both as buds and open blossoms. Although at first sight they are immediately recognizable as flowers for the clarity and simplicity of their elements, they were not as identifiable in nature as a particular botanical species, given the generic or archetypal character of their depiction. Note the delicacy and richness of the Mexica carving, revealed in its greatest splendor through the Xochipilli from Tlalmanalco. Xochipilli is presented as the Lord of Flowers, of <i>all</i> flowers in their sweeping diversity and exuberance. On the one hand, variety is expressed through designs with differentiated iconographic features that suggest flowers with specific meanings and attributes. On the other, exuberance is suggested by numerous reiterated motifs, such as these flowers with archetypical characteristics on the sculpture as open flowers and in two types of buds.</p><p>The open flowers—with six petals on Xochipilli’s body and twelve petals on four sides of his pedestal—are all identical: rounded petals in a front and back row around a clear round center. In this style of representing the flower, identifiable on many other archaeological pieces and in Fray Bernardino de Sahagún’s <i>Primeros Memoriales</i>, the distinctive trait is the curled hook-shaped curve of the petals.</p><p>In the case of buds, one of them has the same sort of curled hook-shaped curve, although the petals are closed, which relates it to open flowers, as if it were its bud version; but at the same time, this distinctive drawing makes it an even more archetypal iconographic element, for the absence of any similarity with any botanical species, and because it maintains its semantics by clearly depicting a closed flower. In contrast, the other type of generic bud is much more organic and natural in its depiction, and the problem of identification it presents by suggesting a shoot of countless floral species.</p><p>However, in order to seek comparisons and answers in the Mexica floral universe and its natural context, we can link this iconographic complex to botanical species from the Asteraceae family (from aster: star), and more specifically to the genuses <i>Dahlia </i>(dahlias), <i>Bidens</i> (asters), and <i>Tithonia</i> (sunflowers).</p><p>The proliferation of these species in the Basin of Mexico and its surroundings and the predilection they have enjoyed to the present for their beauty and color come to mind as we contemplate this floral motif repeated on Xochipilli. It coincides with dahlia physiognomy in its star-like shape with petals emerging from a well-defined round center, and the particularity that the petals of these species tend to gather and bend as if shirred along the edges and especially at the base.</p><p>Dahlias grow naturally in oak forests from June to November, but they are also cultivated and can generally be obtained year round.</p><p>In the words of Francisco Hernández, \"there are many varieties of this ornamental plant distinguished only by color and size of the flowers, which in some cases are white, in others yellow, or purple, or red, white with purple, yellow with some reddish parts, and a thousand other ways; they are used in crowns, garlands, and bouquets.\"</p><p>In addition to their extensive ornamental use, dahlia roots are regarded as highly useful edible tubers, which are also good for treating chronic coughs.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>As Hernández mentioned, the widespread use of this ornamental flower in making crowns, garlands, and bouquets situated it in the universe of flowers employed in ritual life and religious celebrations. According to Sahagún, the <i>acocoxochitl </i>heads the list of flowers that the people sought in fields and corn fields two days before the start of the celebration of the \"The Flowers Are Offered\" or <i>Tlaxochimaco</i>, when flowers were strung into long, thick garlands to be offered to Huitzilopochtli, the patron god, and to all the gods. In this ritual context the dahlia was regarded as a precious flower, worthy of being offered to the divinity.</p><p>However, beyond the botanical species with which it might be identified, this flower on Xochipilli is the most repeated type on the sculpture and on the four sides of the pedestal. Thus, this flower on Xochipilli’s body evokes the plurality of flowers and joins the rest of the species depicted on the sculpture as a sacred flower, each one with its specific attributes and qualities. On the pedestal, it is the predominant iconographic element that unites and harmonizes the lower and upper halves, which display opposite qualities. The lower part is completely geometric, while the upper part has undulating, organic lines triggering the interplay of harmonious iconographic dualities. Just as the underworld contrasts and complements the celestial world in Mexica worldview, the flower on this pedestal is rendered as a harmonizing element between dualities, the product of the union of elements of the land and elements of the sun—just as Xochipilli himself, the fruit of a solar god with an earth goddess. As a final touch, the flower is crowned by the butterfly, which in addition to evoking the souls of warriors who died in battle who fed the sun with their blood to generate all life on the earth, it is an entity of transition par excellence through the metamorphosis that awakens the nocturnal world of darkness and moisture that gives way to the daytime universe of life and sunlight.</p><p>As for the buds, while those in the more naturalistic rendering evoke the transformative phase of all flowers before they reach their ephemeral state of splendor, those of the more archetypical design refer us to another type of symbolic universe, above all when we identify them in other archaeological pieces specifically related to the Xochipilli-Macuilxochitl deity group. Macuilxochitl, \"five flower,\" is the god related to games and music and he shares the symbolic dimension of pleasure and festivity with Xochipilli. This same representation of the bud can also be found on two types of Mexica stone drum sculptures: a <i>teponaztli</i> or horizontal slit drum of the god Macuilxochitl and on a <i>huehuetl</i> or upright, vertical drum where these flowers are depicted in a row, alternating with a heart-shaped element, arranged over the base of the drum, which is decorated with a geometric design identical to the design on the base of Xochipilli’s pedestal. Although further work is needed for a greater understanding of these iconographic and symbolic relations, a preliminary exploration suggests the fundamental role of flowers in the context of music, pleasure, and celebrations. We also find them, in this same iconographic style, among the insignia of fertility deities; or as sprouts on the flowering tree, a representation of the <i>axis mundi</i>; or carved on a shell pouring precious water crowned by a <i>chalchihuite</i> or jade bead; or else on its own with stylized features as part of the marvelous sculptural production of Xochimilco, the region associated with flowers par excellence.</p><p>These days, dahlias are so well-known in contemporary culture in Mexico that they are regarded as the national flower. They are cultivated, offered, given as a gift, and employed for ornamental purposes in an ever greater range of colors and shapes, as a result of the genetic expansion of its varieties.</p><p>However, in their more universal meaning, flowers preserve their multifaceted and rich semantic dimensions, ranging from the sensual and earthly to the highest spiritual levels as a sign of social and religious offering.</p><p>These archetypal flowers on Xochipilli make us reflect on his role as Lord of <i>All</i> Flowers, in all of their diversity and exuberance. Although all the botanical species in the Mexica natural, symbolic, and ritual universe played irreplaceable roles given their character and attributes, flowers were fundamental cultural entities that permeated all levels of society and life, producing pleasure, solace, and delight, as an image of beauty, possessing curative and supernatural powers, while constituting a symbol of merit, a sacred gift, a metaphor of preciousness, and a sign of divinity.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods; Twenty-eighth Chapter, which telleth of the feast and offerings which they made upon the feast days of the ninth month, which was named Tlaxochimaco,</i> on fol. 59r as \"acocosuchitl.\" </li><li><i>Book 8, which Telleth of the Great Rulers and Noblemen and of the Way in which They Observed the Elections in Their Government; Eighth Chapter, in which are told the various articles with which they adorned the rulers and noblemen,</i> on fol. 16r as \"acucuxuchio tilmatli\" (mantle decorated with <i>acocoxochitl </i>or the dahlia design) in the Nahuatl text. </li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Eighth Paragraph, which telleth of blossom petals and of stalks, </i>on fol. 186v as \"acocosuchitl\" in the Nahuatl text; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like, </i>on fol. 196r as \"acocosuchitl,\" flower of the \"Xalacocotli\" plant in the Nahuatl text<i>.</i> <i></li></ul><li></i>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. <i>Chapter 24,</i> <i>Of the Acocoxochitl or Acocotli Flower</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 6,
-      titulo: "Nombre inglés 6",
-      ficha: "GBF_06_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_06_x01_ES.png",
-          img_02: "GBF_06_x02_ES.png",
-          img_03: "GBF_06_x03_ES.png",
-          img_0n: "GBF_06_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_06_n01_ES.png",
-          img_02: "GBF_06_n02_ES.png",
-          img_03: "GBF_06_n03_ES.png",
-          img_0n: "GBF_06_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_06_d01_ES.png",
-          img_02: "GBF_06_d02_ES.png",
-          img_03: "GBF_06_d03_ES.png",
-          img_0n: "GBF_06_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "La cempasúchil o \"veinte flores\" (<i>cempoalli:</i> veinte; <i>xóchitl:</i> flor), llamada así por los múltiples pétalos que le dan su característica forma esponjosa es, desde tiempo inmemorial, una de las flores con más apego popular, emblemáticas y representativas de la cultura mexicana. En las múltiples relaciones que desde el siglo XVI dieron cuenta de la riqueza natural del Nuevo Mundo es mencionada incontables veces. Se le describe también como \"rosa de Indias\" o \"clavel grande de Indias\", términos sugerentes para apelar al imaginario del Viejo Mundo. </br>Esta flor crece de manera natural en los bosques templados caducifolios durante el periodo que va desde el inicio de la época de lluvias hasta las fiestas de la cosecha, para culminar con el Día de Muertos. Se relaciona también con el ciclo agrícola y la podemos encontrar acompañando las milpas. Desde la época prehispánica y hasta hoy es cultivada con diversos fines, como el ornamental, medicinal, ritual, alimenticio para aves de corral o por sus propiedades tintóreas. </br>Fray Bernardino de Sahagún describe que \"son amarillas y de buen olor y hermosas, hay muchas de ellas […] las siembran en los huertos de todas maneras\", resaltando por un lado la abundancia de esta especie de flores de manera silvestre y la procuración de ellas por doquier en jardines y huertos, por lo que su característico color amarillo intenso y hasta su olor, tan peculiar como penetrante, debieron ser parte esencial de la paleta cromática y del espíritu del paisaje natural de la cuenca de México y sus alrededores. Alvarado Tezozómoc, en una magnífica imagen de la antigua metrópolis, cuenta que la cempasúchil se cultivaba afanosamente junto a la milpa en las incontables chinampas para que \"floreciese la gran ciudad de México\" y se viera desde lejos como \"un laberinto, huerto florido, deleitoso, alegre, contento al verle\".</br>Sus propiedades medicinales también son múltiples. Además de identificar y describir siete variedades de esta flor, Francisco Hernández explica, por ejemplo, su cualidad de provocar sudores para curar fiebres, elevar el apetito sexual, distender contracturas, atemperar el estómago y abrir las vías obstruidas.",
-          title_02: "Simbolismo",
-          txt_02: "La <i>cempoalxóchitl</i>, a la que José Emilio Pacheco llama la \"flor azteca\", es una de las flores más referidas en los documentos antiguos como elemento fundamental tanto de la vida cotidiana como de la ritual, y su significado va adquiriendo distintas profundidades y matices conforme se analizan cada una de sus menciones. </br>Su relación con las festividades para los difuntos, por lo que también se le denomina \"flor de muertos\", se puede rastrear hasta la antigüedad; pero la cempasúchil es mucho más que eso. </br>En el complejo contexto ritual mexica tuvo presencia, de acuerdo con Sahagún, en las fiestas <i>Tecuilhuitontli</i>, \"Fiesta pequeña de los señores\", como flor portada por la gente común que asistía a las ceremonias; en<i> Uey Tecuilhuitl</i>, \"Gran fiesta de los señores\", a través de su aroma como ofrenda y deleite, acompañando los frutos tiernos de la cosecha, adornando la cabeza de mujeres antes de ser ofrendada a Huitzilopochtli y como premio de la carrera llamada Xochipaina; en <i>Tlaxochimaco</i>, \"Ofrenda de flores\", engalanando guirnaldas y conformando coronas; y <i>Ochpaniztli</i>, \"Barrimiento\", como proyectiles en un combate o \"apedreamiento\" ritual.</br>Pero quizá una de las menciones más sugerentes es la que el mismo Sahagún hace de ella en su relato sobre el <i>Tlalocan</i>, donde reina Tláloc, uno de los cuatro lugares de la muerte y al que llegaban las ánimas de los que murieron por causas relacionadas con el agua; seres \"de buen corazón\", amados y elegidos por los dioses para ser llevados con ellos a este lugar de regocijo donde nada decae y la primavera es eterna. \"En Tlalocan había grandes riquezas. Nunca alguien sufría. Nunca, ni las mazorcas de maíz verdes, ni las calabazas, las flores de las calabazas, las cabezas de amaranto, los chiles verdes, los jitomates, los frijoles verdes, la cempoalxochitl, faltaban\". Resulta revelador cómo en esta descripción de aquel lugar donde había en permanente abundancia todo lo necesario para la vida, se equipare a la flor con los frutos de la milpa, con los mantenimientos; y precisamente sea la <i>cempoalxóchitl</i> la que, en este relato, represente en sí misma a todas las flores, a <i>la flor</i> como ente simbólico. Podemos pensar que es una descripción más bien naturalista de lo que suele encontrarse, hasta hoy, en las sementeras de maíz; pero la mención de la <i>cempoalxóchitl</i> en la versión náhuatl del texto apunta más bien a una forma de expresión que responde a una cosmovisión, y según el hilo narrativo, la <i>cempoalxóchitl</i> es parte de esa imagen de abundancia, fertilidad y primavera eternas que se tenía en el imaginario simbólico de este lugar sagrado, de vida en esplendor. Los <i>Romances de los Señores de la Nueva España</i> claman: \"Ofrezco,/ aquí, hago llover/ flores de primavera, cempasúchiles\". Tláloc, señor del agua y símbolo de la fertilidad, es llamado \"señor del perfumado cempoalxochitl\" en la oración dedicada a él. </br>Además de lo ya mencionado, podríamos especular que buena parte de las veces que se les refiere a ciertas flores como <i>rosas</i> en las crónicas antiguas, término usado genéricamente para las flores grandes y olorosas, y especialmente si se precisa que son amarillas, como hace algunas veces Durán, podría tratarse de la flor de cempasúchil. Si bien esto es aún un supuesto, es cierto que las flores de cempasúchil estaban presentes por doquier, en más ocasiones de las que hoy vislumbramos, y que su fuerza simbólica y cultural era tal que impregnaba una y otra vez todas las realidades.</br>Esta presencia se manifiesta también con contundencia en las expresiones artísticas mexicas. Por mencionar ejemplos elocuentes y en la misma línea de lo aquí dicho, los braseros-efigie de barro de diosas relacionadas con la fertilidad que portan collares donde la flor de cempasúchil se alterna con mazorcas de maíz, o con frutos de chile, son de una belleza y de una calidad estética extraordinarias. Una vez más vemos a la flor de cempasúchil acompañando al maíz y al resto de los mantenimientos, aglutinados todos en la entidad alimenticia de la milpa y símbolos del sostén de la vida humana, tanto en la tierra como después de la muerte, en el más allá, como lo atestigua el paisaje que Sahagún nos pinta del <i>Tlalocan</i>, donde al lado de chiles, calabazas, mazorcas y jitomates, la <i>cempoalxóchitl</i> jamás falta. </br>En dos grandes esculturas de la diosa Coyolxauhqui también la vemos representada. El tocado que corona su cabeza es un arreglo de plumas que conforman una gran flor de cempasúchil, cuya causa puede ser, se ha dicho, que la diosa está representada muerta, justo después de haber sido decapitada y desmembrada por su hermano Huitzilopochtli en el cerro del <i>Coatepec</i>. </br>De raíces muy profundas y antiguas, el fuerte arraigo de la flor de cempasúchil en la cultura popular contemporánea, y aún ritual, persiste a través de las festividades del Día de Muertos principalmente, pero también en el contexto agrícola, al estar relacionado su crecimiento silvestre con el de la milpa; y más aún, se ha convertido en uno de los símbolos de la cultura nacional a través de su presencia reiterada en las artes gráficas, plásticas, decorativas y populares. Podemos decir con seguridad que es parte del imaginario que conforma la identidad mexicana. ",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 6,
+		titulo: "",
+		ficha: "GBF_06_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_06_n01_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_06_d01_EN.png",
+			img_02: "GBF_06_d02_EN.png",
+			img_03: "GBF_06_d03_EN.png",
+			img_04: "GBF_06_d04_EN.png",
+			img_05: "GBF_06_d05_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The marigold was known as <i>cempasuchil</i> or \"twenty flowers\" (<i>cempoalli:</i> twenty; <i>xochitl:</i> flower), named for its array of petals giving it its characteristic feathery appearance. Since time immemorial, it has been one of the most popular, emblematic, and representative flowers of Mexican culture. It is mentioned countless times in a number of accounts on the natural wealth of the New World in the sixteenth century. It is also described as the \"rose of the Indies\" or \"large carnation of the Indies,\" evocative terms appealing to the collective imagination of the Old World.</p><p>This flower grows naturally in temperate deciduous forests from the start of the rainy season to the harvest celebrations, culminating with the Day of the Dead. It is also related to the agricultural cycle and can be found in corn fields. From pre-Hispanic times to the present, it has been cultivated for different purposes: ornamental, medicinal, ritual, food for fowl, and for dyes.</p><p>Fray Bernardino de Sahagún describes them: \"they are yellow and have a pleasing odor and are beautiful, there are many of them . . . they are planted in all sorts of flower gardens,\" emphasizing the abundance of this species growing as wildflowers and their availability in household gardens and flower gardens, for their characteristic intense yellow color and distinctive pungent aroma. They were an essential part of the chromatic and spiritual palette of the natural landscape in the Basin of Mexico and its surroundings. Alvarado Tezozómoc, evoking a magnificent image of the ancient metropolis, tells that the <i>cempasuchil</i> was diligently cultivated beside corn fields on countless <i>chinampas</i> (artificially built fields in the lake) so that \"the great city of Mexico would blossom\" and from afar could be seen as \"a labyrinth, a delightful, joyous flower garden in blossom bringing happiness to the eye.\"</p><p>It also had numerous medicinal properties. In addition to identifying and describing seven varieties of this flower, Francisco Hernández explains, for example, its ability to produce sweating to cure fevers, arouse sexual desire, relax muscle cramps, soothe the stomach, and open block vessels.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The <i>cempoalxochitl</i>, which José Emilio Pacheco calls the \"Aztec flower,\" is one of the most flowers most frequently mentioned in old documents as a key part of both daily and ritual life. Its meaning takes on different depths and nuances as each reference to it is analyzed.</p><p>Its relationship to celebrations honoring the dead, so it is also known as \"flower of the dead,\" can be traced to antiquity, but the marigold is much more than that.</p><p>It was present in the complex context of Mexica ritual. According to Sahagún, at the feast and ceremonies of <i>Tecuilhuitontli,</i> \"Minor Feast of the Lords,\" as the flower carried by the common folk who attended the ceremonies; at <i>Uey Tecuilhuitl</i>, \"Great Feast of the Lords,\" through its aroma as an offering and source of delight, accompanying the first fruit of the harvest, adorning the heads of women before they were offered to Huitzilopochtli and as a prize in the race called Xochipaina; at <i>Tlaxochimaco</i>, \"The Flowers Are Offered,\" decorating garlands and in crowns; and at <i>Ochpaniztli</i>, \"The Sweeping of the Way,\" as projectiles in a ritual combat or \"stoning.\"</p><p>However, perhaps one of the most suggestive references comes from Sahagún’s mention of it in his description of <i>Tlalocan</i>, where the rain god Tlaloc reigned, one of the soul’s four destinations after death for those who died of causes related to water; \"good-hearted,\" beloved beings chosen by the gods to be taken with them to this place of delight, where nothing deteriorates and spring is eternal. \"And in Tlalocan all prospered greatly... Never did one suffer. Never was there a lack of ears of green maize, squash, squash blossoms, heads of amaranth, green chilis, tomatoes, green beans, nor the Tagetes flower.\" It is revealing how in this description of that place of eternal abundance of everything needed for life, it equates flowers with the fruit of corn fields, with foodstuffs; in this account the <i>cempoalxochitl</i> in itself represents all flowers, as well as the flower as a symbolic entity.</p><p>We might think it is a more naturalistic description of what tends to be found, until the present, in corn fields, but the reference to the <i>cempoalxochitl</i> in the Nahuatl version of the text points to a means of expression that responds to a particular worldview. According to the narrative thread, the <i>cempoalxochitl</i> is part of the image of abundance, fertility, and eternal spring held in the symbolic imagery of this sacred place, of life in all its splendor. The <i>Romances de los Señores de la Nueva España</i> declares: \"I offer, / here, I make it rain / flowers of spring, <i>cempasuchiles</i> (marigolds).\" Tlaloc, lord of water and fertility symbol, is called \"lord of the perfumed <i>cempoalxochitl</i>\" in the prayer dedicated to him.</p><p>Furthermore, we might speculate that references to certain flowers as <i>roses</i> in the historical chronicles, a term used generically for large fragrant flowers, especially if it is specified that they are yellow, as Durán does at times, might be the marigold. Although this is still a supposition, it is borne out by the profusion of marigolds everywhere, beyond the occasions mentioned here. Its symbolic and cultural power was such that it constantly permeated all realities.</p><p>This presence is also clearly expressed in Mexica art. Eloquent examples in the same line include beautiful and remarkably crafted effigy-braziers of fertility goddesses wearing strings of marigolds alternating with ears of corn or chilis. Marigolds accompanied by maize and other foodstuffs, all connected to the milpa (corn field) as a source of food and symbol of the sustenance upholding human life, both on earth and after death, in the beyond, as seen in Sahagún’s descriptions of <i>Tlalocan</i>, where marigolds are ever present, alongside chilies, squash, ears of corn, and tomatoes.</p><p>The marigold also appears on two colossal sculptures of the goddess Coyolxauhqui. The headdress crowning her head is an arrangement of features forming a great marigold flower, perhaps because the goddess is depicted after her death, after being decapitated and dismembered by her brother Huitzilopochtli on <i>Coatepec </i>hill.</p><p>The deep ancient roots have ensured the strength and enduring influence of marigolds in contemporary popular culture, not to mention ritual, especially in Day of the Dead celebrations. Its importance also persists in agricultural contexts, where it is still seen growing wild in the milpa. In fact, it has become one of the symbols of Mexican culture through its reiterated appearance in graphic, visual, decorative, and folk arts. It might be safe to say that it is part of the imagery defining Mexican identity.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods;</i> referred to as \"cempoalsuchitl\" in<i> Twenty-sixth Chapter, in which are related the feast and ceremonies celebrated upon the feast in the seventh month, which was named Tecuilhuitontli,</i> on fol. 47v<i>; Twenty-seventh Chapter, which telleth of the feast and the sacrifices which they made upon the days of the eighth month, which was called Uei tecuilhuitl,</i> on fols. 56r and 57r; <i>Twenty-eighth Chapter, which telleth of the feast and the offerings which they made upon the feast days of the ninth month, which was named Tlaxochimaco,</i> on fol. 59r; <i>Thirtieth Chapter, here are related the feasts and the ceremonies which were performed on the days of the eleventh month, which was named and known as Ochpaniztli,</i> on fol. 67r. </li><li><i>Book 3: The Origin of the Gods; Appendix, Second Chapter, The second place they went [was] there to Tlalocan,</i> on fol. 28r as \"cempoalxochitl\" in the Nahuatl text.</li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Eighth Paragraph, which telleth of blossom petals and of stalks, </i>on fol. 186v as <i>\"cempoalxochitl\"</i>; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like,</i> on fol. 197v as \"cempoalxochitl\" in the Nahuatl text. <i></li></ul><li></i>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, ca.1579. First part, Chapter 91, which<i> treats of the goddess Cihuacoatl, also called Quilaztli, goddess and patroness of the Xochimilcas,</i> on fol. 280v as \"cempoalxuchitl.\"<i> </li><li></i>Francisco Hernández, <i>Historia natural de Nueva España, ca.</i> 1577. Chapter 179, <i>Of the Cempoalxochitl or Flowers of Twenty Petals</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 7,
-      titulo: "Nombre inglés 7",
-      ficha: "GBF_07_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_07_x01_ES.png",
-          img_02: "GBF_07_x02_ES.png",
-          img_03: "GBF_07_x03_ES.png",
-          img_0n: "GBF_07_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_07_n01_ES.png",
-          img_02: "GBF_07_n02_ES.png",
-          img_03: "GBF_07_n03_ES.png",
-          img_0n: "GBF_07_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_08_d01_ES.png",
-          img_02: "GBF_08_d02_ES.png",
-          img_03: "GBF_08_d03_ES.png",
-          img_0n: "GBF_08_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "El <i>yauhtli</i> o pericón ha estado presente en la cultura mexicana desde tiempos prehispánicos y es una de las plantas que, en el universo ritual, simbólico, medicinal y tradicional actual, ha logrado conservar muchas de sus formas de uso y significados antiguos. </br>Su gran cualidad adaptativa le permite crecer de manera silvestre en climas tanto cálidos como templados y a muy distintas altitudes, principalmente en bosques de montañas, así como a la orilla de los caminos y cerca de las milpas. Como florece principalmente de junio a septiembre se asocia con la época de lluvias, con el ciclo agrícola y con la fertilidad.  </br>Sus verdes tallos, numerosos y rígidos, contrastan con las pequeñas florecillas que los coronan formando racimos de un color amarillo peculiar; pero el carácter distintivo del <i>yauhtli</i> es su olor penetrante y muy similar al del anís, motivo por el cual en las relaciones de botánica de encomienda europea se le nombra también \"yerba anís\". Fray Bernardino de Sahagún hace especial énfasis en ello cuando precisa que esta planta \"siempre huele\". </br>En seguida destaca su uso, junto con el cacao –tras rostizarla–, en una bebida para aliviar fiebres y a los que escupen sangre. Entre otras más utilidades, se daban baños en agua con estas flores a los que padecían la \"enfermedad divina\", traducida por Sahagún como lepra. Esta relación con el agua y sus usos para tratar padecimientos asociados con ella se ve curiosamente reiterada en el <i>Códice De la Cruz-Badiano</i>, al ser mencionada como ingrediente protector en los preparativos para \"el que quiera pasar con seguridad un río, o agua\". Francisco Hernández, por su parte, le atribuye la cualidad de \"alivia[r] a los dementes y a los atontados por el rayo\", además de varios otros usos, efectos y bondades medicinales que van desde quitar el dolor de cabeza o la flatulencia, desterrar chinches y arrojar cálculos renales, hasta tener efectos abortivos, provocar las reglas o aumentar la leche. </br>Actualmente el pericón es utilizado en rituales de medicina tradicional por curanderos, y se encuentra entre las hierbas indispensables en el repertorio de las parteras por su amplio uso obstétrico.",
-          title_02: "Simbolismo",
-          txt_02: "Los incontables usos medicinales y el distintivo e intenso aroma del <i>yauhtli</i> le dan un lugar irremplazable entre las plantas de más tradición popular desde tiempo inmemorial. Pero el origen de su arraigo cultural sólo puede explicarse porque está inmersa en el complejo universo simbólico mesoamericano. El uso del <i>yauhtli</i> con propósitos rituales se extiende desde el norte del hoy territorio mexicano hasta Centroamérica. </br>En la cosmovisión mexica sus significados fueron múltiples, y la presencia de sus flores en fiestas y ceremonias muy constante y siempre esencial. Su participación en cada ritual respondía a implicaciones cosmogónicas que trascendían lo meramente ornamental o sensual y, en este sentido, el <i>yauhtli</i> se despegaba del resto de las flores en su papel de símbolo de ofrenda para cobrar semánticas propias. Como ofrenda aromática, al lado del copal y de otras flores, el <i>yauhtli</i> se convertía también en alimento de los dioses.</br>Era considerada por los antiguos mexicanos como parte de las plantas sagradas con poder psicotrópico, junto al <i>ololiuhqui</i>, el toloache, el peyote y el hongo <i>nanacatl</i>, y por Sahagún sabemos que el polvo de la flor de <i>yauhtli</i> era soplado en la cara de los cautivos en la fiesta <i>Xocotl uetzi</i>, \"cae el fruto\", justo antes de ser arrojados al fuego \"para que perdiesen el sentido y no sintiesen tanto la muerte\". Aunque estudios contemporáneos no han encontrado el componente químico que sustente su cualidad psicoactiva, en el contexto ritual las flores de <i>yauhtli</i> esparcidas, sahumadas, secas, en polvo o como incienso, tenían presencia en los momentos más sagrados y de comunicación más estrecha con la divinidad. Sahagún la describe como \"una hierba olorosa con que inciensan a los ídolos\", de lo cual encontramos sustento en la descripción de varias fiestas del calendario ritual. Pero lo más significativo es que a través de este relato queda de manifiesto la relevancia del <i>yauhtli</i> en fiestas relacionadas con las deidades acuáticas y de la fertilidad vegetal. Molido, se guardaba como incienso en zurrones ricamente adornados con conchas marinas para la fiesta dedicada a Tláloc, señor del agua, y su esposa Chalchiuhtlicue; sus flores eran parte del atavío de la mujer que personificaba a la diosa de la sal, Uixtocíhuatl, considerada \"hermana mayor de los dioses de la lluvia\"; y era esparcido solemnemente sobre la joven ataviada como Xilonen, diosa del maíz tierno. </br>La reiteración en la narración del uso del <i>yauhtli </i>como incienso y como sustancia con que \"se hacen lavados\" nos remite al sinnúmero de ocasiones en que se menciona cómo se esparce sobre las personas que han de ser solemnemente sacrificadas cuando están investidas como un dios, personificándole, justo antes de darle muerte ritual, como si en el <i>yauhtli</i> residiera un poder simbólico purificador.</br>Además de la descripción de las fiestas, la relación del <i>yauhtli</i> con las deidades del agua y la fertilidad vegetal se ve manifiesta en la iconografía, donde estas flores son portadas en cetros y tocados como parte de los atavíos de los dioses. </br>Pero de todos ellos, es al dios Tláloc, de manera más contundente, a quien el <i>yauhtli</i> remite, evoca, simboliza e incluso personifica. Sahagún narra cómo en su reino, el <i>Tlalocan</i>, a Tláloc se le sirve con hule y con <i>yauhtli</i>; y en algunas plegarias dirigidas a él se le llama \"señor del hule, del yauhtli y del copal\". </br>Hoy, el descubrimiento arqueológico de semillas de <i>yauhtli</i> en algunas ofrendas del Templo Mayor de Tenochtitlan atestigua la innegable importancia de esta planta sagrada de significados y valores múltiples en la vida y el pensamiento mexica. </br>Su estrecha relación con Tláloc y los cultos asociados a él, a través de los siglos, le permitió al <i>yauhtli</i> perdurar hasta nuestros días como un elemento esencial en los rituales agrarios que se realizan en las comunidades campesinas de México. Hoy se le conoce también comúnmente como pericón, y con él se protegen las milpas de los ventarrones que las amenazan en la fiesta de la primera cosecha ritual llamada \"La periconeada\", celebrada el 28 de septiembre en el centro de México. Como se dice que \"el demonio anda suelto\" se colocan cruces de flores de <i>yauhtli</i> en casas, templos, calles y sementeras, y su simbolismo y culto se mezclan con la figura de San Miguel Arcángel, vencedor del demonio y protector de las cosechas, cuya espada <i>es</i> el aroma del pericón. Su olor es tan poderoso que en los campos de Morelos se quema pericón seco sobre brasas para ahuyentar las tormentas y el granizo con el humo, cuando los relámpagos y truenos amenazan los cultivos. </br>Desde la época mexica y hasta nuestros días el <i>yauhtli</i> ha sido un elemento esencial de la cultura simbólica de México.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 7,
+		titulo: "",
+		ficha: "GBF_07_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_07_n01_EN.png",
+			img_02: "GBF_07_n02_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_08_d01_EN.png",
+			img_02: "GBF_08_d02_EN.png",
+			img_03: "GBF_08_d03_EN.png",
+			img_04: "GBF_08_d04_EN.png",
+			img_05: "GBF_08_d05_EN.png",
+			img_06: "GBF_08_d06_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>Known as sweet-scented marigolds, <i>yauhtli</i> or <i>pericón</i> have been present in Mexican culture since pre-Hispanic times. It is one of the plants that has preserved many of its ancient meanings and uses in ritual, symbolic, medicinal, and modern-day medicinal contexts.</p><p>Its great adaptive quality enables it to grow wild in both hot and temperate climates and at a wide range of altitudes, mainly mountain forests, as well as on roadsides and near milpas (corn fields). Because it blooms mainly in June to September, it is associated with the rainy season, the agricultural cycle, and fertility.</p><p>Its abundant, rigid green stalks contrast with the little flowers that crown them, forming bunches of a distinctive yellow color; but <i>yauhtli</i>’s most noteworthy feature is its penetrating aroma quite similar to that of anise. Hence, in European botanical accounts it is also called \"anise herb.\" Fray Bernardino de Sahagún places special emphasis on it when he specifies that this plant \"always smells.\"</p><p>It also stands out for its use, which together with cacao—after it has been roasted—is prepared in a beverage to provide relief for fevers and for those who spit up blood. Among its many other useful properties, baths of these flowers were given to people who suffered from the \"divine disease,\" translated by Sahagún as leprosy. This relationship with water and its uses to treat ailments associated with it are curiously reiterated in the <i>Codex De la Cruz-Badiano</i>, when it is mentioned as a protective ingredient in preparations for \"whoever wishes to safely cross a river or water.\" Francisco Hernández attributes it with the power to \"relieve lunacy and those stunned by lightning,\" in addition to various other uses and medicinal benefits ranging from stopping headaches and flatulence, extracting bedbugs, and expelling kidney stones, even to producing abortions, provoking menstruation, and increasing milk production.</p><p>Today it is used in traditional medicine rituals by curers and it is among the indispensable herbs in the repertoire used by midwives for obstetric uses.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The countless medicinal uses and the distinctive and intense aroma of sweet-scented marigolds have earned it a unique place among the more popular traditional plants since time immemorial. However, the origin of its cultural roots can only be explained because it is immersed in the complex Mesoamerican symbolic world. The use of <i>yauhtli</i> for ritual purposes is extended from the north of Mexican territory today to Central America.</p><p>In the Mexica worldview, it had multiple meanings, and its flowers were ever present and essential in religious celebrations and ceremonies. Its participation in each ritual responded to cosmogonic implications that went beyond the purely ornamental and sensual. Consequently, the sweet-scented marigold stood apart from the rest of the flowers in its role as a symbol of offering to assume its own semantics. As an aromatic offering, alongside copal incense and other flowers, <i>yauhtli</i> also became food for the gods.</p><p>The ancient Mexicans regarded it as part of the sacred plants that had psychotropic powers, along with <i>ololiuhqui</i>, <i>toloache</i>, peyote, and the <i>nanacatl </i>mushroom. Sahagún states that the powder made from the <i>yauhtli</i> flower was blown in the face of captives in the celebration of <i>Xocotl uetzi</i>, \"The Fruit Falls,\" just before being cast into the fire \"that they might lose their sense of feeling and not suffer so greatly.\" Although contemporary studies have not found the chemical component underlying its psychoactive properties, in ritual contexts <i>yauhtli</i> flowers scattered, incensed, dried, in powder, or as incense, were ever-present at the most sacred times of close communication with the divine. Sahagún describes it as \"a sweet-smelling herb that they use to incense the idols,\" and mentions it in descriptions of various celebrations in the ritual calendar. However, the most significant point is the role of <i>yauhtli</i> in rituals related to deities of water and plant fertility evident in this account. Ground into a powder, it is kept as incense in pouches lavishly adorned with seashells for the celebration to honor Tlaloc, lord of water, and his consort Chalchiuhtlicue; its flowers were part of the insignia of women who personified the salt goddess, Uixtocihuatl, considered \"the elder sister of the rain gods\"<i>;</i> and it was solemnly sprinkled on the young woman dressed as Xilonen, the young maize goddess.</p><p>The reiteration in the narrative citing the use of <i>yauhtli</i> as incense and as a substance used to perform \"cleansings\" reminds us of the countless references to how it is thrown onto individuals who are to be sacrificed when they are invested as gods, personifying them, right before their ritual death, as if the <i>yauhtli</i> possessed the symbolic power to purify.</p><p>In addition to the description of religious celebrations, the relationship between <i>yauhtli</i> and deities of water and agricultural fertility is expressed in iconography, where these flowers are attached to staffs and headdresses as part of the gods’ insignia.</p><p>However, of all of the gods, <i>yauhtli</i> refers most clearly to Tlaloc. It evokes, symbolizes, and even personifies him. Sahagún tells how in his kingdom, in <i>Tlalocan</i>, Tlaloc is served with rubber and <i>yauhtli</i>. In some prayers addressed to him, he is invoked as \"lord of rubber, <i>yauhtli</i>, and copal (incense).\"</p><p>Today, the archaeological discovery of <i>yauhtli</i> seeds in offerings at the Templo Mayor (Great Temple) of Tenochtitlan further attests to the undeniable importance of this sacred plant of multiple meanings and complex value in Mexica life and thought.</p><p>Over the centuries, its close relationship with Tlaloc and veneration linked to him permitted <i>yauhtli</i> to come down to the present as an essential element in agrarian rituals conducted in rural communities in Mexico. Nowadays it is also commonly known in Spanish as <i>pericón</i>, which is used to protect corn fields from strong winds that threaten them during the ritual celebration of the first harvest called \"La periconeada\" held on September 28 in Central Mexico. Because they say \"the devil is on the loose,\" they place <i>yauhtli</i> flower crosses on homes, churches, streets, and cemeteries, and its symbolism and veneration merge with the figure of Saint Michael the Archangel, vanquisher of the devil and protector of harvests, whose sword <i>is</i> the aroma of sweet-scented marigold plant. Its smell is so powerful that in the fields of Morelos, dried <i>pericón</i> is burned on coals to produce fragrant smoke to ward off storms and hail, when thunder and lightning threaten crops.</p><p>From Mexica times to the present, <i>yauhtli</i> has been an essential element in Mexico’s symbolism.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods;</i> in Chapter 10<i>, Xocotl uetzi,</i> on fol. 7v as \"yiauhtli\" in the Spanish and Nahuatl texts<i>; Twenty-fifth Chapter, which telleth of the feast and of the offerings which they made upon the feast day of the sixth month, which was called Etzalqualiztli, </i>on fol. 42r as \"yiauhtli\", fol. 42v as \"jiauhtli\" in the Nahuatl text, fol. 43v as \"jiauhtextli\" (\"yauhtli in powder,\" according to Anderson and Dibble) in the Nahuatl text, fol. 44r as \"yiauhtli\" in the Spanish text and as \"yiauhtitlan\" and \"jiauhtli\" in the Nahuatl text; <i>Twenty-sixth Chapter, in which are related the feast and ceremonies celebrated upon the feast in the seventh month, which was named Tecuilhuitontli, </i>on fol. 47r as \"yiauhtli\" in the Nahuatl text; <i>Twenty-seventh Chapter, which telleth of the feast and the sacrifices which they made upon the days of the eighth month, which was called Uey tecuilhuitl,</i> on fol. 56v as \"iauhtextli\" (\"yauhtli in powder\" according to Anderson and Dibble) in the Nahuatl text and on fol. 57r as \"yiauhtli\" in the Nahuatl text; <i>Twenty-ninth Chapter, in which are named the feasts and blood offerings which they made upon the days of the tenth month, which was called Xocotl uetzi, </i>on fol. 64r as \"qujxiiauhtemja\" (\"threw yauhtli –incense– in the face\" according to Anderson and Dibble) in the Nahuatl text; <i>Thirty-fifth Chapter, which telleth of the feasts and the ceremonies which they observed in the days of the sixteenth month, which was called Atemoztli, </i>on fol. 90v as \"yiauhtli\"<i>; Appendix, A True Relation of All Those who Served in the Houses of Each of the Gods [The Priest of] Cinteotl,</i> fol. 129r as \"jiauhtli\" in the Nahuatl text; <i>The Keeper of the Goddess of Zapotlan</i>, fol. 130r as \"jiauhtli\" in the Nahuatl text; <i>The Keeper of the God Opochtli at Atlixeliuhqui,</i> fol. 133r as \"jiauhtli\" in the Nahuatl text.</li><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-fifth Chapter, which telleth of the fourteenth sign called One Dog</i>, on fol. 51r as \"yauhtli.\"</li><li><i>Book 6, Rhetoric and Moral Philosophy, Twenty-first Chapter, Here is told the discourse, the manner in which the father, ruler or nobleman, exhorted his son in order to provoke him to chastity,</i> on fol. 95v as \"iauhtli.\" </li><li><i>Book 9, which telleth of the merchants and artisans; those who worked gold, and precious stones, and precious feathers, Second Chapter, Here is told how the merchants began their office, in which they were considered [and] honored as principal [merchants], </i>on fol. 3v as \"iiauhtli\" in the Nahuatl text.</li><li><i>Book 10, The People... in which are told the vices and virtues which were of the body and the soul, Twenty-eighth Chapter, which telleth of the ailments of the body and of medicines suitable to use for their cure; Third Paragraph, which telleth of the ailments and medicines, the cures, of the chest and the back,</i> on fol. 106v as \"yiauhtli\"; <i>Fifth Paragraph, which telleth of other ailments and their remedies, their cures, </i>on fol. 110r as \"iiauhtli\" in the Nahuatl text.</li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Fifth Paragraph, which telleth of the medicinal herbs and of different herbs, </i>on fol. 141v as \"iiauhtli\" in the Nahuatl text; <i>Sixth Paragraph, in which are told all the different herbs,</i> on fol. 181v as \"iiauhtli\"<i>; Seventh Paragraph, which telleth of still other herbs, which are called grasses,</i> on fol. 184r as \"teiiauhtli.\"<i></li></ul><li></i>Martín de la Cruz, <i>Códice de la Cruz-Badiano, </i>1552, fol. 56r, referred to as \"yauhtli.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 34, <i>On Yauhtli or Cloud Herb</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 8,
-      titulo: "Nombre inglés 8",
-      ficha: "GBF_08_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_08_x01_ES.png",
-          img_02: "GBF_08_x02_ES.png",
-          img_03: "GBF_08_x03_ES.png",
-          img_0n: "GBF_08_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_08_n01_ES.png",
-          img_02: "GBF_08_n02_ES.png",
-          img_03: "GBF_08_n03_ES.png",
-          img_0n: "GBF_08_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_08_d01_ES.png",
-          img_02: "GBF_08_d02_ES.png",
-          img_03: "GBF_08_d03_ES.png",
-          img_0n: "GBF_08_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "\"Las flores de este árbol son hermosas […] son ametaladas de colorado, amarillo y blanco, son de suave olor, y confortan el corazón con su olor. Por estas comarcas de México se hacen estas flores\", dice fray Bernardino de Sahagún para describir a la <i>cacaloxóchitl</i> o \"flor de cuervo\". Quizá los antiguos nahuas la llamaron así porque existe una variedad de esta flor muy rara y preciada de color negro y tornasolado, cuyos pétalos evocan el plumaje de los cuervos. Hoy es conocida como \"flor de mayo\", pues su época de mayor esplendor es durante ese mes, inicio de la época de lluvias, cuando el verdor y la exuberancia se encuentran en su apogeo. Crece en la selva baja caducifolia, en ambientes tropicales secos, y además de darse de manera silvestre, desde el tiempo de los antiguos mexicanos se cultivaba por su valor aromático y ornamental. En los jardines trabajados por los \"oficiales de las flores\" en la cuenca de México la <i>cacaloxóchitl</i> formaba parte de las especies importadas de \"tierra caliente\", cuya presencia en ellos era símbolo de la riqueza y el poder que se extendía hasta tierras lejanas, lo que hacía posible la presencia de estas preciadas flores. Es de notar cómo Sahagún aclara que \"son mejores las que vienen de tierra caliente\" y que la variedad de este árbol que \"se da por doquier\" y \"no es escasa\", no tiene olor ni valor alguno, resaltando en la <i>cacaloxóchitl</i> tropical su valor por aromática y exótica. Por esta razón estaba entre las flores preferidas para la elaboración de coronas, guirnaldas y ramilletes.</br>También era valorada por sus propiedades medicinales. Francisco Hernández cuenta que la médula de esta planta \"limpia el estómago y los intestinos\". Pero las menciones más interesantes son las del <i>Códice De la Cruz-Badiano</i>, donde se refiere que las flores de <i>cacaloxóchitl</i> se agregan a diversas mezclas para tratar la piel escamosa del mentón, curar el miedo o aliviar \"la fatiga del que administra la república y desempeña un cargo público\". </br>Hasta el día de hoy, la flor de mayo permanece como especie preciada por su belleza y fragancia. Se siembra en jardines y cementerios; en algunas regiones del sureste de México se bebe con el chocolate para darle un toque de sabor y aroma, y en la gastronomía se usa como flor comestible y de ornato.",
-          title_02: "Simbolismo",
-          txt_02: "La <i>cacaloxóchitl</i> en el mundo mexica era una de las consideradas flores preciosas reservadas a los señores y guerreros destacados, como símbolo de estatus y al mismo tiempo como ofrenda a \"los principales\" y a los dioses, ya fuera de la flor misma o de su fragancia. </br>Los exuberantes y opulentos jardines botánicos donde se cultivaban eran en sí mismos una muestra y despliegue del poder del soberano, y en ellos la <i>cacaloxóchitl</i> se procuraba en calidad de especie exótica y preciosa, junto con el cacao y la \"flor del corazón\". Al mismo tiempo, la mención como ingrediente del remedio para curar la fatiga de los señores y oficiales como parte de una larga y precisa lista de plantas, animales y piedras, todos considerados preciosos, reitera su cualidad de objeto suntuario y exquisito.</br>En el contexto ceremonial, la <i>cacaloxóchitl</i> formaba parte de las flores colectadas y ofrecidas al dios tutelar Huitzilopochtli en la fiesta de <i>Tlaxochimaco</i>, \"ofrenda de flores\", y en la fiesta movible del signo \"uno pedernal\", pero como tipos distintos de ofrenda. En <i>Tlaxochimaco</i> la flor de mayo componía guirnaldas para adornar calles y templos junto con otras flores, siendo así una dádiva con valor ornamental, como aderezo y objeto precioso, al tiempo que se alternaba con la <i>oceloxóchitl</i> en guirnaldas que se portaban en danzas. Pero en la segunda, la <i>cacaloxóchitl</i> era dada y dispuesta más bien como ofrenda aromática por ser flor de \"muy suave olor\" que, junto con el humo del tabaco, llenaba por completo el templo, según relata Sahagún. En este sentido, al ser la esencia de las flores comida predilecta de los dioses, la fragancia de la <i>cacaloxóchitl</i> era también sustento sagrado.</br>Al mismo tiempo, siendo la flor un símbolo asociado al canto y al uso elegante y \"florido\" del lenguaje, está relacionada con el grupo de dioses Xochipilli-Macuilxóchitl. Así, la <i>cacaloxóchitl</i> es mencionada en los <i>Romances de los Señores de la Nueva España</i> como metáfora de la procedencia divina de la inspiración creadora de los versos: \"¡Ah, si pudieran ser llevados/ las flores y los cantos a su mansión!/ ¡Ah, si pudiera yo irme adornado/ con flores de cuervo engalanadas/ de oro\". Pero en los mismos <i>Romances</i> contrasta la presencia de la <i>cacaloxóchitl</i> también como metáfora de lo carnal y terreno, apelando a la mujer en el contexto sexual y de la sensualidad misma, al placer y los excesos. En un verso casi erótico, la mujer le recita al hombre: \"Nos enlazamos con flores de cuervo,/ […] Ahí, en nuestra habitación,/ las flores llenan mi corazón de alegría\". </br>Estas paradojas que oscilan entre las esferas de lo sagrado y lo mundano son muestra de la compleja naturaleza simbólica de las flores. La flor de mayo sigue siendo hasta hoy metáfora de lo bello y placentero en su carácter ornamental y en su uso cosmético. Sus propiedades medicinales han sido cada vez más refinadas y estudiadas; y al mismo tiempo, conserva sus dimensiones rituales y sagradas en el contexto agrícola, adornando la Santa Cruz en las ceremonias de petición de lluvias y de agradecimiento por ellas en comunidades nahuas.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 8,
+		titulo: "",
+		ficha: "GBF_08_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_08_n01_EN.png",
+			img_02: "GBF_08_n02_EN.png",
+			img_03: "GBF_08_n03_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_08_d01_EN.png",
+			img_02: "GBF_08_d02_EN.png",
+			img_03: "GBF_08_d03_EN.png",
+			img_04: "GBF_08_d04_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>\"The flowers of this tree are beautiful . . . they are shot with red, yellow and white, they have a gentle fragrance, and they comfort the heart with their scent. In these regions of Mexico these flowers are made,\" says Fray Bernardino de Sahagún to describe the <i>cacaloxochitl</i> or \"raven flower.\" Perhaps the ancient Nahuas gave it this name because there is a strange and highly prized variety of this flower that is black and iridescent, and its petals evoke the plumage of ravens. Today it is known as \"flor de mayo\" or May flower in Spanish, because the time of its greatest splendor is during this month, at the start of the rainy season, when verdure and exuberance are at their peak. Known as frangipani in English, it grows in temperate deciduous forests, in dry tropical environments. Besides growing wild, it was cultivated for its aromatic and ornamental value from the time of the ancient Mexicans. In gardens tended by \"officers of flowers\" in the Basin of Mexico, the <i>cacaloxochitl</i> was among the species imported from the \"hotlands\" or tropical zones. Their presence in these gardens marked them as a symbol of the wealth and power that encompassed faraway lands, which made the presence of these flowers possible. It is worth noting that Sahagún clarifies that \"those that come from hotlands are better\" and the variety of this tree that \"grows anywhere\" and \"is not scarce\" has no smell or value, highlighting the esteem for the tropical <i>cacaloxochitl</i> resided in its fragrance and exotic origin. Consequently, it was among the flowers preferred for making crowns, garlands, and bouquets.</p><p>It was also prized for its medicinal properties. Francisco Hernández tells that the pith of this plant \"cleans the stomach and intestines.\" However, the most interesting references are those from the <i>Codex De la Cruz-Badiano</i>, where it records that <i>cacaloxochitl</i> flowers are added to diverse mixtures to treat scaly skin on the cheeks, to cure fear, or to relieve \"the fatigue of he who manages the republic and holds a public office.\"</p><p>To the present, the frangipani continues to be a species prized for its beauty and fragrance. It is planted in gardens and cemeteries; in some regions of southeastern Mexico, it is consumed with chocolate to give it a touch of flavor and aroma, while in cuisine it is used as an edible and ornamental flower.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The <i>cacaloxochitl</i> in the Mexica world was considered one of the precious flowers reserved for lords and outstanding warriors, as status symbols and as an offering to the \"nobles\" and to the gods, either the flower itself or its fragrance.</p><p>Exuberant and opulent botanical gardens where they were cultivated were a display and deployment of the sovereign’s power. In them the <i>cacaloxochitl</i> was sought as an exotic and precious species, together with cacao and the \"heart flower.\" At the same time, it is mentioned as an ingredient in the remedy to cure the fatigue suffered by lords and officials as part of a long and specific list of plants, animals, and stones, all considered precious. It is repeatedly mentioned as an exquisite sumptuary object.</p><p>In ceremonial contexts, the <i>cacaloxochitl</i> was among the flowers collected and offered to the patron god Huitzilopochtli at the celebration of <i>Tlaxochimaco</i>, \"The Flowers Are Offered,\" and at the movable celebration of the day sign One Flint, but as different types of offerings. In T<i>laxochimaco</i> the frangipani was made into garlands to adorn streets and temples, together with other flowers, thus being a gift with ornamental value, as a decoration and precious object. It was also alternated with the <i>oceloxochitl</i> in garlands worn in dances. However, in the latter case, the <i>cacaloxochitl</i> was given and employed more as an aromatic offering as a flower with a \"very gentle smell\" which, together with tobacco smoke, completely filled the temple, as Sahagún describes. In this sense, because the essence of flowers was the preferred food of the gods, the fragrance of the <i>cacaloxochitl</i> was also sacred sustenance.</p><p>As a symbol associated with song and the elegant and flowery use of language, it is related to the deity group Xochipilli-Macuilxochitl. Thus, the <i>cacaloxochitl</i> is mentioned in the <i>Romances de los Señores de la Nueva España</i> as a metaphor of the divine provenance of the creative inspiration of the verses: \"Ah, if they could be taken / flowers and songs to his dwelling place! / If I could go adorned / with raven flowers embellished / with gold.\" However, the <i>Romances</i> also contrast the presence of <i>cacaloxochitl</i> as a metaphor of the earthy and carnal realm, appealing to a woman in a sexual context of sensuality, pleasure, and excess. In an almost erotic verse, the woman recites to the man: \"We are joined by raven flowers,... There, in our room, / flowers fill my heart with joy.\"</p><p>These paradoxes that hover between the realms of the sacred and the mundane show the complex symbolic nature of flowers. Today the frangipani continues to be a metaphor of beauty and pleasure in its ornamental character and in its use as a cosmetic. Its medicinal properties have been increasingly refined and studied; at the same time, it preserves its ritual and sacred dimensions in agricultural contexts, adorning the Holy Cross in ceremonies to petition rains and to give thanks for rain in Nahua communities.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577.</li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods; Twenty-eighth Chapter, which telleth of the feast and offerings which they made upon the feast days of the ninth month, which was named Tlaxochimaco</i>, on fol. 59r, as \"cacalosuchitl.\" </li><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-first Chapter, which telleth of the tenth sign, called One Flint Knife,</i> on fol. 47r as \"cacaloxochitl\" in the Nahuatl text.</li><li><i>Book 8, which Telleth of the Great Rulers and Noblemen and of the Way in which They Observed the Elections in Their Government; Eighth Chapter, in which are told the various articles with which they adorned the rulers and noblemen,</i> on fol. 16r as \"cacaloxuchio tilmatli\" (mantle decorated with <i>cacaloxochitl </i>of the plumeria flower design) in the Nahuatl text. </li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Eighth Paragraph, which telleth of blossom petals and of stalks,</i> on fol. 185v as \"Cacaloxuchitl\"; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like,</i> on fol. 191r as \"Cacalosuchitl.\" </li></ul><li>Martín de la Cruz, <i>Códice De la Cruz-Badiano, </i>1552, on fols. 39v, 45r and 53r, referred to as \"Cacaloxochitl.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 145, <i>Of the Cacaloxochitl or Raven Flower</i>.</li><li>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, ca. 1579, vol. 2, page 247. </li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 9,
-      titulo: "Nombre inglés 9",
-      ficha: "GBF_09_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_09_x01_ES.png",
-          img_02: "GBF_09_x02_ES.png",
-          img_03: "GBF_09_x03_ES.png",
-          img_0n: "GBF_09_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_09_n01_ES.png",
-          img_02: "GBF_09_n02_ES.png",
-          img_03: "GBF_09_n03_ES.png",
-          img_0n: "GBF_09_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_09_d01_ES.png",
-          img_02: "GBF_09_d02_ES.png",
-          img_03: "GBF_09_d03_ES.png",
-          img_0n: "GBF_09_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "La <i>huacalxóchitl</i> o \"flor de huacal\", hoy genéricamente conocida como alcatraz, es en realidad un conjunto de flores diminutas distribuidas a lo largo de una espiga rodeada por lo que parece un gran pétalo, pero que es en realidad una bráctea u hoja protectora que recuerda a una cesta o a un huacal; esta semejanza es la que, en náhuatl, le da su nombre. </br>Su identificación precisa puede suscitar confusión debido a la gran cantidad de variedades que existen y a que la planta que más comúnmente se conoce hoy en día en México como alcatraz, corresponde a una especie de origen africano. Sin embargo, desde tiempos de los antiguos mexicanos han existido en América varias especies de la misma familia botánica, cuya fisonomía tan particular les valió el nombre de <i>huacalxóchitl</i>.</br>Estas plantas suelen crecer en climas tropicales, en diversos tipos de hábitat, pero también se cultivan. En la época prehispánica se traían al centro de México desde tierra caliente, junto con otras plantas consideradas exóticas, como el cacao o la <i>yolloxóchitl</i>, \"flor de corazón\", para plantarse en florestas y jardines de Tenochtitlan y sus alrededores. Según narra el cronista Alvarado Tezozómoc, desde lejos se traían estas plantas con todo y raíces para trasplantarse en Oaxtepec, donde se creó el jardín botánico más grande y exuberante de la época y uno de los primeros del mundo. </br>Fray Bernardino de Sahagún describe a la <i>huacalxóchitl</i> como una planta trepadora con una flor de \"piel gruesa\" y un centro redondo, puntiagudo y resinoso, y refiere también más variedades, unas aromáticas y otras no. De entre ellas, resalta la <i>huacalxóchitl</i> roja como algo \"precioso; algo que puede reclamarse para uno mismo por merecimiento; algo que uno se apropia\", que fue quizá la variedad más apreciada de todas. Es la más representada en los documentos antiguos y a la que se refieren las fuentes cuando usan de manera genérica el término <i>huacalxóchitl</i>. Francisco Hernández la define como \"extranjera\", recordándonos su calidad de importada, y enfatiza el color escarlata de su cesta. </br>Sus cualidades aromáticas, que se potenciaban cuando la flor se ponía en agua, la volvieron muy preciada. Formaba parte de la mezcla con la que se frotaba el tabaco al preparase, junto con vainilla, hongos y otras flores y hierbas. </br>Tenía también muchos usos medicinales. Según refiere el <i>Códice De la Cruz-Badiano</i>, donde tiene una de sus más bellas representaciones, se usaba para tratar los ojos ardorosos, las anginas infectadas, el dolor del pecho y como parte de las flores preciosas que alivian \"la fatiga del que administra la república y desempeña un cargo público\", exprimidas en agua de manantial. </br>Hoy, numerosas variedades de esta planta se cultivan con fines ornamentales para jardines exteriores e interiores.",
-          title_02: "Simbolismo",
-          txt_02: "Comprender a la <i>huacalxóchitl</i> en todos sus significados y simbolismos implica todo un desafío, dado que las referencias a ella se encuentran dispersas, apenas claras y, a veces, hasta misteriosas. Sin embargo, se le ve representada una y otra vez con gran calidad estética y protagonismo, reclamando para sí un lugar preponderante en el universo cotidiano, ritual y simbólico mexica, pero generando también muchas preguntas, ya que su simbolismo permanece casi siempre velado. La diversidad de los contextos en donde aparece, a veces contradictoria o aparentemente inconexa, deja entrever una semántica con muchos dobleces y recovecos. </br>Comenzando por lo más claro, esta flor se relaciona con otras de amplia presencia en el mundo ritual mexica, siendo parte de las \"flores preciosas, de olor dulce y fragante\" que se ofrecían a Huitzilopochtli el día de su signo, \"uno pedernal\", durante las fiestas movibles del calendario ritual. </br>Esta condición de flor reservada a los señores puede explicarse en parte por su cualidad aromática y, como es el caso de otras plantas como el cacao y la magnolia, por su condición de \"extranjera\" y exótica, lo que le asignaba un lugar irremplazable entre las especies cultivadas en aquellos jardines, que eran más bien lienzos donde se manifestaba la magnificencia del poder, el placer, el gozo y la fascinación por el conocimiento botánico. </br>Así, la <i>huacalxóchitl</i> como símbolo de privilegio y distinción formaba parte también de los motivos que adornaban los ricos atavíos de los señores, plasmándose en sus exquisitas mantas de algodón. Los mercaderes, considerados igualmente como una clase de privilegio que tenía además un universo ritual propio de su gremio, seguramente la ostentaban para sí, además de ser los encargados de llevarlas desde lejos a los centros de poder. Eran ellos quienes las obtenían y proveían, y de alguna forma poseían antes de que llegaran a su destino último. </br>Era también por eso un bien en tránsito, traído desde lejos casi en calidad de trofeo. Y quizá por eso se convirtió también en una especie de objeto de augurio o amuleto. Así lo expresa Francisco Hernández cuando menciona que los mercaderes portaban en la cabeza el fruto de esta planta \"a manera de penacho […] esperando obtener mayor lucro\". De la misma manera lo hacían los cazadores para asegurar más y mejores presas.  </br>Resulta interesante también cómo, en medio de sofisticadas prescripciones médicas, Martín de la Cruz la señala en su receta intitulada \"Ayuda para el viajero\", apelando a todos aquellos que, como los mercaderes y cazadores, enfrentaban cotidianamente los peligros e incertidumbres que guardaban los caminos. Había que hacer una compleja mezcla en polvo que se colocaba \"en el hueco de la conocida flor, muy olorosa, huacalxochitl\", de lo que resultaba \"una vasijita que se cuelga en el cuello\" para llevar en las travesías. </br>Por otro lado, hay una mención peculiar sobre una variedad de esta flor que hace Sahagún cuando habla de la<i> teccizuacalxóchitl</i> o <i>huacalxóchitl</i>-caracola, como una flor que requerían para sí \"las mujeres de palacio, las que estaban encerradas, las mujeres de Motecuhzoma. Dizque [con estas flores] lograban sensaciones sexuales\". Hernández, refiriéndose a la misma especie con el nombre de <i>telaxincaxóchitl</i> o \"flor de adulterio\", narra que las innumerables concubinas de Moctezuma se procuraban placer sexual con esta flor \"por falta de varón\". </br>Estas referencias, y la relación del alcatraz con el mono, animal asociado al juego, a la lujuria, al placer sexual y a Xochipilli, nos develan otra dimensión más del universo simbólico que encierra esta flor. Se le ve asida por un mono en diversas piezas arqueológicas. Además de compartir el atributo de trepar por los árboles, el alcatraz y el mono encierran en sí la idea del placer sensual y la concupiscencia. </br>Pero no es ésta su única relación con el gozo y el júbilo. El canto, la música y el baile son también universos evocados por la <i>huacalxóchitl</i>. La vemos exquisitamente labrada en un <i>teponaztli</i> o tambor de madera tlaxcalteca sostenida en la mano del guerrero ricamente ataviado que forma el cuerpo del tambor. Como referencia escrita, Hernández nos cuenta que estas flores \"eran muy estimadas por los indios, y se ofrecían en ramilletes a los héroes y a los que llamaban tlatoani porque sólo a ellos les era permitido hablar en las asambleas\". Recordemos que la elocuencia y el discurso en el mundo náhuatl estaban entretejidos y a veces eran sinónimos de \"canto\". La retórica era la manera de hablar \"<i>in xóchitl in cuicatl</i>\", \"en flor y canto\". Y a este respecto, las que resultan más elocuentes son las referencias pictóricas, en donde la <i>huacalxóchitl</i> roja está detallada y protagónicamente representada en escenas de canto, música y baile, parte de la parafernalia que acompaña los atavíos e instrumentos propios de los rituales previos a la guerra. Al lado de estos mismos emblemas de flores y plumas que son asidos como cetros, se le representa también en escenas de ofrenda y dispuesta como parte de un conjunto de objetos suntuarios en el libro sobre los mercaderes del <i>Códice Florentino</i>. </br>Hoy en día pareciera que todos estos simbolismos e intricados significados han quedado ocultos, quizá perdidos, y el lugar en la cultura contemporánea para las diversas variedades de <i>huacalxóchitl</i> se redujo a lo ornamental. Pero innegablemente sigue manteniendo su atractivo especial como flor muy valorada en la horticultura, además de formar parte de las flores que, de una u otra manera, son evocativas de la identidad mexicana.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 9,
+		titulo: "",
+		ficha: "GBF_09_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_09_n01_EN.png",
+			img_02: "GBF_09_n02_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_09_d01_EN.png",
+			img_02: "GBF_09_d02_EN.png",
+			img_03: "GBF_09_d03_EN.png",
+			img_04: "GBF_09_d04_EN.png",
+			img_05: "GBF_09_d05_EN.png",
+			img_06: "GBF_09_d06_EN.png",
+			img_07: "GBF_09_d07_EN.png",
+			img_08: "GBF_09_d08_EN.png",
+			img_09: "GBF_09_d09_EN.png",
+			img_10: "GBF_09_d10_EN.png",
+			img_11: "GBF_09_d11_EN.png",
+			img_12: "GBF_09_d12_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The <i>huacalxochitl</i> or \"basket flower,\" today generically known as philodendrons, is actually a group of tiny flowers distributed on a spike surrounded by what seems to be a large petal, but that is actually a bract or protective leaf reminiscent of a woven fiber basket or a stick crate. This similar is what gives it its name in Nahuatl.</p><p>Its specific identification has led to confusion as a result of the large number of varieties and the fact that the plant commonly known today in Mexico as the calla lily is a species of African origin. Nevertheless, since ancient Mexican times, various species of the same botanical family have existed in the Americas. Their distinctive physiognomy earned them the name of <i>huacalxochitl</i>.</p><p>These plants tend to grow in tropical climates, in diverse habitats, but they are also cultivated. In pre-Hispanic times they were brought to Central Mexico from tropical hotlands, together with other plants considered exotic, such as the cacao and the <i>yolloxochitl</i>, \"heart flower,\" to be planted in groves and gardens in Tenochtitlan and its environs. According to chronicler Alvarado Tezozómoc, these plants were brought from afar with their roots to be transplanted in Oaxtepec, where the largest and most exuberant botanical garden of the time and one of the first in the world was created.</p><p>Fray Bernardino de Sahagún describes the <i>huacalxochitl</i> as a creeper with a \"thick-skinned\" flower and a round, pointed, resinous center. He also refers to many varieties, some aromatic, and others scentless. Of them, he highlights the red <i>huacalxochitl</i> as something \"precious, something that can be deserved for merit; something that can be appropriated,\" which was perhaps the most highly prized variety of all. It is the most frequently depicted in ancient documents and sources refer to it when the term <i>huacalxochitl </i>is used generically. Francisco Hernández defines it as \"foreign,\" reminding us that it was imported and he emphasizes the scarlet color of its outer sheath</p><p>Its aromatic properties, enhanced when the flower was placed in water, augmented appreciation for it. Along with vanilla, mushrooms, and other flowers and herbs, it was part of the mixture rubbed on tobacco with for its preparation.</p><p>It also had many medicinal uses. According to the <i>Codex De la Cruz-Badiano</i>, which contains one of the most beautiful representations of it, it was used to treat burning eyes, infected tonsils, chest pain, and was among the precious flowers that relieved \"the fatigue of those who governed the republic and served in public office,\" when squeezed into spring water.</p><p>Today numerous varieties of this plant are cultivated for ornamental purposes, for outdoor gardens and for interiors.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>To fully understand the meanings and symbolism of the <i>huacalxochitl</i> is a major challenge, given that references to it are dispersed, unclear, and at times enigmatic. Nonetheless, it is represented repeatedly with great artistry and in a prominent position, playing a preponderant role in the everyday, ritual, and symbolic universe of the Mexicas. At the same time, it prompts many questions, because its symbolism almost always remains hidden. The diversity of contexts in which it appears, at times contradictory or apparently unconnected, exposes semantics full of complexity and hidden dimensions.</p><p>Beginning with what is clearly known, this flower is related to others widely known in the Mexica ritual world as one of the \"precious flowers, sweet-smelling and fragrant\" offered to Huitzilopochtli on his day sign, One Flint, during movable celebrations in the ritual calendar.</p><p>This condition as flower reserved for the nobility can be explained in part by its aromatic quality, as in the case of other plants such as cacao and magnolias, for its \"foreign\" and exotic status, which earned it a special place among species cultivated in Mexica gardens, which were canvases to express the magnificence of power, pleasure, enjoyment, and fascination with botanical knowledge.</p><p>Consequently, <i>huacalxochitl</i> as a symbol of privilege and distinction was also among the motifs that adorned the lavish attire of the nobility, who wore fine cotton mantles decorated with flower patterns. Merchants, who also belonged to a privileged class who had their own specialized rituals, surely flaunted it, not to mention those individuals responsible for bringing it from faraway places to centers of power. The latter obtained and supplied these flowers, and in some way they possessed them before they reached their final destination.</p><p>Consequently, it was also a good in transit, brought almost as a trophy from far away. And perhaps that is why it also became a sort of focus as an omen or amulet. Francisco Hernández refers to this when he mentions merchants who carried the fruit of this plant on their head \"as if a crest... hoping to secure greater profits.\" Similarly, hunters did the same to ensure more and better prey.</p><p>It is also interesting how, amidst sophisticated medical prescriptions, Martín de la Cruz includes it in his instructions on \"Help for the traveler,\" appealing to all those who, as merchants and hunters, regularly faced the dangers and uncertainty of unknown paths. It involved making a complex powdered mixture placed \"in the hollow of the well-known, very sweet-smelling flower, <i>huacalxochitl,</i>\" to produce \"a little vessel that was suspended from the neck\" to take on journeys.</p><p>Also Sahagún makes a peculiar reference to a variety of this flower when he speaks of the <i>teccizuacalxochitl</i> or <i>huacalxochitl</i>-shell as a flower required when the \"women of the palace claimed it as what they merited—those considered as secluded, those who were Motecuhzoma’s women: wherefore, they say, they were carnally guilty.\" Hernández, referring to the same species with the name <i>telaxincaxochitl</i> or \"adultery flower,\" describes how Motecuhzoma’s innumerable concubines sought sexual pleasure with this flower \"given the lack of men.\"</p><p>These references and the relationship of philodendrons with monkeys, an animal associated with playfulness, carnal desire, sexual pleasure, and Xochipilli, reveal another dimension of the symbolic universe surrounding this flower. It is shown held by a monkey in various archaeological pieces. Besides sharing a proclivity for climbing trees, the philodendron and monkey embody the idea of sensual pleasure and lust.</p><p>However, this is not its only relationship with enjoyment and joy. The <i>huacalxochitl</i> also evokes the world of song, music, and dance. We can see it exquisitely carved on a <i>teponaztli</i> or wood slit drum from Tlaxcala held by a richly attired warrior forming the body of the drum. In fact, Hernández tells us that these flowers \"were highly esteemed by the Indians, and they were offered in bouquets to heroes and to those they called <i>tlatoani</i> [the ruler] because they were the only ones allowed to speak at assemblies.\" We should bear in mind that eloquence and discourse in the Nahuatl world were interwoven and often they were synonymous with \"song.\" Rhetoric was the way of speaking \"<i>in xochitl in cuicatl,</i>\" \"in flower and song,\" in other words with eloquence. And in this regard, the most eloquent sources are pictorial references, where the red <i>huacalxochitl</i> is rendered in detail and is shown playing a prominent role in scenes of song, music, and dance, part of the paraphernalia that accompanied the insignia and instruments played in rituals prior to warfare. Alongside these emblems of flowers and feathers held as staffs, they are also represented in scenes of offering and are displayed as part of the group of sumptuary objects in the book on merchants in the <i>Florentine Codex</i>.</p><p>Nowadays it might seem that all these intricate symbolic meanings have remained hidden, or perhaps lost, and instead for the diverse varieties of <i>huacalxochitl</i> in contemporary culture<i>,</i> the flower has been primarily reduced to an ornamental purpose. However, its ongoing appeal as a species highly valued in horticulture is undeniable, as well as the key role it plays as one of the flowers that in one way or another evokes Mexican identity.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. </li><ul style='list-style-type:circle'><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-first Chapter, which telleth of the tenth sign, called One Flint Knife,</i> on fol. 47r as \"oacalxochitl\" in the Nahuatl text.</li><li><i>Book 8, which Telleth of the Great Rulers and Noblemen and of the Way in which They Observed the Elections in Their Government; Eighth Chapter, in which are told the various articles with which they adorned the rulers and noblemen, </i>on fol. 16r as \"oacalxuchio tilmatli\" (mantle decorated with <i>huacalxochitl </i>or the basket-flower design) in the Nahuatl text. </li><li><i>Book 10, The People... in which are told the vices and virtues which were of the body and the soul, Twenty-fourth Chapter, which telleth of the turkey sellers, of those who sell eggs, and of those who sell various medicines,</i> on fol. 64v as \"oâcalsuchio\" in the Nahuatl text.</li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like,</i> on fols. 194r and 194v as \"Vacalsuchitl,\" \"Teccizoacalsuchitl\" (<i>huacalxochitl</i>-caracola), \"tochnacazhuacalxochitl\" (<i>huacalxochitl, </i>rabbit’s ear), and \"tlapalhuacalxóchitl\" (red <i>huacalxochitl</i>) in the Nahuatl text.</li></ul><li>Martín de la Cruz, <i>Códice De la Cruz-Badiano, </i>1552, fols. 10v, 18v, 27v, 39v and 56v, referred to as \"Huacalxochitl.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 145, <i>Of the First Huacalxochitl or Hollow Flower</i>; Chapter 66, <i>Of the Second Huacalxochitl</i>.</li><li>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, ca. 1579. vol. 2, page 247.</li><li>Hernando Alvarado Tezozómoc, 1598, <i>Crónica Mexicana,</i> fol. 51v.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 10,
-      titulo: "Nombre inglés 10",
-      ficha: "GBF_10_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_10_x01_ES.png",
-          img_02: "GBF_10_x02_ES.png",
-          img_03: "GBF_10_x03_ES.png",
-          img_0n: "GBF_10_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_10_n01_ES.png",
-          img_02: "GBF_10_n02_ES.png",
-          img_03: "GBF_10_n03_ES.png",
-          img_0n: "GBF_10_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_10_d01_ES.png",
-          img_02: "GBF_10_d02_ES.png",
-          img_03: "GBF_10_d03_ES.png",
-          img_0n: "GBF_10_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "La <i>oceloxóchitl</i> o \"flor de jaguar\" es una flor nativa de México que desde tiempos antiguos fue muy apreciada por su colorido y, especialmente, por la relación que tenía con el jaguar, animal sagrado para todas las culturas mesoamericanas, por las manchas de colores que porta en su centro y que son tan evocativas de este felino. </br>Dice Francisco Hernández que \"Nace en clima templado, como es el de la ciudad mexicana, principalmente en lugares hortenses, húmedos y cultivados\", haciendo referencia a la costumbre de cultivarla ampliamente en las huertas domésticas, la que pervive hasta hoy. En la cuenca de México habita en los matorrales, las márgenes de los arroyos y en pastizales de manera silvestre.</br>Puede florecer desde junio hasta diciembre, pero sus meses de mayor esplendor son agosto y septiembre. </br>Se le llama comúnmente \"flor de tigre\", tigrilla o cacomite; aunque también es referida como \"flor de un día\", ya que abre sus pétalos temprano por la mañana y se marchita al atardecer, antes de que se meta el sol, además de que sólo abre una flor de la planta a la vez.</br>Su raíz bulbosa, de sabor parecido al de la castaña, es comestible. Hernández nos da cuenta de ello diciendo que era \"alimento refrescante\", al tiempo que menciona sus propiedades medicinales, entre las que están bajar la fiebre y ser \"favorable para el pecho\". </br>Hoy en día se usa principalmente como flor ornamental en jardines y patios domésticos.",
-          title_02: "Simbolismo",
-          txt_02: "La <i>oceloxóchitl</i> ocupó un lugar especial en el universo simbólico mexica por el colorido particular que la unía con uno de sus emblemas más representativos y más sagrados: el jaguar. Así la vemos en la colorida relación de mantas portadas en las fiestas del <i>Códice Magliabechiano</i>, en la tilma con el motivo del <i>ocelotl</i> o jaguar, donde al observar sus manchas, podemos distinguirlas como flores de <i>oceloxóchitl</i>, con su triada de pétalos y su centro pinto. </br>Sahagún nos relata que dentro del universo ceremonial mexica la <i>oceloxóchitl</i> era una de las muchas flores \"así silvestres como campesinas\" que salía a recolectar a los campos, montañas y maizales la gente del pueblo, dos días antes del inicio de la fiesta de la \"ofrenda de flores\", o Tlaxochimaco, para hilarlas en guirnaldas y \"teniéndolas ensartadas hacían sogas torcidas de ellas, gruesas y largas\". </br>Pero la <i>oceloxóchitl</i> tenía un lugar más especial aún en esta fiesta, según muestra el <i>Códice Borbónico</i>, uno de los más antiguos del centro de México. En coloridas y elocuentes imágenes se distingue a la <i>oceloxóchitl</i> alternada con la \"flor de cuervo\" o <i>cacaloxóchitl</i>, formando éstas ricas guirnaldas. </br>No sólo se utilizaba en esta fiesta, sino que muy probablemente también en un sinnúmero de ocasiones en que los antiguos mexicanos echaban mano de las flores para engalanarse o para ofrecer a sus dioses. Según nos cuenta Hernández, la <i>oceloxóchitl</i> \"se usa, por la hermosura de su flor, en coronas y ramilletes\", que normalmente se elaboraban con motivo de las fiestas. </br>El jaguar es también un símbolo del guerrero, y en este sentido, siendo que la flor y sus diversas especies era una de las metáforas predilectas en la expresión lírica para revelar distintas entidades simbólicas, la presencia de la <i>oceloxóchitl</i> en los cantares y \"lenguaje florido\" de la fina retórica náhuatl se cristaliza en la idea del guerrero. En los <i>Cantares mexicanos</i> la leemos significando al guerrero y a la guerra como algo sublime: \"¡Ah, nunca se cansarán las flores de guerra!/ […] Están al borde del agua:/ flores de jaguar y flores-escudos/ abren su corola, se juntan/ en el lugar de las campanillas, el lugar del polvo./ Las flores de jaguar perfumadas al cacao/ se hallan allí, en el lugar de la dispersión,/ en medio de la llanura./ Exhalan su fragancia encima de nosotros./ ¿Quién no las desea pues?/ ¡Son gloria y orgullo!\". </br>Actualmente la relación de la \"flor de tigre\" con el jaguar pareciera simplemente estar en la alusión a su distintivo pelaje; aunque el mismo nombre deforme su esencia por usar el término <i>tigre</i>, que tiene la piel rayada en lugar de pinta. Pero el jaguar permanece hoy como uno de los símbolos más evocativos del pasado y de la cosmovisión prehispánica; y así, quizá en la predilección de la <i>oceloxóchitl</i> como flor ornamental perviva, aunque sea oculta, la fuerza de este simbolismo que un tiempo la hermanó con uno de los seres más poderosos del imaginario mexica.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 10,
+		titulo: "",
+		ficha: "GBF_10_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_10_n01_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_10_d01_EN.png",
+			img_02: "GBF_10_d02_EN.png",
+			img_03: "GBF_10_d03_EN.png",
+			img_04: "GBF_10_d04_EN.png",
+			img_05: "GBF_10_d05_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The <i>oceloxochitl,</i> \"ocelot flower,\" known in English as the tiger flower, is native to Mexico. From ancient times it was highly esteemed for its bright color, especially for its relationship with jaguars, a sacred animal for all Mesoamerican cultures, for the colored spots in its center, evocative of this feline.</p><p>Francisco Hernández says \"It grows in temperate climate, as is that of the city of Mexico, mainly in moist, tended gardens,\" making reference to the custom of widely cultivating it in domestic gardens that have come down to the present. In the Basin of Mexico it also grows wild beside streams, and in scrubland and pastures.</p><p>It can bloom from June to December, but August and September are the months of its greatest splendor.</p><p>It is commonly called tiger flower, as well as <i>tigrilla</i> or <i>cacomite</i> in Spanish. It is also referred to as a \"day flower,\" because it opens its petals early in the morning and wilts in the afternoon, before the sun sets. Each flower blooms for only a single day.</p><p>Its edible bulbous root tastes like a chestnut. Hernández calls it a \"refreshing food,\" while he also refers to its medicinal properties, which include calming fevers and being \"favorable for the chest.\"</p><p>Nowadays it is used mainly as an ornamental flower in gardens and household patios.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The <i>oceloxochitl</i> occupied a special place in the Mexica symbolic universe for its coloring, which linked it to one of their most representative and most sacred emblems: the jaguar. Thus we see it in the colorful depiction of mantles worn at religious celebrations in the <i>Codex Magliabecchi</i> in the cloak with the <i>ocelotl</i> or jaguar motif, which upon closer examination of its spots, we can distinguish them as <i>oceloxochitl </i>flowers with their triad of petals and spotted center.</p><p>Sahagún observes that in the Mexica ceremonial universe the <i>oceloxochitl</i> was one of the many flowers \"both wild and rural\" that the common people collected in fields, mountains, and in corn fields two days before the start of the feast of the \"The Flowers Are Offered\" or Tlaxochimaco, to string them into garlands and \"when they had been threaded, [then] they were twisted and wound [in garlands]—long [ones], very long, and thick—very thick.\"</p><p>However, the <i>oceloxochitl</i> played a special role in this celebration, as show in the <i>Codex Borbonicus</i>, one of the oldest pictorial documents from Central Mexico. In colorful and eloquent images, the <i>oceloxochitl</i> can be seen alternating with the \"raven flower\" or <i>cacaloxochitl</i>, forming these lavish garlands.</p><p>Not only was it used in this celebration, but the ancient Mexicans probably made use of the flowers on countless occasions to dress up and make offerings to their gods. As Hernández tells us the <i>oceloxochitl</i> \"is used, for the beauty of its flowers, in crowns and bouquets,\" which are normally made for religious celebrations.</p><p>The jaguar is also a symbol of the warrior, and in this sense, because the flower and its diverse species were one of the favored metaphors in poetry to reveal distinct symbolic entities, the presence of the <i>oceloxochitl</i> in songs and \"flowery language\" of fine Nahuatl rhetoric is crystalized in the idea of the warrior. The <i>Cantares mexicanos</i> alludes to it to portray the warrior and warfare as sublime entities: \"Ah, flowers will never tire of war! /... They are on the edge of the water: / jaguar flowers and shield flowers / open their corolla, they join together / in the place of the campanillas (little bells; bell flowers; campanulas), the place of powder. / The jaguar flowers perfumed of cacao / are found there, in the place of the scattering, / in the midst of the plain. / They exhale their fragrance over us. / Who then does not desire them? / They are glory and pride!\"</p><p>Today the relationship of the tiger flower and jaguar might to simply reside in the allusion to the distinctive markings of its pelt; however, the name distorts its essence by using the term <i>tiger</i>, which has striped instead of spotted skin. Nevertheless, today the jaguar remains one of the most evocative symbols from the past and the pre-Hispanic worldview. Although it may be hidden, the power of this symbolism, which once related it to one of the mightiest beings in the Mexica collective imagination, may persist in the continued preference for the <i>oceloxochitl</i> as an ornamental flower.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577.</li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods; Twenty-eighth Chapter, which telleth of the feast and offerings which they made upon the feast days of the ninth month, which was named Tlaxochimaco</i>, on fol. 59r as \"ocelusuchitl.\" </li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like,</i> on fol. 196v as \"Ocelosuchitl\" in the Nahuatl text. </li></ul><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Eighth Book, Chapter 23, <i>Of the Oceloxochitl or tiger flower</i>.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 11,
-      titulo: "Nombre inglés 11",
-      ficha: "GBF_11_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_11_x01_ES.png",
-          img_02: "GBF_11_x02_ES.png",
-          img_03: "GBF_11_x03_ES.png",
-          img_0n: "GBF_11_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_11_n01_ES.png",
-          img_02: "GBF_11_n02_ES.png",
-          img_03: "GBF_11_n03_ES.png",
-          img_0n: "GBF_11_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_11_d01_ES.png",
-          img_02: "GBF_11_d02_ES.png",
-          img_03: "GBF_11_d03_ES.png",
-          img_0n: "GBF_11_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "La <i>yolloxóchitl</i>, \"flor del corazón\", conocida hoy comúnmente como magnolia, es una flor blanca de grandes dimensiones que crece en árboles y cuya característica más distintiva, además de su tamaño y belleza, es su intensa y exquisita fragancia. Los antiguos mexicanos la llamaron así porque su botón \"tiene la hechura de corazón\". </br>Los árboles de magnolia crecen naturalmente en las selvas altas perennifolias, en los climas húmedos que van de lo templado a lo cálido; y ocasionalmente pueden encontrarse como remanentes en los plantíos, como árboles de sombra en cafetales y cacaotales. </br>Fray Bernardino de Sahagún abre con la <i>yolloxóchitl</i> su relación sobre las flores de los selectos árboles que se plantaban en los jardines o florestas, que eran \"lugar apacible y muy deleitoso\" donde sólo tenían cabida las especies más exquisitas y estimadas, \"árboles de muy olorosas y preciosas flores\", como la flor del cacao o <i>cacauaxóchitl</i>, y la \"flor de esquite\" o <i>izquixóchitl,</i> traídas de tierra caliente cercana a las costas para deleite de los señores, convirtiéndose en símbolo de exotismo y poder. Así lo reitera el cronista Alvarado Tezozómoc, cuando narra la proeza de los mensajeros que traían estos árboles desde lejos con todo y sus raíces para trasplantar en Oaxtepec.</br>En la fervorosa descripción de Sahagún, sus atributos aromáticos y cualidades medicinales se entretejen. Su fragancia lo mismo adereza el chocolate que \"refresca y alivia\", porque esta flor también es medicina: \"Enfría al que tiene fiebre […]. En donde se hincha, en donde se calienta [el cuerpo], allí se pone, se unta. Perfuma las cosas; aromatiza las cosas\".</br>Si bien ésta puede resultar una descripción más sensual que científica, las flores de <i>yolloxóchitl</i>, junto con la corteza de sus troncos, se utilizan hasta hoy en la medicina tradicional para tratar afecciones cardiacas. Lo confirman así Martín de la Cruz y Francisco Hernández. El primero las refiere para procurar la salud mental, que para los antiguos nahuas residía en el corazón. Pero también le atribuyen otras bondades para el estómago, las vías urinarias y hasta como remedio a la esterilidad.",
-          title_02: "Simbolismo",
-          txt_02: "Puede que las magnolias sean unas de las flores más extraordinarias por su monumentalidad, distintiva fragancia y hermosura. La variedad que es endémica del sur de México fue valorada en demasía por los antiguos mexicanos, quienes se ocuparon de cultivarla devotamente y llevarla a otras zonas del territorio, como la gran Tenochtitlan y sus alrededores, a los exuberantes jardines botánicos plantados a un tiempo como símbolo de poder y evocación del Tlalocan o \"paraíso terrenal\". Siendo tan valoradas las flores en el mundo prehispánico, la <i>yolloxóchitl</i> con sus atributos ocupó un lugar primordial entre las más estimadas, incluso como amuleto, según la receta de Martín de la Cruz para conformar la \"vasijita que se cuelga en el cuello\", junto con la <i>huacalxóchitl</i>, como \"ayuda para el viajero\". </br>\"Úsanlas los señores y gente de arte\", apunta Sahagún, apelando a su condición de objeto suntuario, exquisito y reservado para manos y contextos privilegiados. Un ejemplo de esto es el consumo del cacao puro, un oneroso bien que, de tan concentrado, tenía un sabor amargo que debía matizarse con fragantes flores que atesoraban también un gran valor. Esta bebida, el <i>xochicacauatl</i> o \"cacao floreciente\", amalgamaba así dos símbolos de poder, riqueza y divinidad: el cacao y las flores preciosas como la <i>yolloxóchitl</i>.  </br>Su intenso olor era en sí mismo una ofrenda para los dioses, siendo su alimento predilecto las esencias más puras y fragantes. Así, en el contexto ritual y de las fiestas mexicas, la <i>yolloxóchitl</i> formaba parte de las flores devotamente recolectadas por la gente del pueblo para elaborar guirnaldas y coronar las cabezas de sus dioses en la fiesta de la \"ofrenda de flores\" o Tlaxochimaco, en honor de su dios tutelar Huitzilopochtli. También, en la fiesta movible del signo \"uno pedernal\", dedicada al mismo dios, se menciona como parte de las \"flores preciosas, de olor dulce y fragante\" que le eran ofrendadas por Motecuhzuma, el gran <i>tlatoani</i>, dispuestas a manera de cuidadosos arreglos \"hechos como escudos de flores; circulares\", cuyo perfume \"se esparcía y arropaba todo el templo\" junto con el humo del tabaco.  </br>Resulta de gran trascendencia entonces que la máxima expresión de los sublimes atributos de esta flor se encuentre referida también en el Libro XII del <i>Códice Florentino</i>, donde Sahagún narra la conquista de México, en uno de los momentos culmen de toda su narrativa y definitorios para la historia mexicana: el encuentro entre Hernán Cortés y Motecuhzoma. Ante la incertidumbre y el azoro del anticipado y temido encuentro, Motecuhzoma se engalana y atavía de la manera más rica posible y le ofrenda a Cortés en ricos cuencos estos mismos arreglos circulares de flores, las más exquisitas, aromáticas y especiales de entre las que se ostentaban y preciaban en el imperio y de las que formaba parte, junto con flores de girasol, tabaco, cacao y esquite, la <i>yolloxóchitl</i>. </br>En el universo de la retórica, los cantares y los himnos, del \"lenguaje florido\", la <i>yolloxóchitl</i> vuelve a compartir sitio con el cacao, ahora con su flor, la <i>cacauaxóchitl</i>. Y así como ambas se funden en la bebida sagrada, en los versos, construyen la metáfora del guerrero sacrificado que, igual que la flor, después de brotar y abrir, expone y entrega su corazón, dando fin a su ciclo vital ordenado por el Sol. La \"flor del corazón\", además blanca como el color que cubre a los sacrificados, se convierte en los versos en símbolo del corazón del guerrero ofrecido como alimento al Sol que, a su vez, le otorga la trascendencia después de la muerte como habitante de la casa del Sol y ave o mariposa que libará de las flores que se dan en ella. Los <i>Cantares mexicanos</i> rezan: \"En el lugar de los dardos colorados,/ en el lugar de los escudos colorados,/ allí en Tenochtitlan,/ perduran la flor de cacao y la flor del corazón./ Las flores del-por-quien-se-vive abren su corola./ Los príncipes son libados/ en el recinto de las aguas\". </br>Todos estos simbolismos que encierra dentro de sí la magnolia han quedado hoy guardados dentro de su esencia, en la historia y en la memoria colectiva. Lo que nunca cesará es el azoro y admiración que causa su belleza, grandeza y fragancia. La <i>yolloxóchitl</i> sigue deleitando, floreciendo desde sus árboles que adornan jardines, calles, camellones, patios y dan sombra a cafetos y cacaos. En la cosmética y perfumería su aroma se extrae en esencias y permanece como uno de los más distintivos, finos y seductores.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+	{
+		id_flor: 11,
+		titulo: "",
+		ficha: "GBF_11_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
 
-    {
-      id_flor: 12,
-      titulo: "Nombre inglés 12",
-      ficha: "GBF_12_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_12_x01_ES.png",
-          img_02: "GBF_12_x02_ES.png",
-          img_03: "GBF_12_x03_ES.png",
-          img_0n: "GBF_12_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_12_n01_ES.png",
-          img_02: "GBF_12_n02_ES.png",
-          img_03: "GBF_12_n03_ES.png",
-          img_0n: "GBF_12_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_12_d01_ES.png",
-          img_02: "GBF_12_d02_ES.png",
-          img_03: "GBF_12_d03_ES.png",
-          img_0n: "GBF_12_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "El nardo, referido por los cronistas como jazmín indiano, azucena de Indias o, según Francisco Hernández, \"una especie de narciso desconocida en el Viejo Mundo\" para mejor comprensión de los lectores europeos, no pasó inadvertido a los estudiosos de la flora del Nuevo Mundo por ser una especie nativa de esta región, desconocida para ellos y, por supuesto, debido a su intensa y exquisita fragancia, que compararon con la del jazmín, el azahar o las azucenas.</br>Esta planta, pariente de los agaves, es originaria del centro y sur de México y crece en climas templados y húmedos. </br>Es una especie casi extinta en su estado silvestre, pero en la actualidad es ampliamente cultivada. Se reproduce a través de bulbos que generalmente se plantan en primavera y florece desde finales de verano, a veces hasta inicios del invierno; aunque con control específico de humedad y temperatura en invernaderos, puede florecer casi todo el año. </br>De la planta que crece a nivel de piso brota hacia arriba una esbelta vara, de la cual emergen flores blancas en pares que forman racimos desde su base y hasta su punta. Estas flores son tan olorosas que una sola vara de ellas puede aromatizar un espacio hasta por siete días. </br>Se le conoce popularmente como nardo, \"vara de San José\" –debido a su similitud con la iconografía de este santo que tradicionalmente porta una vara de flores blancas– o amole, término náhuatl (de <i>amolli</i>, jabón) que hace referencia a su uso como fuente de jabón, igual que varios magueyes. </br>Respecto a sus usos medicinales, Francisco Hernández dice que la parte útil de la planta es la raíz, ya sea aplicada o tomada, con la que pueden tratarse tumores y fiebres.</br>Hoy en día su uso principal es ornamental, aunque también es socorrida por su fragancia, cuya esencia se extrae para la elaboración de perfumes.",
-          title_02: "Simbolismo",
-          txt_02: "El simbolismo alrededor de la <i>omixóchitl</i> para los antiguos mexicanos aún permanece parcialmente velado por las escasas referencias a esta flor en las crónicas, en contraste con otras que son mucho más mencionadas. Lo que sí es claro, es que tuvo que ser muy valorada debido a su intensa y seductora fragancia. En el texto náhuatl del <i>Códice Florentino</i> de Sahagún se describe como \"fragante, perfumada. Es deleitosa para el alma, placentera\", y en párrafos más adelante, \"Es de olor agradable, fragante, dulce; algo valioso, útil\". Estas palabras confirman la predilección que debieron haber tenido los nahuas de la época por la <i>omixóchitl</i>; además de que Francisco Hernández relata <i>que </i>\"Las flores se emplean en ramilletes y en perfumes\".</br>Sin embargo, es de notar que a pesar de su muy intenso aroma no se menciona en las descripciones de las fiestas del calendario ritual o en otras ceremonias. Quizá su origen silvestre y procedencia local le impedían esta distinción, dado que los mexicas valoraban en general mucho más las flores \"extranjeras\" y provenientes de tierra caliente. Pero aunque no estén claros los motivos de sus escasas menciones, la <i>omixóchitl</i> muy probablemente fue objeto de ceremonias de comunicación con las deidades a través de su poderoso perfume. No hay que olvidar que el alimento preferido de los dioses eran las esencias, ni que los olores intensos de las flores se consideraban favorecedores del estado de trance y de la conversación con lo sobrenatural. </br>La mención de la <i>omixóchitl</i> que sí es clara, y sin embargo curiosa y distinta a la de casi todas las flores, está en la relación que hace Sahagún de lo que él llama \"augurios\" y \"abusiones\" en su libro quinto del <i>Códice Florentino</i>. La <i>omixóchitl</i> era la causante de padecimientos \"en las partes inferiores de los hombres y de las mujeres; y dicen los supersticiosos antiguos que aquella enfermedad se causa de haber olido mucho esta flor […], de haberla orinado, o de haberla pisado\". La apariencia de la flor misma evocaba enfermedad en el caso de los hombres, la que fue llamada de la misma manera que la flor. Es interesante la mención de que la causa pueda ser oler la <i>omixóchitl</i> en exceso, tratándose como de una suerte de castigo por procurarse placer con desmesura a través de su aroma. </br>Por esta dimensión carnal y sensual de la flor se ha dicho que se asocia con deidades relacionadas con el gozo y las flores, como Xochipilli, pues una de sus dimensiones simbólicas abarca el placer sexual. En este sentido, así como se creía que la <i>omixóchitl</i> era la causante de los padecimientos dichos, Xochipilli era la deidad encargada de castigar con ellos a los transgresores que rompían el ayuno sexual cuando las fiestas y rituales lo requerían. </br>Actualmente la <i>omixóchitl</i> es una de las flores más representativas dentro de universo floral popular mexicano. Se cultiva extensamente para usarse como flor cortada, de ornato, y por su aroma. La tradición popular la relacionaba hasta hace poco con los funerales por su color blanco, pero también por su potente perfume, útil para enmascarar malos olores en veladas de varios días.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "",
-        }
-      ]
-    },
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_11_n01_EN.png",
+			img_02: "GBF_11_n02_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_11_d01_EN.png",
+			img_02: "GBF_11_d02_EN.png",
+			img_03: "GBF_11_d03_EN.png",
+			img_04: "GBF_11_d04_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The <i>yolloxochitl</i>, \"heart flower,\" today commonly known as the magnolia, is a large white flower that grows on trees and whose most distinctive characteristic, in addition to its size and beauty, is its intense and exquisite fragrance. The ancient Mexicans dubbed it \"heart flower\" because its bud \"is heart-shaped.\"</p><p>Magnolia trees grow naturally in high evergreen forests, in moist climates that range from temperate to hot; and they can occasionally still be found in garden patches and as shade trees in coffee and cacao plantations.</p><p>Fray Bernardino de Sahagún opens his account on the flowers of the select trees that were planted in gardens or woods with the <i>yolloxochitl</i>, that were \"pleasant and very delightful places\" that only held the most exquisite and esteemed species, \"very fragrant trees and precious flowers,\" such as the cacao flower or <i>cacauaxochitl</i>, and the \"white like popcorn\" <i>esquite</i> flower or <i>izquixochitl </i>(strongbark)<i>,</i> brought from tropical hotlands near the coasts for the delight of the nobility, becoming a symbol of exoticism and power. This is reiterated by chronicler Alvarado Tezozómoc, who tells of the feats of the messengers who brought these trees with their roots from faraway lands to be transplanted in Oaxtepec.</p><p>In Sahagún’s enthusiastic description, its aromatic attributes and medicinal qualities are interwoven. Its fragrance perfumes chocolate that \"freshens and soothes,\" because this flower is also medicine. \"It alleviates the fever . . . When there is swelling, when there has been fever, there it is placed; it is rubbed on. It gives things a pleasing odor, makes things fragrant.\"</p><p>Although this may be more of a sensual than scientific description, <i>yolloxochitl </i>flowers<i>,</i> together with the bark of its trunks, are used today in traditional medicine to treat cardiac ailments. This is confirmed by Martín de la Cruz and Francisco Hernández. The former refers to them for mental health, which for the ancient Nahuas resided in the heart. However, they are also attributed with other benefits for the stomach, the urinary tract, and even as a remedy for sterility.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>Magnolias might be one of the most extraordinary flowers for their monumentality, distinctive fragrance, and beauty. The variety endemic in southern Mexico was extremely valued by the ancient Mexicans, who devoutly cultivated it and took it to other zones of the territory, such as to the capital city of Tenochtitlan and its surroundings, to exuberant botanical gardens planted as a symbol of power and evocation of Tlalocan or \"earthly paradise.\" The flowers were so highly esteemed in the pre-Hispanic world, the magnolia and its attributes occupied a primordial place among the most highly prized flowers, even as an amulet, according to instructions recorded by Martín de la Cruz to make the \"little vessel hung from the neck,\" together with the <i>huacalxochitl,</i> as an \"aid for the traveler.\"</p><p>\"Noblemen and craftsmen use them,\" notes Sahagún, referring to their status as an exquisite sumptuary object reserved for privileged hands and contexts. An example of this is the consumption of pure cacao, a laborious commodity that when concentrated had a bitter taste that had to be softened with fragrant flowers that were also treasured. This beverage, <i>xochicacauatl</i> or \"flowering cacao,\" combined two symbols of power, wealth, and divinity: cacao and precious flowers, such as magnolias.</p><p>Its intense scent was in itself an offering for the gods, as the purest and most fragrant essences were their favorite food. Thus, in ritual contexts and Mexica feast days, the <i>yolloxochitl</i> was part of the flowers that the people devoutly collected to craft garlands and to crown the heads of their gods in the celebration of \"The Flowers Are Offered\" or Tlaxochimaco, in honor of their patron god Huitzilopochtli. Also, as a movable celebration on the day sign \"One Flint,\" dedicated to the same god, it is mentioned among the \"varied flowers, which were sweet-smelling and fragrant\" that were offered by Motecuhzoma the great <i>tlatoani </i>or emperor, set out in careful arrangements \"made as shields of flowers, circular,\" whose perfume \"spread and blanketed his temple\" along with tobacco smoke.</p><p>Therefore, it is of great importance that the maximum expression of the sublime attributes of this flower are also referred to in Book 12 of the <i>Florentine Codex</i>, where Sahagún tells of the conquest of Mexico, in one of the culminating moments of his narrative that was key for Mexican history: the meeting of Hernán Cortés and Motecuhzoma. Faced with the uncertainty and perplexity stirred by the feared encounter with the unknown, Motecuhzoma was adorned in his most lavish attire and he offered Cortés luxurious bowls containing these same round floral arrangements, the most exquisite, aromatic, and esteemed of those boasted and prized in the empire which included magnolias, along with sunflowers, tobacco, cacao blossoms, and popcorn flowers.</p><p>In the realm of rhetoric, songs, hymns, and \"flowery language,\" the <i>yolloxochitl</i> appeared in contexts with cacao, perfumed with its flowers, the <i>cacauaxochitl </i>or cacao blossoms. In this way, both were combined in the sacred beverage and in verses conjuring the metaphor for the sacrificed warrior, who just as the flower, after forming buds and blossoming, was exposed and gave up his heart to fulfill the vital cycle demanded by the Sun. The magnolia as the \"heart flower\" was not only white, the color that covered sacrificial victims, but also in verses it became a symbol of the warrior’s heart offered to feed the Sun, who in turn, granted him transcendence after death by allowing him to dwell in the House of the Sun as a bird or butterfly that would sip nectar from magnolia blossoms. The <i>Cantares mexicanos</i> intone: \"In the place of the red darts, / in the place of the red shields, / there in Tenochtitlan, / endure the cacao flower and the heart flower. / The flowers of the Giver of Life open their corollas. / Princes are savored / in the precinct of waters.\"</p><p>All this symbolism embodied in the magnolia has remained in its essence, in history, and in the collective memory. What will never come to an end is the awe and admiration triggered by is beauty, grandeur, and fragrance. The <i>yolloxochitl</i> continues to delight, blooming on trees adorning gardens, streets, and patios, providing shade to coffee and cacao trees. In cosmetics and perfumery its aroma is extracted in essences as it remains one of the most distinctive, exquisite and seductive of scents.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577.</li><ul style='list-style-type:circle'><li><i>Book 2, which Treateth of the Feasts and Sacrifices by which These Natives Honored Their Gods; Twenty-eighth Chapter, which telleth of the feast and offerings which they made upon the feast days of the ninth month, which was named Tlaxochimaco</i>, fol. 59r, as \"iollosuchitl\" in the Nahuatl text.</li><li><i>Book 4, which Telleth of the Book of Days which the Mexicans Handed Down; Twenty-first Chapter, which telleth of the tenth sign, called One Flint Knife,</i> on fols. 46v and 47r as \"iolloxochitl\" and \"yolloxochitl.\"</li><li><i>Book 10, The People... in which are told the vices and virtues which were of the body and the soul, Twenty-Ninth Chapter, which telleth of the various kinds of people, the people who... came to settle,</i> on fol. 137v as \"iollosuchitl.\"</li><li><i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Ninth Paragraph, which telleth of the same blossoms, of [their] somewhat large trees</i>, on fol. 187v as \"yollosuchitl.\" </li><li><i> Book 12, The Conquest of Mexico; Sixteenth Chapter, here is related how Moctezuma went in peace and calm to meet the Spaniards there at Xoloco,</i> on fol. 24v as \"iollosuchitl\" in the Nahuatl text. <i></li></ul><li></i>Martín de la Cruz, <i>Códice De la Cruz-Badiano, </i>1552, fols. 34r, 34v, 53v and 56v, referred to as \"yolloxochitl.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 18, <i>Of the Yoloxochitl (Magnolia) or Heart Flower</i>.</li><li>Fray Diego Durán, <i>Historia de las Indias de Nueva España e islas de Tierra Firme</i>, ca. 1579, vol. 2, page 247.<i></li><li></i>Hernando Alvarado Tezozómoc, 1598, <i>Crónica Mexicana,</i> fol. 51v.</li></ul></p>",
+		}
+		]
+	},
 
-    {
-      id_flor: 13,
-      titulo: "Nombre inglés 13",
-      ficha: "GBF_13_f_ES.png",
-      galeria_xochipilli: [
-        {
-          img_01: "GBF_13_x01_ES.png",
-          img_02: "GBF_13_x02_ES.png",
-          img_03: "GBF_13_x03_ES.png",
-          img_0n: "GBF_13_x0n_ES.png",
-        }
-      ],
-      galeria_naturaleza: [
-        {
-          img_01: "GBF_13_n01_ES.png",
-          img_02: "GBF_13_n02_ES.png",
-          img_03: "GBF_13_n03_ES.png",
-          img_0n: "GBF_13_n0n_ES.png",
-        }
-      ],
-      galeria_documentos: [
-        {
-          img_01: "GBF_13_d01_ES.png",
-          img_02: "GBF_13_d02_ES.png",
-          img_03: "GBF_13_d03_ES.png",
-          img_0n: "GBF_13_d0n_ES.png",
-        }
-      ],
-      descripcion: [
-        {
-          title_01: "Atributos y cualidades",
-          txt_01: "La flor la manita pertenece a un árbol del mismo nombre que crece en los bosques nubosos y en las selvas medianas perennifolias de México y Guatemala. Se da en climas templados en zonas de gran altitud, a más de 2 500 metros sobre el nivel del mar. </br>Debe su nombre a la curiosa fisonomía de sus flores, que tienen cinco estructuras en forma de dedo que, en su conjunto, asemejan una mano abierta de dedos esbeltos y largos \"de color escarlata por dentro y amarillo con rojo por fuera\", como lo describe Francisco Hernández. Su periodo de floración es a finales de primavera y hasta mediados del verano. </br>No debió ser común ni cotidiano encontrarse un ejemplar de <i>macpalxóchitl</i> en tiempos de los antiguos mexicanos, ya que este árbol se da fuera de la cuenca de México y a grandes altitudes, pero más que todo, porque es sumamente difícil de trasplantar. Los estudiosos de la flora del Nuevo Mundo y que dieron cuenta de ella en sus tratados de botánica después de la conquista, intentaron sin éxito una y otra vez trasplantar este árbol, que a todos cautivó por tan único y peculiar, en otros jardines dentro y fuera de América. Sólo se sabe que se logró su trasplante exitoso en el palacio del virrey, en la ciudad de México, hasta el siglo XIX. </br>Sin embargo, en la única y escueta mención que hace de ella fray Bernardino de Sahagún en toda su vasta obra encontramos un dato interesante. Dentro de su apartado sobre \"las florestas y árboles que en ellas hay\" la <i>macpalxóchitl</i> figura como uno de los árboles sembrados en ellas: \"También hay unos árboles en las florestas que se llaman mapilsuchitl en que se hacen unas flores que son a manera de mano con sus dedos\", lo que da cuenta de su existencia en los exuberantes jardines sembrados por consigna de los tlatoanis. Esto habla de la gran estimación que se tenía por este árbol, de la prodigiosa habilidad de los \"oficiales de las flores\" de la época y de que, muy probablemente, su uso a nivel más popular no era tan extendido. </br>Quizá por eso Hernández dice no reportar usos medicinales para esta flor. Es probable que aún no estuvieran bien estudiados debido a la escasez de la planta en la cuenca de México y a la gran dificultad para reproducirla; aunque muy probablemente se usó con fines medicinales de manera marginal por los pocos que podían conseguirla. </br>Quien sí refiere usos medicinales es Martín de la Cruz, en el <i>Códice De la Cruz-Badiano</i>. Menciona la corteza y las hojas del árbol molidas como parte de los ingredientes de un ungüento para la \"curación de la región púbica\" en caso de dolor o de tumores. </br>Hoy en día el uso más frecuente de las flores de <i>macpalxóchitl</i> es el medicinal. Sus múltiples propiedades se han ido estudiando y aplicando en la medicina tradicional y su uso es frecuente en pacientes con padecimientos del corazón, de los nervios e incluso con epilepsia. Sus flores, bebidas en té regulan la presión arterial, calman los nervios, reducen el insomnio y mitigan los mareos. Para la comunidad científica ha sido de especial interés desentrañar las propiedades de esta flor, por lo que continúa estudiándose. </br>En comunidades indígenas sus hojas se utilizan como envoltorio de los tamales elaborados en ocasiones especiales. ",
-          title_02: "Simbolismo",
-          txt_02: "Las casi inexistentes referencias a esta flor en las crónicas antiguas hacen difícil esbozar un horizonte de significados y simbolismos entre los mexicas para la flor de manita. </br>La breve referencia de Sahagún nos habla de su calidad de flor apreciada, digna de ser importada de tierras lejanas para ser plantada en las florestas, que eran \"lugar apacible y muy deleitoso\" donde se plantaban árboles de \"preciosas flores\". </br>Su curiosa fisonomía dificulta hasta hoy sus usos como flor ornamental y, quizá por lo mismo, no se le conoce uso para coronas ni ramilletes en fiestas y ceremonias mexicas. Siendo un objeto tan extraordinario y especial, muy probablemente algún <i>pochteca</i> o mercader la llevó en calidad de obsequio exquisito a algún gobernante o señor del centro de México, y con ello se haya iniciado su fama y la iniciativa de cultivarla. </br>En nuestros días es más común en la región del centro de México. Durante su temporada de floración se venden las flores de manita en los mercados para ser empleadas en la medicina tradicional. La <i>macpalxóchitl</i> ha logrado mantener un lugar especial en el imaginario popular como flor representativa mexicana, quizá por la originalidad de su forma o por sus conocidas bondades medicinales; o quizá por ser extraordinaria.",
-          title_03: "Documentos antiguos que la mencionan",
-          txt_03: "<ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, <i>ca</i>. 1540. <i>Libro XI, de las cosas naturales, capítulo séptimo, en que se trata de todas las hierbas</i>; <i>Párrafo nono, de las florestas y árboles que en ellas hay</i>, en f. 190v como \"Macpalsuchitl\". </li>  <li>Martín de la Cruz, <i>Códice De la Cruz-Badiano</i>, 1552, f. 33r, referida como \"macpalxochitl\". </li>  <li>Francisco Hernández, <i>Historia natural de Nueva España</i>, <i>ca</i>. 1577. Capítulo LV, <i>Del Macpalxóchitl o flor de mano</i>.</li></ul>",
-        }
-      ]
-    }
+	{
+		id_flor: 12,
+		titulo: "",
+		ficha: "GBF_12_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_12_n01_EN.png",
+			img_02: "GBF_12_n02_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_12_d01_EN.png",
+			img_02: "GBF_12_d02_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The tuberose was referred to by the chroniclers as the Indian jasmine, lily of the Indies, or according to Francisco Hernández, \"a species of narcissus unknown in the Old World\" to facilitate comprehension among European readers. It did not go unnoticed by scholars of New World flora as a species native to the region, previously unknown to them. They compared it to jasmines, orange blossoms, and lilies as a result of its intense and exquisite fragrance.</p><p>This plant, a relative of the agave, is originally from central and southern Mexico and it grows in temperate moist climates.</p><p>The wild species of this plant is almost extinct, but today it is widely cultivated. It reproduces via bulbs generally planted in the spring and that bloom at the end of summer, sometimes until the beginning of winter; although it can blossom almost year round under controlled moisture and temperature conditions in greenhouses.</p><p>The plant grown in soil sprouts a slender stalk from which emerge white flowers in pairs forming bunches from their base and to the tip. These flowers are so fragrant that a single stalk can perfume a room for up to seven days.</p><p>It is popularly known as tuberose, \"vara de San José\" or St. Joseph’s staff—based on its similarity to the iconography of this saint who traditionally holds a staff of white blossoms—or <i>amole</i>, a Nahuatl term (from <i>amolli</i>, soap) referring to its use as a source of soap, just as various agaves.</p><p>As for its medicinal uses, Francisco Hernández says the useful part of the plant is the root, whether applied or consumed, used to treat tumors and fever.</p><p>Nowadays it is primarily ornamental, although it is also employed for its fragrance, whose essence is extracted to make perfumes.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The symbolism surrounding the <i>omixochitl</i> or tuberose for the ancient Mexicans still remains partially obscure given the paucity of references to this flower in the chronicles, in contrast to other species much more frequently mentioned. Clearly it must have been highly valued given its intense and seductive fragrance. In the Nahuatl text of Sahagún’s <i>Florentine Codex</i>, it is described as \"fragrant, perfumed. It is pleasing to the soul, satisfying,\" and a few paragraphs later, \"It is of pleasing odor, fragrant, sweet; a precious thing, useful.\" These words confirm the predilection that the Nahuas of the time must have had for the <i>omixochitl</i>. In addition, Francisco Hernández reports, \"The flowers are used in bouquets and perfumes.\"</p><p>However, despite its intense aroma, it is not mentioned in descriptions of celebrations in the ritual calendar or in other ceremonies. Perhaps its wild local origin detracted from any potential prestige, because the Mexicas generally prized \"foreign\" flowers from the hotlands much more than local species. However, although the reasons for the scarcity of references to it remain unclear, the <i>omixochitl</i> or tuberose was probably the focus of ceremonies of communication with the gods through its powerful perfume, for the gods’ favorite food were aromas and the intense fragrance of flowers was believed to promote trance states and conversation with supernaturals.</p><p>A clear reference to the tuberose, albeit curious and different from that to all other flowers, in Sahagún comes from what he calls \"omens\" and \"superstitions\" in Book 5 of the <i>Florentine Codex</i>. The <i>omixochitl</i> was identified as the cause of ailments described in Spanish, \"in the lower parts of men and women; and ancient superstitions say that the disease is caused from having smelled this flower a lot... perhaps one had urinated or stepped on it.\" In the case of men the very appearance of the flower evoked illness, which was known by the same name as the flower. Interestingly, overindulgence in smelling the <i>omixochitl</i> as a cause of illness suggests a sort of punishment for unbridled pleasure-seeking through its aroma.</p><p>For the tuberose’s carnal and sensual dimension, it was associated with deities related to pleasure and flowers, such as Xochipilli, for one of its symbolic dimensions included sexual pleasure. Because the <i>omixochitl</i> was believed to cause these ailments, Xochipilli was the deity responsible for punishing transgressors who violated the sexual abstinence required by ceremonies and rituals.</p><p>Today the <i>omixochitl</i> is one of the most representative flowers in the universe of popular Mexican flowers. It is extensively cultivated to be used as cut flowers and as an ornamental species for its aroma. Until recently, it was related in popular tradition to funerals for its white color, but also for its potent perfume, useful for masking the smell of the corpse during wakes lasting several days.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577.</li><ul style='list-style-type:circle'><li><i>Book 5, In which Are Told the Omens in which the Mexicans. Appendix to the Fifth Book,... different things which God’s creatures, the idolaters, wrongly believed,</i> on fol. 14v as \"umjsuchitl\" (in the Prologue) and fol. 15r as \"omixuchitl.\" <i></li><li>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Eighth Paragraph, which telleth of blossom petals and of stalks,</i> on fol. 185r as \"Omjsuchitl\"; <i>Tenth Paragraph, </i>which<i> telleth of those... which also appear herb-like, </i>on fol. 194v as \"omisuchitl\" in the Nahuatl text.</li></ul><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 29, <i>Of the Omixochitl or Bone Flower</i>.</li></ul></p>",
+		}
+		]
+	},
+
+	{
+		id_flor: 13,
+		titulo: "",
+		ficha: "GBF_13_f_EN.png",
+		galeria_xochipilli: [
+		{
+			img_01: null,
+		}
+		],
+		galeria_naturaleza: [
+		{
+			img_01: "GBF_13_n01_EN.png",
+			img_02: "GBF_13_n02_EN.png",
+		}
+		],
+		galeria_documentos: [
+		{
+			img_01: "GBF_13_d01_EN.png",
+			img_02: "GBF_13_d02_EN.png",
+			img_03: "GBF_13_d03_EN.png",
+		}
+		],
+		descripcion: [
+		{
+			title: "Attributes and qualities",
+			txt: "<p>The Devil’s hand tree flower comes from an eponymous tree that grows in the cloud forests and temperate evergreen forests of Mexico and Guatemala. It grows in high altitude zones at more than 2,500 meters above sea level.</p><p>Its name comes from the curious physiognomy of its flowers, which have five structures in the shape of fingers, which as a whole resemble an open hand with long, slender fingers \"scarlet in color on the inside and yellow with red on the outside,\" as Francisco Hernández describes it. It blooms at the end of spring into the early summer.</p><p>It must not have been a common or everyday occurrence to find a <i>macpalxochitl</i> specimen at the time of the ancient Mexicans, because this tree grows outside the Basin of Mexico and at high altitudes, not to mention it is extremely difficult to transplant. Those who study New World flora and who write of it in post-conquest botanical treatises made numerous unsuccessful attempts to transplant this tree in other gardens in and beyond the Americas, because they were captivated by its unique and distinctive features. The only reported case of a successful transplant was in the viceroy’s palace in Mexico City in the nineteenth century.</p><p>However, an interesting bit of information appears in the sole brief reference made to it in all of Fray Bernardino de Sahagún’s vast work. In the section on \"groves and trees that grow there\" the <i>macpalxochitl</i> is listed as one of the trees planted in it: \"There are also some trees in groves that are called <i>macpilsuchitl</i> where there are flowers that are like a hand with its fingers,\" which confirms its existence in the exuberant gardens planted at the behest of the <i>tlatoanis</i> or emperors. This speaks of the high regard in which this tree was held, of the prodigious abilities of the \"officers of flowers\" of the time, and that most probably, it was not widely used by the general population.</p><p>Perhaps this is why Hernández does not report on medicinal uses for this flower. In all likelihood it was not amply studied given the scarcity of this plant in the Basin of Mexico and the difficulty in reproducing it, although it was probably marginally used for medicinal purposes by the few who were able to get it.</p><p>The source that indeed refers to its medicinal uses is Martín de la Cruz in the <i>Codex De la Cruz-Badiano</i>. He mentions the ground up bark and leaves of the tree as part of the ingredients for an unguent to \"cure the pubic region\" in case of pain and tumors.</p><p>Nowadays <i>macpalxochitl</i> flowers are more commonly used for medicinal purposes. Its multiple properties have been studied and applied in traditional medicine and it is frequently used to treat patients with ailments related to the heart, nerves, and epilepsy. Its flowers, prepared as a tea regulate arterial pressure, sooth the nerves, alleviate insomnia, and mitigate dizziness. For the scientific community, unraveling the properties of this flower has been of special interest, which explains its ongoing study.</p><p>In indigenous communities its leaves are used to wrap tamales made for special occasions.</p>",
+		},
+		{
+			title: "Symbolism",
+			txt: "<p>The rare references to this flower in the chronicles make it difficult to determine the range of meanings and symbolism surrounding the Devil’s hand tree flower among the Mexicas.</p><p>The brief reference in Sahagún suggests its status as an esteemed flower, worthy of being imported from faraway lands to be planted in groves, which were \"pleasant and very delightful places\" where trees bearing \"precious flowers\" were planted.</p><p>Its curious physiognomy inhibits its use as an ornamental flower and perhaps for this reason, it is not known to have been used in crowns and bouquets in Mexica religious celebrations and ceremonies. Given its rarity and distinctive features, it would have made a worthy gift brought by a <i>pochteca</i> or merchant to a ruler or nobleman in Central Mexico, and this could have started its fame and the initiative to cultivate it.</p><p>Nowadays it is more common in the region of Central Mexico. During its flowering season, Devil’s hand tree flowers are sold in markets to be employed in traditional medicine. The <i>macpalxochitl</i> has continued to occupy a special place in the popular collective memory as a representative Mexican flower, perhaps for the originality of its form or for its well-known medicinal boons, or perhaps simply for its remarkable appearance.</p>",
+		},
+		{
+			title: "Historical documents mentioning it",
+			txt: "<p><ul style='list-style-type:disc'><li>Fray Bernardino de Sahagún,<i> Historia general de las cosas de la Nueva España</i>, 1540-1577. <i>Book 11, Earthly Things; Seventh Chapter, which telleth of all the different herbs</i>; <i>Ninth Paragraph, which telleth of the same blossoms, of somewhat large trees</i>, on fol. 190v as \"Macpalsuchitl.\"</li><li>Martín de la Cruz, <i>Códice De la Cruz-Badiano, </i>1552, fol. 33r, referred to as \"macpalxochitl.\"</li><li>Francisco Hernández, <i>Historia natural de Nueva España</i>, ca. 1577. Chapter 55, <i>Of the Macpalxochitl or Hand Flower</i>.</li></ul></p>",
+		}
+		]
+	}
 
 
-]
+	]
 
 
 };
