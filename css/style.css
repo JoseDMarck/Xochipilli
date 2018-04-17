@@ -1913,8 +1913,10 @@ input[type=range] {
 	width: 544px;
 	height: 43px;
 	position: absolute;
-	left: 362px;
+	left: 0;
+	right: 0;
 	top: 59px;
+    margin: 0 auto;
 }
 
 
@@ -3771,11 +3773,12 @@ input[type=range] {
   	width: 95%;
 	  height: auto;
 	  margin: 0 auto;
-  	font-family: "Gotham-Medium";
-  	font-size: 16px;
-	  line-height:  22px;
+  	  font-weight: 200;
+	  font-family: "Akizdez-Regular";
+	  font-size: 26px;
+	  line-height:  32px;
+	  color: #e6e7e8;
 	  padding: 0px 10px 0px 10px;
-  	color: #FFF;
   }
 
 

@@ -8,7 +8,7 @@ if (LanguageON == "ESP"){
 
 	//btn_info_access 
 
-	document.getElementById("descripcion_referencias").innerHTML = obj_m_ESP.descripcion_referencias;
+	document.getElementById("descripcion_referencias").innerHTML = obj_Referencias_ESP.descripcion;
 	document.getElementById("descripcion_creditos").innerHTML = obj_m_ESP.descripcion_creditos;
 
 	
