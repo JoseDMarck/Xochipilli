@@ -82,11 +82,11 @@ if(id_flor == 0 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_1_ESP");
+        $(".ficha").addClass("ficha_1_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_1_ESP");
+        $(".ficha").addClass("ficha_1_NAH");
     }
 
 }
@@ -108,11 +108,11 @@ if(id_flor == 1 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_2_ESP");
+        $(".ficha").addClass("ficha_2_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_2_ESP");
+        $(".ficha").addClass("ficha_2_NAH");
     }
 }
 
@@ -132,11 +132,11 @@ if(id_flor == 2 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_3_ESP");
+        $(".ficha").addClass("ficha_3_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_3_ESP");
+        $(".ficha").addClass("ficha_3_NAH");
     }
 }
 
@@ -156,11 +156,11 @@ if(id_flor == 3 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_4_ESP");
+        $(".ficha").addClass("ficha_4_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_4_ESP");
+        $(".ficha").addClass("ficha_4_NAH");
     }
 }
 
@@ -180,11 +180,11 @@ if(id_flor == 4 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_5_ESP");
+        $(".ficha").addClass("ficha_5_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_5_ESP");
+        $(".ficha").addClass("ficha_5_NAH");
     }
 }
 
@@ -202,11 +202,11 @@ if(id_flor == 5 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_6_ESP");
+        $(".ficha").addClass("ficha_6_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_6_ESP");
+        $(".ficha").addClass("ficha_6_NAH");
     }
 }
 
@@ -225,11 +225,11 @@ if(id_flor == 6 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_7_ESP");
+        $(".ficha").addClass("ficha_7_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_7_ESP");
+        $(".ficha").addClass("ficha_7_NAH");
     }
 }
 
@@ -248,11 +248,11 @@ if(id_flor == 7 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_8_ESP");
+        $(".ficha").addClass("ficha_8_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_8_ESP");
+        $(".ficha").addClass("ficha_8_NAH");
     }
 }
 
@@ -270,11 +270,11 @@ if(id_flor == 8 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_9_ESP");
+        $(".ficha").addClass("ficha_9_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_9_ESP");
+        $(".ficha").addClass("ficha_9_NAH");
     }
 
 }
@@ -294,11 +294,11 @@ if(id_flor == 9 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_10_ESP");
+        $(".ficha").addClass("ficha_10_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_10_ESP");
+        $(".ficha").addClass("ficha_10_NAH");
     }
 }
 
@@ -318,11 +318,11 @@ if(id_flor == 10 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_11_ESP");
+        $(".ficha").addClass("ficha_11_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_11_ESP");
+        $(".ficha").addClass("ficha_11_NAH");
     }
 }
 
@@ -342,11 +342,11 @@ if(id_flor == 11 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_12_ESP");
+        $(".ficha").addClass("ficha_12_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_12_ESP");
+        $(".ficha").addClass("ficha_12_NAH");
     }
 }
 
@@ -364,11 +364,11 @@ if(id_flor == 12 ){
     }
 
     if(LanguageON == "ENG"){
-        $(".ficha").addClass("ficha_13_ESP");
+        $(".ficha").addClass("ficha_13_ENG");
     }
 
     if(LanguageON == "NAH"){
-        $(".ficha").addClass("ficha_13_ESP");
+        $(".ficha").addClass("ficha_13_NAH");
     }
 }
 
