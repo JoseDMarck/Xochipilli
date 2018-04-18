@@ -183,36 +183,38 @@ body{
 
 
 .ScreenSaver-Seccion > .imagen_1{
-    width: 906px;
-    height: 1536px;
-    background: url("../images/p0-screenSaver/xochi1-min.png");  
-	background-size: 906px 1536px;
-	top: -50px;
-	right: 60px;
+    width: 590px;
+    height: 1000px;
+    background: url("../images/p0-screenSaver/xochi1.png");  
+	background-size: 590px 1000px;
+	top: 40px;
+	right: 255px;
 	opacity: 0;
     position: absolute;
 }
 
 
 .ScreenSaver-Seccion > .imagen_2{
-    width: 906px;
-    height: 1536px;
-    background: url("../images/p0-screenSaver/xochi2-min.png"); 
-    background-size: 906px 1536px;
-	top: -50px;
-	right: 60px;
+    width: 590px;
+    height: 1000px;
+    background: url("../images/p0-screenSaver/xochi2.png"); 
+	background-size: 590px 1000px;
+	top: 40px;
+	right: 255px;
 	opacity: 0;
     position: absolute;
 }
 
 
 .ScreenSaver-Seccion > .imagen_3{
-    width: 906px;
-    height: 1536px;
-    background: url("../images/p0-screenSaver/xochi3-min.png");    
-	background-size: 906px 1536px;
-	top: -50px;
-	right: 60px;
+    width: 590px;
+    height: 1000px;
+    background: url("../images/p0-screenSaver/xochi3.png");    
+	background-size: 590px 1000px;
+	top: 40px;
+	right: 255px;
+	/*top: -50px;
+	right: 60px;*/
 	opacity: 0;
     position: absolute;
 }
