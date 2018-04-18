@@ -659,10 +659,25 @@ $(".btn_en_xochipili").click(function() {
     //PARA EL BOTON DE PREV
     $(".prev_btn_obra").hide();
       
-    $(".btn_en_xochipili").addClass("btn_en_xochipili_on");
-    $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on");
-    $(".btn_en_documentos").removeClass("btn_en_documentos_on");
 
+    if(LanguageON == "ESP"){
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_on");
+        $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on");
+        $(".btn_en_documentos").removeClass("btn_en_documentos_on");    
+    }
+
+    if(LanguageON == "ENG"){
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_on_ENG");
+        $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on_ENG");
+        $(".btn_en_documentos").removeClass("btn_en_documentos_on_ENG");    
+    }
+
+    if(LanguageON == "NAH"){
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_on_NAH");
+        $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on_NAH");
+        $(".btn_en_documentos").removeClass("btn_en_documentos_on_NAH");    
+    }
+   
 
     
 
@@ -695,10 +710,36 @@ $(".btn_en_naturaleza").click(function() {
     $(".prev_btn_obra").hide();
        
 
-    $(".btn_en_naturaleza").addClass("btn_en_naturaleza_on");
-    $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");    
-    $(".btn_en_documentos").removeClass("btn_en_documentos_on");
+   
 
+
+    if(LanguageON == "ESP"){
+        $(".btn_en_naturaleza").addClass("btn_en_naturaleza_on");
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");    
+        $(".btn_en_documentos").removeClass("btn_en_documentos_on");   
+    }
+
+    if(LanguageON == "ENG"){
+        $(".btn_en_naturaleza").addClass("btn_en_naturaleza_on_ENG");
+
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_ENG");  
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on_ENG"); 
+        
+        
+        $(".btn_en_documentos").addClass("btn_en_documentos_ENG");     
+        $(".btn_en_documentos").removeClass("btn_en_documentos_on_ENG");     
+    }
+
+    if(LanguageON == "NAH"){
+        $(".btn_en_naturaleza").addClass("btn_en_naturaleza_on_NAH");
+
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_NAH");  
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on_NAH"); 
+        
+        
+        $(".btn_en_documentos").addClass("btn_en_documentos_NAH");     
+        $(".btn_en_documentos").removeClass("btn_en_documentos_on_NAH");     
+    }
 
 
 
@@ -732,9 +773,38 @@ $(".btn_en_documentos").click(function() {
     $(".prev_btn_obra").hide();
 
 
-    $(".btn_en_documentos").addClass("btn_en_documentos_on");
-    $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
-    $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on");
+    
+
+    if(LanguageON == "ESP"){
+        $(".btn_en_documentos").addClass("btn_en_documentos_on");
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
+        $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on"); 
+    }
+
+    if(LanguageON == "ENG"){
+        $(".btn_en_documentos").addClass("btn_en_documentos_on_ENG");
+        
+        
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_ENG");
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
+        
+        
+        $(".btn_en_naturaleza").addClass("btn_en_naturaleza_ENG");
+        $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on_ENG");
+    }
+
+
+    if(LanguageON == "NAH"){
+        $(".btn_en_documentos").addClass("btn_en_documentos_on_NAH");
+        
+        
+        $(".btn_en_xochipili").addClass("btn_en_xochipili_NAH");
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
+        
+        
+        $(".btn_en_naturaleza").addClass("btn_en_naturaleza_NAH");
+        $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on_NAH");
+    }
 
 
 

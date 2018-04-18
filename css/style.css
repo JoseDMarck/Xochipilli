@@ -3352,6 +3352,29 @@ input[type=range] {
     z-index: 999;
 }
 
+.detalle-flor-Seccion > .ayuda-image-ENG{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p13-detalle-flor/ayuda_EN.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+.detalle-flor-Seccion > .ayuda-image-NAH{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p13-detalle-flor/ayuda_NA.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
 
 
 .detalle-flor-Seccion > .titulo{
@@ -3604,7 +3627,7 @@ input[type=range] {
 
 
  
-/* EN LA XOCHIPILI */
+/* EN LA XOCHIPILI ESPAÑOL */
 .detalle-flor-Seccion  >  .btn_en_xochipili{
 	width: 254px;
 	height: 34px;
@@ -3625,7 +3648,57 @@ input[type=range] {
 	top: 800px !important;
 }
 
-/* EN NATURALEZA */
+
+/* EN LA XOCHIPILI INGLÉS */
+
+.detalle-flor-Seccion  >  .btn_en_xochipili_ENG{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/xochi_button_off_EN.png") !important;
+	background-size: 254px 34px;
+	position: absolute;
+	left: 154px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_xochipili_on_ENG {
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/xochi_button_on_EN.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 154px !important;
+	top: 800px !important;
+}
+
+
+/* EN LA XOCHIPILI NAHUATL */
+
+.detalle-flor-Seccion  >  .btn_en_xochipili_NAH{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/xochi_button_off_NA.png") !important;
+	background-size: 254px 34px;
+	position: absolute;
+	left: 154px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_xochipili_on_NAH {
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/xochi_button_on_NA.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 154px !important;
+	top: 800px !important;
+}
+
+
+
+
+
+/* EN NATURALEZA ESPAÑOL */
 .detalle-flor-Seccion  >  .btn_en_naturaleza{
 	width: 254px;
 	height: 34px;
@@ -3647,7 +3720,54 @@ input[type=range] {
 }
 
 
-/* EN DOCUMENTOS */
+
+/* EN NATURALEZA INGLES */
+.detalle-flor-Seccion  >  .btn_en_naturaleza_ENG{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/natura_button_off_EN.png") !important;
+	background-size: 254px 34px;
+	position: absolute;
+	left: 434px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_naturaleza_on_ENG{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/natura_button_on_EN.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 434px !important;
+	top: 800px !important;
+}
+
+
+/* EN NATURALEZA NAHUATL */
+.detalle-flor-Seccion  >  .btn_en_naturaleza_NAH{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/natura_button_off_NA.png") !important;
+	background-size: 254px 34px;
+	position: absolute;
+	left: 434px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_naturaleza_on_NAH{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/natura_button_on_NA.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 434px !important;
+	top: 800px !important;
+}
+
+
+
+
+/* EN DOCUMENTOS ESPAÑOL */
 
 .detalle-flor-Seccion  >  .btn_en_documentos{
 	width: 254px;
@@ -3668,6 +3788,54 @@ input[type=range] {
 	left: 707px !important;
 	top: 800px !important;
 }
+
+
+/* EN DOCUMENTOS INGLÉS */
+
+.detalle-flor-Seccion  >  .btn_en_documentos_ENG{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/otros_button_off_EN.png");
+	background-size: 254px 34px;
+	position: absolute;
+	left: 707px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_documentos_on_ENG{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/otros_button_on_EN.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 707px !important;
+	top: 800px !important;
+}
+
+
+/* EN DOCUMENTOS NAHUATL */
+
+.detalle-flor-Seccion  >  .btn_en_documentos_NAH{
+	width: 254px;
+	height: 34px;
+	background: url("../images/p13-detalle-flor/otros_button_off_NA.png");
+	background-size: 254px 34px;
+	position: absolute;
+	left: 707px;
+	top: 800px;
+}
+
+.detalle-flor-Seccion  >  .btn_en_documentos_on_NAH{
+	width: 275px !important;
+	height: 57px !important;
+	background: url("../images/p13-detalle-flor/otros_button_on_NA.png") !important;
+	background-size: 275px 57px !important;
+	position: absolute !important;
+	left: 707px !important;
+	top: 800px !important;
+}
+
+
 
 
 .detalle-flor-Seccion  >  .contenedorGal{

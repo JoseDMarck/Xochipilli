@@ -19,6 +19,7 @@ document.getElementById("texto_box_3").innerHTML = obj_gabinete_ESP.flores[id_fl
 
 
 
+
  
 }
 
@@ -41,6 +42,19 @@ document.getElementById("texto_box_2").innerHTML = obj_gabinete_ESP.flores[id_fl
 document.getElementById("titulo_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].title; 
 document.getElementById("texto_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].txt; 
 
+$(".ayuda-image").addClass("ayuda-image-ENG");
+
+
+
+/* BOTONES */
+$(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
+$(".btn_en_xochipili").addClass("btn_en_xochipili_on_ENG");
+
+
+$(".btn_en_naturaleza").addClass("btn_en_naturaleza_ENG");
+$(".btn_en_documentos").addClass("btn_en_documentos_ENG");
+ 
+
 
 }
 
@@ -53,7 +67,18 @@ if (LanguageON == "NAH"){
     document.getElementById("texto_box_2").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[1].txt; 
     
     document.getElementById("titulo_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].title; 
-    document.getElementById("texto_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].txt; 
+    document.getElementById("texto_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].txt;
+    
+    $(".ayuda-image").addClass("ayuda-image-NAH");
+
+
+    /* BOTONES */
+    $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
+    $(".btn_en_xochipili").addClass("btn_en_xochipili_on_NAH");
+
+
+    $(".btn_en_naturaleza").addClass("btn_en_naturaleza_NAH");
+    $(".btn_en_documentos").addClass("btn_en_documentos_NAH");
  
  
 
