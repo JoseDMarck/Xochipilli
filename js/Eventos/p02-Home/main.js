@@ -39,6 +39,7 @@ if (LanguageON != "" ){
     if( LanguageON == "ENG" ){
         console.log("Idioma: ", LanguageON);
         $(".btn_idioma_en").addClass("btn_idioma_en_on");
+
         
       
     }
