@@ -1856,7 +1856,7 @@ body{
 .interpretacion-Seccion  > .btn_senior_flores{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/senor_button.png");
+    background: url("../images/p05-interpretacion/senor_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
     top: 294px;
@@ -1867,7 +1867,7 @@ body{
 .interpretacion-Seccion  > .btn_pedestal{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/pedestal.png");
+    background: url("../images/p05-interpretacion/pedestal_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
     top: 294px;
@@ -1878,7 +1878,7 @@ body{
 .interpretacion-Seccion  > .btn_atavios_sol{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/sol_button.png");
+    background: url("../images/p05-interpretacion/sol_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
     top: 412px;
@@ -1889,7 +1889,7 @@ body{
 .interpretacion-Seccion  > .btn_atavios_tierra{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/tierra_button.png");
+    background: url("../images/p05-interpretacion/tierra_button_ES.png");
     background-size: 321px 69px;
 	position: absolute;
 	top: 412px;
@@ -1901,7 +1901,7 @@ body{
 .interpretacion-Seccion  > .btn_atavio_florido{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/florido_button.png");
+    background: url("../images/p05-interpretacion/florido_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
     top: 530px;
