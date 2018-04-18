@@ -1811,10 +1811,10 @@ body{
 
 /*LUPE - Botones - ESPAÑOL*/
 .interpretacion-Seccion > .titulo{
-	width: 439px;
-	height: 58px;
+	width: 550px;
+	height: 60px;
 	background: url("../images/p05-interpretacion/ES/interpretacion_ES.png");
-	background-size: 439px 58px;
+	background-size: 550px 60px;
 	position: absolute;
 	top: 60px;
 	left: 1127px;
@@ -1854,10 +1854,10 @@ body{
 
 
 .interpretacion-Seccion  > .btn_senior_flores{
-	width: 321px;
+	width: 371px;
     height: 69px;
     background: url("../images/p05-interpretacion/ES/senor_button_ES.png");
-    background-size: 321px 69px;
+    background-size: 371px 69px;
     position: absolute;
     top: 294px;
     left: 1127px;
@@ -1865,10 +1865,10 @@ body{
 
 
 .interpretacion-Seccion  > .btn_pedestal{
-	width: 321px;
+	width: 371px;
     height: 69px;
     background: url("../images/p05-interpretacion/ES/pedestal_button_ES.png");
-    background-size: 321px 69px;
+    background-size: 371px 69px;
     position: absolute;
     top: 294px;
     left: 1520px;
@@ -1876,10 +1876,10 @@ body{
 
 
 .interpretacion-Seccion  > .btn_atavios_sol{
-	width: 321px;
+	width: 371px;
     height: 69px;
     background: url("../images/p05-interpretacion/ES/sol_button_ES.png");
-    background-size: 321px 69px;
+    background-size: 371px 69px;
     position: absolute;
     top: 413px;
     left: 1520px;
@@ -1887,10 +1887,10 @@ body{
 
 
 .interpretacion-Seccion  > .btn_atavios_tierra{
-	width: 321px;
+	width: 371px;
     height: 69px;
     background: url("../images/p05-interpretacion/ES/tierra_button_ES.png");
-    background-size: 321px 69px;
+    background-size: 371px 69px;
 	position: absolute;
 	top: 413px;
     left: 1127px;
@@ -1899,10 +1899,10 @@ body{
 
 
 .interpretacion-Seccion  > .btn_atavio_florido{
-	width: 321px;
+	width: 371px;
     height: 69px;
     background: url("../images/p05-interpretacion/ES/florido_button_ES.png");
-    background-size: 321px 69px;
+    background-size: 371px 69px;
     position: absolute;
     top: 532px;
     left: 1127px;
