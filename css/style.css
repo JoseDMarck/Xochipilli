@@ -1809,11 +1809,11 @@ body{
 }
 
 
-
+/*LUPE - Botones - ESPAÑOL*/
 .interpretacion-Seccion > .titulo{
 	width: 439px;
 	height: 58px;
-	background: url("../images/p05-interpretacion/Interpretacion.png");
+	background: url("../images/p05-interpretacion/ES/interpretacion_ES.png");
 	background-size: 439px 58px;
 	position: absolute;
 	top: 60px;
@@ -1856,44 +1856,44 @@ body{
 .interpretacion-Seccion  > .btn_senior_flores{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/senor_button_ES.png");
+    background: url("../images/p05-interpretacion/ES/senor_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
     top: 294px;
-    left: 1123px;
+    left: 1127px;
 }
 
 
 .interpretacion-Seccion  > .btn_pedestal{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/pedestal_button_ES.png");
+    background: url("../images/p05-interpretacion/ES/pedestal_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
     top: 294px;
-    left: 1490px;
+    left: 1520px;
 }
 
 
 .interpretacion-Seccion  > .btn_atavios_sol{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/sol_button_ES.png");
+    background: url("../images/p05-interpretacion/ES/sol_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
-    top: 412px;
-    left: 1490px;
+    top: 413px;
+    left: 1520px;
 }
 
 
 .interpretacion-Seccion  > .btn_atavios_tierra{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/tierra_button_ES.png");
+    background: url("../images/p05-interpretacion/ES/tierra_button_ES.png");
     background-size: 321px 69px;
 	position: absolute;
-	top: 412px;
-    left: 1123px;
+	top: 413px;
+    left: 1127px;
     
 }
 
@@ -1901,11 +1901,11 @@ body{
 .interpretacion-Seccion  > .btn_atavio_florido{
 	width: 321px;
     height: 69px;
-    background: url("../images/p05-interpretacion/florido_button_ES.png");
+    background: url("../images/p05-interpretacion/ES/florido_button_ES.png");
     background-size: 321px 69px;
     position: absolute;
-    top: 530px;
-    left: 1123px;
+    top: 532px;
+    left: 1127px;
 }
 
 
