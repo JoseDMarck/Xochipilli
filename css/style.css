@@ -2212,7 +2212,7 @@ input[type=range] {
 	width: 318px;
 	height: 356px;
 	background: url("../images/p07-senior-flores/thumb/INT_01u_img_02.png");
-	background-size: 300px 380px;
+	background-size: 318px 356px;
 	position: absolute;
 	top: 59px;
 	left: 642px;
@@ -2239,7 +2239,7 @@ input[type=range] {
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_02p_1{
 	width: 318px;
 	height: 356px;
-	background: url("../images/p08-pedestal/thumb/INT_02p_img__01.png");
+	background: url("../images/p08-pedestal/thumb/INT_02p_img_01.png");
 	background-size: 318px 356px;
 	position: absolute;
 	top: 59px;
@@ -2248,7 +2248,7 @@ input[type=range] {
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_02p_2{
 	width: 318px;
 	height: 356px;
-	background: url("../images/p08-pedestal/thumb/INT_02p_img__02.png");
+	background: url("../images/p08-pedestal/thumb/INT_02p_img_02.png");
 	background-size: 318px 356px;
 	position: absolute;
 	top: 59px;
@@ -2257,7 +2257,7 @@ input[type=range] {
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_02p_3{
 	width: 318px;
 	height: 356px;
-	background: url("../images/p08-pedestal/thumb/INT_02p_img__03.png");
+	background: url("../images/p08-pedestal/thumb/INT_02p_img_03.png");
 	background-size: 318px 356px;
 	position: absolute;
 	top: 433px;
@@ -2266,7 +2266,7 @@ input[type=range] {
 .lectura-general-Seccion > .LecturaGnral-BloqueB > .asset_figura_02p_4{
 	width: 318px;
 	height: 356px;
-	background: url("../images/p08-pedestal/thumb/INT_02p_img__04.png");
+	background: url("../images/p08-pedestal/thumb/INT_02p_img_04.png");
 	background-size: 318px 356px;
 	position: absolute;
 	top: 433px;
@@ -2417,34 +2417,34 @@ input[type=range] {
 }
 
 .btn_hotspots-LG{
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	background: url("../images/Generales/hotspot.png");
-	background-size: 60px 60px;
+	background-size: 40px 40px;
 }
 /*LUPE - Hotspots cordenadas - sección 1*/
-.btn_pos-1{
+.btn_pos_01u_1_h01{
 	position: absolute;
 	top: 27px;
 	left: 139px;
 }
-.btn_pos-2{
+.btn_pos_01u_1_h02{
 	position: absolute;
 	top: 30%;
 	left: 56%;
 }
-.btn_pos-3{
+.btn_pos_01u_1_h03{
 	position: absolute;
 	top: 63%;
 	left: 23%;
 }
-.btn_pos-4{
+.btn_pos_01u_1_h04{
 	position: absolute;
 	top: 67%;
     left: 64%;
 }
 
-/*código original josé
+/*código original josé*/
 .btn_pos-1{
 	position: absolute;
 	top: 20%;
@@ -2465,7 +2465,7 @@ input[type=range] {
 	top: 67%;
     left: 64%;
 }
-*/
+
 
 .titulos_btn{
 	width: 100%;
