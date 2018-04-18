@@ -1,0 +1,65 @@
+/*-------------------------------------
+LUPE - Hotspots cordenadas - sección 4
+---------------------------------------*/
+/*Interpretacion - sección 4 - coordenadas Imagen 1*/
+.btn_pos_04s_1_h01{
+	position: absolute;
+	top: 27px;
+	left: 139px;
+}
+.btn_pos_04s_1_h02{
+	position: absolute;
+	top: 30px;
+	left: 56px;
+}
+
+/*Interpretacion - sección 4 - coordenadas Imagen 2*/
+.btn_pos_04s_2_h01{
+	position: absolute;
+	top: 27px;
+	left: 139px;
+}
+.btn_pos_04s_2_h02{
+	position: absolute;
+	top: 30px;
+	left: 56px;
+}
+.btn_pos_04s_2_h03{
+	position: absolute;
+	top: 63px;
+	left: 23px;
+}
+
+/*Interpretacion - sección 4 - coordenadas Imagen 3*/
+.btn_pos_04s_3_h01{
+	position: absolute;
+	top: 27px;
+	left: 139px;
+}
+.btn_pos_04s_3_h02{
+	position: absolute;
+	top: 30px;
+	left: 56px;
+}
+.btn_pos_04s_3_h03{
+	position: absolute;
+	top: 63px;
+	left: 23px;
+}
+
+/*Interpretacion - sección 4 - coordenadas Imagen 4*/
+.btn_pos_04s_4_h01{
+	position: absolute;
+	top: 27px;
+	left: 139px;
+}
+.btn_pos_04s_4_h02{
+	position: absolute;
+	top: 30px;
+	left: 56px;
+}
+.btn_pos_04s_4_h03{
+	position: absolute;
+	top: 63px;
+	left: 23px;
+}

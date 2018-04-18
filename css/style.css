@@ -2421,8 +2421,10 @@ input[type=range] {
 	height: 40px;
 	background: url("../images/Generales/hotspot.png");
 	background-size: 40px 40px;
-}
-/*LUPE - Hotspots cordenadas - sección 1*/
+/*-------------------------------------
+LUPE - Hotspots cordenadas - sección 1
+---------------------------------------*/
+/*Interpretacion - sección 1 - coordenadas Imagen 1*/
 .btn_pos_01u_1_h01{
 	position: absolute;
 	top: 27px;
@@ -2430,18 +2432,59 @@ input[type=range] {
 }
 .btn_pos_01u_1_h02{
 	position: absolute;
-	top: 30%;
-	left: 56%;
+	top: 123px;
+	left: 139px;
 }
 .btn_pos_01u_1_h03{
 	position: absolute;
-	top: 63%;
-	left: 23%;
+	top: 258px;
+	left: 139px;
 }
-.btn_pos_01u_1_h04{
+
+/*Interpretacion - sección 1 - coordenadas Imagen 2*/
+.btn_pos_01u_2_h01{
 	position: absolute;
-	top: 67%;
-    left: 64%;
+	top: 27px;
+	left: 129px;
+}
+.btn_pos_01u_2_h02{
+	position: absolute;
+	top: 123px;
+	left: 129px;
+}
+.btn_pos_01u_2_h03{
+	position: absolute;
+	top: 246px;
+	left: 129px;
+}
+
+/*Interpretacion - sección 1 - coordenadas Imagen 3*/
+.btn_pos_01u_3_h01{
+	position: absolute;
+	top: 138px;
+	left: 139px;
+}
+.btn_pos_01u_3_h02{
+	position: absolute;
+	top: 258px;
+	left: 139px;
+}
+
+/*Interpretacion - sección 1 - coordenadas Imagen 4*/
+.btn_pos_01u_4_h01{
+	position: absolute;
+	top: 50px;
+	left: 139px;
+}
+.btn_pos_01u_4_h02{
+	position: absolute;
+	top: 143px;
+	left: 152px;
+}
+.btn_pos_01u_4_h03{
+	position: absolute;
+	top: 245px;
+	left: 152px;
 }
 
 /*código original josé*/
