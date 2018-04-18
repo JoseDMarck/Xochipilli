@@ -373,6 +373,30 @@ body{
 
 
 
+.home-Seccion > .Ayuda_ENG{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p02-Home/ayuda_EN.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+.home-Seccion > .Ayuda_NAH{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p02-Home/ayuda_NA.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+
+
 .home-Seccion > .AyudaMenus{
 	width: 0px;
 	height: 0px;
@@ -387,7 +411,19 @@ body{
 .home-Seccion > .AyudaMenus-ENG{
 	width: 0px;
 	height: 0px;
-	background: url("../images/p02-Home/slider/ayuda_glosario_ENG.png");
+	background: url("../images/p02-Home/slider/ayuda_glosario_ENG.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+
+.home-Seccion > .AyudaMenus-NAH{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p02-Home/slider/ayuda_glosario_NAH.png") !important;
 	background-size: cover; 
 	position: absolute;
 	bottom: 0px;
@@ -457,13 +493,23 @@ body{
 	display: block
 }
 
-
-
 .home-Seccion > .Background > .menuBarra > .btn_ayuda-ENG{
 	width: 111px !important;
 	height: 28px !important;
-	background: url("../images/Generales/ayuda_button_EN.png") !important;
+	background: url("../images/p02-Home/ayuda_button_EN.png") !important;
 	background-size: 111px 28px !important;
+	position: absolute;
+	bottom: 26px;
+	left: 215px; 
+	display: block
+}
+
+
+.home-Seccion > .Background > .menuBarra > .btn_ayuda-NAH{
+	width: 213px !important;
+	height: 28px !important;
+	background: url("../images/p02-Home/ayuda_button_NA.png") !important;
+	background-size: 213px 28px !important;
 	position: absolute;
 	bottom: 26px;
 	left: 215px; 
@@ -481,8 +527,6 @@ body{
 	left: 215px; 
 	display: none;
 }
-
-
 
 
 
@@ -529,6 +573,26 @@ body{
 	left: 655px; 
 }
 
+.home-Seccion > .Background > .menuBarra > .btn_conservacion_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_conservacion_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_on_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+
 
  
 .home-Seccion > .Background > .menuBarra > .btn_glosario{
@@ -566,6 +630,28 @@ body{
 	width: 246px;
 	height: 46px;
 	background: url("../images/p02-Home/glosario_on_EN.png") !important;;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+
+
+
+.home-Seccion > .Background > .menuBarra > .btn_glosario_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_glosario_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_on_NA.png") !important;;
 	background-size: 246px 46px;
 	position: absolute;
 	bottom: 100px;
@@ -616,6 +702,26 @@ body{
 	left: 655px; 
 }
 
+.home-Seccion > .Background > .menuBarra > .btn_referencias_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_referencias_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_on_NA.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
 
 
 
@@ -654,6 +760,26 @@ body{
 	width: 246px;
 	height: 46px;
 	background: url("../images/p02-Home/creditos_on_EN.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_creditos_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+
+.home-Seccion > .Background > .menuBarra > .btn_creditos_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos_on_NA.png") !important;
 	background-size: 246px 46px;
 	position: absolute;
 	bottom: 25px;
