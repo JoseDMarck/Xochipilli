@@ -92,7 +92,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_n01_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/EN/GBF_06_n01_EN.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -107,7 +107,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d01_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/EN/GBF_06_d01_EN.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -116,7 +116,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d02_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/EN/GBF_06_d02_EN.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -125,7 +125,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d03_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/EN/GBF_06_d03_EN.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -134,7 +134,7 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d04_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/EN/GBF_06_d04_EN.png"); 
 	background-size: cover;
 	display: none;
 }
@@ -143,162 +143,11 @@
 	width: 100%;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d05_ES.png"); 
+	background: url("../images/p13-detalle-flor/img_flores/EN/GBF_06_d05_EN.png"); 
 	background-size: cover;
 	display: none;
 }
 
-
-
-/* --------------------------------------------------------
-/* ---- FLOR NUMERO: 6 [5]
-/* ---- ENG
--------------------------------------------------------- */
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN XOCHIPILLI
--------------------------------------------------------- */
-
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
--------------------------------------------------------- */
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_0_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_n01_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
--------------------------------------------------------- */
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_1_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d01_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_2_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d02_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_3_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d03_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_4_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d04_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_5_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d05_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-
- 
-/* --------------------------------------------------------
-/* ---- FLOR NUMERO: 6 [5]
-/* ---- ENG
--------------------------------------------------------- */
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN XOCHIPILLI
--------------------------------------------------------- */
-
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
--------------------------------------------------------- */
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_0_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_n01_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
--------------------------------------------------------- */
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_1_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d01_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_2_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d02_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_3_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d03_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_4_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d04_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_5_ENG{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d05_ES.png"); 
-	background-size: cover;
-	display: none;
-}
 
 
 /* --------------------------------------------------------
@@ -377,77 +226,3 @@
 
 
  
-/* --------------------------------------------------------
-/* ---- FLOR NUMERO: 6 [5]
-/* ---- NAH
--------------------------------------------------------- */
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN XOCHIPILLI
--------------------------------------------------------- */
-
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN NATURALEZA
--------------------------------------------------------- */
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_0_NAH{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_n01_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-
-
-/* --------------------------------------------------------
-/* ---- IMAGENES DETALLE FLOR NUM 1 : EN DOCUMENTOS
--------------------------------------------------------- */
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_1_NAH{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d01_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_2_NAH{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d02_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_3_NAH{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d03_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_4_NAH{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d04_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
-.detalle-flor-Seccion  > .ContendorGaleria > .flor_5_img_G_5_NAH{
-	width: 100%;
-	height: 720px;
-	position: absolute;
-	background: url("../images/p13-detalle-flor/img_flores/ES/GBF_06_d05_ES.png"); 
-	background-size: cover;
-	display: none;
-}
-
