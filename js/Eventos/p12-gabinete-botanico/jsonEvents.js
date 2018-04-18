@@ -49,6 +49,8 @@ if (LanguageON == "ENG"){
 
 // DESCRIPCIÓN OBRA
 document.getElementById("descripcion").innerHTML = obj_ENG.descripcion; 
+$(".ayuda-image").addClass("ayuda-image-ENG");
+
 
 // Titulos para los botones
 /*document.getElementById("titulo_btn_1").innerHTML = obj_ENG.titulos_btns[0].figura_1; 
@@ -87,6 +89,8 @@ if (LanguageON == "NAH"){
 
 // DESCRIPCIÓN OBRA
 document.getElementById("descripcion").innerHTML = obj_NAH.descripcion; 
+$(".ayuda-image").addClass("ayuda-image-NAH");
+
 
 // Titulos para los botones
 /*document.getElementById("titulo_btn_1").innerHTML = obj_NAH.titulos_btns[0].figura_1; 

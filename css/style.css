@@ -3078,6 +3078,32 @@ input[type=range] {
 }
 
 
+.gabinete-botanico-Seccion > .ayuda-image-ENG{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p12-gabinete-botanico/ayuda_EN.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+.gabinete-botanico-Seccion > .ayuda-image-NAH{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p12-gabinete-botanico/ayuda_NA.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+
+
 
 /* --------------------------------------------------------
 /* ----  
