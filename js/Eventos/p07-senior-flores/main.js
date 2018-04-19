@@ -170,7 +170,7 @@ $(".ayuda-image").click(function() {
 
 // EVENTOS GALLERIA HP ===================
 
-var num_total_HP = 4;
+var num_total_HP = null;
 var num_init_HP;
 var num_gal_HP;
 
@@ -180,111 +180,85 @@ $(".btn_hotspots-LG").click(function() {
     valor_hp = $(this).attr('class').split(' ')[1];
     console.log(valor_hp);
 
+
+    //Bloque imagenes N. 1
     if( valor_hp == "btn_L-1-1_HP" ){
         num_gal_HP = 1;
         num_init_HP = 1;
+        num_total_HP = 3; 
     }
 
     if( valor_hp == "btn_L-1-2_HP" ){
         num_gal_HP = 1;
         num_init_HP = 2;
+        num_total_HP = 3; 
     }
 
     if( valor_hp == "btn_L-1-3_HP" ){
         num_gal_HP = 1;
         num_init_HP = 3;
-    }
-
-    if( valor_hp == "btn_L-1-4_HP" ){
-        num_gal_HP = 1;
-        num_init_HP = 4;
+        num_total_HP = 3; 
     }
 
 
+    //Bloque imagenes N. 2    
     if( valor_hp == "btn_L-2-1_HP" ){
         num_gal_HP = 2;
         num_init_HP = 1;
+        num_total_HP = 3; 
     }
 
     if( valor_hp == "btn_L-2-2_HP" ){
         num_gal_HP = 2;
         num_init_HP = 2;
+        num_total_HP = 3; 
     }
 
     if( valor_hp == "btn_L-2-3_HP" ){
         num_gal_HP = 2;
         num_init_HP = 3;
-    }
-
-    if( valor_hp == "btn_L-2-4_HP" ){
-        num_gal_HP = 2;
-        num_init_HP = 4;
+        num_total_HP = 3; 
     }
 
 
+    //Bloque imagenes N. 3    
     if( valor_hp == "btn_L-3-1_HP" ){
         num_gal_HP = 3;
         num_init_HP = 1;
+        num_total_HP = 2; 
     }
 
     if( valor_hp == "btn_L-3-2_HP" ){
         num_gal_HP = 3;
         num_init_HP = 2;
+        num_total_HP = 2; 
     }
 
-    if( valor_hp == "btn_L-3-3_HP" ){
-        num_gal_HP = 3;
-        num_init_HP = 3;
-    }
-
-    if( valor_hp == "btn_L-3-4_HP" ){
-        num_gal_HP = 3;
-        num_init_HP = 4;
-    }
-
-
-    if( valor_hp == "btn_L-3-1_HP" ){
-        num_gal_HP = 3;
-        num_init_HP = 1;
-    }
-
-    if( valor_hp == "btn_L-3-2_HP" ){
-        num_gal_HP = 3;
-        num_init_HP = 2;
-    }
-
-    if( valor_hp == "btn_L-3-3_HP" ){
-        num_gal_HP = 3;
-        num_init_HP = 3;
-    }
-
-    if( valor_hp == "btn_L-3-4_HP" ){
-        num_gal_HP = 3;
-        num_init_HP = 4;
-    }
-
+    //Bloque imagenes N. 4    
     if( valor_hp == "btn_L-4-1_HP" ){
         num_gal_HP = 4;
         num_init_HP = 1;
+        num_total_HP = 3; 
     }
 
     if( valor_hp == "btn_L-4-2_HP" ){
         num_gal_HP = 4;
         num_init_HP = 2;
+        num_total_HP = 3; 
     }
 
     if( valor_hp == "btn_L-4-3_HP" ){
         num_gal_HP = 4;
         num_init_HP = 3;
+        num_total_HP = 3; 
     }
+ 
 
-    if( valor_hp == "btn_L-4-4_HP" ){
-        num_gal_HP = 4;
-        num_init_HP = 4;
+
+    if( num_init_HP  == num_total_HP){
+        $(".btn_next_HP").hide();
     }
-
-
-
+        
 
     // para mostrar el btn de prev
     if (num_init_HP < 2 ){
@@ -294,13 +268,8 @@ $(".btn_hotspots-LG").click(function() {
         $(".btn_prev_HP").show();
     }
 
-    // para mostrar el btn de next
-    if (num_init_HP < 4  ){
-        $(".btn_next_HP").show();
-    }
-    else{
-         $(".btn_next_HP").hide();
-    }
+    
+
 
     $(".PopUpSlider_HP").fadeIn();
     $(".imagen-SF-"+num_gal_HP+"-"+num_init_HP).fadeIn();
@@ -311,7 +280,8 @@ $(".btn_hotspots-LG").click(function() {
 
 
 $(".btn_next_HP").click(function() {
-     if (num_init_HP == 3){
+     
+    if (num_init_HP == num_total_HP - 1){
         $(".btn_next_HP").hide();
      }
 
@@ -321,14 +291,16 @@ $(".btn_next_HP").click(function() {
 
 
     if (num_init_HP < num_total_HP){
+
+        num_init_HP = num_init_HP + 1;
+
         $(".gal_img").hide();
         $(".gal_desc_LG").hide();
 
-        num_init_HP = num_init_HP + 1;
+        
         console.log("num_init_HP", num_init_HP);
         $(".imagen-SF-"+num_gal_HP+"-"+num_init_HP).fadeIn();
         $(".desc-"+num_gal_HP+"-"+num_init_HP).fadeIn();
-
          
     }
 });
@@ -361,6 +333,8 @@ $(".btn_close_HP").click(function() {
     $(".gal_img").hide();
     $(".gal_desc_LG").hide();
     num_init_HP = 1;
+    num_total_HP = null;
+     
     
 });
 
