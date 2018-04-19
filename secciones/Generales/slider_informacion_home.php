@@ -496,7 +496,7 @@ utilizado para sujetar la escultura al momento de su manipulación.</span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
 line-height:115%'><span style='line-height:115%;color:#404040'><img width=285
-height=190 id="Imagen 21" src="conservacion.fld/image001.png"
+height=190 id="Imagen 21" src="../p02-home/conservacion.fld/image001.png"
 alt="imágenes/detalle%20uv.tif"></span></p>
 
 <p class=MsoCaption align=center style='text-align:center'><span lang=ES-MX
@@ -544,7 +544,7 @@ grosor parece homogéneo (imagen 2). </span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
 line-height:115%'><span style='line-height:115%;color:#404040'><img width=286
-height=229 id="Imagen 22" src="conservacion.fld/image002.png"
+height=229 id="Imagen 22" src="../p02-home/conservacion.fld/image002.png"
 alt="imágenes/Microfotografía%20pigmento%20rojo.tif"></span></p>
 
 <p class=MsoCaption align=center style='text-align:center'><span lang=ES-MX
@@ -568,7 +568,7 @@ las plumas del tocado ( imagen 3), en las orejeras y en las flores del cuerpo
 
 <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
 line-height:115%'><span style='line-height:115%;color:#404040'><img width=289
-height=232 id="Imagen 24" src="conservacion.fld/image003.png"
+height=232 id="Imagen 24" src="../p02-home/conservacion.fld/image003.png"
 alt="imágenes/Microfotografía%20pluma.tif"></span></p>
 
 <p class=MsoCaption align=center style='text-align:center'><span lang=ES-MX
@@ -620,7 +620,7 @@ manchas de pintura moderna, resinas y adhesivos.</span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
 line-height:115%'><span style='line-height:115%;color:#404040'><img width=287
-height=230 id="Imagen 25" src="conservacion.fld/image004.png"
+height=230 id="Imagen 25" src="../p02-home/conservacion.fld/image004.png"
 alt="imágenes/Posible%20basalto.tif"></span></p>
 
 <p class=MsoCaption align=center style='text-align:center'><span lang=ES-MX
@@ -631,7 +631,7 @@ hierro y sílice. Aumento 50x. Foto Laboratorio de Conservación MNA.</span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
 line-height:115%'><span style='line-height:115%;color:#404040'><img width=277
-height=223 id="Imagen 26" src="conservacion.fld/image005.png"
+height=223 id="Imagen 26" src="../p02-home/conservacion.fld/image005.png"
 alt="imágenes/Posible%20andesita.tif"></span></p>
 
 <p class=MsoCaption align=center style='text-align:center'><span lang=ES-MX
@@ -695,7 +695,7 @@ para la base de preparación: Neutro/blanco 10YR 8/2 (imagen 6).</span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
 line-height:115%'><span style='line-height:115%;color:#404040'><img width=402
-height=211 id="Imagen 27" src="conservacion.fld/image006.jpg"
+height=211 id="Imagen 27" src="../p02-home/conservacion.fld/image006.jpg"
 alt="imágenes/Estratos.28mzo.tif"></span></p>
 
 <p class=MsoNormal align=center style='text-align:center;line-height:normal'><span
@@ -790,7 +790,7 @@ lang=ES-MX style='line-height:115%;color:#404040'>&nbsp;</span></p>
 
 <p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
 style='line-height:115%;color:#404040'><img width=309 height=212 id="Imagen 20"
-src="conservacion.fld/image007.png"></span></p>
+src="../p02-home/conservacion.fld/image007.png"></span></p>
 
 <p class=MsoCaption align=center style='text-align:center'><span lang=ES-MX
 style='color:#404040;font-style:normal'>Imagen 7. De izquierda a derecha se

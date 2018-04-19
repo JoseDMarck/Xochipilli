@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 
  
 
@@ -57,20 +57,20 @@ if (LanguageON != "" ){
     
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p01-presentacion/index.html';
+    window.location.href = '../../secciones/p01-presentacion/index.php';
 };
 
 var GotoRepresentaciones  = function () { 
-    window.location.href = '../../secciones/p04-representaciones/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p04-representaciones/index.php' +'?idioma='+LanguageON;
 };
 
 var closem = function () {
@@ -86,18 +86,18 @@ var opensem = function () {
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p03-obra/index.html'+'?idioma='+'ESP';
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'ESP';
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p03-obra/index.html'+'?idioma='+'ENG';
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'ENG';
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p03-obra/index.html'+'?idioma='+'NAH';
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'NAH';
 };
 
 

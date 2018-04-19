@@ -57,7 +57,7 @@
 
     <!-- POPUP SLIDER: CONSERVACION, GLOSARIO, REFERENCIAS -->
 	<?php include '../Generales/slider_informacion_home.php'; ?>
-	<?php include '../Generales/menus_home.php'; ?>
+
 	
 
 </div> <!--  main -->
