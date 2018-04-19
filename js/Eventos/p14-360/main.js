@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
  
 
 
@@ -53,21 +53,21 @@ if (LanguageON != "" ){
 
 // EVENTOS SELECT IDIOMA ===================
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p12-gabinete-botanico/index.html' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON;;
 };
 
 
 var GotoInterpretacion = function(){
-    window.location.href = '../../secciones/p05-interpretacion/index.html' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;;
 }
 
 

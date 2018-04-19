@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 pos_xo_init = null;
 pos_na_init = null;
 pos_do_init = null;
@@ -423,7 +423,7 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'ESP'+
+        window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ESP'+
         '&idflor='+ id_flor +
         '&num_xo='+ id_num_xo +
         '&num_na='+ id_num_na +
@@ -435,7 +435,7 @@ if (LanguageON != "" ){
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'ENG'+
+        window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ENG'+
         '&idflor='+ id_flor +
         '&num_xo='+ id_num_xo +
         '&num_na='+ id_num_na +
@@ -445,7 +445,7 @@ if (LanguageON != "" ){
     
     var Change_idioma_NAH = function () {
         location.reload(); 
-        window.location.href = '../../secciones/p13-detalle-flor/index.html'+'?idioma='+'NAH'+
+        window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'NAH'+
         '&idflor='+ id_flor +
         '&num_xo='+ id_num_xo +
         '&num_na='+ id_num_na +
@@ -478,16 +478,16 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p12-gabinete-botanico/index.html' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON;;
 };
 
 

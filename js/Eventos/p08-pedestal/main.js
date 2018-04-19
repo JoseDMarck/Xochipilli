@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -54,18 +54,18 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p08-pedestal/index.html'+'?idioma='+'ESP';
+        window.location.href = '../../secciones/p08-pedestal/index.php'+'?idioma='+'ESP';
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p08-pedestal/index.html'+'?idioma='+'ENG';
+        window.location.href = '../../secciones/p08-pedestal/index.php'+'?idioma='+'ENG';
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
-        window.location.href = '../../secciones/p08-pedestal/index.html'+'?idioma='+'NAH';
+        window.location.href = '../../secciones/p08-pedestal/index.php'+'?idioma='+'NAH';
     };
     
 
@@ -91,16 +91,16 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;;
 };
 
 

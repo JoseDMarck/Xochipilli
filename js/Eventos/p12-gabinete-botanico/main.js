@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 num_flor = null; 
 num_xo = null; 
 num_na = null; 
@@ -58,18 +58,18 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+'ESP';
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP';
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+'ENG';
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG';
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
-        window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+'NAH';
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH';
     };
     
 
@@ -95,22 +95,22 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;;
 };
 
 
 var GotoDetalleFlor = function(){
     
-    window.location.href = '../../secciones/p13-detalle-flor/index.html' +
+    window.location.href = '../../secciones/p13-detalle-flor/index.php' +
     '?idioma='+LanguageON + 
     '&idflor='+ num_flor + 
     '&num_xo='+ num_xo +

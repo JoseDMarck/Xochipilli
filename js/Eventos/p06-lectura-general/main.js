@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 
 // IDIOMA DETECCIÓN
 LanguageON = window.location.hash.substring(1)
@@ -18,16 +18,16 @@ if (LanguageON != "" ){
 }
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'#'+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'#'+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html' +'#'+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'#'+LanguageON;;
 };
 
 
