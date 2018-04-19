@@ -42,7 +42,7 @@ $(".btn_up").click(function() {
     if(statusMenu == 0){
         TweenMax.to(".menuBarraGeneral", 1, {y:-180, onComplete: show = function(){
            //$(".btn_back").fadeIn(); 
-           TweenMax.to(".btn_up", 0.5, {rotation:180, y:32,  ease: Circ.easeOut})
+           TweenMax.to(".btn_up", 0.5, {rotation:180, y:50,  ease: Circ.easeOut})
         }});
         
         statusMenu = 1;
