@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -60,41 +60,41 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html'+'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+LanguageON;
 };
 
 var GotoInterpretacion = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.html'+'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p05-interpretacion/index.php'+'?idioma='+LanguageON;
 };
 
 
 var GotoGabineteBotanico = function () {
-    window.location.href = '../../secciones/p12-gabinete-botanico/index.html'+'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+LanguageON;
 };
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html';
+    window.location.href = '../../secciones/p02-home/index.php';
 };
 
 var GotoBack = function () {
-    window.location.href = '../../index.html'
+    window.location.href = '../../index.php'
 };
 
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p02-home/index.html'+'?idioma='+'ESP';
+    window.location.href = '../../secciones/p02-home/index.php'+'?idioma='+'ESP';
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p02-home/index.html'+'?idioma='+'ENG';
+    window.location.href = '../../secciones/p02-home/index.php'+'?idioma='+'ENG';
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p02-home/index.html'+'?idioma='+'NAH';
+    window.location.href = '../../secciones/p02-home/index.php'+'?idioma='+'NAH';
 };
 
 
