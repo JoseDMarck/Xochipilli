@@ -40,6 +40,8 @@ $(".ayuda-image").addClass("ayuda-image_ENG");
 $(".btn_ayuda_General").addClass("btn_ayuda_General_ENG");
 $(".btn_back").addClass("btn_back_ENG");
 $(".btn_inicio_General").addClass("btn_inicio_General_ENG");
+
+$(".btn_close_HP").addClass("btn_close_HP_ENG");
  
 }
 
@@ -57,6 +59,9 @@ if (LanguageON == "NAH"){
     $(".btn_ayuda_General").addClass("btn_ayuda_General_NAH");
     $(".btn_back").addClass("btn_back_NAH");
     $(".btn_inicio_General").addClass("btn_inicio_General_NAH");
+
+    $(".btn_close_HP").addClass("btn_close_HP_NAH");
+
 
 
 

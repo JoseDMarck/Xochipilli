@@ -3614,9 +3614,32 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .PopUpSlider_HP > .btn_close_HP{
-	width: 204px;
-	height: 47px;
-	background: url("../images/Generales/cerrar_button.png");
+	width: 203px;
+	height: 46px;
+	background: url("../images/Generales/close_button_ES.png");
+	background-size: 204px 47px;
+	position: absolute;
+	left:  1701px;
+	top: 852px;
+	display: block;
+}
+
+.PopUpSlider_HP > .btn_close_HP_ENG{
+	width: 203px;
+	height: 46px;
+	background: url("../images/Generales/close_button_EN.png") !important;
+	background-size: 204px 47px;
+	position: absolute;
+	left:  1701px;
+	top: 852px;
+	display: block;
+}
+
+
+.PopUpSlider_HP > .btn_close_HP_NAH{
+	width: 203px;
+	height: 46px;
+	background: url("../images/Generales/close_button_NA.png") !important;
 	background-size: 204px 47px;
 	position: absolute;
 	left:  1701px;
