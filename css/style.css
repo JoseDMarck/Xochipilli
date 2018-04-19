@@ -1193,7 +1193,29 @@ body{
 .obra-Seccion > .ayuda-image{
 	width: 0px;
 	height: 0px;
-	background: url("../images/p03-obra/ayuda.png");
+	background: url("../images/p03-obra/ES/ayuda_ES.png");
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+.obra-Seccion > .ayuda-image_ENG{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p03-obra/EN/ayuda_EN.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+.obra-Seccion > .ayuda-image_NAH{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p03-obra/NA/ayuda_NA.png") !important;
 	background-size: cover; 
 	position: absolute;
 	bottom: 0px;
