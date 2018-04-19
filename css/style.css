@@ -1232,12 +1232,12 @@ body{
 }
 
 .menuBarraGeneral > .btn_up{
-	width: 80px;
-	height: 32px;
+	width: 100px;
+	height: 50px;
 	background: url("../images/p03-obra/up.png");
-	background-size: 80px 32px;
+	background-size: 100px 50px;
 	position: absolute;
-	top: -32px;
+	top: -50px;
 	left: 0px; 
 	right: 0px;
 	margin: 0 auto;
@@ -1743,11 +1743,31 @@ body{
 }
 
 .obra-Seccion > .titulo{
-	width: 147px;
-	height: 46px;
+	width: 550px;
+	height: 60px;
 	position: absolute;
-	background: url("../images/p03-obra/Obra.png");
-	background-size: 147px 46px;
+	background: url("../images/p03-obra/ES/obra_ES.png");
+	background-size: 550px 60px;
+	top: 60px;
+	left: 1127px;
+}
+
+.obra-Seccion > .titulo_ENG{
+	width: 550px;
+	height: 60px;
+	position: absolute;
+	background: url("../images/p03-obra/EN/obra_EN.png");
+	background-size: 550px 60px;
+	top: 60px;
+	left: 1127px;
+}
+
+.obra-Seccion > .titulo_NAH{
+	width: 550px;
+	height: 60px;
+	position: absolute;
+	background: url("../images/p03-obra/NA/obra_NA.png");
+	background-size: 550px 60px;
 	top: 60px;
 	left: 1127px;
 }
@@ -1828,12 +1848,34 @@ body{
 }
 
 .obra-Seccion > .btn_otrasPres {
-	width: 421px;
-	height: 70px;
-	background: url('../images/p03-obra/otras_button.png');	
+	width: 257px;
+	height: 57px;
+	background: url('../images/p03-obra/ES/otras_button_ES.png');	
+	background-size: 257px 57px;
 	position: absolute;
-	top: 850px;
-	left: 561px;
+	top: 800px;
+	left: 707px;
+}
+
+
+.obra-Seccion > .btn_otrasPres_ENG {
+	width: 257px;
+	height: 57px;
+	background: url('../images/p03-obra/EN/otras_button_EN.png');	
+	background-size: 257px 57px;
+	position: absolute;
+	top: 800px;
+    left: 720px;
+}
+
+.obra-Seccion > .btn_otrasPres_NAH {
+	width: 257px;
+	height: 57px;
+	background: url('../images/p03-obra/NA/otras_button_NA.png');	
+	background-size: 257px 57px;
+	position: absolute;
+	top: 800px;
+	left: 707px;
 }
 
 
@@ -1884,7 +1926,7 @@ body{
 	width: 800px;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p03-obra/image_1.png"); 
+	background: url("../images/p03-obra/ES/OBR_01t_ES.png"); 
 	background-size: cover;
 	display: block;
 }
@@ -1893,7 +1935,7 @@ body{
 	width: 800px;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p03-obra/image_2.png"); 
+	background: url("../images/p03-obra/ES/OBR_02t_ES.png"); 
 	background-size: cover;
 	display: block;
 
@@ -1903,7 +1945,7 @@ body{
 	width: 800px;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p03-obra/image_3.png"); 
+	background: url("../images/p03-obra/ES/OBR_03t_ES.png");  
 	background-size: cover;
 	display: block;
 }
@@ -1912,7 +1954,27 @@ body{
 	width: 800px;
 	height: 720px;
 	position: absolute;
-	background: url("../images/p03-obra/image_4.png"); 
+	background: url("../images/p03-obra/ES/OBR_04t_ES.png"); 
+	background-size: cover;
+	display: block;
+}
+
+
+.obra_img_G_1_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p03-obra/EN/OBR_01t_EN.png") !important; 
+	background-size: cover;
+	display: block;
+}
+
+
+.obra_img_G_1_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p03-obra/NA/OBR_01t_NA.png") !important;
 	background-size: cover;
 	display: block;
 }
