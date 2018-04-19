@@ -7,7 +7,7 @@ $( document ).ready(function() {
 if (LanguageON == "ESP"){
 
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_ESP.descripcion; 
+document.getElementById("descripcion").innerHTML = obj_ESP_Obra.descripcion; 
 
 // Textos Galerias
 /*document.getElementById("gal_txt_1").innerHTML = obj_ESP.galeria[0].texto_1; 
@@ -24,6 +24,8 @@ document.getElementById("gal_txt_4").innerHTML = obj_ESP.galeria[0].texto_4; */
  
 if (LanguageON == "ENG"){
 
+    // DESCRIPCIÓN OBRA
+    document.getElementById("descripcion").innerHTML = obj_ENG_Obra.descripcion; 
 
     $(".ayuda-image").addClass("ayuda-image_ENG");
     $(".btn_ayuda_General").addClass("btn_ayuda_General_ENG");
@@ -41,8 +43,7 @@ if (LanguageON == "ENG"){
     $(".btn_creditos").addClass("btn_creditos_ENG");
 
 
-// DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_ENG.descripcion; 
+
 
 // Textos Galerias
 /*document.getElementById("gal_txt_1").innerHTML = obj_ENG.galeria[0].texto_1; 
@@ -77,7 +78,7 @@ if (LanguageON == "NAH"){
 
     
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_NAH.descripcion; 
+document.getElementById("descripcion").innerHTML = obj_NAH_Obra.descripcion; 
 
 // Textos Galerias
 /*document.getElementById("gal_txt_1").innerHTML = obj_NAH.galeria[0].texto_1; 

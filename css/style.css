@@ -1726,7 +1726,7 @@ body{
 
 .obra-Seccion > .ObraBloqueA{
 	width: 685px;
-	height: 632px;
+	height: auto;
 	position: absolute;
 	top: 106px;
 	left: 1121px;
@@ -1785,7 +1785,7 @@ body{
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .descripcion{
 	width: 100%;
-	height: 900px;
+	height: 632px;
 	font-family: "Gotham-Light";
 	font-size: 22px;
 	line-height: 25px;
