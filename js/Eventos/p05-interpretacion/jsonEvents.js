@@ -25,10 +25,13 @@ document.getElementById("btn_trono").innerHTML = obj_ESP.botones[0].btn_trono; *
 if (LanguageON == "ENG"){
 
 
-    $(".Ayuda").addClass("Ayuda_ENG");
-    $(".btn_ayuda").addClass("btn_ayuda-ENG");
-    $(".btn_ayuda-m").addClass("btn_ayuda-ENG");
-    
+    $(".ayuda-image").addClass("ayuda-image_ENG");    
+    $(".btn_ayuda_General").addClass("btn_ayuda_General_ENG");
+    $(".btn_back").addClass("btn_back_ENG");
+    $(".btn_inicio_General").addClass("btn_inicio_General_ENG");
+
+
+    $(".titulo").addClass("titulo_ENG");
     
     $(".AyudaMenus").addClass("AyudaMenus-ENG");
 
@@ -61,7 +64,25 @@ document.getElementById("btn_trono").innerHTML = obj_ENG.botones[0].btn_trono; *
 
 // IDIOMA NAH
 if (LanguageON == "NAH"){
+
+
+    $(".ayuda-image").addClass("ayuda-image_NAH");
+    $(".btn_ayuda_General").addClass("btn_ayuda_General_NAH");
+    $(".btn_back").addClass("btn_back_NAH");
+    $(".btn_inicio_General").addClass("btn_inicio_General_NAH");
+
+    $(".titulo").addClass("titulo_NAH");
+    
+    
+
  
+    $(".btn_senior_flores").addClass("btn_senior_flores_NAH");
+    $(".btn_pedestal").addClass("btn_pedestal_NAH");
+    $(".btn_atavios_sol").addClass("btn_atavios_sol_NAH");
+    $(".btn_atavios_tierra").addClass("btn_atavios_tierra_NAH");
+    $(".btn_atavio_florido").addClass("btn_atavio_florido_NAH");
+
+
     $(".btn_conservacion").addClass("btn_conservacion_NAH");
 	$(".btn_glosario").addClass("btn_glosario_NAH");
 	$(".btn_referencias").addClass("btn_referencias_NAH");

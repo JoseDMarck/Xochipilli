@@ -1257,11 +1257,59 @@ body{
 }
 
 
+.btn_back_ENG{
+	width: 119px;
+	height: 35px;
+	background: url("../images/p02-Home/atras_button_EN.png") !important;
+	background-size: 119px 35px;
+	position: absolute;
+	bottom: 100px;
+	left: 60px; 
+	z-index: 99;
+	display: block;
+}
+
+
+.btn_back_NAH{
+	width: 202px;
+	height: 35px;
+	background: url("../images/p02-Home/atras_button_NA.png") !important;
+	background-size: 202px 35px;
+	position: absolute;
+	bottom: 100px;
+	left: 60px; 
+	z-index: 99;
+	display: block;
+}
+
+
 .btn_inicio_General{
 	width: 124px;
 	height: 26px;
 	background: url("../images/p02-Home/home_button.png");
 	background-size: 124px 26px;
+	position: absolute;
+	bottom: 26px;
+	left: 60px; 
+	z-index: 99;
+}
+
+.btn_inicio_General_ENG{
+	width: 133px;
+	height: 26px;
+	background: url("../images/p02-Home/home_button_EN.png");
+	background-size: 133px 26px;
+	position: absolute;
+	bottom: 26px;
+	left: 60px; 
+	z-index: 99;
+}
+
+.btn_inicio_General_NAH{
+	width: 194px;
+	height: 26px;
+	background: url("../images/p02-Home/home_button_NA.png");
+	background-size: 194px 26px;
 	position: absolute;
 	bottom: 26px;
 	left: 60px; 
@@ -1276,6 +1324,31 @@ body{
 	position: absolute;
 	bottom: 26px;
 	left: 215px; 
+	display: block;
+	z-index: 99;
+}
+
+.btn_ayuda_General_ENG{
+	width: 111px;
+	height: 28px;
+	background: url("../images/p02-Home/ayuda_button_EN.png") !important;
+	background-size: 111px 28px;
+	position: absolute;
+	bottom: 26px;
+	left: 215px; 
+	display: block;
+	z-index: 99;
+}
+
+
+.btn_ayuda_General_NAH{
+	width: 213px;
+	height: 28px;
+	background: url("../images/p02-Home/ayuda_button_NA.png") !important;
+	background-size: 213px 28px;
+	position: absolute;
+	bottom: 26px;
+	left: 294px; 
 	display: block;
 	z-index: 99;
 }
@@ -1395,6 +1468,28 @@ body{
 	left: 655px; 
 }
 
+.menuBarraGeneral > .btn_conservacion_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+
+.menuBarraGeneral > .btn_conservacion_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/conservacion_on_NA.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 655px; 
+}
+
+
+
 
  
 .menuBarraGeneral > .btn_glosario{
@@ -1432,6 +1527,26 @@ body{
 	width: 246px;
 	height: 46px;
 	background: url("../images/p02-Home/glosario_on_EN.png") !important;;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+
+.menuBarraGeneral > .btn_glosario_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 100px;
+	left: 1020px; 
+}
+
+.menuBarraGeneral > .btn_glosario_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/glosario_on_NA.png") !important;;
 	background-size: 246px 46px;
 	position: absolute;
 	bottom: 100px;
@@ -1483,6 +1598,26 @@ body{
 	left: 655px; 
 }
 
+.menuBarraGeneral > .btn_referencias_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
+.menuBarraGeneral > .btn_referencias_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/referencias_on_NA.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 655px; 
+}
+
 
 .menuBarraGeneral > .btn_creditos{
 	width: 246px;
@@ -1525,6 +1660,27 @@ body{
 	left: 1020px; 
 }
  
+
+.menuBarraGeneral > .btn_creditos_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos_button_NA.png");
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+
+.menuBarraGeneral > .btn_creditos_on_NAH{
+	width: 246px;
+	height: 46px;
+	background: url("../images/p02-Home/creditos_on_NA.png") !important;
+	background-size: 246px 46px;
+	position: absolute;
+	bottom: 25px;
+	left: 1020px; 
+}
+
 
 
 /* --------------------------------------------------------
@@ -1823,6 +1979,28 @@ body{
 }
 
 
+.interpretacion-Seccion > .titulo_ENG{
+	width: 550px;
+	height: 60px;
+	background: url("../images/p05-interpretacion/EN/interpretacion_EN.png") !important;
+	background-size: 550px 60px;
+	position: absolute;
+	top: 60px;
+	left: 1127px;
+}
+
+
+.interpretacion-Seccion > .titulo_NAH{
+	width: 550px;
+	height: 60px;
+	background: url("../images/p05-interpretacion/NA/interpretacion_NA.png") !important;
+	background-size: 550px 60px;
+	position: absolute;
+	top: 60px;
+	left: 1127px;
+}
+
+
 .interpretacion-Seccion > .Background{
 	width: 1920px;
 	height: 1080px;
@@ -1868,7 +2046,7 @@ body{
 .interpretacion-Seccion  > .btn_senior_flores_ENG{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/EN/senor_button_EN.png");
+    background: url("../images/p05-interpretacion/EN/senor_button_EN.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 294px;
@@ -1878,7 +2056,7 @@ body{
 .interpretacion-Seccion  > .btn_senior_flores_NAH{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/NAH/senor_button_NA.png");
+    background: url("../images/p05-interpretacion/NA/senor_button_NA.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 294px;
@@ -1899,7 +2077,7 @@ body{
 .interpretacion-Seccion  > .btn_pedestal_ENG{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/EN/pedestal_button_EN.png");
+    background: url("../images/p05-interpretacion/EN/pedestal_button_EN.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 294px;
@@ -1909,7 +2087,7 @@ body{
 .interpretacion-Seccion  > .btn_pedestal_NAH{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/NA/senor_button_NA.png");
+    background: url("../images/p05-interpretacion/NA/senor_button_NA.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 294px;
@@ -1931,7 +2109,7 @@ body{
 .interpretacion-Seccion  > .btn_atavios_sol_ENG{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/EN/sol_button_EN.png");
+    background: url("../images/p05-interpretacion/EN/sol_button_EN.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 413px;
@@ -1942,7 +2120,7 @@ body{
 .interpretacion-Seccion  > .btn_atavios_sol_NAH{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/NAH/sol_button_NAH.png");
+    background: url("../images/p05-interpretacion/NA/sol_button_NA.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 413px;
@@ -1994,7 +2172,7 @@ body{
 .interpretacion-Seccion  > .btn_atavio_florido_ENG{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/EN/florido_button_EN.png");
+    background: url("../images/p05-interpretacion/EN/florido_button_EN.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 532px;
@@ -2004,7 +2182,7 @@ body{
 .interpretacion-Seccion  > .btn_atavio_florido_NAH{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/NA/florido_button_NA.png");
+    background: url("../images/p05-interpretacion/NA/florido_button_NA.png") !important;
     background-size: 371px 69px;
     position: absolute;
     top: 532px;
@@ -2018,7 +2196,31 @@ body{
 .interpretacion-Seccion  > .ayuda-image{
 	width: 0px;
     height: 0px;
-    background: url("../images/p05-interpretacion/ayuda.png");
+    background: url("../images/p05-interpretacion/ES/ayuda_ES.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+.interpretacion-Seccion  > .ayuda-image_ENG{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p05-interpretacion/EN/ayuda_EN.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+.interpretacion-Seccion  > .ayuda-image_NAH{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p05-interpretacion/NA/ayuda_NA.png")  !important;
     background-size: cover;
     position: absolute;
     bottom: 0px;
