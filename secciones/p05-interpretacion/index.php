@@ -57,7 +57,12 @@
 			<div class="titulo"></div>
 
 		 	<div class="imagen360">
-				 <div class="icono"></div>
+				 <!--<div class="icono"></div>-->
+
+				 <video width="800" height="720" autoplay loop>
+					  <source src="../../images/p05-interpretacion/INT_video.mp4" type="video/mp4">
+				</video>
+
 			 </div>
 
 
