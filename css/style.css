@@ -1865,11 +1865,51 @@ body{
     left: 1127px;
 }
 
+.interpretacion-Seccion  > .btn_senior_flores_ENG{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/EN/senor_button_EN.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 294px;
+    left: 1127px;
+}
+
+.interpretacion-Seccion  > .btn_senior_flores_NAH{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/NAH/senor_button_NA.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 294px;
+    left: 1127px;
+}
+
 
 .interpretacion-Seccion  > .btn_pedestal{
 	width: 371px;
     height: 69px;
     background: url("../images/p05-interpretacion/ES/pedestal_button_ES.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 294px;
+    left: 1520px;
+}
+
+.interpretacion-Seccion  > .btn_pedestal_ENG{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/EN/pedestal_button_EN.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 294px;
+    left: 1520px;
+}
+
+.interpretacion-Seccion  > .btn_pedestal_NAH{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/NA/senor_button_NA.png");
     background-size: 371px 69px;
     position: absolute;
     top: 294px;
@@ -1888,6 +1928,28 @@ body{
 }
 
 
+.interpretacion-Seccion  > .btn_atavios_sol_ENG{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/EN/sol_button_EN.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 413px;
+    left: 1520px;
+}
+
+
+.interpretacion-Seccion  > .btn_atavios_sol_NAH{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/NAH/sol_button_NAH.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 413px;
+    left: 1520px;
+}
+
+
 .interpretacion-Seccion  > .btn_atavios_tierra{
 	width: 371px;
     height: 69px;
@@ -1896,19 +1958,60 @@ body{
 	position: absolute;
 	top: 413px;
     left: 1127px;
-    
+}
+
+.interpretacion-Seccion  > .btn_atavios_tierra_ENG{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/EN/tierra_button_EN.png") !important;
+    background-size: 371px 69px;
+	position: absolute;
+	top: 413px;
+    left: 1127px;
+}
+
+.interpretacion-Seccion  > .btn_atavios_tierra_NAH{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/NA/tierra_button_NA.png") !important;
+    background-size: 371px 69px;
+	position: absolute;
+	top: 413px;
+    left: 1127px;
 }
 
 
 .interpretacion-Seccion  > .btn_atavio_florido{
 	width: 371px;
     height: 69px;
-    background: url("../images/p05-interpretacion/ES/florido_button_ES.png");
+    background: url("../images/p05-interpretacion/ES/florido_button_ES.png"); 
     background-size: 371px 69px;
     position: absolute;
     top: 532px;
     left: 1127px;
 }
+
+.interpretacion-Seccion  > .btn_atavio_florido_ENG{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/EN/florido_button_EN.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 532px;
+    left: 1127px;
+}
+
+.interpretacion-Seccion  > .btn_atavio_florido_NAH{
+	width: 371px;
+    height: 69px;
+    background: url("../images/p05-interpretacion/NA/florido_button_NA.png");
+    background-size: 371px 69px;
+    position: absolute;
+    top: 532px;
+    left: 1127px;
+}
+
+
 
 
 

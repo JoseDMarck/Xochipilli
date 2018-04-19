@@ -62,7 +62,7 @@ document.getElementById("btn_trono").innerHTML = obj_ENG.botones[0].btn_trono; *
 // IDIOMA NAH
 if (LanguageON == "NAH"){
  
-    (".btn_conservacion").addClass("btn_conservacion_NAH");
+    $(".btn_conservacion").addClass("btn_conservacion_NAH");
 	$(".btn_glosario").addClass("btn_glosario_NAH");
 	$(".btn_referencias").addClass("btn_referencias_NAH");
 	$(".btn_creditos").addClass("btn_creditos_NAH");
