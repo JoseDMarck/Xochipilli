@@ -21,7 +21,6 @@
 			<div class="Background">
 
 					<div class="menuBarraGeneral">
-							<div class="btn_back"></div>
 							
 							<div class="btn_up"></div>
 
@@ -34,6 +33,8 @@
 
 
 					
+					<div class="btn_back"></div>
+					
 					<div class="btn_inicio_General"></div>
 					<div class="btn_ayuda_General"></div>
 
@@ -41,7 +42,6 @@
 					<div class="btn_idioma_es_General"></div>
 					<div class="btn_idioma_en_General"></div>
 					<div class="btn_idioma_na_General"></div>
-
 			</div><!-- Background -->
 
 
@@ -73,6 +73,10 @@
 					<div class="repres_img_1 gal_img_G gal_img_G_1 gal_img_G"></div>
 					<div class="repres_img_2 gal_img_G gal_img_G_2 gal_img_G"></div>
 					<div class="repres_img_3 gal_img_G gal_img_G_3 gal_img_G"></div>
+					<div class="repres_img_4 gal_img_G gal_img_G_4 gal_img_G"></div>
+					<div class="repres_img_5 gal_img_G gal_img_G_5 gal_img_G"></div>
+					<div class="repres_img_6 gal_img_G gal_img_G_6 gal_img_G"></div>
+					<div class="repres_img_7 gal_img_G gal_img_G_7 gal_img_G"></div>
 						
 					
 					<div class="full_btn"></div>
@@ -94,7 +98,8 @@
 
 
 
-			<div class="ayuda-image"></div>
+			<div class="ayuda-image ayuda-image-Repre"></div>
+			<div class="ayuda-image-toca"></div>
 			 
 			  
 
@@ -103,48 +108,8 @@
 	</div><!-- ScreenSaver-Seccion -->
 
 
-		<div class="PopUpSlider">
-			
-			
-			
-			
-					<div class="SeccionTitulo">
-						<div class="titulo_conservacion btn_titulo_Seccion seccion-m-1 "></div>
-						<div class="titulo_glosario btn_titulo_Seccion seccion-m-2"></div>
-						<div class="titulo_referencias btn_titulo_Seccion seccion-m-3"></div>
-						<div class="titulo_creditos btn_titulo_Seccion seccion-m-4"></div>
-					</div>
-			
-			
-					<div class="btn_close"></div>
-					<div class="btn_prev"></div>
-					<div class="btn_next"></div>
-			
-					<div class="Seccion-info">
-					
-						<div class="Textos seccion-m-1 flexcroll">
-								<div id="descripcion_conservacion" class="descripcion"></div>
-						</div>
-			
-			
-						<div class="Textos seccion-m-2 flexcroll">
-							<div id="descripcion_glosario" class="descripcion"></div>
-						</div>
-			
-						<div class="Textos seccion-m-3 flexcroll">
-							<div id="descripcion_referencias" class="descripcion"></div>
-						</div>
-			
-						<div class="Textos seccion-m-4 flexcroll">
-							<div id="descripcion_creditos" class="descripcion"></div>
-						</div>
-			
-						
-			
-			
-					</div><!-- imagen_PopUpSlider -->
-			
-		</div><!-- PopUpSldier -->
+	<!-- POPUP SLIDER: CONSERVACION, GLOSARIO, REFERENCIAS -->
+	<?php include '../Generales/slider_informacion_home.php'; ?>
 	
 
 </div> <!--  main -->
@@ -162,10 +127,16 @@
 <script type="text/javascript" src="../../json/p04-representaciones/representaciones.js"></script>
 <script type="text/javascript" src="../../js/Eventos/p04-representaciones/jsonEvents.js"></script>
 
+
 <!-- para los json de los botones: Conservación, Glosario, Créditos -->
 <script type="text/javascript" src="../../json/MenusBotones/botones.js"></script>
+
+<script type="text/javascript" src="../../json/MenusBotones/Glosario_ES.js"></script>
+<script type="text/javascript" src="../../json/MenusBotones/Glosario_EN.js"></script>
+<script type="text/javascript" src="../../json/MenusBotones/referencias.js"></script>
 <script type="text/javascript" src="../../js/Eventos/Generales/jsonEventsMenus.js"></script>
 <script type="text/javascript" src="../../js/Eventos/Generales/menusEvents.js"></script>
+
 
 
 

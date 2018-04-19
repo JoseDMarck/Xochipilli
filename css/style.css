@@ -1224,6 +1224,40 @@ body{
 }
 
 
+.obra-Seccion > .ayuda-image-Repre{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p04-representaciones/ES/ayuda_ES.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+.obra-Seccion > .ayuda-image-Repre_ENG{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p04-representaciones/EN/ayuda_EN.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+.obra-Seccion > .ayuda-image-Repre_NAH{
+	width: 0px;
+	height: 0px;
+	background: url("../images/p04-representaciones/NA/ayuda_NA.png") !important;
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+
 .obra-Seccion > .ayuda-image-toca{
 	width: 1920px;
 	height: 1080px;
@@ -1795,14 +1829,36 @@ body{
 }
 
 .obra-Seccion > .titulo-presentacion{
-	width: 544px;
+	width: 490px;
 	height: 43px;
 	position: absolute;
-	background: url("../images/p04-representaciones/Otras.png");
-	background-size: 544px 43px;
+	background: url("../images/p04-representaciones/ES/otras_ES.png");
+	background-size: 490px 43px;
 	top: 60px;
 	left: 1127px;
 }
+
+.obra-Seccion > .titulo-presentacion_ENG{
+	width: 490px;
+	height: 43px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/otras_EN.png");
+	background-size: 490px 43px;
+	top: 60px;
+	left: 1127px;
+}
+
+
+.obra-Seccion > .titulo-presentacion_NAH{
+	width: 490px;
+	height: 43px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/otras_NA.png");
+	background-size: 490px 43px;
+	top: 60px;
+	left: 1127px;
+}
+
 
 
 .obra-Seccion > .ObraBloqueA > .Contenedor > .descripcion{
@@ -2004,31 +2060,203 @@ body{
 
 
 .repres_img_1 {
-	width: 100%;
-	height: 680px;
+	width: 800px;
+	height: 720px;
 	position: absolute;
-	background: url("../images/p04-representaciones/image_1.jpg"); 
+	background: url("../images/p04-representaciones/ES/OBR_or_01t_ES.png"); 
 	background-size: cover;
 	display: block;
 }
 
 .repres_img_2 {
-	width: 100%;
-	height: 680px;
+	width: 800px;
+	height: 720px;
 	position: absolute;
-	background: url("../images/p04-representaciones/image_2.jpg"); 
+	background: url("../images/p04-representaciones/ES/OBR_or_02t_ES.png"); 
 	background-size: cover;
-	display: block;
+	display: none;
 
 }
 
 .repres_img_3 {
-	width: 100%;
-	height: 680px;
+	width: 800px;
+	height: 720px;
 	position: absolute;
-	background: url("../images/p04-representaciones/image_3.jpg"); 
+	background: url("../images/p04-representaciones/ES/OBR_or_03t_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_4 {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/ES/OBR_or_04t_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_5 {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/ES/OBR_or_05t_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+
+.repres_img_6 {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/ES/OBR_or_06t_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_7 {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/ES/OBR_or_07t_ES.png"); 
+	background-size: cover;
+	display: none;
+}
+
+
+
+
+.repres_img_1_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_01t_EN.png") !important; 
 	background-size: cover;
 	display: block;
+}
+
+.repres_img_2_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_02t_EN.png") !important; 
+	background-size: cover;
+	display: none;
+
+}
+
+.repres_img_3_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_03t_EN.png") !important; 
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_4_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_04t_EN.png") !important;
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_5_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_05t_EN.png") !important; 
+	background-size: cover;
+	display: none;
+}
+
+
+.repres_img_6_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_06t_EN.png") !important;
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_7_ENG {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/EN/OBR_or_07t_EN.png") !important;
+	background-size: cover;
+	display: none;
+}
+
+
+
+.repres_img_1_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_01t_NA.png") !important; 
+	background-size: cover;
+	display: block;
+}
+
+.repres_img_2_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_02t_NA.png") !important; 
+	background-size: cover;
+	display: none;
+
+}
+
+.repres_img_3_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_03t_NA.png") !important; 
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_4_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_04t_NA.png") !important;
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_5_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_05t_NA.png") !important; 
+	background-size: cover;
+	display: none;
+}
+
+
+.repres_img_6_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_06t_NA.png") !important;
+	background-size: cover;
+	display: none;
+}
+
+.repres_img_7_NAH {
+	width: 800px;
+	height: 720px;
+	position: absolute;
+	background: url("../images/p04-representaciones/NA/OBR_or_07t_NA.png") !important;
+	background-size: cover;
+	display: none;
 }
 
 

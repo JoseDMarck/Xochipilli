@@ -5,7 +5,7 @@ $( document ).ready(function() {
 /* ---- Eventos interacción de pantalla
 -------------------------------------------------------- */
 
-HomeURL = '../../index.html';
+HomeURL = '../../index.php';
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -55,20 +55,20 @@ if (LanguageON != "" ){
     
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.html';
+    window.location.href = '../../secciones/p03-obra/index.php';
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p03-obra/index.html'+'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+LanguageON;
 };
 
 var GotoRepresentaciones  = function () { 
-    window.location.href = '../../secciones/p04-representaciones/index.html' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p04-representaciones/index.php' +'?idioma='+LanguageON;
 };
 
 var closem = function () {
@@ -84,18 +84,18 @@ var opensem = function () {
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.html'+'?idioma='+'ESP';
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ESP';
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.html'+'?idioma='+'ENG';
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ENG';
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.html'+'?idioma='+'NAH';
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'NAH';
 };
 
 
@@ -168,13 +168,13 @@ $(".ayuda-image").click(function() {
 
 // EVENTOS GALLERIA ===================
 
-var num_total_G = 3;
+var num_total_G = 7;
 var num_init_G = 1;
 
 
 $(".next_btn_obra").click(function() {
 
-     if (num_init_G == 2){
+     if (num_init_G == 6){
         $(".next_btn_obra").hide();
      }
 
@@ -223,13 +223,20 @@ $(".prev_btn_obra").click(function() {
 $(function () {
     var viewer = ImageViewer({zoomValue:160});
     $('.full_btn').click(function () {
-        var imgSrc = "../../images/p04-representaciones/full_img"+num_init_G+".jpg",
+        var imgSrc = "../../images/p04-representaciones/full_img"+num_init_G+".png",
         highResolutionImage = $(this).data('high-res-img');
         viewer.show(imgSrc, highResolutionImage);
+
+        $(".ayuda-image-toca").fadeIn();
     });
 }); 
 
 
+
+$(".ayuda-image-toca").click(function(event) {
+    $(".ayuda-image-toca").fadeOut();
+    event.stopPropagation();
+})
 
 
 // EVENTOS SELECT IDIOMA ===================
