@@ -219,7 +219,7 @@ $(".prev_btn_obra").click(function() {
 $(function () {
     var viewer = ImageViewer({zoomValue:160});
     $('.full_btn').click(function () {
-        var imgSrc = "../../images/p03-obra/full_img"+num_init_G+".jpg",
+        var imgSrc = "../../images/p03-obra/full_img"+num_init_G+".png",
         highResolutionImage = $(this).data('high-res-img');
         viewer.show(imgSrc, highResolutionImage);
 
