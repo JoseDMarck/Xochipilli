@@ -69,6 +69,14 @@ body{
 }
 
 
+.text_scroll{
+	font-family: "Akizdez-Regular" !important;
+	font-size: 28px !important;
+	line-height: 40px !important;
+	color:#e6e7e8 !important;	
+}
+
+
 .touch-bg{
 	width:100%;
 	height: 100%;
@@ -98,6 +106,11 @@ body{
     scrollbar-track-color: #FFDB00;
 	scrollbar-arrow-color: #FFDB00;
 	overflow-x: hidden;
+
+	font-family: "Akizdez-Regular" !important;
+	font-size: 28px !important;
+	line-height: 40px !important;
+	color:#e6e7e8 !important;	
 }
 
 
