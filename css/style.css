@@ -4487,7 +4487,7 @@ LUPE - Hotspots cordenadas - sección 5
 .gabinete-botanico-Seccion > .ayuda-image{
 	width: 0px;
     height: 0px;
-    background: url("../images/p12-gabinete-botanico/ayuda.png");
+    background: url("../images/p12-gabinete-botanico/ayuda_ES.png");
     background-size: cover;
     position: absolute;
     bottom: 0px;
@@ -4496,7 +4496,7 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 
-.gabinete-botanico-Seccion > .ayuda-image-ENG{
+.gabinete-botanico-Seccion > .ayuda-image_ENG{
 	width: 0px;
     height: 0px;
     background: url("../images/p12-gabinete-botanico/ayuda_EN.png") !important;
@@ -4508,7 +4508,7 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 
-.gabinete-botanico-Seccion > .ayuda-image-NAH{
+.gabinete-botanico-Seccion > .ayuda-image_NAH{
 	width: 0px;
     height: 0px;
     background: url("../images/p12-gabinete-botanico/ayuda_NA.png") !important;
@@ -4528,15 +4528,36 @@ LUPE - Hotspots cordenadas - sección 5
 -------------------------------------------------------- */
 
 .gabinete-botanico-Seccion > .titulo{
-	width: 548px;
-	height: 46px;
-	background: url("../images/p12-gabinete-botanico/Gabinete.png");
-	background-size: 548px 46px;
+	width: 550px;
+	height: 60px;
+	background: url("../images/p12-gabinete-botanico/gabinete_botanico_ES.png");
+	background-size: 550Px 60px;
 	position: absolute;
 	top: 58px;
 	left: 1124px;
 	z-index: 10;
-	
+}
+
+.gabinete-botanico-Seccion > .titulo_ENG{
+	width: 550px;
+	height: 60px;
+	background: url("../images/p12-gabinete-botanico/gabinete_botanico_EN.png") !important;
+	background-size: 550Px 60px;
+	position: absolute;
+	top: 58px;
+	left: 1124px;
+	z-index: 10;
+}
+
+.gabinete-botanico-Seccion > .titulo_NAH{
+	width: 550px;
+	height: 60px;
+	background: url("../images/p12-gabinete-botanico/gabinete_botanico_NA.png") !important;
+	background-size: 550Px 60px;
+	position: absolute;
+	top: 58px;
+	left: 1124px;
+	z-index: 10;
 }
 
 
@@ -4738,7 +4759,269 @@ LUPE - Hotspots cordenadas - sección 5
 	left: 602px;
 }
 
+/* GABINETE BOTANICO INGLES */
+
+.gabinete-botanico-Seccion > .imagen_1_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_01_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 60px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_2_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_02_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 176px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_3_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_03_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 291px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_4_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_04_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 406px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_5_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_05_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 521px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_6_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_06_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 636px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_7_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_07_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 751px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_8_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_08_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 60px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_9_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_09_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 176px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_10_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_10_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 291px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_11_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_11_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 406px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_12_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_12_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 521px; 
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_13_en {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_13_EN.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 636px;
+	left: 602px;
+}
  
+/* GABINETE BOTANICO NAhuatl */
+
+.gabinete-botanico-Seccion > .imagen_1_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_01_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 60px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_2_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_02_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 176px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_3_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_03_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 291px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_4_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_04_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 406px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_5_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_05_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 521px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_6_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_06_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 636px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_7_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_07_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 751px;
+	left: 80px;
+}
+
+.gabinete-botanico-Seccion > .imagen_8_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_08_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 60px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_9_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_09_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 176px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_10_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_10_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 291px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_11_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_11_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 406px;
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_12_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_12_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 521px; 
+	left: 602px;
+}
+
+.gabinete-botanico-Seccion > .imagen_13_na {
+	width: 380px;
+	height: 80px;
+	background: url("../images/p12-gabinete-botanico/GBF_13_NA.png");
+	background-size: 380px 80px;
+	position: absolute;
+	top: 636px;
+	left: 602px;
+}
 
  
 /* --------------------------------------------------------
