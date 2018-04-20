@@ -1,6 +1,6 @@
 // Versión en nahuatl del gabinete
 
-var obj_gabinete_NAH = {
+var obj_gabinete_Deta_NAH = {
 	flores:[
 	{
 		id_flor: 1,

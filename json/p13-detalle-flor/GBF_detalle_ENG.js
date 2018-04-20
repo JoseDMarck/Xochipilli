@@ -1,6 +1,6 @@
 // Versión en inglés del gabinete
 
-var obj_gabinete_ENG = {
+var obj_gabinete_Deta_ENG = {
 	flores:[
 	{
 		id_flor: 1,

@@ -8,14 +8,14 @@ if (LanguageON == "ESP"){
 //document.getElementById("titulo").innerHTML = obj_ESP.titulo; 
 
 // DESCRIPCIÓN OBRA
-document.getElementById("titulo_box_1").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[0].title; 
-document.getElementById("texto_box_1").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[0].txt; 
+document.getElementById("titulo_box_1").innerHTML = obj_gabinete_Deta_ESP .flores[id_flor].descripcion[0].title; 
+document.getElementById("texto_box_1").innerHTML = obj_gabinete_Deta_ESP.flores[id_flor].descripcion[0].txt; 
 
-document.getElementById("titulo_box_2").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[1].title; 
-document.getElementById("texto_box_2").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[1].txt; 
+document.getElementById("titulo_box_2").innerHTML = obj_gabinete_Deta_ESP .flores[id_flor].descripcion[1].title; 
+document.getElementById("texto_box_2").innerHTML = obj_gabinete_Deta_ESP .flores[id_flor].descripcion[1].txt; 
 
-document.getElementById("titulo_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].title; 
-document.getElementById("texto_box_3").innerHTML = obj_gabinete_ESP.flores[id_flor].descripcion[2].txt; 
+document.getElementById("titulo_box_3").innerHTML = obj_gabinete_Deta_ESP .flores[id_flor].descripcion[2].title; 
+document.getElementById("texto_box_3").innerHTML = obj_gabinete_Deta_ESP .flores[id_flor].descripcion[2].txt; 
 
 
 
@@ -33,14 +33,14 @@ if (LanguageON == "ENG"){
 // DESCRIPCIÓN OBRA
 
 
-document.getElementById("titulo_box_1").innerHTML = obj_gabinete_ENG.flores[id_flor].descripcion[0].title; 
-document.getElementById("texto_box_1").innerHTML = obj_gabinete_ENG.flores[id_flor].descripcion[0].txt; 
+document.getElementById("titulo_box_1").innerHTML = obj_gabinete_Deta_ENG.flores[id_flor].descripcion[0].title; 
+document.getElementById("texto_box_1").innerHTML = obj_gabinete_Deta_ENG.flores[id_flor].descripcion[0].txt; 
 
-document.getElementById("titulo_box_2").innerHTML = obj_gabinete_ENG.flores[id_flor].descripcion[1].title; 
-document.getElementById("texto_box_2").innerHTML = obj_gabinete_ENG.flores[id_flor].descripcion[1].txt; 
+document.getElementById("titulo_box_2").innerHTML = obj_gabinete_Deta_ENG.flores[id_flor].descripcion[1].title; 
+document.getElementById("texto_box_2").innerHTML = obj_gabinete_Deta_ENG.flores[id_flor].descripcion[1].txt; 
 
-document.getElementById("titulo_box_3").innerHTML = obj_gabinete_ENG.flores[id_flor].descripcion[2].title; 
-document.getElementById("texto_box_3").innerHTML = obj_gabinete_ENG.flores[id_flor].descripcion[2].txt; 
+document.getElementById("titulo_box_3").innerHTML = obj_gabinete_Deta_ENG.flores[id_flor].descripcion[2].title; 
+document.getElementById("texto_box_3").innerHTML = obj_gabinete_Deta_ENG.flores[id_flor].descripcion[2].txt; 
 
 $(".ayuda-image").addClass("ayuda-image-ENG");
 
@@ -60,14 +60,14 @@ $(".btn_en_documentos").addClass("btn_en_documentos_ENG");
 
 if (LanguageON == "NAH"){
 
-    document.getElementById("titulo_box_1").innerHTML = obj_gabinete_NAH.flores[id_flor].descripcion[0].title; 
-    document.getElementById("texto_box_1").innerHTML = obj_gabinete_NAH.flores[id_flor].descripcion[0].txt; 
+    document.getElementById("titulo_box_1").innerHTML = obj_gabinete_Deta_NAH.flores[id_flor].descripcion[0].title; 
+    document.getElementById("texto_box_1").innerHTML = obj_gabinete_Deta_NAH.flores[id_flor].descripcion[0].txt; 
     
-    document.getElementById("titulo_box_2").innerHTML = obj_gabinete_NAH.flores[id_flor].descripcion[1].title; 
-    document.getElementById("texto_box_2").innerHTML = obj_gabinete_NAH.flores[id_flor].descripcion[1].txt; 
+    document.getElementById("titulo_box_2").innerHTML = obj_gabinete_Deta_NAH.flores[id_flor].descripcion[1].title; 
+    document.getElementById("texto_box_2").innerHTML = obj_gabinete_Deta_NAH.flores[id_flor].descripcion[1].txt; 
     
-    document.getElementById("titulo_box_3").innerHTML = obj_gabinete_NAH.flores[id_flor].descripcion[2].title; 
-    document.getElementById("texto_box_3").innerHTML = obj_gabinete_NAH.flores[id_flor].descripcion[2].txt;
+    document.getElementById("titulo_box_3").innerHTML = obj_gabinete_Deta_NAH.flores[id_flor].descripcion[2].title; 
+    document.getElementById("texto_box_3").innerHTML = obj_gabinete_Deta_NAH.flores[id_flor].descripcion[2].txt;
     
     $(".ayuda-image").addClass("ayuda-image-NAH");
 

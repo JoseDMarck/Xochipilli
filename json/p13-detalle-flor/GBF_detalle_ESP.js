@@ -1,7 +1,7 @@
 // Lupe: texto actualizado 17 abril
 // texto de detalle de flores
 
-var obj_gabinete_ESP = {
+var obj_gabinete_Deta_ESP = {
   flores:[
   {
     id_flor: 1,
