@@ -9,6 +9,19 @@ $(".btn_close").click(function() {
     $(".PopUpSlider").fadeOut();
 
 
+    $(".btn_idioma_es").fadeIn();
+    $(".btn_idioma_en").fadeIn();
+    $(".btn_idioma_na").fadeIn();
+    $(".btn_ayuda").fadeIn();
+
+    $(".btn_idioma_es_General").fadeIn();
+    $(".btn_idioma_en_General").fadeIn();
+    $(".btn_idioma_na_General").fadeIn();
+    $(".btn_ayuda_General").fadeIn();
+    $(".btn_inicio_General").fadeIn();    
+    $(".btn_back").fadeIn();
+
+
     if (LanguageON == "ESP"){
         $(".btn_conservacion").removeClass("btn_conservacion_on");        
         $(".btn_glosario").removeClass("btn_glosario_on");
@@ -65,8 +78,18 @@ $(".open_popUp").click(function() {
   valor_hp = $(this).attr('class').split(' ')[1];
     console.log(valor_hp);
 
-    $(".btn_ayuda").hide();
-    $(".btn_ayuda-m").show();
+    $(".btn_idioma_es").fadeOut();
+    $(".btn_idioma_en").fadeOut();
+    $(".btn_idioma_na").fadeOut();
+    $(".btn_ayuda").fadeOut();
+
+    $(".btn_idioma_es_General").fadeOut();
+    $(".btn_idioma_en_General").fadeOut();
+    $(".btn_idioma_na_General").fadeOut();
+    $(".btn_ayuda_General").fadeOut();
+    $(".btn_inicio_General").fadeOut();
+    $(".btn_back").fadeOut();
+
 
 
     if( valor_hp == "btn_L-1-1" ){
