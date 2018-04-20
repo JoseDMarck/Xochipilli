@@ -11,6 +11,7 @@ num_xo = null;
 num_na = null; 
 num_do = null;
 total_g = null;
+get_atavio = null;
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -104,7 +105,14 @@ var GotoHome = function () {
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;;
+
+if(urlParams["back"] != null ){
+    window.location.href = '../../secciones/p11-atavio-florido/index.php' +'?idioma='+LanguageON;
+}else{
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;;
+}
+
+
 };
 
 
