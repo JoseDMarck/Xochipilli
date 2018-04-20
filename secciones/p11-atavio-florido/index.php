@@ -88,6 +88,9 @@
 
 				 </div>
 
+
+				 <div class="btn_go_to_gabinete"></div>
+
 			</div><!-- LecturaGnral-BloqueB -->
 
 

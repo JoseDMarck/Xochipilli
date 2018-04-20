@@ -100,7 +100,11 @@ var GotoHome = function () {
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;
+};
+
+var GotoGabiente = function () {
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON+'&back=' + "florido";
 };
 
 
@@ -130,6 +134,11 @@ $(".btn_inicio_General").click(function() {
 
 $(".btn_Obra").click(function() {
     TweenMax.to("body", 1, {alpha:0, onComplete:  GotoObra });
+});
+
+
+$(".btn_go_to_gabinete").click(function() {
+    TweenMax.to("body", 1, {alpha:0, onComplete:  GotoGabiente });
 });
 
 

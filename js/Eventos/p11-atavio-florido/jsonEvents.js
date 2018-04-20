@@ -47,6 +47,7 @@ $(".btn_close_HP").addClass("btn_close_HP_ENG");
 
 $(".titulo_Atavio_Florido").addClass("titulo_Atavio_Florido_ENG");
 
+$(".btn_go_to_gabinete").addClass("btn_go_to_gabinete_ENG");
 }
 
 if (LanguageON == "NAH"){
@@ -71,6 +72,8 @@ document.getElementById("descripcion").innerHTML = obj_atavios_floridos_NAH.desc
     $(".btn_close_HP").addClass("btn_close_HP_NAH");
 
     $(".titulo_Atavio_Florido").addClass("titulo_Atavio_Florido_NAH");
+    $(".btn_go_to_gabinete").addClass("btn_go_to_gabinete_NAH");
+
 
 
  

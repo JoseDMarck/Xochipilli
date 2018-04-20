@@ -2913,6 +2913,38 @@ input[type=range] {
 }
 
 
+
+.btn_go_to_gabinete{
+	width: 275px;
+	height:57px;
+	background: url("../images/p11-atavio-florido/gabinete_button_ES.png");
+	background-size: 275px 57px;
+	position: absolute;
+	top: 800px;
+	left: 707px;
+}
+
+
+.btn_go_to_gabinete_ENG{
+	width: 275px;
+	height:57px;
+	background: url("../images/p11-atavio-florido/gabinete_button_EN.png");
+	background-size: 275px 57px;
+	position: absolute;
+	top: 800px;
+	left: 707px;
+}
+
+
+.btn_go_to_gabinete_NAH{
+	width: 275px;
+	height:57px;
+	background: url("../images/p11-atavio-florido/gabinete_button_NA.png");
+	background-size: 275px 57px;
+	position: absolute;
+	top: 800px;
+	left: 707px;
+}
  
 
 
