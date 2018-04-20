@@ -3,12 +3,12 @@
 
 
 
-			<div class="SeccionTitulo">
+		 
 					<div class="titulo_conservacion btn_titulo_Seccion seccion-m-1 "></div>
 					<div class="titulo_glosario btn_titulo_Seccion seccion-m-2"></div>
 					<div class="titulo_referencias btn_titulo_Seccion seccion-m-3"></div>
 					<div class="titulo_creditos btn_titulo_Seccion seccion-m-4"></div>
-			</div>
+		 
 
 
 		<div class="btn_close"></div>

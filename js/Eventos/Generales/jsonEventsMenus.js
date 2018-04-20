@@ -236,7 +236,7 @@ if (LanguageON == "ESP"){
 
 	
 	
-	
+
 
 	 
 } // END ESP
@@ -245,6 +245,9 @@ if (LanguageON == "ESP"){
 
 // IDIOMA INGLÉS 
 if (LanguageON == "ENG"){
+
+	$(".titulo_conservacion").addClass("titulo_conservacion_ENG");
+	
 	 
 
 	//btn_info_access 
@@ -488,6 +491,9 @@ if (LanguageON == "ENG"){
 if (LanguageON == "NAH"){
 
 	//btn_info_access 
+
+	$(".titulo_conservacion").addClass("titulo_conservacion_NAH");
+	
 
 
 	document.getElementById("descripcion_referencias").innerHTML = obj_m_NAH.descripcion_referencias;

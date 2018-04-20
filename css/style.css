@@ -3601,16 +3601,42 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 
-.PopUpSlider > .SeccionTitulo > .titulo_conservacion{
-	width: 544px;
-	height: 43px;
-	background: url("../images/p02-Home/slider/Otras.png");
-	background-size: 544px 43px; 
+.titulo_conservacion{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Conservacion_ES.png");
+	background-size: 460px 62px; 
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 713px;
+	top: 51px;
 	display: none;
 }
+
+
+ .titulo_conservacion_ENG{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Conservacion_EN.png") !important;
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+
+ .titulo_conservacion_NAH{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Conservacion_NA.png") !important;
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+
 
 .PopUpSlider > .SeccionTitulo > .titulo_glosario{
 	width: 243px;
