@@ -27,7 +27,7 @@ $( document ).ready(function() {
  $(".btn_back").addClass("btn_back_ENG");
  $(".btn_inicio_General").addClass("btn_inicio_General_ENG");
  
- 
+
  
  $(".btn_otrasPres").addClass("btn_otrasPres_ENG");
  $(".btn_conservacion").addClass("btn_conservacion_ENG");
@@ -42,6 +42,8 @@ $( document ).ready(function() {
  $(".btn_inicio_General").addClass("btn_inicio_General_ENG");
  
  $(".btn_close_HP").addClass("btn_close_HP_ENG");
+
+ $(".titulo_Pedestal").addClass("titulo_Pedestal_ENG");
   
  }
  
@@ -61,6 +63,9 @@ $( document ).ready(function() {
      $(".btn_inicio_General").addClass("btn_inicio_General_NAH");
  
      $(".btn_close_HP").addClass("btn_close_HP_NAH");
+
+     $(".titulo_Pedestal").addClass("titulo_Pedestal_NAH");
+ 
  
  
  

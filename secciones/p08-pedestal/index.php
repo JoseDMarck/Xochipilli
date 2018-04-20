@@ -110,27 +110,13 @@
 
 					<div class="gal_img imagen-P-1-2"></div>
 					<div id="gal_desc-1-2" class="gal_desc_LG desc-1-2"></div>
-
-					<div class="gal_img imagen-P-1-3"></div>
-					<div id="gal_desc-1-3" class="gal_desc_LG desc-1-3"></div>
-
-					<div class="gal_img imagen-P-1-4"></div>
-					<div id="gal_desc-1-4" class="gal_desc_LG desc-1-4"></div>
-
-
+				 
 					<div class="gal_img imagen-P-2-1"></div>
 					<div id="gal_desc-2-1" class="gal_desc_LG desc-2-1"></div>
 
 					<div class="gal_img imagen-P-2-2"></div>
 					<div id="gal_desc-2-2" class="gal_desc_LG desc-2-2"></div>
 					
-					<div class="gal_img imagen-P-2-3"></div>
-					<div id="gal_desc-2-3" class="gal_desc_LG desc-2-3"></div>
-					
-					<div class="gal_img imagen-P-2-4"></div>
-					<div id="gal_desc-2-4" class="gal_desc_LG desc-2-4"></div>
-
-
 					<div class="gal_img imagen-P-3-1"></div>
 					<div id="gal_desc-3-1" class="gal_desc_LG desc-3-1"></div>
 
@@ -140,21 +126,10 @@
 					<div class="gal_img imagen-P-3-3"></div>
 					<div id="gal_desc-3-3" class="gal_desc_LG desc-3-3"></div>
 					
-					<div class="gal_img imagen-P-3-4"></div>
-					<div id="gal_desc-3-4" class="gal_desc_LG desc-3-4"></div>
-
-
 					<div class="gal_img imagen-P-4-1"></div>
 					<div id="gal_desc-4-1" class="gal_desc_LG desc-4-1"></div>
 
-					<div class="gal_img imagen-P-4-2"></div>
-					<div id="gal_desc-4-2" class="gal_desc_LG desc-4-2"></div>
-
-					<div class="gal_img imagen-P-4-3"></div>
-					<div id="gal_desc-4-3" class="gal_desc_LG desc-4-3"></div>
-
-					<div class="gal_img imagen-P-4-4"></div>
-					<div id="gal_desc-4-4" class="gal_desc_LG desc-4-4"></div>
+					 
 
 			
 				</div> <!-- PopUpSldier -->
@@ -170,6 +145,13 @@
 
 			
 		</div><!-- ScreenSaver-Seccion -->
+
+
+	 <!-- POPUP SLIDER: CONSERVACION, GLOSARIO, REFERENCIAS -->
+	 <?php include '../Generales/slider_informacion_home.php'; ?>
+
+
+
 
 	</div> <!--  main -->
 	
@@ -199,6 +181,7 @@
 <script type="text/javascript" src="../../json/MenusBotones/referencias.js"></script>
 <script type="text/javascript" src="../../js/Eventos/Generales/jsonEventsMenus.js"></script>
 <script type="text/javascript" src="../../js/Eventos/Generales/menusEvents.js"></script>
+
 
 
 
