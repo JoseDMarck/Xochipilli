@@ -9,6 +9,7 @@ if (LanguageON == "ESP"){
 
 // DESCRIPCIÓN OBRA
 document.getElementById("descripcion").innerHTML = obj_gabinete_BO_ESP.descripcion; 
+document.getElementById("notasGabinete").innerHTML = obj_gabinete_BO_ESP.notas; 
 
 
 
@@ -23,6 +24,8 @@ if (LanguageON == "ENG"){
 
 // DESCRIPCIÓN OBRA
 document.getElementById("descripcion").innerHTML = obj_gabinete_BO_ENG.descripcion; 
+document.getElementById("notasGabinete").innerHTML = obj_gabinete_BO_ENG.notas; 
+
 $(".btn_otrasPres").addClass("btn_otrasPres_ENG");
 $(".btn_conservacion").addClass("btn_conservacion_ENG");
 $(".btn_glosario").addClass("btn_glosario_ENG");
@@ -64,6 +67,11 @@ if (LanguageON == "NAH"){
 
 // DESCRIPCIÓN OBRA
 document.getElementById("descripcion").innerHTML = obj_gabinete_BO_NAH.descripcion; 
+document.getElementById("notasGabinete").innerHTML = obj_gabinete_BO_NAH.notas; 
+
+
+
+
 $(".btn_otrasPres").addClass("btn_otrasPres_NAH");
 $(".btn_conservacion").addClass("btn_conservacion_NAH");
 $(".btn_glosario").addClass("btn_glosario_NAH");
