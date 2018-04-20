@@ -268,6 +268,15 @@ $(".btn_hotspots-LG").click(function() {
         $(".btn_prev_HP").show();
     }
 
+
+    // para mostrar el btn de NEXT
+     if (num_init_HP < num_total_HP ){
+        $(".btn_next_HP").show();
+    }
+    else{
+        $(".btn_next_HP").hide();
+    }
+
     
 
 
