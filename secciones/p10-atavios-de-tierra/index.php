@@ -105,11 +105,9 @@
 					<div id="gal_desc-1-2" class="gal_desc_LG desc-1-2"></div>
 
 					<div class="gal_img imagen-AT-1-3"></div>
-					<div id="gal_desc-1-3" class="gal_desc_LG desc-1-3"></div>
+					<div id="gal_desc-1-2" class="gal_desc_LG desc-1-3"></div>
 
-					<div class="gal_img imagen-AT-1-4"></div>
-					<div id="gal_desc-1-4" class="gal_desc_LG desc-1-4"></div>
-
+				 
 
 					<div class="gal_img imagen-AT-2-1"></div>
 					<div id="gal_desc-2-1" class="gal_desc_LG desc-2-1"></div>
@@ -117,13 +115,7 @@
 					<div class="gal_img imagen-AT-2-2"></div>
 					<div id="gal_desc-2-2" class="gal_desc_LG desc-2-2"></div>
 					
-					<div class="gal_img imagen-AT-2-3"></div>
-					<div id="gal_desc-2-3" class="gal_desc_LG desc-2-3"></div>
-					
-					<div class="gal_img imagen-AT-2-4"></div>
-					<div id="gal_desc-2-4" class="gal_desc_LG desc-2-4"></div>
-
-
+				 
 					<div class="gal_img imagen-AT-3-1"></div>
 					<div id="gal_desc-3-1" class="gal_desc_LG desc-3-1"></div>
 
@@ -133,22 +125,8 @@
 					<div class="gal_img imagen-AT-3-3"></div>
 					<div id="gal_desc-3-3" class="gal_desc_LG desc-3-3"></div>
 					
-					<div class="gal_img imagen-AT-3-4"></div>
-					<div id="gal_desc-3-4" class="gal_desc_LG desc-3-4"></div>
 
-
-					<div class="gal_img imagen-AT-4-1"></div>
-					<div id="gal_desc-4-1" class="gal_desc_LG desc-4-1"></div>
-
-					<div class="gal_img imagen-AT-4-2"></div>
-					<div id="gal_desc-4-2" class="gal_desc_LG desc-4-2"></div>
-
-					<div class="gal_img imagen-AT-4-3"></div>
-					<div id="gal_desc-4-3" class="gal_desc_LG desc-4-3"></div>
-
-					<div class="gal_img imagen-AT-4-4"></div>
-					<div id="gal_desc-4-4" class="gal_desc_LG desc-4-4"></div>
-
+				 
 			
 				</div> <!-- PopUpSldier -->
 				
@@ -167,47 +145,9 @@
 	</div> <!--  main -->
 	
 	
-
-
-	<div class="PopUpSlider">
-		
-		
-				<div class="SeccionTitulo">
-					<div class="titulo_conservacion btn_titulo_Seccion seccion-m-1 "></div>
-					<div class="titulo_glosario btn_titulo_Seccion seccion-m-2"></div>
-					<div class="titulo_referencias btn_titulo_Seccion seccion-m-3"></div>
-					<div class="titulo_creditos btn_titulo_Seccion seccion-m-4"></div>
-				</div>
-		
-		
-				<div class="btn_close"></div>
-				<div class="btn_prev"></div>
-				<div class="btn_next"></div>
-		
-				<div class="Seccion-info">
-				
-					<div class="Textos seccion-m-1 flexcroll">
-							<div id="descripcion_conservacion" class="descripcion"></div>
-					</div>
-		
-		
-					<div class="Textos seccion-m-2 flexcroll">
-						<div id="descripcion_glosario" class="descripcion"></div>
-					</div>
-		
-					<div class="Textos seccion-m-3 flexcroll">
-						<div id="descripcion_referencias" class="descripcion"></div>
-					</div>
-		
-					<div class="Textos seccion-m-4 flexcroll">
-						<div id="descripcion_creditos" class="descripcion"></div>
-					</div>
-		
-					
-	
-				</div><!-- imagen_PopUpSlider -->
-		
-	</div><!-- PopUpSldier -->
+ 
+	 <!-- POPUP SLIDER: CONSERVACION, GLOSARIO, REFERENCIAS -->
+	 <?php include '../Generales/slider_informacion_home.php'; ?>
 
 
 </div> <!--  main -->
@@ -225,12 +165,14 @@
 <script type="text/javascript" src="../../json/p10-atavios-de-tierra/p10-atavios-de-tierra.js"></script>
 <script type="text/javascript" src="../../js/Eventos/p10-atavios-de-tierra/jsonEvents.js"></script>
 
-
 <!-- para los json de los botones: Conservación, Glosario, Créditos -->
 <script type="text/javascript" src="../../json/MenusBotones/botones.js"></script>
+
+<script type="text/javascript" src="../../json/MenusBotones/Glosario_ES.js"></script>
+<script type="text/javascript" src="../../json/MenusBotones/Glosario_EN.js"></script>
+<script type="text/javascript" src="../../json/MenusBotones/referencias.js"></script>
 <script type="text/javascript" src="../../js/Eventos/Generales/jsonEventsMenus.js"></script>
 <script type="text/javascript" src="../../js/Eventos/Generales/menusEvents.js"></script>
-
 
 
 
