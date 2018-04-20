@@ -2,25 +2,18 @@ $( document ).ready(function() {
    
   
 if (LanguageON == "ESP"){
-
-
-
- 
-document.getElementById("descripcion").innerHTML = obj_ESP.descripcion; 
-
-
- 
+    document.getElementById("descripcion").innerHTML =  obj_senior_flores_ESP.descripcion; 
 }
 
 
  
 if (LanguageON == "ENG"){
 
-    $(".titulo").addClass("titulo_ENG");
- 
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_ENG.descripcion; 
+document.getElementById("descripcion").innerHTML = obj_senior_flores_ENG.descripcion; 
 
+
+$(".titulo").addClass("titulo_ENG");
 
 $(".ayuda-image").addClass("ayuda-image_ENG");
 $(".btn_ayuda_General").addClass("btn_ayuda_General_ENG");
@@ -66,7 +59,7 @@ if (LanguageON == "NAH"){
 
 
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_NAH.descripcion; 
+document.getElementById("descripcion").innerHTML = obj_senior_flores_NAH.descripcion; 
 
  
 
