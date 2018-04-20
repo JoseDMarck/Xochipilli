@@ -51,7 +51,7 @@
 				<div class="Contenedor">
 					
 
-					<div id="descripcion" class="descripcion flexcroll"></div><!-- Descripcion -->
+					<div id="descripcion" class="descripcion flexcroll text_scroll"></div><!-- Descripcion -->
 
 				</div><!-- Contenedor -->
 
