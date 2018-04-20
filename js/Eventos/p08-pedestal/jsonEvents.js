@@ -42,14 +42,12 @@ $( document ).ready(function() {
  $(".btn_inicio_General").addClass("btn_inicio_General_ENG");
  
  $(".btn_close_HP").addClass("btn_close_HP_ENG");
-
  $(".titulo_Pedestal").addClass("titulo_Pedestal_ENG");
   
  }
  
  if (LanguageON == "NAH"){
  
-     $(".titulo").addClass("titulo_NAH");
  
      $(".btn_otrasPres").addClass("btn_otrasPres_NAH");
      $(".btn_conservacion").addClass("btn_conservacion_NAH");
