@@ -6,7 +6,7 @@ $( document ).ready(function() {
  
  
   
- document.getElementById("descripcion").innerHTML = obj_ESP.descripcion; 
+ document.getElementById("descripcion").innerHTML = obj_pedestal_ESP.descripcion; 
  
  
   
@@ -19,7 +19,7 @@ $( document ).ready(function() {
      $(".titulo").addClass("titulo_ENG");
   
  // DESCRIPCIÓN OBRA
- document.getElementById("descripcion").innerHTML = obj_ENG.descripcion; 
+ document.getElementById("descripcion").innerHTML = obj_pedestal_ENG.descripcion; 
  
  
  $(".ayuda-image").addClass("ayuda-image_ENG");
@@ -71,7 +71,7 @@ $( document ).ready(function() {
  
  
  // DESCRIPCIÓN OBRA
- document.getElementById("descripcion").innerHTML = obj_NAH.descripcion; 
+ document.getElementById("descripcion").innerHTML = obj_pedestal_NAH.descripcion; 
  
   
  
