@@ -8,36 +8,10 @@ if (LanguageON == "ESP"){
 //document.getElementById("titulo").innerHTML = obj_ESP.titulo; 
 
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_ESP.descripcion; 
+document.getElementById("descripcion").innerHTML = obj_gabinete_BO_ESP.descripcion; 
 
-// Titulos para los botones
-/*document.getElementById("titulo_btn_1").innerHTML = obj_ESP.titulos_btns[0].figura_1; 
-document.getElementById("titulo_btn_2").innerHTML = obj_ESP.titulos_btns[0].figura_2; 
-document.getElementById("titulo_btn_3").innerHTML = obj_ESP.titulos_btns[0].figura_3; 
-document.getElementById("titulo_btn_4").innerHTML = obj_ESP.titulos_btns[0].figura_4; */
 
-// Para las descripciones
-/*document.getElementById("gal_desc-1-1").innerHTML = obj_ESP.desc_gal[0].descripcion_1_1; 
-document.getElementById("gal_desc-1-2").innerHTML = obj_ESP.desc_gal[0].descripcion_1_2; 
-document.getElementById("gal_desc-1-3").innerHTML = obj_ESP.desc_gal[0].descripcion_1_3; 
-document.getElementById("gal_desc-1-4").innerHTML = obj_ESP.desc_gal[0].descripcion_1_4; 
 
-document.getElementById("gal_desc-2-1").innerHTML = obj_ESP.desc_gal[0].descripcion_2_1; 
-document.getElementById("gal_desc-2-2").innerHTML = obj_ESP.desc_gal[0].descripcion_2_2; 
-document.getElementById("gal_desc-2-3").innerHTML = obj_ESP.desc_gal[0].descripcion_2_3; 
-document.getElementById("gal_desc-2-4").innerHTML = obj_ESP.desc_gal[0].descripcion_2_4; 
-
-document.getElementById("gal_desc-3-1").innerHTML = obj_ESP.desc_gal[0].descripcion_3_1; 
-document.getElementById("gal_desc-3-2").innerHTML = obj_ESP.desc_gal[0].descripcion_3_2; 
-document.getElementById("gal_desc-3-3").innerHTML = obj_ESP.desc_gal[0].descripcion_3_3; 
-document.getElementById("gal_desc-3-4").innerHTML = obj_ESP.desc_gal[0].descripcion_3_4; 
-
-document.getElementById("gal_desc-4-1").innerHTML = obj_ESP.desc_gal[0].descripcion_4_1; 
-document.getElementById("gal_desc-4-2").innerHTML = obj_ESP.desc_gal[0].descripcion_4_2; 
-document.getElementById("gal_desc-4-3").innerHTML = obj_ESP.desc_gal[0].descripcion_4_3; 
-document.getElementById("gal_desc-4-4").innerHTML = obj_ESP.desc_gal[0].descripcion_4_4; */
-
- 
 }
 
 
@@ -48,39 +22,40 @@ if (LanguageON == "ENG"){
 //document.getElementById("titulo").innerHTML = obj_ENG.titulo; 
 
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_ENG.descripcion; 
-$(".ayuda-image").addClass("ayuda-image-ENG");
+document.getElementById("descripcion").innerHTML = obj_gabinete_BO_ENG.descripcion; 
+$(".btn_otrasPres").addClass("btn_otrasPres_ENG");
+$(".btn_conservacion").addClass("btn_conservacion_ENG");
+$(".btn_glosario").addClass("btn_glosario_ENG");
+$(".btn_referencias").addClass("btn_referencias_ENG");
+$(".btn_creditos").addClass("btn_creditos_ENG");
 
 
-// Titulos para los botones
-/*document.getElementById("titulo_btn_1").innerHTML = obj_ENG.titulos_btns[0].figura_1; 
-document.getElementById("titulo_btn_2").innerHTML = obj_ENG.titulos_btns[0].figura_2; 
-document.getElementById("titulo_btn_3").innerHTML = obj_ENG.titulos_btns[0].figura_3; 
-document.getElementById("titulo_btn_4").innerHTML = obj_ENG.titulos_btns[0].figura_4; */
 
-// Para las descripciones
-/*document.getElementById("gal_desc-1-1").innerHTML = obj_ENG.desc_gal[0].descripcion_1_1; 
-document.getElementById("gal_desc-1-2").innerHTML = obj_ENG.desc_gal[0].descripcion_1_2; 
-document.getElementById("gal_desc-1-3").innerHTML = obj_ENG.desc_gal[0].descripcion_1_3; 
-document.getElementById("gal_desc-1-4").innerHTML = obj_ENG.desc_gal[0].descripcion_1_4; 
+$(".btn_ayuda_General").addClass("btn_ayuda_General_ENG");
+$(".btn_back").addClass("btn_back_ENG");
+$(".btn_inicio_General").addClass("btn_inicio_General_ENG");
 
-document.getElementById("gal_desc-2-1").innerHTML = obj_ENG.desc_gal[0].descripcion_2_1; 
-document.getElementById("gal_desc-2-2").innerHTML = obj_ENG.desc_gal[0].descripcion_2_2; 
-document.getElementById("gal_desc-2-3").innerHTML = obj_ENG.desc_gal[0].descripcion_2_3; 
-document.getElementById("gal_desc-2-4").innerHTML = obj_ENG.desc_gal[0].descripcion_2_4; 
 
-document.getElementById("gal_desc-3-1").innerHTML = obj_ENG.desc_gal[0].descripcion_3_1; 
-document.getElementById("gal_desc-3-2").innerHTML = obj_ENG.desc_gal[0].descripcion_3_2; 
-document.getElementById("gal_desc-3-3").innerHTML = obj_ENG.desc_gal[0].descripcion_3_3; 
-document.getElementById("gal_desc-3-4").innerHTML = obj_ENG.desc_gal[0].descripcion_3_4; 
+$(".titulo").addClass("titulo_ENG");
+$(".ayuda-image").addClass("ayuda-image_ENG");
 
-document.getElementById("gal_desc-4-1").innerHTML = obj_ENG.desc_gal[0].descripcion_4_1; 
-document.getElementById("gal_desc-4-2").innerHTML = obj_ENG.desc_gal[0].descripcion_4_2; 
-document.getElementById("gal_desc-4-3").innerHTML = obj_ENG.desc_gal[0].descripcion_4_3; 
-document.getElementById("gal_desc-4-4").innerHTML = obj_ENG.desc_gal[0].descripcion_4_4;  */
-
+$(".imagen_1_es").addClass("imagen_1_en");
+$(".imagen_2_es").addClass("imagen_2_en");
+$(".imagen_3_es").addClass("imagen_3_en");
+$(".imagen_4_es").addClass("imagen_4_en");
+$(".imagen_5_es").addClass("imagen_5_en");
+$(".imagen_6_es").addClass("imagen_6_en");
+$(".imagen_7_es").addClass("imagen_7_en");
+$(".imagen_8_es").addClass("imagen_8_en");
+$(".imagen_9_es").addClass("imagen_9_en");
+$(".imagen_10_es").addClass("imagen_10_en");
+$(".imagen_11_es").addClass("imagen_11_en");
+$(".imagen_12_es").addClass("imagen_12_en");
+$(".imagen_13_es").addClass("imagen_13_en");
 
 }
+
+
 
 if (LanguageON == "NAH"){
 
@@ -88,38 +63,23 @@ if (LanguageON == "NAH"){
 //document.getElementById("titulo").innerHTML = obj_NAH.titulo; 
 
 // DESCRIPCIÓN OBRA
-document.getElementById("descripcion").innerHTML = obj_NAH.descripcion; 
-$(".ayuda-image").addClass("ayuda-image-NAH");
+document.getElementById("descripcion").innerHTML = obj_gabinete_BO_NAH.descripcion; 
+$(".btn_otrasPres").addClass("btn_otrasPres_NAH");
+$(".btn_conservacion").addClass("btn_conservacion_NAH");
+$(".btn_glosario").addClass("btn_glosario_NAH");
+$(".btn_referencias").addClass("btn_referencias_NAH");
+$(".btn_creditos").addClass("btn_creditos_NAH");
 
 
-// Titulos para los botones
-/*document.getElementById("titulo_btn_1").innerHTML = obj_NAH.titulos_btns[0].figura_1; 
-document.getElementById("titulo_btn_2").innerHTML = obj_NAH.titulos_btns[0].figura_2; 
-document.getElementById("titulo_btn_3").innerHTML = obj_NAH.titulos_btns[0].figura_3; 
-document.getElementById("titulo_btn_4").innerHTML = obj_NAH.titulos_btns[0].figura_4; */
+
+$(".btn_ayuda_General").addClass("btn_ayuda_General_NAH");
+$(".btn_back").addClass("btn_back_NAH");
+$(".btn_inicio_General").addClass("btn_inicio_General_NAH");
+
+$(".titulo").addClass("titulo_NAH");
+$(".ayuda-image").addClass("ayuda-image_NAH");
 
 
-// Para las descripciones
-/*document.getElementById("gal_desc-1-1").innerHTML = obj_NAH.desc_gal[0].descripcion_1_1; 
-document.getElementById("gal_desc-1-2").innerHTML = obj_NAH.desc_gal[0].descripcion_1_2; 
-document.getElementById("gal_desc-1-3").innerHTML = obj_NAH.desc_gal[0].descripcion_1_3; 
-document.getElementById("gal_desc-1-4").innerHTML = obj_NAH.desc_gal[0].descripcion_1_4; 
-
-document.getElementById("gal_desc-2-1").innerHTML = obj_NAH.desc_gal[0].descripcion_2_1; 
-document.getElementById("gal_desc-2-2").innerHTML = obj_NAH.desc_gal[0].descripcion_2_2; 
-document.getElementById("gal_desc-2-3").innerHTML = obj_NAH.desc_gal[0].descripcion_2_3; 
-document.getElementById("gal_desc-2-4").innerHTML = obj_NAH.desc_gal[0].descripcion_2_4; 
-
-document.getElementById("gal_desc-3-1").innerHTML = obj_NAH.desc_gal[0].descripcion_3_1; 
-document.getElementById("gal_desc-3-2").innerHTML = obj_NAH.desc_gal[0].descripcion_3_2; 
-document.getElementById("gal_desc-3-3").innerHTML = obj_NAH.desc_gal[0].descripcion_3_3; 
-document.getElementById("gal_desc-3-4").innerHTML = obj_NAH.desc_gal[0].descripcion_3_4; 
-
-document.getElementById("gal_desc-4-1").innerHTML = obj_NAH.desc_gal[0].descripcion_4_1; 
-document.getElementById("gal_desc-4-2").innerHTML = obj_NAH.desc_gal[0].descripcion_4_2; 
-document.getElementById("gal_desc-4-3").innerHTML = obj_NAH.desc_gal[0].descripcion_4_3; 
-document.getElementById("gal_desc-4-4").innerHTML = obj_NAH.desc_gal[0].descripcion_4_4;*/ 
- 
  
 
 
