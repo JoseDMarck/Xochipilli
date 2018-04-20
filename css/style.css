@@ -2753,7 +2753,7 @@ input[type=range] {
 .lectura-general-Seccion > .titulo{
 	width: 671px;
 	height: 55px;
-	background: url("../images/p07-senior-flores/INT_01u_ES.png");
+	background: url("../images/p05-interpretacion/ES/INT_01u_ES.png");
 	background-size: 671px 55px;
 	position: absolute;
 	top: 58px;
@@ -2763,7 +2763,7 @@ input[type=range] {
 .lectura-general-Seccion > .titulo_ENG{
 	width: 671px;
 	height: 55px;
-	background: url("../images/p07-senior-flores/INT_01u_EN.png");
+	background: url("../images/p05-interpretacion/EN/INT_01u_EN.png");
 	background-size: 671px 55px;
 	position: absolute;
 	top: 58px;
@@ -2773,7 +2773,7 @@ input[type=range] {
 .lectura-general-Seccion > .titulo_NAH{
 	width: 671px;
 	height: 55px;
-	background: url("../images/p07-senior-flores/INT_01u_NA.png");
+	background: url("../images/p05-interpretacion/NA/INT_01u_NA.png");
 	background-size: 671px 55px;
 	position: absolute;
 	top: 58px;
@@ -2782,16 +2782,32 @@ input[type=range] {
 
 
 
-
-
-
-
-
-
 .lectura-general-Seccion > .titulo_Pedestal{
 	width: 695px;
 	height: 45px;
-	background: url("../images/p08-pedestal/Xochipilli.png");
+	background: url("../images/p05-interpretacion/ES/INT_02p_ES.png");
+	background-size: 695px 45px;
+	position: absolute;
+	top: 58px;
+	left: 1124px;
+} 
+
+
+.lectura-general-Seccion > .titulo_Pedestal_ENG{
+	width: 695px;
+	height: 45px;
+	background: url("../images/p05-interpretacion/EN/INT_02p_EN.png");
+	background-size: 695px 45px;
+	position: absolute;
+	top: 58px;
+	left: 1124px;
+} 
+
+
+.lectura-general-Seccion > .titulo_Pedestal_NAH{
+	width: 695px;
+	height: 45px;
+	background: url("../images/p05-interpretacion/NA/INT_02p_NA.png");
 	background-size: 695px 45px;
 	position: absolute;
 	top: 58px;
@@ -3594,8 +3610,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/galeria/atras_on.png");
 	background-size: 30px 45px;
 	position: absolute;
-	left: 265px;
-	top: 427px;
+	left: 177px;
+	top: 458px;
 	z-index: 99;
 	display: block;
 }
@@ -3606,8 +3622,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/galeria/adelante_on.png");
 	background-size: 30px 45px;
 	position: absolute;
-	right:  265px;
-	top: 427px;
+	right:  177px;
+	top: 458px;
 	z-index: 99;
 	display: block;
 }
@@ -3649,7 +3665,7 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .PopUpSlider_HP > .imagen_PopUpSlider{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
     position: absolute;
     left: 50%;
@@ -3662,7 +3678,7 @@ LUPE - Hotspots cordenadas - sección 5
 /* SEÑOR DE LAS FLORES */
 
 .imagen-SF-1-1{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_01_h01.png");
 	background-size: cover;
@@ -3675,7 +3691,7 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .imagen-SF-1-2{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_01_h02.png");
 	background-size: cover;
@@ -3686,7 +3702,7 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 .imagen-SF-1-3{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_01_h03.png");
 	background-size: cover;
@@ -3699,7 +3715,7 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .imagen-SF-2-1{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_02_h01.png");
 	background-size: cover;
@@ -3711,7 +3727,7 @@ LUPE - Hotspots cordenadas - sección 5
 
  
 .imagen-SF-2-2{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_02_h02.png");
 	background-size: cover;
@@ -3722,7 +3738,7 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 .imagen-SF-2-3{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_02_h03.png");
 	background-size: cover;
@@ -3736,7 +3752,7 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .imagen-SF-3-1{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_03_h01.png");
 	background-size: cover;
@@ -3748,7 +3764,7 @@ LUPE - Hotspots cordenadas - sección 5
 
  
 .imagen-SF-3-2{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_03_h02.png");
 	background-size: cover;
@@ -3764,7 +3780,7 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .imagen-SF-4-1{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_04_h01.png");
 	background-size: cover;
@@ -3776,7 +3792,7 @@ LUPE - Hotspots cordenadas - sección 5
 
  
 .imagen-SF-4-2{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
 	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_04_h02.png");
 	background-size: cover;
@@ -3787,9 +3803,9 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 .imagen-SF-4-3{
-	width: 1480px;
+	width: 1450px;
 	height: 840px;
-	background: url("../images/p07-senior-flores/hotspot/INT_01u_img_04_h03.png");
+	background: url("../images/p08-pedestal/hotspot/INT_01u_img_04_h03.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
@@ -3799,196 +3815,104 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 
-
-
 /* PEDESTAL */
 
 
 .imagen-P-1-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_1.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_01_h01.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
-	display: none;
+	top: 0%;
+	display: block;
 
 }
 
 
 .imagen-P-1-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_2.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_01_h02.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
 
-.imagen-P-1-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_3.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-P-1-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_4.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
+ 
 
 .imagen-P-2-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_5.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_02_h01.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
 
  
 .imagen-P-2-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_6.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_02_h02.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
 
-.imagen-P-2-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_7.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-P-2-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_8.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
-
+ 
 .imagen-P-3-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_9.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_03_h01.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
 
  
 .imagen-P-3-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_10.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_03_h02.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
 
 .imagen-P-3-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_11.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_03_h03.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
-
-.imagen-P-3-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_12.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-
 
 .imagen-P-4-1{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_13.jpg");
+	width: 1450px;
+	height: 840px;
+	background: url("../images/p08-pedestal/hotspot/INT_02p_img_04_h01.png");
 	background-size: cover;
 	position: absolute;
 	right:  0%;
-	top: -5%;
+	top: 0%;
 	display: none;
 }
 
- 
-.imagen-P-4-2{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_14.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-P-4-3{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_15.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
-
-.imagen-P-4-4{
-	width: 1024px;
-	height: 768px;
-	background: url("../images/p08-pedestal/img_16.jpg");
-	background-size: cover;
-	position: absolute;
-	right:  0%;
-	top: -5%;
-	display: none;
-}
 
 
 
