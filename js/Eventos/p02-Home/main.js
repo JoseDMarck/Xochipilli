@@ -139,11 +139,11 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
     // Para efecto de ayuda
-    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0, rotation:360,  ease: Circ.easeOut, onComplete: 
+    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,   ease: Circ.easeOut, onComplete: 
         close = function(){
 
             CloseAyudaOnInitEvent = setTimeout(function(){ 
-                TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, rotation:180, ease: Circ.easeOut})
+                TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20,  ease: Circ.easeOut})
                 move_screen_buttos();
             }, 8000);
             
@@ -196,22 +196,22 @@ $(".btn_close_menu").click(function() {
 
 
 $(".btn_ayuda").click(function() {
-    TweenMax.to(".Ayuda", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
+    TweenMax.to(".Ayuda", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, ease: Circ.easeOut});    
 });
 
 $(".Ayuda").click(function() {
-    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20,    ease: Circ.easeOut});    
     clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
     move_screen_buttos();
 });
 
 
 $(".btn_ayuda-m").click(function() {
-    TweenMax.to(".AyudaMenus", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, rotation:360, ease: Circ.easeOut});    
+    TweenMax.to(".AyudaMenus", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0,  ease: Circ.easeOut});    
 });
 
 $(".AyudaMenus").click(function() {
-    TweenMax.to(".AyudaMenus", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20, rotation:180,   ease: Circ.easeOut});    
+    TweenMax.to(".AyudaMenus", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20,   ease: Circ.easeOut});    
 });
 
 
