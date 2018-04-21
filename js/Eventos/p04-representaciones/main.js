@@ -6,6 +6,9 @@ $( document ).ready(function() {
 -------------------------------------------------------- */
 
 HomeURL = '../../index.php';
+num_total_G = 7;
+var num_init_G = 1
+
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -23,6 +26,40 @@ var urlParams;
 
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
+
+
+//PARA RECUPERAR GALERIA EN VALORES
+
+if(urlParams["curImg"] != null){
+    
+    
+    num_init_G = urlParams["curImg"];
+
+    Number(num_init_G)
+    console.log("num_init_G", num_init_G);
+
+    if (num_init_G > 0){
+        $(".next_btn_obra").show();
+    }
+
+    if (num_init_G <= 7 && num_init_G > 1  ){
+        $(".prev_btn_obra").show();
+    }
+
+    if (num_init_G > 6){
+        $(".next_btn_obra").hide();
+     }
+
+
+
+    $(".gal_img_G").hide();
+    $(".gal_img_G_"+num_init_G).fadeIn();
+
+
+} else{
+    num_init_G = 1;
+    
+}
 
 
 if (LanguageON != "" ){
@@ -84,18 +121,18 @@ var opensem = function () {
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ESP';
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ESP'+'&curImg='+num_init_G;
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ENG';
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ENG'+'&curImg='+num_init_G;
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'NAH';
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'NAH'+'&curImg='+num_init_G;
 };
 
 
@@ -172,8 +209,7 @@ $(".btn_ayuda_General").click(function() {
 
 // EVENTOS GALLERIA ===================
 
-var num_total_G = 7;
-var num_init_G = 1;
+;
 
 
 $(".next_btn_obra").click(function() {
@@ -191,7 +227,7 @@ $(".next_btn_obra").click(function() {
         $(".gal_img_G").hide();
         $(".gal_txt_G").hide();
 
-        num_init_G = num_init_G + 1;
+        num_init_G = Number(num_init_G) + 1;
         console.log("num_init_G_", num_init_G);
         $(".gal_img_G_"+num_init_G).fadeIn();
         $(".gal_txt_G_"+num_init_G).fadeIn();
@@ -211,7 +247,7 @@ $(".prev_btn_obra").click(function() {
         $(".gal_img_G").hide();
         $(".gal_txt_G").hide();
 
-        num_init_G = num_init_G - 1;
+        num_init_G = Number(num_init_G) - 1;
         console.log("num_init_G_", num_init_G);
         $(".gal_img_G_"+num_init_G).fadeIn();
         $(".gal_txt_G_"+num_init_G).fadeIn();
@@ -226,7 +262,7 @@ $(".prev_btn_obra").click(function() {
 
 $(function () {
     var viewer = ImageViewer({zoomValue:160});
-    $('.full_btn').click(function () {
+    $('.full_btn, .gal_img_G').click(function () {
         var imgSrc = "../../images/p04-representaciones/full_img"+num_init_G+".png",
         highResolutionImage = $(this).data('high-res-img');
         viewer.show(imgSrc, highResolutionImage);

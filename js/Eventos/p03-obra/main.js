@@ -240,7 +240,7 @@ $(".prev_btn_obra").click(function() {
         $(".gal_img_G").hide();
         $(".gal_txt_G").hide();
 
-        num_init_G = num_init_G - 1;
+        num_init_G = Number(num_init_G) - 1;
         console.log("num_init_G_", num_init_G);
         $(".gal_img_G_"+num_init_G).fadeIn();
         $(".gal_txt_G_"+num_init_G).fadeIn();
