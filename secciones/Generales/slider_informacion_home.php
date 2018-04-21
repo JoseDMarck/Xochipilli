@@ -1534,7 +1534,8 @@ no confundir esta capa con la aplicación de color blanco para decorar formas. <
 			</div>
 
 			<div class="Textos seccion-m-4 flexcroll">
-				<div id="descripcion_creditos" class="descripcion"></div>
+                <div class="imagen_texto_creditos"></div>
+				<!--<div id="descripcion_creditos" class="descripcion"></div>-->
 			</div>
 
 			

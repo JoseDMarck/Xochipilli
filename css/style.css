@@ -852,6 +852,10 @@ body{
  
 
 
+
+
+
+
 /* --------------------------------------------------------
 /* ---- P02: BOTONES HOME SECCIONES
 -------------------------------------------------------- */
@@ -1659,6 +1663,8 @@ body{
 	position: absolute;
 	bottom: 100px;
 	left: 1020px; 
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .menuBarraGeneral > .btn_glosario_on_NAH{
@@ -1799,6 +1805,17 @@ body{
 	left: 1020px; 
 }
 
+
+
+.imagen_texto_creditos{
+	width: 989px;
+	height: 3948px;
+	background: url("../images/p02-Home/slider/texto_creditos.png") !important;
+	background-size: 989px 3948px;
+	position: relative;
+	margin: 0 auto;
+	
+}
 
 
 /* --------------------------------------------------------
