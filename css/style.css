@@ -519,7 +519,7 @@ body{
 	position: absolute;
 	bottom: 0px;
 	left: 0px; 
-	z-index: 100;
+	z-index: 101;
 }
 
 .home-Seccion > .Background > .menuBarra > .btn_back{
@@ -3762,6 +3762,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;
 	display: none;
 	
 }
@@ -3774,6 +3775,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 	
 }
@@ -3787,6 +3789,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 	
 }
@@ -3799,6 +3802,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 }
 
@@ -3810,6 +3814,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;
 	display: none;
 }
 
@@ -3821,6 +3826,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 }
 
@@ -3833,6 +3839,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 }
 
@@ -3844,6 +3851,7 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 }
 
@@ -3855,8 +3863,39 @@ LUPE - Hotspots cordenadas - sección 5
 	position: absolute;
 	left: 713px;
 	top: 51px;
+	z-index: 101;	
 	display: none;
 }
+
+
+
+
+.overlay_menus_up{
+	width: 1198px;
+	height: 180px;
+	background: url("../images/Generales/overlay_down_con_glos_ref_cred.png");
+	background-size: 1198px 180px; 
+	position: absolute;
+	left: 310px;
+	top: 0px;
+	z-index: 100;
+	display: none;
+}
+
+
+.overlay_menus_down{
+	width: 1198px;
+	height: 180px;
+	background: url("../images/Generales/overlay_down_con_glos_ref_cred.png");
+	background-size: 1198px 180px; 
+	position: absolute;
+	left: 361px;
+	top: 900px;
+	z-index: 100;
+	display: none;
+}
+
+
 
 
 
@@ -5318,26 +5357,26 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 
-.detalle-flor-Seccion > .overlay_up{
+.detalle-flor-Seccion > .overlay_up_detalle{
 	width: 959px;
-	height: 178px;
-	background: url("../images/p12-gabinete-botanico/overlay_up.png");
-	background-size: 959px 178px;
+	height: 270px;
+	background: url("../images/Generales/overlay_up_detalle.png");
+	background-size: 959px 270px;
     position: absolute;
     top: 0px;
-    left: 973px;
+    left: 962px;
     z-index: 9;
 }
 
 
-.detalle-flor-Seccion > .overlay_down{
+.detalle-flor-Seccion > .overlay_down_detalle{
 	width: 959px;
-	height: 148px;
-	background: url("../images/p12-gabinete-botanico/overlay_down.png");
-	background-size: 959px 148px;
+	height: 119px;
+	background: url("../images/Generales/overlay_down_detalle.png");
+	background-size: 959px 119px;
     position: absolute;
-    bottom: 99px;
-    left: 989px;
+	top: 777px;
+    left: 962px;
     z-index: 9;
 }
 
@@ -5806,7 +5845,7 @@ LUPE - Hotspots cordenadas - sección 5
 	height: 536px;
 	position: absolute;
 	margin: 0 auto;
-	top: 308px;
+	top: 262px;
 	left: 1124px;
 }
 

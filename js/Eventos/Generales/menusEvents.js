@@ -18,6 +18,7 @@ $( document ).ready(function() {
 
 $(".btn_close").click(function() {
     $(".PopUpSlider").fadeOut();
+    
 
 
     $(".btn_idioma_es").fadeIn();
@@ -31,6 +32,10 @@ $(".btn_close").click(function() {
     $(".btn_ayuda_General").fadeIn();
     $(".btn_inicio_General").fadeIn();    
     $(".btn_back").fadeIn();
+
+    $(".overlay_menus_down").hide();
+    $(".overlay_menus_up").hide();
+    
 
 
     if (LanguageON == "ESP"){
@@ -102,6 +107,10 @@ $(".open_popUp").click(function() {
     $(".btn_ayuda_General").fadeOut();
     $(".btn_inicio_General").fadeOut();
     $(".btn_back").fadeOut();
+
+    $(".overlay_menus_down").show();
+    $(".overlay_menus_up").show();
+
 
 
 

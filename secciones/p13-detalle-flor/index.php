@@ -96,6 +96,9 @@
 				</div><!-- ContendorDescripcion -->
 
 			
+				<div class="overlay_up_detalle"></div>
+				<div class="overlay_down_detalle"></div>
+
 
 				<div class="Contenedor">
 					<div id="titulo" class="titulo"></div>
