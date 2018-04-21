@@ -1256,6 +1256,33 @@ body{
 	position: absolute;
 }
 
+
+.obra-Seccion >  .overlay_up{
+	width: 959px;
+	height: 270px;
+	background: url("../images/Generales/overlay_up_detalle.png");
+	background-size: 959px 270px;
+    position: absolute;
+    top: -106px;
+	left: 1026px;
+	z-index: 9;
+}
+
+
+.obra-Seccion >  .overlay_down{
+	width: 959px;
+	height: 119px;
+	background: url("../images/Generales/overlay_down_detalle.png");
+	background-size: 959px 119px;
+    position: absolute;
+	top: 778px;
+	left: 1026px;
+	z-index: 9;
+}
+
+
+
+
 .obra-Seccion > .ayuda-image{
 	width: 0px;
 	height: 0px;
@@ -1863,7 +1890,7 @@ body{
 	width: 685px;
 	height: auto;
 	position: absolute;
-	top: 106px;
+	top: 114px;
 	left: 1121px;
 }
 
@@ -1885,6 +1912,7 @@ body{
 	background-size: 550px 60px;
 	top: 60px;
 	left: 1127px;
+	z-index: 99;
 }
 
 .obra-Seccion > .titulo_ENG{

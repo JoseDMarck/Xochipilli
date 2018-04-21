@@ -18,6 +18,10 @@
 
 			
 
+			<div class="overlay_up"></div>
+			<div class="overlay_down"></div>
+
+
 			<div class="Background">
 
 					<div class="menuBarraGeneral">
