@@ -1943,6 +1943,7 @@ body{
 	background-size: 490px 43px;
 	top: 60px;
 	left: 1127px;
+	z-index: 99;
 }
 
 .obra-Seccion > .titulo-presentacion_ENG{

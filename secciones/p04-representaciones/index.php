@@ -16,6 +16,9 @@
 <div class="main">
 	<div class="obra-Seccion">
 
+
+			<div class="overlay_up"></div>
+			<div class="overlay_down"></div>
 			
 
 			<div class="Background">
