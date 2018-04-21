@@ -139,13 +139,13 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
     // Para efecto de ayuda
-    TweenMax.to(".Ayuda", 0.5, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0, rotation:360,  ease: Circ.easeOut, onComplete: 
+    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0, rotation:360,  ease: Circ.easeOut, onComplete: 
         close = function(){
 
             CloseAyudaOnInitEvent = setTimeout(function(){ 
-                TweenMax.to(".Ayuda", 0.3, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, rotation:180, ease: Circ.easeOut})
+                TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, rotation:180, ease: Circ.easeOut})
                 move_screen_buttos();
-            }, 5000);
+            }, 8000);
             
         }   
     })
