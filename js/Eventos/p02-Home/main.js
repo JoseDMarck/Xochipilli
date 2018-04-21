@@ -146,8 +146,17 @@ var InitScreen = function () {
                 TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20,  ease: Circ.easeOut})
                 move_screen_buttos();
             }, 8000);
+
+
+            $(".Ayuda").click(function() {
+                TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20,    ease: Circ.easeOut});    
+                clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+                move_screen_buttos();
+            });
             
         }   
+
+        
     })
 
 
@@ -199,11 +208,7 @@ $(".btn_ayuda").click(function() {
     TweenMax.to(".Ayuda", 0.8, { alpha: 1, width:1920, height:1080, x:0, y:0, ease: Circ.easeOut});    
 });
 
-$(".Ayuda").click(function() {
-    TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20,    ease: Circ.easeOut});    
-    clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
-    move_screen_buttos();
-});
+
 
 
 $(".btn_ayuda-m").click(function() {
