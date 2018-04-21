@@ -658,8 +658,7 @@ THREE.OBJLoader = ( function () {
 			}
 
 			var ClosePreloader = function () {
-				//$(".loading").hide();
-				
+				$(".loading").hide();
 				$(".btn_cerrar").fadeIn();
 			};
 

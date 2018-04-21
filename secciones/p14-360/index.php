@@ -19,11 +19,15 @@
 <body>
 
 
+
+
 		<style> 
 				canvas {  position: absolute; left: 0%; } 
 		   </style>
 
+
 <div class="main">
+	
 	<div class="p360-Seccion">
 
 			<div class="btn_cerrar"></div>
@@ -31,8 +35,11 @@
 
 			<div class="Background">
 
-					
+				
+				
+
 					<div id="inter-BloqueA" class="inter-BloqueA">
+					<div class="loading"></div>
 
 
 							
@@ -99,6 +106,8 @@
 
 </body>
 </html>
+
+
 
 
 <script type="text/javascript" src="../../js/jquery.1.9.1.min.js"></script>

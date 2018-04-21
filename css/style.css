@@ -2672,18 +2672,31 @@ body{
 	padding: 10px;
 }  
 
-.loading{
-	width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 40%;
+ 
+.loading {
+	width: 70px;
+	height: 70px;
+	border: 10px solid #eee;
+	border-top: 10px solid #707D3C;
+	border-radius: 50%;
+	animation-name: girar;
+	animation-duration: 2s;
+	position: absolute;
+    left: 50%;
     top: 50%;
-    transform: translate(-40%, -50%);
-    -webkit-transform: translate(-40%, -50%);
-    background: url("../images/p05-interpretacion/loading.gif");
-    background-size: 100px 100px;
-    z-index: 999999;
-}
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	z-index: 99999;
+  }
+  @keyframes girar {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+
 
 input[type=range] {
 	-webkit-appearance: none;
