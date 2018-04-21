@@ -62,6 +62,15 @@
     src: url(fuentes/Akzidez-BQ.otf) format("truetype");
 }
 
+@font-face {
+    font-family: "Akzidez-BE-Bold";
+    src: url(fuentes/Akzidez-BE-Bold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Akzidez-BE-Bold-italic";
+    src: url(fuentes/Akzidez-BE-Bold-italic.otf) format("truetype");
+}
 
 
 
@@ -6005,13 +6014,11 @@ LUPE - Hotspots cordenadas - sección 5
 -------------------------------------------------------- */
 
 .Seccion-info{
-	width: 1250px;
-    height: 768px;
+	width: 1192px;
+    height: 740px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+	left: 362px;
+	top: 156px;
 }
  
 
@@ -6064,6 +6071,11 @@ LUPE - Hotspots cordenadas - sección 5
 	width: 100%;
 	height: auto;
 	margin-bottom: 20px;
+	font-family: "Akzidez-BE-Bold";
+	font-size: 30px;
+	line-height:  22px;
+	padding: 0px 10px 0px 10px;
+	color: #e6e7e8;
 }
 
 
@@ -6094,11 +6106,17 @@ LUPE - Hotspots cordenadas - sección 5
 .Bloque-Glosario > .Bloque-M-A> .palabra > p{
 	font-weight: 200;
     font-family: "Akizdez-Regular";
-	font-size: 26px;
+	font-size: 28px;
 	line-height:  32px;
 	color: #e6e7e8;
 }
 
+.Bloque-Glosario > .Bloque-M-A> .palabra > p > b > i{
+	font-family: "Akzidez-BE-Bold-italic";
+	font-size: 28px;
+	line-height:  32px;
+	color: #e6e7e8;
+}
 
 .Bloque-Glosario > .Bloque-M-B{
 	width: 50%;
@@ -6129,11 +6147,17 @@ LUPE - Hotspots cordenadas - sección 5
 .Bloque-Glosario > .Bloque-M-B > .palabra > p{
 	font-weight: 200;
     font-family: "Akizdez-Regular";
-	font-size: 26px;
+	font-size: 28px;
 	line-height:  32px;
 	color: #e6e7e8;
 }
 
- 
+
+.Bloque-Glosario > .Bloque-M-B > .palabra > p > b > i{
+	font-family: "Akzidez-BE-Bold-italic";
+	font-size: 28px;
+	line-height:  32px;
+	color: #e6e7e8;
+}
 
 
