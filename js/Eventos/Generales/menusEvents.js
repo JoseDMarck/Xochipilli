@@ -427,6 +427,10 @@ $(".btn_prev").click(function() {
         // Para Saltarnos el Glosario en NAH
         if(num_init == 3 &&  LanguageON == "NAH"){
             num_init = num_init - 2;
+            if(num_init == 1){
+                $(".btn_prev").hide();
+            }
+
         }else{
             num_init = num_init - 1;
         }
