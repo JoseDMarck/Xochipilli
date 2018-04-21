@@ -6,6 +6,7 @@ $( document ).ready(function() {
 -------------------------------------------------------- */
 
 HomeURL = '../../index.php';
+var num_total_G = 4;
 
  
 
@@ -26,6 +27,39 @@ var urlParams;
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
 
+
+//PARA RECUPERAR GALERIA EN VALORES
+
+if(urlParams["curImg"] != null){
+    
+    
+    num_init_G = urlParams["curImg"];
+
+    Number(num_init_G)
+    console.log("num_init_G", num_init_G);
+
+    if (num_init_G > 0){
+        $(".next_btn_obra").show();
+    }
+
+    if (num_init_G <= 4 && num_init_G > 1  ){
+        $(".prev_btn_obra").show();
+    }
+
+    if (num_init_G > 3){
+        $(".next_btn_obra").hide();
+     }
+
+
+
+    $(".gal_img_G").hide();
+    $(".gal_img_G_"+num_init_G).fadeIn();
+
+
+} else{
+    num_init_G = 1;
+    
+}
 
 
 
@@ -86,18 +120,18 @@ var opensem = function () {
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'ESP';
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'ESP'+'&curImg='+num_init_G;
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'ENG';
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'ENG'+'&curImg='+num_init_G;
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'NAH';
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+'NAH'+'&curImg='+num_init_G;
 };
 
 
@@ -168,8 +202,7 @@ $(".btn_ayuda_General").click(function() {
 
 // EVENTOS GALLERIA ===================
 
-var num_total_G = 4;
-var num_init_G = 1;
+
 
 
 $(".next_btn_obra").click(function() {
@@ -180,15 +213,15 @@ $(".next_btn_obra").click(function() {
 
     if (num_init_G > 0){
         $(".prev_btn_obra").show();
-     }
+    }
 
 
     if (num_init_G < num_total_G){
         $(".gal_img_G").hide();
         $(".gal_txt_G").hide();
 
-        num_init_G = num_init_G + 1;
-        console.log("num_init_G_", num_init_G);
+        num_init_G = Number(num_init_G) + 1;
+         
         $(".gal_img_G_"+num_init_G).fadeIn();
         $(".gal_txt_G_"+num_init_G).fadeIn();
     }
@@ -201,7 +234,7 @@ $(".prev_btn_obra").click(function() {
 
     if (num_init_G == 2){
         $(".prev_btn_obra").hide();
-     }
+    }
 
     if (num_init_G > 1){
         $(".gal_img_G").hide();
