@@ -5,6 +5,17 @@ var num_init;
 var num_gal;
 
 
+
+$( document ).ready(function() {
+    //Removemos la funcionalidad del boton Glosario 
+     if (LanguageON == "NAH"){
+         $(".btn_glosario").unbind('click'); 
+     }
+ });
+
+ 
+
+
 $(".btn_close").click(function() {
     $(".PopUpSlider").fadeOut();
 
@@ -41,6 +52,8 @@ $(".btn_close").click(function() {
         $(".btn_glosario").removeClass("btn_glosario_on_NAH");
         $(".btn_referencias").removeClass("btn_referencias_on_NAH");
         $(".btn_creditos").removeClass("btn_creditos_on_NAH");
+
+      
     }
 
     
@@ -96,8 +109,7 @@ $(".open_popUp").click(function() {
         num_gal = 1;
         num_init = 1;
 
-        
-
+    
 
         if (LanguageON == "ESP"){
             //PARA BOTONES DE SELECCIÓN
@@ -152,7 +164,7 @@ $(".open_popUp").click(function() {
         }
 
         if (LanguageON == "NAH"){
-            $(".btn_glosario").addClass("btn_glosario_on_NAH");
+            //$(".btn_glosario").addClass("btn_glosario_on_NAH");
             $(".btn_conservacion").removeClass("btn_conservacion_on_NAH");        
             $(".btn_referencias").removeClass("btn_referencias_on_NAH");
             $(".btn_creditos").removeClass("btn_creditos_on_NAH");
@@ -265,12 +277,22 @@ $(".btn_next").click(function() {
         $(".gal_img").hide();
         $(".gal_desc_LG").hide();
 
-        num_init = num_init + 1;
+        
+        // Para Saltarnos el Glosario en NAH
+        if(num_init == 1 &&  LanguageON == "NAH"){
+            num_init = num_init + 2;
+        }else{
+            num_init = num_init + 1;
+        }
+
+        
+       
+
         console.log("num_init", num_init);
         $(".Textos").hide();
         $(".btn_titulo_Seccion").hide();
 
-
+ 
         if(num_init == 1){
 
             if (LanguageON == "ESP"){  
@@ -297,7 +319,9 @@ $(".btn_next").click(function() {
 
            
         }
-        else if(num_init == 2){
+
+
+        else if(num_init == 2 ){
             if (LanguageON == "ESP"){  
                 $(".btn_conservacion").removeClass("btn_conservacion_on");
                 $(".btn_glosario").addClass("btn_glosario_on");
@@ -317,10 +341,10 @@ $(".btn_next").click(function() {
                 $(".btn_glosario").addClass("btn_glosario_on_NAH");
                 $(".btn_referencias").removeClass("btn_referencias_on_NAH");
                 $(".btn_creditos").removeClass("btn_creditos_on_NAH");
-            }
+            }   
 
-            
-        }
+
+        } // 4
 
         else if(num_init == 3){
             if (LanguageON == "ESP"){  
@@ -345,7 +369,7 @@ $(".btn_next").click(function() {
             }
 
             
-        }
+        } // 3
 
         else if(num_init == 4){
             if (LanguageON == "ESP"){  
@@ -367,12 +391,14 @@ $(".btn_next").click(function() {
                 $(".btn_glosario").removeClass("btn_glosario_on_NAH");
                 $(".btn_referencias").removeClass("btn_referencias_on_NAH");
                 $(".btn_creditos").addClass("btn_creditos_on_NAH");
-            }
 
-             
-        }
+            }    
+        } // 4
 
         $(".seccion-m-"+num_init).fadeIn();
+
+    
+        
 
        
     }
@@ -388,7 +414,17 @@ $(".btn_prev").click(function() {
         $(".gal_img").hide();
         $(".gal_desc_LG").hide();
 
-        num_init = num_init - 1;
+
+        // Para Saltarnos el Glosario en NAH
+        if(num_init == 3 &&  LanguageON == "NAH"){
+            num_init = num_init - 2;
+        }else{
+            num_init = num_init - 1;
+        }
+
+
+
+        
         console.log("num_init", num_init);
         $(".Textos").hide();
         $(".btn_titulo_Seccion").hide();
@@ -435,7 +471,7 @@ $(".btn_prev").click(function() {
 
             if (LanguageON == "NAH"){ 
                 $(".btn_conservacion").removeClass("btn_conservacion_on_NAH");
-                $(".btn_glosario").addClass("btn_glosario_on_NAH");
+               // $(".btn_glosario").addClass("btn_glosario_on_NAH");
                 $(".btn_referencias").removeClass("btn_referencias_on_NAH");
                 $(".btn_creditos").removeClass("btn_creditos_on_NAH");
             }
@@ -494,4 +530,10 @@ $(".btn_prev").click(function() {
     }
      
 
+
+
+
 });
+
+
+

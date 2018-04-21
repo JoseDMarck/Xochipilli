@@ -666,6 +666,7 @@ body{
 	left: 1020px; 
 }
 
+
 .home-Seccion > .Background > .menuBarra > .btn_glosario_on{
 	width: 246px;
 	height: 46px;
@@ -707,6 +708,8 @@ body{
 	position: absolute;
 	bottom: 100px;
 	left: 1020px; 
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .home-Seccion > .Background > .menuBarra > .btn_glosario_on_NAH{
@@ -6165,8 +6168,8 @@ LUPE - Hotspots cordenadas - sección 5
 
 .Bloque-Glosario > .Bloque-M-A > .palabra > p > b{
 	font-family: "Akizdez-Regular";
-	font-size: 30px;
-	line-height:  30px;
+	font-size: 28px;
+	line-height:  28px;
 	color: #e6e7e8; 
 	font-weight: 800;
 }
@@ -6206,8 +6209,8 @@ LUPE - Hotspots cordenadas - sección 5
  
 .Bloque-Glosario > .Bloque-M-B > .palabra > p > b{
 	font-family: "Akizdez-Regular";
-	font-size: 30px;
-	line-height:  30px;
+	font-size: 28px;
+	line-height:  28px;
 	color: #e6e7e8; 
 	font-weight: 800;
 }
