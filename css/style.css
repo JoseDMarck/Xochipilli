@@ -4826,25 +4826,25 @@ LUPE - Hotspots cordenadas - sección 5
 
 .gabinete-botanico-Seccion > .overlay_up{
 	width: 959px;
-	height: 178px;
-	background: url("../images/p12-gabinete-botanico/overlay_up.png");
-	background-size: 959px 178px;
+	height: 270px;
+	background: url("../images/Generales/overlay_up_detalle.png");
+	background-size: 959px 270px;
     position: absolute;
-    top: 0px;
-    left: 973px;
-    z-index: 9;
+    top: -106px;
+	left: 1026px;
+	z-index: 9;
 }
 
 
 .gabinete-botanico-Seccion > .overlay_down{
 	width: 959px;
-	height: 148px;
-	background: url("../images/p12-gabinete-botanico/overlay_down.png");
-	background-size: 959px 148px;
+	height: 119px;
+	background: url("../images/Generales/overlay_down_detalle.png");
+	background-size: 959px 119px;
     position: absolute;
-    bottom: 99px;
-    left: 989px;
-    z-index: 9;
+	top: 824px;
+	left: 1026px;
+	z-index: 9;
 }
 
 .gabinete-botanico-Seccion  > .Contenedor{
