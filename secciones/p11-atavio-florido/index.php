@@ -176,7 +176,7 @@
 		
 			 
 			  
-			<div class="ayuda-image"></div>
+			<div class="ayuda-image ayuda-image-florido"></div>
  
 
 			

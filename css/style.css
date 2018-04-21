@@ -2838,6 +2838,43 @@ input[type=range] {
     z-index: 999;
 }
 
+
+
+.lectura-general-Seccion > .ayuda-image-florido{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p11-atavio-florido/ayudaGB_ES.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+.lectura-general-Seccion > .ayuda-image-florido_ENG{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p11-atavio-florido/ayudaGB_EN.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+.lectura-general-Seccion > .ayuda-image-florido_NAH{
+	width: 0px;
+    height: 0px;
+    background: url("../images/p11-atavio-florido/ayudaNAH_EN.png") !important;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
 /* --------------------------------------------------------
 /* ---- P06: LECTURA GENERAL - BLOQUE A
 -------------------------------------------------------- */
