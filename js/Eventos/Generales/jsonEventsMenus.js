@@ -247,6 +247,10 @@ if (LanguageON == "ESP"){
 if (LanguageON == "ENG"){
 
 	$(".titulo_conservacion").addClass("titulo_conservacion_ENG");
+	$(".titulo_glosario").addClass("titulo_glosario_ENG");
+	$(".titulo_referencias").addClass("titulo_referencias_ENG");
+	$(".titulo_conservacion").addClass("titulo_conservacion_ENG");
+	
 	
 	 
 
@@ -493,6 +497,11 @@ if (LanguageON == "NAH"){
 	//btn_info_access 
 
 	$(".titulo_conservacion").addClass("titulo_conservacion_NAH");
+	$(".titulo_glosario").addClass("titulo_glosario_NAH");
+	$(".titulo_referencias").addClass("titulo_referencias_NAH");
+	$(".titulo_conservacion").addClass("titulo_conservacion_NAH");
+	
+	
 	
 
 

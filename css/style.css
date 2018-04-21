@@ -3684,38 +3684,107 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 
-.PopUpSlider > .SeccionTitulo > .titulo_glosario{
-	width: 243px;
-	height: 46px;
-	background: url("../images/p02-Home/slider/Glosario.png");
-	background-size: 243px 46px; 
+.titulo_glosario{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Glosario_ES.png");
+	background-size: 460px 62px; 
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 713px;
+	top: 51px;
 	display: none;
 	
 }
 
-.PopUpSlider > .SeccionTitulo > .titulo_referencias{
-	width: 358px;
-	height: 43px;
-	background: url("../images/p02-Home/slider/Referencias.png");
-	background-size: 358px 43px; 
+.titulo_glosario_ENG{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Glosario_EN.png");
+	background-size: 460px 62px; 
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 713px;
+	top: 51px;
 	display: none;
 	
 }
 
-.PopUpSlider > .SeccionTitulo > .titulo_creditos{
-	width: 259px;
-	height: 46px;
-	background: url("../images/p02-Home/slider/creditos.png");
-	background-size: 259px 46px; 
+
+.titulo_glosario_NAH{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Glosario_NA.png");
+	background-size: 460px 62px; 
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 713px;
+	top: 51px;
+	display: none;
+	
+}
+
+.titulo_referencias{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Referencias_ES.png");
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+.titulo_referencias_ENG{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Referencias_EN.png");
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+.titulo_referencias_NAH{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Referencias_NA.png");
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+
+.titulo_creditos{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Creditos_ES.png");
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+.titulo_creditos_ENG{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Creditos_EN.png");
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
+	display: none;
+}
+
+.titulo_creditos_NAH{
+	width: 460px;
+	height: 62px;
+	background: url("../images/p02-Home/slider/Creditos_NA.png");
+	background-size: 460px 62px; 
+	position: absolute;
+	left: 713px;
+	top: 51px;
 	display: none;
 }
 
