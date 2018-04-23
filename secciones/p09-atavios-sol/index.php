@@ -15,7 +15,8 @@
 
 <div class="main">
 	<div class="lectura-general-Seccion">
-
+			<div class="overlay_up"></div>
+			<div class="overlay_down"></div>
 
 
 			<div class="Background">
@@ -90,7 +91,7 @@
 
 				<div class="Contenedor">
 					<div id="titulo" class="titulo"></div>
-					<div id="descripcion" class="descripcion" style="overflow:hidden"></div><!-- Descripcion -->
+					<div id="descripcion" class="descripcion flexcroll"></div><!-- Descripcion -->
 				</div><!-- Contenedor -->
 
 
