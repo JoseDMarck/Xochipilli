@@ -3,8 +3,8 @@
 <div class="PopUpSlider">
 
 
-<!--<div class="overlay_menus_up"></div>
-<div class="overlay_menus_down"></div>-->
+<div class="overlay_menus_up"></div>
+<div class="overlay_menus_down"></div>
 
 		 
 					<div class="titulo_conservacion btn_titulo_Seccion seccion-m-1 "></div>
@@ -133,12 +133,13 @@
                             <div id="palabra-H-3" class="palabra"></div>
                             <div id="palabra-H-4" class="palabra"></div>
                             <div id="palabra-H-5" class="palabra"></div>
+                            <div id="palabra-H-6" class="palabra"></div>
+                                <div id="palabra-H-7" class="palabra"></div>
                         </div><!-- BloqueA -->
                     
                     
                         <div class="Bloque-M-B">
-                                <div id="palabra-H-6" class="palabra"></div>
-                                <div id="palabra-H-7" class="palabra"></div>
+                               
                         </div><!-- BloqueA -->
 
 
@@ -194,14 +195,15 @@
                             <div id="palabra-O-3" class="palabra"></div>
                             <div id="palabra-O-4" class="palabra"></div>
                             <div id="palabra-O-5" class="palabra"></div>
-                        </div><!-- BloqueA -->
-                    
-                    
-                        <div class="Bloque-M-B">
                             <div id="palabra-O-6" class="palabra"></div>
                             <div id="palabra-O-7" class="palabra"></div>
                             <div id="palabra-O-8" class="palabra"></div>
                             <div id="palabra-O-9" class="palabra"></div>
+                        </div><!-- BloqueA -->
+                    
+                    
+                        <div class="Bloque-M-B">
+                            
                         </div><!-- BloqueA -->
 
 
@@ -279,14 +281,15 @@
                             <div id="palabra-X-1" class="palabra"></div>
                             <div id="palabra-X-2" class="palabra"></div>
                             <div id="palabra-X-3" class="palabra"></div>
-                            <div id="palabra-X-4" class="palabra"></div>                                
+                            <div id="palabra-X-4" class="palabra"></div>           
+                            <div id="palabra-X-5" class="palabra"></div>
+                            <div id="palabra-X-6" class="palabra"></div>                     
                             
                         </div><!-- BloqueA -->
                     
                     
                         <div class="Bloque-M-B">
-                            <div id="palabra-X-5" class="palabra"></div>
-                            <div id="palabra-X-6" class="palabra"></div>
+                          
                         </div><!-- BloqueA -->
 
 
@@ -300,14 +303,15 @@
                             <div id="palabra-Y-2" class="palabra"></div>
                             <div id="palabra-Y-3" class="palabra"></div>
                             <div id="palabra-Y-4" class="palabra"></div>                                
-                            <div id="palabra-Y-5" class="palabra"></div>                                
+                            <div id="palabra-Y-5" class="palabra"></div>  
+                            <div id="palabra-Y-6" class="palabra"></div>
+                            <div id="palabra-Y-7" class="palabra"></div>                              
                             
                         </div><!-- BloqueA -->
                     
                     
                         <div class="Bloque-M-B">
-                            <div id="palabra-Y-6" class="palabra"></div>
-                            <div id="palabra-Y-7" class="palabra"></div>
+                         
                         </div><!-- BloqueA -->
 
 
