@@ -1259,9 +1259,9 @@ body{
 
 .obra-Seccion >  .overlay_up{
 	width: 959px;
-	height: 146px;
+	height: 161px;
 	background: url("../images/Generales/overlay_up.png");
-	background-size: 959px 146px;
+	background-size: 959px 161px;
     position: absolute;
     top: 0px;
 	left: 961px;
@@ -3968,7 +3968,7 @@ LUPE - Hotspots cordenadas - sección 5
 	background-size: 1198px 194px; 
 	position: absolute;
 	left: 361px;
-	top: 900px;
+	top: 886px;
 	z-index: 100;
 	display: none;
 }
