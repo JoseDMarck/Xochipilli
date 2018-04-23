@@ -1980,7 +1980,7 @@ body{
 	position: absolute;
 	top: 147px;
 	left: 1125px;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 
