@@ -3810,6 +3810,7 @@ LUPE - Hotspots cordenadas - sección 5
 	left: 713px;
 	top: 51px;
 	display: none;
+	z-index: 101;
 }
 
 
