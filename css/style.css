@@ -1271,11 +1271,11 @@ body{
 
 .obra-Seccion >  .overlay_down{
 	width: 959px;
-	height: 119px;
+	height: 138px;
 	background: url("../images/Generales/overlay_down.png");
-	background-size: 959px 119px;
+	background-size: 959px 138px;
     position: absolute;
-	top: 781px;
+	top: 762px;
     left: 961px;
 	z-index: 9;
 }
@@ -1993,6 +1993,7 @@ body{
 	color: #FFF;
 	text-align: left;
 	overflow-y: scroll;
+	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
@@ -2852,9 +2853,9 @@ input[type=range] {
 
 .lectura-general-Seccion > .overlay_up{
 	width: 959px;
-	height: 146px;
+	height: 161px;
 	background: url("../images/Generales/overlay_up.png");
-	background-size: 959px 146px;
+	background-size: 959px 161px;
     position: absolute;
 	top: 0px;
 	left: 961px;
@@ -2864,11 +2865,11 @@ input[type=range] {
 
 .lectura-general-Seccion > .overlay_down{
 	width: 959px;
-	height: 119px;
+	height: 138px;
 	background: url("../images/Generales/overlay_down.png");
-	background-size: 959px 119px;
+	background-size: 959px 138px;
     position: absolute;
-	top: 781px;
+	top: 762px;
     left: 961px;
 	z-index: 9;
 }
@@ -4904,9 +4905,9 @@ LUPE - Hotspots cordenadas - sección 5
 
 .gabinete-botanico-Seccion > .overlay_up{
 	width: 959px;
-	height: 146px;
+	height: 161px;
 	background: url("../images/Generales/overlay_up.png");
-	background-size: 959px 146px;
+	background-size: 959px 161px;
     position: absolute;
     top: 0px;
 	left: 961px;
@@ -4916,11 +4917,11 @@ LUPE - Hotspots cordenadas - sección 5
 
 .gabinete-botanico-Seccion > .overlay_down{
 	width: 959px;
-	height: 119px;
+	height: 138px;
 	background: url("../images/Generales/overlay_down.png");
-	background-size: 959px 119px;
+	background-size: 959px 138px;
     position: absolute;
-	top: 781px;
+	top: 762px;
     left: 961px;
 	z-index: 9;
 }
