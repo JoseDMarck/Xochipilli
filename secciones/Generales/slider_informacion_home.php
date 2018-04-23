@@ -20,7 +20,7 @@
 
 		<div class="Seccion-info">
 		
-			<div id="seccion-m-1" class="Textos seccion-m-1 flexcroll" style="background:#525659; height: 660px !important">
+			<div id="seccion-m-1" class="Textos seccion-m-1 flexcroll" style="background:#525659; height: 621px !important">
                 <div class="BarraBloqueda"></div>
 
 
