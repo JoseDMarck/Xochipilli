@@ -51,7 +51,7 @@
 
 			<div class="titulo"></div>
 			
-			<div class="ObraBloqueA">
+
 				<div class="Contenedor">
 					
 
@@ -59,7 +59,7 @@
 
 				</div><!-- Contenedor -->
 
-			</div><!-- ObraBloqueA -->
+
 
 
 
