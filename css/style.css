@@ -3950,9 +3950,9 @@ LUPE - Hotspots cordenadas - sección 5
 
 .overlay_menus_up{
 	width: 1300px;
-	height: 150px;
+	height: 164px;
 	background: url("../images/Generales/overlay_up_con_glos_ref_cred.png");
-	background-size: 1300px 150px; 
+	background-size: 1300px 164px; 
 	position: absolute;
 	left: 310px;
     top: 0px;
@@ -3963,9 +3963,9 @@ LUPE - Hotspots cordenadas - sección 5
 
 .overlay_menus_down{
 	width: 1198px;
-	height: 180px;
+	height: 194px;
 	background: url("../images/Generales/overlay_down_con_glos_ref_cred.png");
-	background-size: 1198px 180px; 
+	background-size: 1198px 194px; 
 	position: absolute;
 	left: 361px;
 	top: 900px;
