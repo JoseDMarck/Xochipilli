@@ -11,6 +11,10 @@ if (LanguageON == "ESP"){
 	document.getElementById("descripcion_referencias").innerHTML = obj_Referencias_ESP.descripcion;
 	//document.getElementById("descripcion_creditos").innerHTML = obj_m_ESP.descripcion_creditos;
 
+	document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_ES.pdf" type="application/pdf" width="100%" height="100%"></object>';
+
+
+
 	
 	//GLOSARIO LETRA A  ============================================= 
 	document.getElementById("LetraIndex-A").innerHTML = obj_gabinete_ESP.flores[0].letra;
@@ -250,6 +254,9 @@ if (LanguageON == "ENG"){
 	$(".titulo_glosario").addClass("titulo_glosario_ENG");
 	$(".titulo_referencias").addClass("titulo_referencias_ENG");
 	$(".titulo_creditos").addClass("titulo_creditos_ENG");
+
+	document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_EN.pdf" type="application/pdf" width="100%" height="100%"></object>';
+	
 	
 	
 	
@@ -501,6 +508,8 @@ if (LanguageON == "NAH"){
 	$(".titulo_glosario").addClass("titulo_glosario_NAH");
 	$(".titulo_referencias").addClass("titulo_referencias_NAH");
 	$(".titulo_creditos").addClass("titulo_creditos_NAH");
+
+	document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_NA.pdf" type="application/pdf" width="100%" height="100%"></object>';
 	
 	
 	
