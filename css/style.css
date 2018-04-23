@@ -3936,8 +3936,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/overlay_down_con_glos_ref_cred.png");
 	background-size: 1198px 180px; 
 	position: absolute;
-	left: 310px;
-	top: 0px;
+	left: 361px;
+    top: -24px;
 	z-index: 100;
 	display: none;
 }
@@ -3950,7 +3950,7 @@ LUPE - Hotspots cordenadas - sección 5
 	background-size: 1198px 180px; 
 	position: absolute;
 	left: 361px;
-	top: 900px;
+	bottom: 105px;
 	z-index: 100;
 	display: none;
 }
