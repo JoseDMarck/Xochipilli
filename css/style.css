@@ -1354,7 +1354,31 @@ body{
 .obra-Seccion > .ayuda-image-toca{
 	width: 1920px;
 	height: 1080px;
-	background: url("../images/p03-obra/toca.png");
+	background: url("../images/p03-obra/toca_ES.png");
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 9999999;
+	display: none
+}
+
+.obra-Seccion > .ayuda-image-toca_ENG{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/p03-obra/toca_EN.png");
+	background-size: cover; 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 9999999;
+	display: none
+}
+
+.obra-Seccion > .ayuda-image-toca_NAH{
+	width: 1920px;
+	height: 1080px;
+	background: url("../images/p03-obra/toca_NA.png");
 	background-size: cover; 
 	position: absolute;
 	bottom: 0px;

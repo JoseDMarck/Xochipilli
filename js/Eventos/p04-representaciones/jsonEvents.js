@@ -52,6 +52,7 @@ $( document ).ready(function() {
      $(".repres_img_7").addClass("repres_img_7_ENG");
 
      $(".titulo-presentacion").addClass("titulo-presentacion_ENG");
+     $(".ayuda-image-toca").addClass("ayuda-image-toca_ENG");
      
 
  
@@ -99,6 +100,8 @@ $( document ).ready(function() {
      $(".repres_img_7").addClass("repres_img_7_NAH");
 
      $(".titulo-presentacion").addClass("titulo-presentacion_NAH");
+     $(".ayuda-image-toca").addClass("ayuda-image-toca_NAH");
+     
  
      
  // DESCRIPCIÓN OBRA

@@ -42,6 +42,10 @@ if (LanguageON == "ENG"){
     $(".btn_referencias").addClass("btn_referencias_ENG");
     $(".btn_creditos").addClass("btn_creditos_ENG");
 
+    $(".ayuda-image-toca").addClass("ayuda-image-toca_ENG");
+
+    
+
 
 
 
@@ -79,6 +83,8 @@ if (LanguageON == "NAH"){
     
 // DESCRIPCIÓN OBRA
 document.getElementById("descripcion").innerHTML = obj_NAH_Obra.descripcion; 
+
+$(".ayuda-image-toca").addClass("ayuda-image-toca_NAH");
 
 // Textos Galerias
 /*document.getElementById("gal_txt_1").innerHTML = obj_NAH.galeria[0].texto_1; 
