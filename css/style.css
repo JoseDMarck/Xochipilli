@@ -3751,6 +3751,7 @@ LUPE - Hotspots cordenadas - sección 5
 /* --------------------------------------------------------
 /* ---- P06: LECTURA GENERAL -  POPUP
 -------------------------------------------------------- */
+ 
 
 
 .PopUpSlider{
@@ -6282,8 +6283,27 @@ LUPE - Hotspots cordenadas - sección 5
     position: absolute;
 	left: 362px;
 	top: 156px;
+	overflow: hidden;
 }
  
+
+
+.BarraBloqueda{
+	width:100%;
+	height: 60px;
+	background: #525659;
+	position:  absolute;
+	z-index: 999;
+	display:none;
+}
+
+
+.testPDF{
+	position: absolute;
+	top: -80px;
+}
+
+
 
  .Seccion-info > .Textos{
  	width: 100%;

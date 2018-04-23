@@ -20,11 +20,14 @@
 
 		<div class="Seccion-info">
 		
-			<div class="Textos seccion-m-1 flexcroll" style="background:#E7E6E6">
-
+			<div class="Textos seccion-m-1 flexcroll" style="background:#525659; height: 660px !important">
+                <div class="BarraBloqueda"></div>
 
                 <!-- POPUP SLIDER: CONSERVACION, GLOSARIO, REFERENCIAS -->
-            	<?php include '../Generales/web/viewer.php'; ?>
+            	<?php //include '../Generales/web/viewer.php'; ?>
+
+                <object class="testPDF" data="../Generales/web/compressed.tracemonkey-pldi-09.pdf" type="application/pdf" width="100%" height="100%">
+                </object>
 
 
             </div><!-- aquí terminan las referencias======= -->
