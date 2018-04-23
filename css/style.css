@@ -4933,12 +4933,11 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 .gabinete-botanico-Seccion  > .Contenedor{
-	width: 690px;
-	height: 600px;
-	position: absolute;
-	margin: 0 auto;
-	top: 147px;
-	left: 1124px;
+	width: 685px;
+    height: auto;
+    position: absolute;
+    top: 114px;
+    left: 1121px;
 }
 
 .gabinete-botanico-Seccion  > .OcularContenedor{
@@ -4961,7 +4960,7 @@ LUPE - Hotspots cordenadas - sección 5
 
 .gabinete-botanico-Seccion > .Contenedor > .descripcion{
 	width: 100%;
-	height: 700px;
+	height: 665px;
 	font-family: "Gotham-Light";
 	font-size: 22px;
 	line-height: 25px;
