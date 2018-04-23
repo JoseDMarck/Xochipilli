@@ -88,7 +88,7 @@
 
 				<div class="Contenedor">
 					<div id="titulo" class="titulo"></div>
-					<div id="descripcion" class="descripcion" style="overflow:hidden"></div><!-- Descripcion -->
+					<div id="descripcion" class="descripcion flexcroll"></div><!-- Descripcion -->
 				</div><!-- Contenedor -->
 
 
