@@ -1263,7 +1263,7 @@ body{
 	background: url("../images/Generales/overlay_up_detalle.png");
 	background-size: 959px 270px;
     position: absolute;
-    top: -106px;
+    top: -101px;
 	left: 1026px;
 	z-index: 9;
 }
@@ -1275,8 +1275,8 @@ body{
 	background: url("../images/Generales/overlay_down_detalle.png");
 	background-size: 959px 119px;
     position: absolute;
-	top: 778px;
-	left: 1026px;
+	top: 782px;
+    left: 1022px;
 	z-index: 9;
 }
 
@@ -2863,7 +2863,7 @@ input[type=range] {
 	background: url("../images/Generales/overlay_up_detalle.png");
 	background-size: 959px 270px;
     position: absolute;
-    top: -106px;
+    top: -101px;
 	left: 1026px;
 	z-index: 9;
 }
@@ -2875,8 +2875,8 @@ input[type=range] {
 	background: url("../images/Generales/overlay_down_detalle.png");
 	background-size: 959px 119px;
     position: absolute;
-	top: 824px;
-	left: 1026px;
+	top: 782px;
+    left: 1022px;
 	z-index: 9;
 }
 
@@ -3955,13 +3955,13 @@ LUPE - Hotspots cordenadas - sección 5
 
 
 .overlay_menus_up{
-	width: 1198px;
-	height: 180px;
-	background: url("../images/Generales/overlay_down_con_glos_ref_cred.png");
-	background-size: 1198px 180px; 
+	width: 1300px;
+	height: 150px;
+	background: url("../images/Generales/overlay_up_con_glos_ref_cred.png");
+	background-size: 1300px 150px; 
 	position: absolute;
-	left: 361px;
-    top: -24px;
+	left: 310px;
+    top: 0px;
 	z-index: 100;
 	display: none;
 }
@@ -3974,7 +3974,7 @@ LUPE - Hotspots cordenadas - sección 5
 	background-size: 1198px 180px; 
 	position: absolute;
 	left: 361px;
-	bottom: 105px;
+	top: 900px;
 	z-index: 100;
 	display: none;
 }
@@ -4914,7 +4914,7 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/overlay_up_detalle.png");
 	background-size: 959px 270px;
     position: absolute;
-    top: -106px;
+    top: -101px;
 	left: 1026px;
 	z-index: 9;
 }
@@ -4926,8 +4926,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/overlay_down_detalle.png");
 	background-size: 959px 119px;
     position: absolute;
-	top: 824px;
-	left: 1026px;
+	top: 782px;
+    left: 1022px;
 	z-index: 9;
 }
 
@@ -6305,9 +6305,10 @@ LUPE - Hotspots cordenadas - sección 5
 	width: 1192px;
     height: 740px;
     position: absolute;
-	left: 362px;
-	top: 156px;
-	overflow: hidden;
+    left: 362px;
+    top: 120px;
+    overflow: hidden;
+
 }
  
 
@@ -6335,6 +6336,7 @@ LUPE - Hotspots cordenadas - sección 5
 	overflow-y: scroll;
 	overflow-x:hidden;
 	display: none;
+	padding-top: 40px;
 	 
  }
 
