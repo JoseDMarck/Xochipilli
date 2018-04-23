@@ -50,7 +50,7 @@
 
 			<div class="titulo-presentacion"></div>
 			
-			<div class="ObraBloqueA">
+
 				<div class="Contenedor">
 					
 
@@ -58,7 +58,7 @@
 
 				</div><!-- Contenedor -->
 
-			</div><!-- ObraBloqueA -->
+
 
 
 
