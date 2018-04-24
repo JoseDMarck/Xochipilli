@@ -4,12 +4,14 @@ InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoS
 
 
 
-$('body').on('click', function (e) {
+$('html').on('click', function (e) {
 	console.log("touch!");
 	StopScreenTempo();
 	e.preventDefault();
 });
 
+
+ 
  
 GotoScreenSaver = function () {
 	TweenMax.to("body", 1, {alpha:0, onComplete: ExitScreen });
@@ -18,16 +20,16 @@ GotoScreenSaver = function () {
 
 
 
-var ExitScreen = function(){
+ExitScreen = function(){
 	window.location.href = HomeURL;
 }
 
-var StopScreenTempo = function () {
+ StopScreenTempo = function () {
     clearTimeout(InitScreenTempo); 
 	PlayScreenTempo(); 
 };
 
-var PlayScreenTempo = function () {
+ PlayScreenTempo = function () {
     clearTimeout(InitScreenTempo);
     InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoScreenSaver();  }, tiempoScreenSaver );
 };

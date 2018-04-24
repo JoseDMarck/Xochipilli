@@ -12,8 +12,9 @@ pos_do_init = null;
 pos_xo_end = null;
 pos_na_end = null;
 pos_do_end = null;
-on_init = null
-on_end = null
+on_init = null;
+on_end = null;
+current_Gal = 1;
 
 
 
@@ -149,7 +150,7 @@ if(id_flor == 3 ){
     pos_na_end = 1;
 
     pos_do_init = 2;
-    pos_do_end = 7;
+    pos_do_end = 9;
 
     if(LanguageON == "ESP"){
         $(".ficha").addClass("ficha_4_ESP");
@@ -332,10 +333,10 @@ if(id_flor == 11 ){
 
 
     pos_na_init = 0;
-    pos_na_end = 1;
+    pos_na_end = 0;
 
-    pos_do_init = 2;
-    pos_do_end = 3;
+    pos_do_init = 1;
+    pos_do_end = 2;
 
     if(LanguageON == "ESP"){
         $(".ficha").addClass("ficha_12_ESP");
@@ -422,35 +423,96 @@ if (LanguageON != "" ){
     }
 
     var Change_idioma_ESP = function () {
-        location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ESP'+
-        '&idflor='+ id_flor +
-        '&num_xo='+ id_num_xo +
-        '&num_na='+ id_num_na +
-        '&num_do='+ id_num_do +
-        '&total_g=' + id_total_g;    
+          
         
+
+        if(urlParams["back"] != null ){
+            location.reload();
+            window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ESP'+
+            '&idflor='+ id_flor +
+            '&num_xo='+ id_num_xo +
+            '&num_na='+ id_num_na +
+            '&num_do='+ id_num_do +
+            '&total_g=' + id_total_g+
+            '&back=' + "florido";         
+
+        
+        } else{
+            
+            location.reload();
+            window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ESP'+
+            '&idflor='+ id_flor +
+            '&num_xo='+ id_num_xo +
+            '&num_na='+ id_num_na +
+            '&num_do='+ id_num_do +
+            '&total_g=' + id_total_g+
+            '&currenGal='+current_Gal;              
+
+        }
+
+
     };
     
     
     var Change_idioma_ENG = function () {
-        location.reload();
-        window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ENG'+
-        '&idflor='+ id_flor +
-        '&num_xo='+ id_num_xo +
-        '&num_na='+ id_num_na +
-        '&num_do='+ id_num_do +
-        '&total_g=' + id_total_g;             
+       
+        
+        if(urlParams["back"] != null ){
+            location.reload();
+            window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ENG'+
+            '&idflor='+ id_flor +
+            '&num_xo='+ id_num_xo +
+            '&num_na='+ id_num_na +
+            '&num_do='+ id_num_do +
+            '&total_g=' + id_total_g+    
+            '&back=' + "florido";         
+
+        
+        } else{
+            
+            location.reload();
+            window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'ENG'+
+            '&idflor='+ id_flor +
+            '&num_xo='+ id_num_xo +
+            '&num_na='+ id_num_na +
+            '&num_do='+ id_num_do +
+            '&total_g=' + id_total_g+
+            '&currenGal='+current_Gal;     
+        }
+
+
+
     };
     
     var Change_idioma_NAH = function () {
-        location.reload(); 
-        window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'NAH'+
-        '&idflor='+ id_flor +
-        '&num_xo='+ id_num_xo +
-        '&num_na='+ id_num_na +
-        '&num_do='+ id_num_do +
-        '&total_g=' + id_total_g;
+        
+         
+        if(urlParams["back"] != null ){
+            location.reload(); 
+            window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'NAH'+
+            '&idflor='+ id_flor +
+            '&num_xo='+ id_num_xo +
+            '&num_na='+ id_num_na +
+            '&num_do='+ id_num_do +
+            '&total_g=' + id_total_g+ 
+            '&back=' + "florido";         
+
+        
+        } else{
+            
+            location.reload(); 
+            window.location.href = '../../secciones/p13-detalle-flor/index.php'+'?idioma='+'NAH'+
+            '&idflor='+ id_flor +
+            '&num_xo='+ id_num_xo +
+            '&num_na='+ id_num_na +
+            '&num_do='+ id_num_do +
+            '&total_g=' + id_total_g+
+            '&currenGal='+current_Gal;    
+        }
+
+
+        
+       
        
            
     };
@@ -487,7 +549,17 @@ var GotoHome = function () {
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON;;
+    
+
+    if(urlParams["back"] != null ){
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON+'&back=' + "florido"; 
+        
+    } else{
+        window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON; 
+    }
+
+
+    
 };
 
 
@@ -633,10 +705,23 @@ $(".prev_btn_obra").click(function() {
 
 // BOTONES SECCIONS GALERIA 
 
+
+
+//CHECK CURRENT GAL 
 // EN XOCHIPILLI
+
+
 $(".btn_en_xochipili").addClass("btn_en_xochipili_on"); // on init 
+
+
+
+
+
+
 $(".btn_en_xochipili").click(function() {
     
+
+    current_Gal = 1;
     num_init_G = pos_xo_init;
     num_total_G = Number(id_num_xo);
     on_init = pos_xo_init;
@@ -690,6 +775,7 @@ $(".btn_en_xochipili").click(function() {
 // EN NATURALEZA
 $(".btn_en_naturaleza").click(function() {
 
+    current_Gal = 2;
     num_init_G = pos_na_init;    
     num_total_G = Number(id_num_na);
     on_init = pos_na_init;
@@ -750,6 +836,9 @@ $(".btn_en_naturaleza").click(function() {
 
 // EN DOCUMENTOSS
 $(".btn_en_documentos").click(function() {
+
+    current_Gal = 3;
+
     num_init_G = pos_do_init;    
     num_total_G = Number(id_num_do);
 

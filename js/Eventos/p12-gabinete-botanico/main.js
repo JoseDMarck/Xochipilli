@@ -58,19 +58,43 @@ if (LanguageON != "" ){
     }
 
     var Change_idioma_ESP = function () {
-        location.reload();
-        window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP';
+        
+        if(urlParams["back"] != null ){
+            location.reload();
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP'+'&back=' + "florido";
+        }else{
+            location.reload();
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP';
+        }
+        
+       
     };
     
     
     var Change_idioma_ENG = function () {
-        location.reload();
-        window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG';
+       
+
+        if(urlParams["back"] != null ){
+            location.reload();
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG'+'&back=' + "florido";
+        }else{
+            location.reload();
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG';
+        }
+
+
     };
     
     var Change_idioma_NAH = function () {
-        location.reload();
-        window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH';
+       
+
+        if(urlParams["back"] != null ){
+            location.reload();
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH'+'&back=' + "florido";
+        }else{
+            location.reload();
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH';
+        }
     };
     
 
@@ -118,13 +142,30 @@ if(urlParams["back"] != null ){
 
 var GotoDetalleFlor = function(){
     
-    window.location.href = '../../secciones/p13-detalle-flor/index.php' +
-    '?idioma='+LanguageON + 
-    '&idflor='+ num_flor + 
-    '&num_xo='+ num_xo +
-    '&num_na='+ num_na +
-    '&num_do='+ num_do +
-    '&total_g=' + total_g;
+
+    if(urlParams["back"] != null ){
+        window.location.href = '../../secciones/p13-detalle-flor/index.php' +
+        '?idioma='+LanguageON + 
+        '&idflor='+ num_flor + 
+        '&num_xo='+ num_xo +
+        '&num_na='+ num_na +
+        '&num_do='+ num_do +
+        '&total_g=' + total_g+
+        '&back=' + "florido";
+
+
+    }else{
+        window.location.href = '../../secciones/p13-detalle-flor/index.php' +
+        '?idioma='+LanguageON + 
+        '&idflor='+ num_flor + 
+        '&num_xo='+ num_xo +
+        '&num_na='+ num_na +
+        '&num_do='+ num_do +
+        '&total_g=' + total_g
+    }
+
+
+   
 
     
 }

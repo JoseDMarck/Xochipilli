@@ -17,6 +17,12 @@ $( document ).ready(function() {
 
 
 $(".btn_close").click(function() {
+    
+    $(".seccion-m-2").animate({ scrollTop: ".seccion-m-2"}, 200);
+    $(".seccion-m-3").animate({ scrollTop: ".seccion-m-3"}, 200);
+    $(".seccion-m-4").animate({ scrollTop: ".seccion-m-4"}, 200);
+    
+
     $(".PopUpSlider").fadeOut();
     
 
@@ -147,16 +153,26 @@ $(".open_popUp").click(function() {
 
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_conservacion").fadeIn();
+        $(".titulo_conservacion").show();
 
 
     }
 
+
+    $(".btn_L-1-2").click(function() {
+
+         
+        
+        return false;
+    });
+
+    
     if( valor_hp == "btn_L-1-2" ){
         num_gal = 1;
         num_init = 2;
 
         
+      
         //PARA BOTONES DE SELECCIÓN        
         if (LanguageON == "ESP"){
             $(".btn_glosario").addClass("btn_glosario_on");
@@ -181,7 +197,7 @@ $(".open_popUp").click(function() {
 
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_glosario").fadeIn();
+        $(".titulo_glosario").show();
         
     }
 
@@ -213,7 +229,7 @@ $(".open_popUp").click(function() {
 
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_referencias").fadeIn();
+        $(".titulo_referencias").show();
         
         
     }
@@ -246,7 +262,7 @@ $(".open_popUp").click(function() {
         
         //PARA TIULOS SECCIONES       
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_creditos").fadeIn();
+        $(".titulo_creditos").show();
     }
 
     // para mostrar el btn de prev
@@ -273,6 +289,13 @@ $(".open_popUp").click(function() {
 
 
 $(".btn_next").click(function() {
+
+
+    /*$(".seccion-m-2").animate({ scrollTop: ".seccion-m-2"}, 200);
+    $(".seccion-m-3").animate({ scrollTop: ".seccion-m-3"}, 200);
+    $(".seccion-m-4").animate({ scrollTop: ".seccion-m-4"}, 200);*/
+
+
      if (num_init == 3){
         $(".btn_next").hide();
      }
@@ -414,6 +437,14 @@ $(".btn_next").click(function() {
 });
 
 $(".btn_prev").click(function() {
+
+
+
+
+
+    /*$(".seccion-m-2").animate({ scrollTop: ".seccion-m-2"}, 200);
+    $(".seccion-m-3").animate({ scrollTop: ".seccion-m-3"}, 200);
+    $(".seccion-m-4").animate({ scrollTop: ".seccion-m-4"}, 200);*/
 
     if (num_init == 2){
         $(".btn_prev").hide();

@@ -207,7 +207,7 @@ $(".btn_hotspots-LG").click(function() {
 
     //Bloque imagenes N. 2    
     if( valor_hp == "btn_L-2-1_HP" ){
-        num_gal_HP = 1;
+        num_gal_HP = 2;
         num_init_HP = 1;
         num_total_HP = 2; 
     }
