@@ -486,7 +486,7 @@ var obj_gabinete_Deta_ENG = {
 		galeria_naturaleza: [
 		{
 			img_01: "GBF_12_n01_EN.png",
-			img_02: "GBF_12_n02_EN.png",
+			//img_02: "GBF_12_n02_EN.png",borrada por lupe
 		}
 		],
 		galeria_documentos: [
