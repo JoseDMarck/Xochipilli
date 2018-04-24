@@ -147,7 +147,7 @@ $(".open_popUp").click(function() {
 
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_conservacion").fadeIn();
+        $(".titulo_conservacion").show();
 
 
     }
@@ -181,7 +181,7 @@ $(".open_popUp").click(function() {
 
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_glosario").fadeIn();
+        $(".titulo_glosario").show();
         
     }
 
@@ -213,7 +213,7 @@ $(".open_popUp").click(function() {
 
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_referencias").fadeIn();
+        $(".titulo_referencias").show();
         
         
     }
@@ -246,7 +246,7 @@ $(".open_popUp").click(function() {
         
         //PARA TIULOS SECCIONES       
         $(".btn_titulo_Seccion").hide();
-        $(".titulo_creditos").fadeIn();
+        $(".titulo_creditos").show();
     }
 
     // para mostrar el btn de prev
