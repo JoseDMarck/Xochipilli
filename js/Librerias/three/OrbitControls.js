@@ -371,6 +371,10 @@ THREE.OrbitControls = function ( object, domElement ) {
 	// deltaX and deltaY are in pixels; right and down are positive
 	var pan = function () {
 
+			
+
+
+
 		var offset = new THREE.Vector3();
 
 		return function pan( deltaX, deltaY ) {
@@ -415,6 +419,8 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	function dollyIn( dollyScale ) {
 		console.log("DollYIN****", dollyScale);
+
+
 		if ( scope.object instanceof THREE.PerspectiveCamera ) {
 
 			scale /= dollyScale;
@@ -487,7 +493,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	function handleMouseMoveRotate( event ) {
 
-		//console.log( 'handleMouseMoveRotate' );
+		console.log( 'handleMouseMoveRotate' );
 
 		rotateEnd.set( event.clientX, event.clientY );
 		rotateDelta.subVectors( rotateEnd, rotateStart );
@@ -507,6 +513,10 @@ THREE.OrbitControls = function ( object, domElement ) {
 	}
 
 	function handleMouseMoveDolly( event ) {
+
+
+
+		
 
 		//console.log( 'handleMouseMoveDolly' );
 
@@ -601,9 +611,14 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	}
 
+
+
 	function handleTouchStartRotate( event ) {
 
 		//console.log( 'handleTouchStartRotate' );
+
+		console.log("touch!");
+		StopScreenTempo();
 
 		rotateStart.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );
 
@@ -683,6 +698,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	function handleTouchMovePan( event ) {
 
 		//console.log( 'handleTouchMovePan' );
+		
 
 		panEnd.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );
 
@@ -707,6 +723,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	//
 
 	function onMouseDown( event ) {
+		
 
 		if ( scope.enabled === false ) return;
 
@@ -770,6 +787,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 				if ( scope.enableRotate === false ) return;
 
 				handleMouseMoveRotate( event );
+				
 
 				break;
 

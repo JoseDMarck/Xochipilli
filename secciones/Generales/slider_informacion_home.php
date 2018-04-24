@@ -34,7 +34,7 @@
 
 
 			<!-- GLOSARIO ============================================ -->            
-			<div class="Textos seccion-m-2 flexcroll">
+			<div  class="Textos seccion-m-2 flexcroll">
 
                     <div class="Bloque-Glosario Bloque-Glosario-A">
                         
