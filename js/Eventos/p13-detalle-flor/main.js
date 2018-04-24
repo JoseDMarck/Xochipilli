@@ -150,7 +150,7 @@ if(id_flor == 3 ){
     pos_na_end = 1;
 
     pos_do_init = 2;
-    pos_do_end = 7;
+    pos_do_end = 9;
 
     if(LanguageON == "ESP"){
         $(".ficha").addClass("ficha_4_ESP");
