@@ -34,7 +34,8 @@ $(".btn_referencias").addClass("btn_referencias_ENG");
 $(".btn_creditos").addClass("btn_creditos_ENG");
 
 
-$(".ayuda-image").addClass("ayuda-image_ENG");
+$(".ayuda-image").addClass("ayuda-image-florido_ENG");
+
 $(".btn_ayuda_General").addClass("btn_ayuda_General_ENG");
 $(".btn_back").addClass("btn_back_ENG");
 $(".btn_inicio_General").addClass("btn_inicio_General_ENG");
@@ -44,6 +45,8 @@ $(".btn_close_HP").addClass("btn_close_HP_ENG");
 $(".titulo_Atavio_Florido").addClass("titulo_Atavio_Florido_ENG");
 
 $(".btn_go_to_gabinete").addClass("btn_go_to_gabinete_ENG");
+
+
 }
 
 if (LanguageON == "NAH"){
@@ -60,7 +63,7 @@ document.getElementById("descripcion").innerHTML = obj_atavios_floridos_NAH.desc
     $(".btn_referencias").addClass("btn_referencias_NAH");
     $(".btn_creditos").addClass("btn_creditos_NAH");
 
-    $(".ayuda-image").addClass("ayuda-image_NAH_");
+    $(".ayuda-image").addClass("ayuda-image-florido_NAH");
     $(".btn_ayuda_General").addClass("btn_ayuda_General_NAH");
     $(".btn_back").addClass("btn_back_NAH");
     $(".btn_inicio_General").addClass("btn_inicio_General_NAH");
