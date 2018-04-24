@@ -29,12 +29,12 @@ $(".btn_close").click(function() {
 
     $(".btn_idioma_es").fadeIn();
     $(".btn_idioma_en").fadeIn();
-    $(".btn_idioma_na").fadeIn();
+    //$(".btn_idioma_na").fadeIn();
     $(".btn_ayuda").fadeIn();
 
     $(".btn_idioma_es_General").fadeIn();
     $(".btn_idioma_en_General").fadeIn();
-    $(".btn_idioma_na_General").fadeIn();
+    //$(".btn_idioma_na_General").fadeIn();
     $(".btn_ayuda_General").fadeIn();
     $(".btn_inicio_General").fadeIn();    
     $(".btn_back").fadeIn();
@@ -104,12 +104,12 @@ $(".open_popUp").click(function() {
 
     $(".btn_idioma_es").fadeOut();
     $(".btn_idioma_en").fadeOut();
-    $(".btn_idioma_na").fadeOut();
+    //$(".btn_idioma_na").fadeOut();
     $(".btn_ayuda").fadeOut();
 
     $(".btn_idioma_es_General").fadeOut();
     $(".btn_idioma_en_General").fadeOut();
-    $(".btn_idioma_na_General").fadeOut();
+    //$(".btn_idioma_na_General").fadeOut();
     $(".btn_ayuda_General").fadeOut();
     $(".btn_inicio_General").fadeOut();
     $(".btn_back").fadeOut();

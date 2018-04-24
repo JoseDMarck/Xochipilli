@@ -1557,7 +1557,8 @@ body{
 	position: absolute;
 	bottom: 80px;
 	right: 80px; 
-	z-index: 100;	
+	z-index: 100;
+	display: none;	
 }
 
 .btn_idioma_na_on_General{
@@ -1569,6 +1570,8 @@ body{
 	bottom: 80px;
 	right: 80px; 
 	z-index: 100;	
+	display: none;	
+	
 }
 
 
@@ -1578,7 +1581,8 @@ body{
 	background: url("../images/p02-Home/en_off.png");
 	background-size: 150px 28px;
 	position: absolute;
-	bottom: 30px;
+	/*bottom: 30px;*/
+	bottom: 80px;
 	right: 80px; 
 	z-index: 100;	
 }
@@ -1589,7 +1593,8 @@ body{
 	background: url("../images/p02-Home/en_on.png");
 	background-size: 150px 28px;
 	position: absolute;
-	bottom: 30px;
+	/*bottom: 30px;*/
+	bottom: 80px;
 	right: 80px; 
 	z-index: 100;
 }
