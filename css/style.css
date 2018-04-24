@@ -5448,9 +5448,9 @@ LUPE - Hotspots cordenadas - sección 5
 
 .detalle-flor-Seccion > .overlay_up_detalle{
 	width: 959px;
-	height: 146px;
+	height: 161px;
 	background: url("../images/Generales/overlay_up.png");
-	background-size: 959px 146px;
+	background-size: 959px 161px;
     position: absolute;
     top: 0px;
     left: 962px;
@@ -5460,11 +5460,11 @@ LUPE - Hotspots cordenadas - sección 5
 
 .detalle-flor-Seccion > .overlay_down_detalle{
 	width: 959px;
-	height: 119px;
+	height: 138px;
 	background: url("../images/Generales/overlay_down.png");
-	background-size: 959px 119px;
+	background-size: 959px 138px;
     position: absolute;
-	top: 777px;
+	top: 762px;
     left: 962px;
     z-index: 9;
 }
@@ -5934,14 +5934,14 @@ LUPE - Hotspots cordenadas - sección 5
 	height: 536px;
 	position: absolute;
 	margin: 0 auto;
-	top: 262px;
-	left: 1124px;
+	top: 270px;
+	left: 1125px;
 }
 
  
 .detalle-flor-Seccion > .Contenedor > .descripcion{
 	width: 100%;
-	height: 500px;
+	height: 536px;
 	font-family: "Gotham-Light";
 	font-size: 28px;
 	line-height: 40px;
