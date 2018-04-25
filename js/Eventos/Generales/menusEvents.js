@@ -14,14 +14,23 @@ $( document ).ready(function() {
  });
 
  
+function scroll_1() {
+   
+    
+}
 
+function scroll_2() {
+    $(".seccion-m-3").scrollTop( 0 );
+    
+}
 
 $(".btn_close").click(function() {
     
-    $(".seccion-m-2").animate({ scrollTop: ".seccion-m-2"}, 200);
-    $(".seccion-m-3").animate({ scrollTop: ".seccion-m-3"}, 200);
-    $(".seccion-m-4").animate({ scrollTop: ".seccion-m-4"}, 200);
-    
+    //$(".seccion-m-2").animate({ scrollTop: ".seccion-m-2"}, 200);
+    //$(".seccion-m-3").animate({ scrollTop: ".seccion-m-3"}, 200);
+    //$(".seccion-m-4").animate({ scrollTop: ".seccion-m-4"}, 200);
+
+
 
     $(".PopUpSlider").fadeOut();
     
@@ -67,11 +76,14 @@ $(".btn_close").click(function() {
       
     }
 
-    
-
     $(".btn_ayuda").show();
     $(".btn_ayuda-m").hide();
+
+    $(".seccion-m-2").scrollTop( 0 );
+    $(".seccion-m-3").scrollTop( 0 );
+    $(".seccion-m-4").scrollTop( 0 );  
     
+
 });
 
 
@@ -99,6 +111,7 @@ $(".btn_up").click(function() {
 
 $(".open_popUp").click(function() {
   
+    
   valor_hp = $(this).attr('class').split(' ')[1];
     console.log(valor_hp);
 
@@ -171,8 +184,9 @@ $(".open_popUp").click(function() {
         num_gal = 1;
         num_init = 2;
 
-        
+       
       
+
         //PARA BOTONES DE SELECCIÓN        
         if (LanguageON == "ESP"){
             $(".btn_glosario").addClass("btn_glosario_on");
@@ -198,12 +212,15 @@ $(".open_popUp").click(function() {
         //PARA TIULOS SECCIONES               
         $(".btn_titulo_Seccion").hide();
         $(".titulo_glosario").show();
+       
         
     }
 
     if( valor_hp == "btn_L-1-3" ){
         num_gal = 1;
         num_init = 3;
+
+        
 
         //PARA BOTONES DE SELECCIÓN  
         if (LanguageON == "ESP"){      
@@ -284,6 +301,11 @@ $(".open_popUp").click(function() {
       $(".Textos").hide();
       $(".PopUpSlider").fadeIn();
       $(".seccion-m-"+num_init).fadeIn();
+
+      $(".seccion-m-2").scrollTop( 0 );
+      $(".seccion-m-3").scrollTop( 0 );
+      $(".seccion-m-4").scrollTop( 0 );
+      
 
 });
 
@@ -427,9 +449,10 @@ $(".btn_next").click(function() {
             }    
         } // 4
 
-        $(".seccion-m-"+num_init).fadeIn();
-
-    
+        $(".seccion-m-"+num_init).fadeIn(); 
+        $(".seccion-m-2").scrollTop( 0 );
+        $(".seccion-m-3").scrollTop( 0 );
+        $(".seccion-m-4").scrollTop( 0 );    
         
 
        
@@ -569,6 +592,10 @@ $(".btn_prev").click(function() {
         }
 
         $(".seccion-m-"+num_init).fadeIn();
+        $(".seccion-m-2").scrollTop( 0 );
+        $(".seccion-m-3").scrollTop( 0 );
+        $(".seccion-m-4").scrollTop( 0 );    
+        
 
         $(".btn_next").show();
     }
