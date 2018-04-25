@@ -82,7 +82,7 @@
 					<div class="repres_img_7 gal_img_G gal_img_G_7 gal_img_G"></div>
 						
 					
-					<div class="full_btn"></div>
+					<!--<div class="full_btn"></div>-->
 				</div><!-- ContendorGaleria -->
 
 
