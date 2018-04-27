@@ -986,7 +986,7 @@ body{
 	position: absolute;
 	top: 80px;
 	right: 80px; 
-	display: none;
+
 }
 
 .home-Seccion > .Background > .menuBarra > .btn_idioma_na_on{
@@ -997,7 +997,6 @@ body{
 	position: absolute;
 	top: 80px;
 	right: 80px; 
-	display: none;
 	
 }
 
@@ -1008,8 +1007,7 @@ body{
 	background: url("../images/p02-Home/en_off.png");
 	background-size: 150px 28px;
 	position: absolute;
-	/*top: 130px;*/
-	top:80px;
+	top: 130px;
 	right: 80px; 
 }
 
@@ -1019,7 +1017,7 @@ body{
 	background: url("../images/p02-Home/en_on.png");
 	background-size: 150px 28px;
 	position: absolute;
-	top:80px;	
+	top: 130px;
 	right: 80px; 
 }
 
@@ -1557,8 +1555,7 @@ body{
 	position: absolute;
 	bottom: 80px;
 	right: 80px; 
-	z-index: 100;
-	display: none;	
+	z-index: 100;	
 }
 
 .btn_idioma_na_on_General{
@@ -1570,7 +1567,6 @@ body{
 	bottom: 80px;
 	right: 80px; 
 	z-index: 100;	
-	display: none;	
 	
 }
 
@@ -1581,8 +1577,7 @@ body{
 	background: url("../images/p02-Home/en_off.png");
 	background-size: 150px 28px;
 	position: absolute;
-	/*bottom: 30px;*/
-	bottom: 80px;
+	bottom: 30px;
 	right: 80px; 
 	z-index: 100;	
 }
@@ -1593,8 +1588,7 @@ body{
 	background: url("../images/p02-Home/en_on.png");
 	background-size: 150px 28px;
 	position: absolute;
-	/*bottom: 30px;*/
-	bottom: 80px;
+	bottom: 30px;
 	right: 80px; 
 	z-index: 100;
 }
