@@ -86,9 +86,22 @@ $(".btn_inicio_General").addClass("btn_inicio_General_NAH");
 
 $(".titulo").addClass("titulo_NAH");
 $(".ayuda-image").addClass("ayuda-image_NAH");
-
-
+// código insertado por lupe - 30 de abril
+$(".imagen_1_es").addClass("imagen_1_na");
+$(".imagen_2_es").addClass("imagen_2_na");
+$(".imagen_3_es").addClass("imagen_3_na");
+$(".imagen_4_es").addClass("imagen_4_na");
+$(".imagen_5_es").addClass("imagen_5_na");
+$(".imagen_6_es").addClass("imagen_6_na");
+$(".imagen_7_es").addClass("imagen_7_na");
+$(".imagen_8_es").addClass("imagen_8_na");
+$(".imagen_9_es").addClass("imagen_9_na");
+$(".imagen_10_es").addClass("imagen_10_na");
+$(".imagen_11_es").addClass("imagen_11_na");
+$(".imagen_12_es").addClass("imagen_12_na");
+$(".imagen_13_es").addClass("imagen_13_na");
  
+// termina código insertado por lupe - 30 de abril
 
 
 } // END NAH
