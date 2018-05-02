@@ -23,6 +23,6 @@ var obj_ENG_Obra = {
 
 var obj_NAH_Obra = {
     titulo: "Xoch",
-    descripcion: "",
+    descripcion: "<p>texto en nahuatl pendiente</p><p>2 de mayo</p>",
     
 };

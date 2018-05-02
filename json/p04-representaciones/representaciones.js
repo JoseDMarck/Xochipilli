@@ -21,6 +21,6 @@ var obj_ENG_Repre = {
 
 var obj_NAH_Repre = {
     titulo: "Xoch",
-    descripcion: "",
+    descripcion: "<p>Texto pendiente</p><p>2 de mayo</p>",
     
 };
