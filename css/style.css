@@ -3952,9 +3952,9 @@ LUPE - Hotspots cordenadas - sección 5
 
 .overlay_menus_up{
 	width: 1300px;
-	height: 164px;
+	height: 190px;
 	background: url("../images/Generales/overlay_up_con_glos_ref_cred.png");
-	background-size: 1300px 164px; 
+	background-size: 1300px 190px; 
 	position: absolute;
 	left: 310px;
     top: 0px;

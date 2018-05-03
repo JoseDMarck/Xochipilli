@@ -20,7 +20,7 @@ var obj_ENG_Repre = {
 // IDIOMA NAH
 
 var obj_NAH_Repre = {
-    titulo: "Xoch",
-    descripcion: "<p>Texto pendiente</p><p>2 de mayo</p>",
+    titulo: "Occe in tlamatli in tlaixiptlatia",
+    descripcion: "<p>Zan in tlacuicuiliztli quipiya inin in tlacotonyotl ihuan in cualli tlamantli. Yehuatl catca in iteixiptlatiliz in teotl in oquima in cecen tlacatl.</p><p>Ompa in huitztlampa in Mexico oquimotlatlauhtili in tlaca in Xochipilli in inteouh in atoctli ihuan in xochime.</p><p>Iniuh ochihualo in Xochipilli inic in chalca ihuan inin teittitia in miec in xochime ihuan ome in tlamantli in centlalia inic in tonalteotl occe in teotl in nemi in tlalpan. Ome tenemitia in teotl.</p><p>Occe in teixiptlatiliztli in teittitia miec in tlanextiliztli ihuan occe cualli tlamantli huel iniuhqui inteohuan in mexica.</p><p>Tla quinequia in quimati in tlacuicuiliztli in quixmatiz in mochi in itlamanhuan in tlacatl ihuan in miec in teixiptlatiliztli.</p>",
     
 };

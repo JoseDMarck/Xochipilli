@@ -22,7 +22,7 @@ var obj_ENG_Obra = {
 // IDIOMA NAH
 
 var obj_NAH_Obra = {
-    titulo: "Xoch",
-    descripcion: "<p>texto en nahuatl pendiente</p><p>2 de mayo</p>",
+    titulo: "In tequitl",
+    descripcion: "<p>Nican in yehuatl in ic ey in teixiptlatiliztli, in itoca \"centetl, centlacayotl\" teittitia in Xochipilli, intecu in xochime, inin huel iniuhqui in huel cualli in tlacuicuiliztli in ochihualo in mexica. Inin teittitia mochi in incuallachihualiz in mexica ihuan in miec mani in altepetl in nenque ica in mexica.</p><p>Ompa in huitztlan in Xochipilli in chihualo inic in chalca, incahuiuh in huehuetin tlatoque in Tenochtitlan (1250-1521 in xihuitl).</p><p>Ochihualo in tlacuicuiliztli ica itezon in huey tepetl, yehuatl catca in itzintlan in  Iztaccihuatl in tepetl. In macuilpohualxiuhtiliztli itoca XIX ompa otlatoca, nican yehuatl itoca in Estado de Mexico. In Museo Nacional de Antropología oquiquixti in tlacuicuiliztli in 1882 in xihuitl icuac Alfredo Chavero oquimmaca in itlacahuan in Museo.</p><p>Inin in tlacuicuiliztli teittitia in miec in tlanextiliztli ihuan in cuallachihualiztli inic quimotlatlauhtilia in chalca in Xochipilli in ochihualo in inaltepeuh in chalca. In teotl catca iteouh in atoctli ihuan in xochime.</p><p>Tla quitta in miec tlacotonyotl quinextiaz in huel itic quinemitia ipampa in Xochipilli in teotl ihuan in miec teixiptlatiliztli in oquipix in mexica.</p>",
     
 };
