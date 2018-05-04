@@ -1856,10 +1856,10 @@ body{
 
 
 .imagen_texto_creditos{
-	width: 991px;
-	height: 3960px;
+	width: 992px;
+	height: 4555px;
 	background: url("../images/p02-Home/slider/texto_creditos.png") !important;
-	background-size: 991px 3960px;
+	background-size: 992px 4555px;
 	position: relative;
 	left: 7px;
 	margin: 0 auto;
