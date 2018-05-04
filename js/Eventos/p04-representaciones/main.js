@@ -26,6 +26,18 @@ var urlParams;
 
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
+helpHomeStatus = urlParams["helpHomeStatus"];
+helpObraStatus = urlParams["helpObraStatus"];
+helpRepreStatus = urlParams["helpRepreStatus"];
+helpInterStatus = urlParams["helpInterStatus"];
+helpInterp07Status = urlParams["helpInterp07Status"];
+helpInterp08Status = urlParams["helpInterp08Status"];
+helpInterp09Status = urlParams["helpInterp09Status"];
+helpInterp10Status = urlParams["helpInterp10Status"];
+helpInterp11Status = urlParams["helpInterp11Status"];
+helpGabiStatus = urlParams["helpGabiStatus"];
+helpDetalleStatus = urlParams["helpDetalleStatus"];
+
 
 
 //PARA RECUPERAR GALERIA EN VALORES
@@ -97,11 +109,33 @@ var GotoObra = function () {
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus+
+    '&helpObraStatus='+helpObraStatus+
+    '&helpRepreStatus=1'+
+    '&helpInterStatus='+helpInterStatus+
+    '&helpInterp07Status='+helpInterp07Status+
+    '&helpInterp08Status='+helpInterp08Status+
+    '&helpInterp09Status='+helpInterp09Status+
+    '&helpInterp10Status='+helpInterp10Status+
+    '&helpInterp11Status='+helpInterp11Status+
+    '&helpGabiStatus='+helpGabiStatus+
+    '&helpDetalleStatus='+helpDetalleStatus
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus+
+    '&helpObraStatus='+helpObraStatus+
+    '&helpRepreStatus=1'+
+    '&helpInterStatus='+helpInterStatus+
+    '&helpInterp07Status='+helpInterp07Status+
+    '&helpInterp08Status='+helpInterp08Status+
+    '&helpInterp09Status='+helpInterp09Status+
+    '&helpInterp10Status='+helpInterp10Status+
+    '&helpInterp11Status='+helpInterp11Status+
+    '&helpGabiStatus='+helpGabiStatus+
+    '&helpDetalleStatus='+helpDetalleStatus
 };
 
 var GotoRepresentaciones  = function () { 
@@ -121,18 +155,51 @@ var opensem = function () {
 
 var Change_idioma_ESP = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ESP'+'&curImg='+num_init_G;
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ESP'+'&curImg='+num_init_G+
+    '&helpHomeStatus='+helpHomeStatus+
+    '&helpObraStatus='+helpObraStatus+
+    '&helpRepreStatus=1'+
+    '&helpInterStatus='+helpInterStatus+
+    '&helpInterp07Status='+helpInterp07Status+
+    '&helpInterp08Status='+helpInterp08Status+
+    '&helpInterp09Status='+helpInterp09Status+
+    '&helpInterp10Status='+helpInterp10Status+
+    '&helpInterp11Status='+helpInterp11Status+
+    '&helpGabiStatus='+helpGabiStatus+
+    '&helpDetalleStatus='+helpDetalleStatus
 };
 
 
 var Change_idioma_ENG = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ENG'+'&curImg='+num_init_G;
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'ENG'+'&curImg='+num_init_G+
+    '&helpHomeStatus='+helpHomeStatus+
+    '&helpObraStatus='+helpObraStatus+
+    '&helpRepreStatus=1'+
+    '&helpInterStatus='+helpInterStatus+
+    '&helpInterp07Status='+helpInterp07Status+
+    '&helpInterp08Status='+helpInterp08Status+
+    '&helpInterp09Status='+helpInterp09Status+
+    '&helpInterp10Status='+helpInterp10Status+
+    '&helpInterp11Status='+helpInterp11Status+
+    '&helpGabiStatus='+helpGabiStatus+
+    '&helpDetalleStatus='+helpDetalleStatus
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
-    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'NAH'+'&curImg='+num_init_G;
+    window.location.href = '../../secciones/p04-representaciones/index.php'+'?idioma='+'NAH'+'&curImg='+num_init_G+
+    '&helpHomeStatus='+helpHomeStatus+
+    '&helpObraStatus='+helpObraStatus+
+    '&helpRepreStatus=1'+
+    '&helpInterStatus='+helpInterStatus+
+    '&helpInterp07Status='+helpInterp07Status+
+    '&helpInterp08Status='+helpInterp08Status+
+    '&helpInterp09Status='+helpInterp09Status+
+    '&helpInterp10Status='+helpInterp10Status+
+    '&helpInterp11Status='+helpInterp11Status+
+    '&helpGabiStatus='+helpGabiStatus+
+    '&helpDetalleStatus='+helpDetalleStatus
 };
 
 
@@ -172,23 +239,23 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
      // Para efecto de ayuda
+     if(helpRepreStatus != 1){
+        TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,  ease: Circ.easeOut, onComplete: 
+            close = function(){
 
-    TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,  ease: Circ.easeOut, onComplete: 
-        close = function(){
+                CloseAyudaOnInitEvent = setTimeout(function(){ 
+                    TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20,  ease: Circ.easeOut})
+                }, 8000);
 
-            CloseAyudaOnInitEvent = setTimeout(function(){ 
-                TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20,  ease: Circ.easeOut})
-            }, 8000);
+            }   
+        })
+    }
 
 
-            $(".ayuda-image").click(function() {
-                TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20, ease: Circ.easeOut});    
-                clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
-            });
-            
-        }   
-    })
-
+    $(".ayuda-image").click(function() {
+        TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20, ease: Circ.easeOut});    
+        clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+    });
 
 };
 
