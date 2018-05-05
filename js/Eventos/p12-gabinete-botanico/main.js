@@ -29,6 +29,8 @@ var urlParams;
 
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
+helpHomeStatus = urlParams["helpHomeStatus"];
+
 
 
 if (LanguageON != "" ){
@@ -61,10 +63,12 @@ if (LanguageON != "" ){
         
         if(urlParams["back"] != null ){
             location.reload();
-            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP'+'&back=' + "florido";
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP'+'&back=' + "florido"+
+            '&helpHomeStatus='+helpHomeStatus;
         }else{
             location.reload();
-            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP';
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ESP'+
+            '&helpHomeStatus='+helpHomeStatus;
         }
         
        
@@ -76,10 +80,12 @@ if (LanguageON != "" ){
 
         if(urlParams["back"] != null ){
             location.reload();
-            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG'+'&back=' + "florido";
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG'+'&back=' + "florido"+
+            '&helpHomeStatus='+helpHomeStatus
         }else{
             location.reload();
-            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG';
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'ENG'+
+            '&helpHomeStatus='+helpHomeStatus
         }
 
 
@@ -90,10 +96,12 @@ if (LanguageON != "" ){
 
         if(urlParams["back"] != null ){
             location.reload();
-            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH'+'&back=' + "florido";
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH'+'&back=' + "florido"+
+            '&helpHomeStatus='+helpHomeStatus
         }else{
             location.reload();
-            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH';
+            window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+'NAH'+
+            '&helpHomeStatus='+helpHomeStatus
         }
     };
     
@@ -120,20 +128,24 @@ if (LanguageON != "" ){
 
 
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.php';
+    window.location.href = '../../secciones/p03-obra/index.php'+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 var GotoBack = function () {
 
 if(urlParams["back"] != null ){
-    window.location.href = '../../secciones/p11-atavio-florido/index.php' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p11-atavio-florido/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 }else{
-    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 }
 
 
@@ -151,7 +163,8 @@ var GotoDetalleFlor = function(){
         '&num_na='+ num_na +
         '&num_do='+ num_do +
         '&total_g=' + total_g+
-        '&back=' + "florido";
+        '&back=' + "florido"+
+        '&helpHomeStatus='+helpHomeStatus
 
 
     }else{
@@ -161,7 +174,8 @@ var GotoDetalleFlor = function(){
         '&num_xo='+ num_xo +
         '&num_na='+ num_na +
         '&num_do='+ num_do +
-        '&total_g=' + total_g
+        '&total_g=' + total_g+
+        '&helpHomeStatus='+helpHomeStatus
     }
 
 
@@ -218,23 +232,20 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
      // Para efecto de ayuda
-     TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,   ease: Circ.easeOut, onComplete: 
+     /*TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,   ease: Circ.easeOut, onComplete: 
         close = function(){
 
             CloseAyudaOnInitEvent = setTimeout(function(){ 
                 TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, ease: Circ.easeOut})
             }, 8000);
-
-
-
-        $(".ayuda-image").click(function() {
-                TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20, ease: Circ.easeOut});    
-                clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
-        });
-
-            
         }   
-    })
+    }) */
+
+
+    $(".ayuda-image").click(function() {
+        TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20, ease: Circ.easeOut});    
+        //clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+    });
 
 
 };

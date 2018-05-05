@@ -26,6 +26,7 @@ var urlParams;
 
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
+helpHomeStatus = urlParams["helpHomeStatus"];
 
  
 if (LanguageON != "" ){
@@ -53,21 +54,25 @@ if (LanguageON != "" ){
 
 // EVENTOS SELECT IDIOMA ===================
 var GotoObra = function () {
-    window.location.href = '../../secciones/p03-obra/index.php';
+    window.location.href = '../../secciones/p03-obra/index.php'+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus 
 };
 
 
 var GotoInterpretacion = function(){
-    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 }
 
 

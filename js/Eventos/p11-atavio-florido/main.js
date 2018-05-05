@@ -23,6 +23,8 @@ var urlParams;
 
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
+helpHomeStatus = urlParams["helpHomeStatus"];
+
 
 
 
@@ -54,18 +56,21 @@ if (LanguageON != "" ){
 
     var Change_idioma_ESP = function () {
         location.reload();
-        window.location.href = '../../secciones/p11-atavio-florido/index.php'+'?idioma='+'ESP';
+        window.location.href = '../../secciones/p11-atavio-florido/index.php'+'?idioma='+'ESP'+
+        '&helpHomeStatus='+helpHomeStatus
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
-        window.location.href = '../../secciones/p11-atavio-florido/index.php'+'?idioma='+'ENG';
+        window.location.href = '../../secciones/p11-atavio-florido/index.php'+'?idioma='+'ENG'+
+        '&helpHomeStatus='+helpHomeStatus
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
-        window.location.href = '../../secciones/p11-atavio-florido/index.php'+'?idioma='+'NAH';
+        window.location.href = '../../secciones/p11-atavio-florido/index.php'+'?idioma='+'NAH'+
+        '&helpHomeStatus='+helpHomeStatus
     };
     
 
@@ -96,15 +101,18 @@ var GotoObra = function () {
 
 
 var GotoHome = function () {
-    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 var GotoBack = function () {
-    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON;
+    window.location.href = '../../secciones/p05-interpretacion/index.php' +'?idioma='+LanguageON+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 var GotoGabiente = function () {
-    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON+'&back=' + "florido";
+    window.location.href = '../../secciones/p12-gabinete-botanico/index.php' +'?idioma='+LanguageON+'&back=' + "florido"+
+    '&helpHomeStatus='+helpHomeStatus
 };
 
 
@@ -147,21 +155,19 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
      // Para efecto de ayuda
-     TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,  ease: Circ.easeOut, onComplete: 
+     /*TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,  ease: Circ.easeOut, onComplete: 
         close = function(){
 
             CloseAyudaOnInitEvent = setTimeout(function(){ 
                 TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:0, height:0, alpha: 0, x:275, y: -20, ease: Circ.easeOut})
-            }, 8000);
-
-
-        $(".ayuda-image").click(function() {
-            TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20,  ease: Circ.easeOut});    
-            clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
-        });
-            
+            }, 8000);            
         }   
-    })
+    })*/
+
+    $(".ayuda-image").click(function() {
+        TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20,  ease: Circ.easeOut});    
+        //clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+    });
 
 
 };
