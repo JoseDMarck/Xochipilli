@@ -25,16 +25,6 @@ var urlParams;
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
 helpHomeStatus = urlParams["helpHomeStatus"];
-helpObraStatus = urlParams["helpObraStatus"];
-helpRepreStatus = urlParams["helpRepreStatus"];
-helpInterStatus = urlParams["helpInterStatus"];
-helpInterp07Status = urlParams["helpInterp07Status"];
-helpInterp08Status = urlParams["helpInterp08Status"];
-helpInterp09Status = urlParams["helpInterp09Status"];
-helpInterp10Status = urlParams["helpInterp10Status"];
-helpInterp11Status = urlParams["helpInterp11Status"];
-helpGabiStatus = urlParams["helpGabiStatus"];
-helpDetalleStatus = urlParams["helpDetalleStatus"];
 
 
 if (LanguageON != "" ){
@@ -66,50 +56,20 @@ if (LanguageON != "" ){
     var Change_idioma_ESP = function () {
         location.reload();
         window.location.href = '../../secciones/p05-interpretacion/index.php'+'?idioma='+'ESP'+
-        '&helpHomeStatus='+helpHomeStatus+
-        '&helpObraStatus='+helpObraStatus+
-        '&helpRepreStatus='+helpRepreStatus+
-        '&helpInterStatus=1'+
-        '&helpInterp07Status='+helpInterp07Status+
-        '&helpInterp08Status='+helpInterp08Status+
-        '&helpInterp09Status='+helpInterp09Status+
-        '&helpInterp10Status='+helpInterp10Status+
-        '&helpInterp11Status='+helpInterp11Status+
-        '&helpGabiStatus='+helpGabiStatus+
-        '&helpDetalleStatus='+helpDetalleStatus;
+        '&helpHomeStatus='+helpHomeStatus 
     };
     
     
     var Change_idioma_ENG = function () {
         location.reload();
         window.location.href = '../../secciones/p05-interpretacion/index.php'+'?idioma='+'ENG'+
-        '&helpHomeStatus='+helpHomeStatus+
-        '&helpObraStatus='+helpObraStatus+
-        '&helpRepreStatus='+helpRepreStatus+
-        '&helpInterStatus=1'+
-        '&helpInterp07Status='+helpInterp07Status+
-        '&helpInterp08Status='+helpInterp08Status+
-        '&helpInterp09Status='+helpInterp09Status+
-        '&helpInterp10Status='+helpInterp10Status+
-        '&helpInterp11Status='+helpInterp11Status+
-        '&helpGabiStatus='+helpGabiStatus+
-        '&helpDetalleStatus='+helpDetalleStatus;
+        '&helpHomeStatus='+helpHomeStatus 
     };
     
     var Change_idioma_NAH = function () {
         location.reload();
         window.location.href = '../../secciones/p05-interpretacion/index.php'+'?idioma='+'NAH'+
-        '&helpHomeStatus='+helpHomeStatus+
-        '&helpObraStatus='+helpObraStatus+
-        '&helpRepreStatus='+helpRepreStatus+
-        '&helpInterStatus=1'+
-        '&helpInterp07Status='+helpInterp07Status+
-        '&helpInterp08Status='+helpInterp08Status+
-        '&helpInterp09Status='+helpInterp09Status+
-        '&helpInterp10Status='+helpInterp10Status+
-        '&helpInterp11Status='+helpInterp11Status+
-        '&helpGabiStatus='+helpGabiStatus+
-        '&helpDetalleStatus='+helpDetalleStatus;
+        '&helpHomeStatus='+helpHomeStatus 
     };
     
 
@@ -143,123 +103,43 @@ var GotoObra = function () {
 
 var GotoHome = function () {
     window.location.href = '../../secciones/p02-home/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 };
 
 var GotoBack = function () {
     window.location.href = '../../secciones/p03-obra/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 };
 
 var GotoSeniorFlores = function(){
     window.location.href = '../../secciones/p07-senior-flores/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 }
 
 var GotoPedestal = function(){
     window.location.href = '../../secciones/p08-pedestal/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 }
 
 var GotoAtavios_sol = function () {
     window.location.href = '../../secciones/p09-atavios-sol/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 };
 
 var GotoAtavios_tierra = function () {
     window.location.href = '../../secciones/p10-atavios-de-tierra/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 };
 
 var GotoAtavios_florido = function () {
     window.location.href = '../../secciones/p11-atavio-florido/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 };
  
 
 var Goto360 = function () {
     window.location.href = '../../secciones/p14-360/index.php' +'?idioma='+LanguageON+
-    '&helpHomeStatus='+helpHomeStatus+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus=1'+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus;
+    '&helpHomeStatus='+helpHomeStatus 
 };
  
 
@@ -323,7 +203,7 @@ var InitScreen = function () {
     TweenMax.to("body", 3, {alpha:1});
 
      // Para efecto de ayuda
-     if(helpInterStatus != 1){
+     /*if(helpInterStatus != 1){
         TweenMax.to(".ayuda-image", 0.8, {alpha: 1, width:1920, height:1080, alpha: 1, x:0, y:0,  ease: Circ.easeOut, onComplete: 
             close = function(){
 
@@ -333,12 +213,12 @@ var InitScreen = function () {
                 
             }   
         })
-    }
+    }*/
 
 
     $(".ayuda-image").click(function() {
         TweenMax.to(".ayuda-image", 0.8  , {alpha: 1, width:0, height:0, x:275, y: -20,   ease: Circ.easeOut});    
-        clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+        //clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
     });
 };
 

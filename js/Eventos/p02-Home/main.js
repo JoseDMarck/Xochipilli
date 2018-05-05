@@ -24,16 +24,6 @@ var urlParams;
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
 helpHomeStatus = urlParams["helpHomeStatus"];
-helpObraStatus = urlParams["helpObraStatus"];
-helpRepreStatus = urlParams["helpRepreStatus"];
-helpInterStatus = urlParams["helpInterStatus"];
-helpInterp07Status = urlParams["helpInterp07Status"];
-helpInterp08Status = urlParams["helpInterp08Status"];
-helpInterp09Status = urlParams["helpInterp09Status"];
-helpInterp10Status = urlParams["helpInterp10Status"];
-helpInterp11Status = urlParams["helpInterp11Status"];
-helpGabiStatus = urlParams["helpGabiStatus"];
-helpDetalleStatus = urlParams["helpDetalleStatus"];
 
 
 
@@ -73,49 +63,19 @@ if (LanguageON != "" ){
 
 var GotoObra = function () {
     window.location.href = '../../secciones/p03-obra/index.php'+'?idioma='+LanguageON+
-    '&helpHomeStatus=1'+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus='+helpInterStatus+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus
+    '&helpHomeStatus=1'
 
 };
 
 var GotoInterpretacion = function () {
     window.location.href = '../../secciones/p05-interpretacion/index.php'+'?idioma='+LanguageON+
-    '&helpHomeStatus=1'+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus='+helpInterStatus+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus
+    '&helpHomeStatus=1' 
 };
 
 
 var GotoGabineteBotanico = function () {
     window.location.href = '../../secciones/p12-gabinete-botanico/index.php'+'?idioma='+LanguageON+
-    '&helpHomeStatus=1'+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus='+helpInterStatus+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus
+    '&helpHomeStatus=1'
 };
 
 var GotoHome = function () {
@@ -130,17 +90,7 @@ var GotoBack = function () {
 var Change_idioma_ESP = function () {
     location.reload();
     window.location.href = '../../secciones/p02-home/index.php'+'?idioma='+'ESP'+
-    '&helpHomeStatus=1'+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus='+helpInterStatus+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus
+    '&helpHomeStatus=1'
     
 };
 
@@ -148,34 +98,14 @@ var Change_idioma_ESP = function () {
 var Change_idioma_ENG = function () {
     location.reload();
     window.location.href = '../../secciones/p02-home/index.php'+'?idioma='+'ENG'+
-    '&helpHomeStatus=1'+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus='+helpInterStatus+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus
+    '&helpHomeStatus=1'
     
 };
 
 var Change_idioma_NAH = function () {
     location.reload();
     window.location.href = '../../secciones/p02-home/index.php'+'?idioma='+'NAH'+
-    '&helpHomeStatus=1'+
-    '&helpObraStatus='+helpObraStatus+
-    '&helpRepreStatus='+helpRepreStatus+
-    '&helpInterStatus='+helpInterStatus+
-    '&helpInterp07Status='+helpInterp07Status+
-    '&helpInterp08Status='+helpInterp08Status+
-    '&helpInterp09Status='+helpInterp09Status+
-    '&helpInterp10Status='+helpInterp10Status+
-    '&helpInterp11Status='+helpInterp11Status+
-    '&helpGabiStatus='+helpGabiStatus+
-    '&helpDetalleStatus='+helpDetalleStatus
+    '&helpHomeStatus=1'
     
 };
 

@@ -12,6 +12,11 @@ $('html').on('click', function (e) {
 
 
  
+
+$(this).bind("contextmenu", function(e) {
+	e.preventDefault();
+});
+ 
  
 GotoScreenSaver = function () {
 	TweenMax.to("body", 1, {alpha:0, onComplete: ExitScreen });
