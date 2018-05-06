@@ -11,9 +11,23 @@ if (LanguageON == "ESP"){
 	document.getElementById("descripcion_referencias").innerHTML = obj_Referencias_ESP.descripcion;
 	//document.getElementById("descripcion_creditos").innerHTML = obj_m_ESP.descripcion_creditos;
 
-	document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_ES.pdf" type="application/pdf" width="100%" height="100%"></object>';
+	//document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_ES.pdf" type="application/pdf" width="100%" height="100%"></object>';
 
 
+
+	$(".imagen_pdf_1").addClass("imagen_pdf_1_ESP");
+	$(".imagen_pdf_2").addClass("imagen_pdf_2_ESP");
+	$(".imagen_pdf_3").addClass("imagen_pdf_3_ESP");
+	$(".imagen_pdf_4").addClass("imagen_pdf_4_ESP");
+	$(".imagen_pdf_5").addClass("imagen_pdf_5_ESP");
+	$(".imagen_pdf_6").addClass("imagen_pdf_6_ESP");
+	$(".imagen_pdf_7").addClass("imagen_pdf_7_ESP");
+	$(".imagen_pdf_8").addClass("imagen_pdf_8_ESP");
+	$(".imagen_pdf_9").addClass("imagen_pdf_9_ESP");
+	$(".imagen_pdf_10").addClass("imagen_pdf_10_ESP");
+	$(".imagen_pdf_11").addClass("imagen_pdf_11_ESP");
+	$(".imagen_pdf_12").addClass("imagen_pdf_12_ESP");
+	$(".imagen_pdf_13").addClass("imagen_pdf_13_ESP");
 
 	
 	//GLOSARIO LETRA A  ============================================= 
@@ -255,10 +269,13 @@ if (LanguageON == "ENG"){
 	$(".titulo_referencias").addClass("titulo_referencias_ENG");
 	$(".titulo_creditos").addClass("titulo_creditos_ENG");
 
-	document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_EN.pdf" type="application/pdf" width="100%" height="100%"></object>';
+	//document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_EN.pdf" type="application/pdf" width="100%" height="100%"></object>';
 	
 	
-	
+	$(".imagen_pdf_1").addClass("imagen_pdf_1_ENG");
+	$(".imagen_pdf_2").addClass("imagen_pdf_2_ENG");
+	$(".imagen_pdf_3").addClass("imagen_pdf_3_ENG");
+	$(".imagen_pdf_4").addClass("imagen_pdf_4_ENG");
 	
 	 
 
@@ -509,10 +526,13 @@ if (LanguageON == "NAH"){
 	$(".titulo_referencias").addClass("titulo_referencias_NAH");
 	$(".titulo_creditos").addClass("titulo_creditos_NAH");
 
-	document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_NA.pdf" type="application/pdf" width="100%" height="100%"></object>';
+	//document.getElementById("seccion-m-1").innerHTML = '<object class="testPDF" data="../../images/pdf/pdf_NA.pdf" type="application/pdf" width="100%" height="100%"></object>';
 	
 	
-	
+	$(".imagen_pdf_1").addClass("imagen_pdf_1_NAH");
+	$(".imagen_pdf_2").addClass("imagen_pdf_2_NAH");
+	$(".imagen_pdf_3").addClass("imagen_pdf_3_NAH");
+	$(".imagen_pdf_4").addClass("imagen_pdf_4_NAH");	
 
 
 	document.getElementById("descripcion_referencias").innerHTML = obj_m_NAH.descripcion_referencias;

@@ -19,8 +19,22 @@
 		<div class="btn_next"></div>
 
 		<div class="Seccion-info">
-			<div id="seccion-m-1" class="Textos seccion-m-1 flexcroll" style="background:#525659; height: 621px !important">
-                <div class="BarraBloqueda"></div>
+			<div id="seccion-m-1" class="Textos seccion-m-1 flexcroll" style="background:#FFFFF; height: 621px !important">
+                <!--<div class="BarraBloqueda"></div>-->
+
+                <div class="imgs_pdf imagen_pdf_1"></div>
+                <div class="imgs_pdf imagen_pdf_2"></div>
+                <div class="imgs_pdf imagen_pdf_3"></div>
+                <div class="imgs_pdf imagen_pdf_4"></div>
+                <div class="imgs_pdf imagen_pdf_5"></div>
+                <div class="imgs_pdf imagen_pdf_6"></div>
+                <div class="imgs_pdf imagen_pdf_7"></div>
+                <div class="imgs_pdf imagen_pdf_8"></div>
+                <div class="imgs_pdf imagen_pdf_9"></div>
+                <div class="imgs_pdf imagen_pdf_10"></div>
+                <div class="imgs_pdf imagen_pdf_11"></div>
+                <div class="imgs_pdf imagen_pdf_12"></div>
+                <div class="imgs_pdf imagen_pdf_13"></div>
                
 
 

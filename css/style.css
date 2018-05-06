@@ -1594,8 +1594,6 @@ body{
 }
 
 
- 
-
 
 .menuBarraGeneral > .btn_conservacion{
 	width: 246px;
@@ -6371,6 +6369,208 @@ LUPE - Hotspots cordenadas - sección 5
 	  padding: 0px 10px 0px 10px;
   }
 
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES PARA EL PDF ES
+-------------------------------------------------------- */
+.imgs_pdf{
+	display: none;
+}
+
+.imagen_pdf_1_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_01.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+}
+
+.imagen_pdf_2_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_02.jpg") !important;
+	background-size: 1192px 1687px; 
+	display: block !important;
+	
+}
+
+.imagen_pdf_3_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_03.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_4_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_04.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_5_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_05.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_6_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_06.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_7_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_07.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_8_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_08.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;	 
+}
+
+.imagen_pdf_9_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_09.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+}
+
+.imagen_pdf_10_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_10.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;	
+}
+
+.imagen_pdf_11_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_11.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;	
+}
+
+.imagen_pdf_12_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_12.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;	
+}
+
+.imagen_pdf_13_ESP{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/ES/CONS_ES_13.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;	
+}
+
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES PARA EL PDF ENG
+-------------------------------------------------------- */
+ 
+
+.imagen_pdf_1_ENG{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/EN/CONS_EN_01.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+}
+
+.imagen_pdf_2_ENG{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/EN/CONS_EN_02.jpg") !important;
+	background-size: 1192px 1687px; 
+	display: block !important;
+	
+}
+
+.imagen_pdf_3_ENG{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/EN/CONS_EN_03.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_4_ENG{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/EN/CONS_EN_04.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+
+
+/* --------------------------------------------------------
+/* ---- IMAGENES PARA EL PDF ENG
+-------------------------------------------------------- */
+ 
+
+.imagen_pdf_1_NAH{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/NA/CONS_NA_01.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+}
+
+.imagen_pdf_2_NAH{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/NA/CONS_NA_02.jpg") !important;
+	background-size: 1192px 1687px; 
+	display: block !important;
+	
+}
+
+.imagen_pdf_3_NAH{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/EN/CONS_EN_03.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
+
+.imagen_pdf_4_NAH{
+	width: 1192px;
+	height: 1687px;
+	background: url("../images/Generales/pdf/NA/CONS_NA_04.jpg") !important;
+	background-size: 1192px 1687px;
+	display: block !important;
+	
+}
 
 
 
