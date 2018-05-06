@@ -1,8 +1,10 @@
 $( document ).ready(function() {
    
 
+	TweenMax.to(".btn_ayuda", 3, {alpha:.18,  repeat:-1, yoyo:true});
+	TweenMax.to(".btn_ayuda_General", 3, {alpha:.18,  repeat:-1, yoyo:true});
 
-
+	
 
 if (LanguageON == "ESP"){
 

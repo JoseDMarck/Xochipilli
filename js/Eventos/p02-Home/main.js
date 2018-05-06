@@ -167,6 +167,9 @@ var InitScreen = function () {
                 }, 8000);
 
                 
+                $(".Ayuda").click(function() {
+                    clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
+                });
             }  
         })
     } else{
@@ -177,7 +180,6 @@ var InitScreen = function () {
    
     $(".Ayuda").click(function() {
         TweenMax.to(".Ayuda", 0.8, {alpha: 1, width:0, height:0, x:275, y: -20,    ease: Circ.easeOut});    
-        clearTimeout(CloseAyudaOnInitEvent); // Limpiamos el timer de 5 segundos
         move_screen_buttos();
     });
   

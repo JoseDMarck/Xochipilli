@@ -538,10 +538,10 @@ body{
 }
 
 .home-Seccion > .Background > .menuBarra > .btn_ayuda{
-	width: 135px;
-	height: 28px;
-	background: url("../images/p02-Home/ayuda_button.png");
-	background-size: 135px 28px;
+	width: 220px;
+	height: 35px;
+	background: url("../images/p02-Home/ayuda_button_ES.png");
+	background-size: 220px 35px;
 	position: absolute;
 	bottom: 26px;
 	left: 215px; 
@@ -549,10 +549,10 @@ body{
 }
 
 .home-Seccion > .Background > .menuBarra > .btn_ayuda-ENG{
-	width: 111px !important;
-	height: 28px !important;
+	width: 220px !important;
+	height: 35px !important;
 	background: url("../images/p02-Home/ayuda_button_EN.png") !important;
-	background-size: 111px 28px !important;
+	background-size: 220px 35px !important;
 	position: absolute;
 	bottom: 26px;
 	left: 215px; 
@@ -561,10 +561,10 @@ body{
 
 
 .home-Seccion > .Background > .menuBarra > .btn_ayuda-NAH{
-	width: 213px !important;
-	height: 28px !important;
+	width: 220px !important;
+	height: 35px !important;
 	background: url("../images/p02-Home/ayuda_button_NA.png") !important;
-	background-size: 213px 28px !important;
+	background-size: 220px 35px !important;
 	position: absolute;
 	bottom: 26px;
 	left: 215px; 
@@ -1486,24 +1486,24 @@ body{
 }
 
 .btn_ayuda_General{
-	width: 135px;
-	height: 28px;
-	background: url("../images/p02-Home/ayuda_button.png");
-	background-size: 135px 28px;
+	width: 220px;
+	height: 35px;
+	background: url("../images/p02-Home/ayuda_button_ES.png");
+	background-size: 220px 35px;
 	position: absolute;
-	bottom: 26px;
+	bottom: 23px;
 	left: 215px; 
 	display: block;
 	z-index: 100;
 }
 
 .btn_ayuda_General_ENG{
-	width: 111px;
-	height: 28px;
+	width: 220px;
+	height: 35px;
 	background: url("../images/p02-Home/ayuda_button_EN.png") !important;
-	background-size: 111px 28px;
+	background-size: 220px 35px;
 	position: absolute;
-	bottom: 26px;
+	bottom: 23px;
 	left: 215px; 
 	display: block;
 	z-index: 100;
@@ -1511,12 +1511,12 @@ body{
 
 
 .btn_ayuda_General_NAH{
-	width: 213px;
-	height: 28px;
+	width: 220px;
+	height: 35px;
 	background: url("../images/p02-Home/ayuda_button_NA.png") !important;
-	background-size: 213px 28px;
+	background-size: 220px 35px;
 	position: absolute;
-	bottom: 26px;
+	bottom: 23px;
 	left: 294px; 
 	display: block;
 	z-index: 100;
