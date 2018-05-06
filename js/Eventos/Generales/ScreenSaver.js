@@ -1,5 +1,5 @@
 $( document ).ready(function() { //120000;
-var tiempoScreenSaver = 990000;
+var tiempoScreenSaver = 120000;
 InitScreenTempo = setTimeout(function(){ console.log("Go to ScreenSaver"); GotoScreenSaver(); }, tiempoScreenSaver );
 
 
