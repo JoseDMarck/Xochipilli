@@ -6384,6 +6384,7 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_01.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
 }
 
 .imagen_pdf_2_ESP{
@@ -6392,6 +6393,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_02.jpg") !important;
 	background-size: 1192px 1687px; 
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6401,6 +6404,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_03.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6410,6 +6415,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_04.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6419,6 +6426,7 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_05.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
 	
 }
 
@@ -6428,6 +6436,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_06.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6437,6 +6447,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_07.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6445,7 +6457,9 @@ LUPE - Hotspots cordenadas - sección 5
 	height: 1687px;
 	background: url("../images/Generales/pdf/ES/CONS_ES_08.jpg") !important;
 	background-size: 1192px 1687px;
-	display: block !important;	 
+	display: block !important;	
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_9_ESP{
@@ -6454,6 +6468,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_09.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_10_ESP{
@@ -6461,7 +6477,9 @@ LUPE - Hotspots cordenadas - sección 5
 	height: 1687px;
 	background: url("../images/Generales/pdf/ES/CONS_ES_10.jpg") !important;
 	background-size: 1192px 1687px;
-	display: block !important;	
+	display: block !important;
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_11_ESP{
@@ -6470,6 +6488,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_11.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;	
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_12_ESP{
@@ -6477,7 +6497,9 @@ LUPE - Hotspots cordenadas - sección 5
 	height: 1687px;
 	background: url("../images/Generales/pdf/ES/CONS_ES_12.jpg") !important;
 	background-size: 1192px 1687px;
-	display: block !important;	
+	display: block !important;
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_13_ESP{
@@ -6486,6 +6508,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/ES/CONS_ES_13.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;	
+	margin-bottom: 5px;
+	
 }
 
 
@@ -6501,6 +6525,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/EN/CONS_EN_01.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_2_ENG{
@@ -6509,6 +6535,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/EN/CONS_EN_02.jpg") !important;
 	background-size: 1192px 1687px; 
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6518,6 +6546,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/EN/CONS_EN_03.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6527,13 +6557,15 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/EN/CONS_EN_04.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
 
 
 /* --------------------------------------------------------
-/* ---- IMAGENES PARA EL PDF ENG
+/* ---- IMAGENES PARA EL PDF NAH
 -------------------------------------------------------- */
  
 
@@ -6543,6 +6575,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/NA/CONS_NA_01.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 }
 
 .imagen_pdf_2_NAH{
@@ -6551,6 +6585,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/NA/CONS_NA_02.jpg") !important;
 	background-size: 1192px 1687px; 
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6560,6 +6596,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/EN/CONS_EN_03.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
@@ -6569,6 +6607,8 @@ LUPE - Hotspots cordenadas - sección 5
 	background: url("../images/Generales/pdf/NA/CONS_NA_04.jpg") !important;
 	background-size: 1192px 1687px;
 	display: block !important;
+	margin-bottom: 5px;
+	
 	
 }
 
