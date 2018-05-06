@@ -14,7 +14,6 @@ pos_na_end = null;
 pos_do_end = null;
 on_init = null;
 on_end = null;
-current_Gal = 1;
 
 
 
@@ -37,6 +36,12 @@ var urlParams;
 // IDIOMA DETECCIÓN VARIABLES
 LanguageON = urlParams["idioma"];
 helpHomeStatus = urlParams["helpHomeStatus"];
+current_Gal = urlParams["current_Gal"];
+
+ 
+
+
+
 
 id_flor = urlParams["idflor"];
 id_num_xo = urlParams["num_xo"];
@@ -46,9 +51,13 @@ id_total_g = urlParams["total_g"]
 
 //Valores inicales galeria;
 
+
+
 if(id_num_xo != 0){
 var num_total_G = Number(id_num_xo);
 var num_init_G = 0;
+
+
 } 
 else{
     var num_total_G = Number(id_num_na);
@@ -62,6 +71,11 @@ else{
 }
 
 console.log("num_total_G: ", num_total_G);
+
+
+
+
+
 
 
 
@@ -377,6 +391,32 @@ if(id_flor == 12 ){
 
 
 
+/* CURRENT GALE 2 */
+if(current_Gal == 1){
+    
+        $(document).ready(function(){
+            $( ".btn_en_xochipili" ).trigger( "click" );
+        });
+    
+} // CURRENT GAL 2
+
+
+/* CURRENT GALE 2 */
+if(current_Gal == 2){
+
+    $(document).ready(function(){
+        $( ".btn_en_naturaleza" ).trigger( "click" );
+    });
+
+} // CURRENT GAL 2
+
+
+if(current_Gal == 3){
+        $(document).ready(function(){
+            $( ".btn_en_documentos" ).trigger( "click" );
+        });
+} // CURRENT GAL 2
+
 
 
 
@@ -437,6 +477,7 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&back=' + "florido"+
+            '&current_Gal='+current_Gal+
             '&helpHomeStatus='+helpHomeStatus;         
 
         
@@ -449,7 +490,7 @@ if (LanguageON != "" ){
             '&num_na='+ id_num_na +
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
-            '&currenGal='+current_Gal+
+            '&current_Gal='+current_Gal+
             '&helpHomeStatus='+helpHomeStatus;              
 
         }
@@ -470,6 +511,7 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+    
             '&back=' + "florido"+
+            '&current_Gal='+current_Gal+
             '&helpHomeStatus='+helpHomeStatus;     
 
         
@@ -482,7 +524,7 @@ if (LanguageON != "" ){
             '&num_na='+ id_num_na +
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
-            '&currenGal='+current_Gal+
+            '&current_Gal='+current_Gal+
             '&helpHomeStatus='+helpHomeStatus;   
         }
 
@@ -502,6 +544,7 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+ 
             '&back=' + "florido"+
+            '&current_Gal='+current_Gal+
             '&helpHomeStatus='+helpHomeStatus;        
 
         
@@ -514,7 +557,7 @@ if (LanguageON != "" ){
             '&num_na='+ id_num_na +
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
-            '&currenGal='+current_Gal+
+            '&current_Gal='+current_Gal+
             '&helpHomeStatus='+helpHomeStatus;   
         }
 
@@ -725,10 +768,9 @@ $(".prev_btn_obra").click(function() {
 // EN XOCHIPILLI
 
 
-$(".btn_en_xochipili").addClass("btn_en_xochipili_on"); // on init 
 
 
-
+//$(".btn_en_xochipili").addClass("btn_en_xochipili_on"); // on init 
 
 
 
@@ -892,7 +934,7 @@ $(".btn_en_documentos").click(function() {
         
         
         $(".btn_en_xochipili").addClass("btn_en_xochipili_ENG");
-        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on_ENG");
         
         
         $(".btn_en_naturaleza").addClass("btn_en_naturaleza_ENG");
@@ -904,8 +946,8 @@ $(".btn_en_documentos").click(function() {
         $(".btn_en_documentos").addClass("btn_en_documentos_on_NAH");
         
         
+        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on_NAH");
         $(".btn_en_xochipili").addClass("btn_en_xochipili_NAH");
-        $(".btn_en_xochipili").removeClass("btn_en_xochipili_on");
         
         
         $(".btn_en_naturaleza").addClass("btn_en_naturaleza_NAH");

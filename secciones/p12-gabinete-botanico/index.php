@@ -47,19 +47,19 @@
 			<div class="overlay_down"></div>
 
 
-				<div class="imagen_1_es goToDetalleFlor 0 1 3 3 7"></div>
-				<div class="imagen_2_es goToDetalleFlor 1 5 5 8 18"></div>
-				<div class="imagen_3_es goToDetalleFlor 2 3 2 3 8"></div>
-				<div class="imagen_4_es goToDetalleFlor 3 1 1 8 10"></div>
-				<div class="imagen_5_es goToDetalleFlor 4 8 5 11 24"></div>
-				<div class="imagen_6_es goToDetalleFlor 5 0 1 5 6"></div>
-				<div class="imagen_7_es goToDetalleFlor 6 0 2 6 8"></div>
-				<div class="imagen_8_es goToDetalleFlor 7 0 3 4 7"></div>
-				<div class="imagen_9_es goToDetalleFlor 8 0 2 12 14"></div>
-				<div class="imagen_10_es goToDetalleFlor 9 0 1 5 6"></div>
-				<div class="imagen_11_es goToDetalleFlor 10 0 2 4 6"></div>
-				<div class="imagen_12_es goToDetalleFlor 11 0 1 2 3"></div>
-				<div class="imagen_13_es goToDetalleFlor 12 0 2 3 5"></div>
+				<div class="imagen_1_es goToDetalleFlor 0 1 3 3 7 1"></div>
+				<div class="imagen_2_es goToDetalleFlor 1 5 5 8 18 1"></div>
+				<div class="imagen_3_es goToDetalleFlor 2 3 2 3 8 1"></div>
+				<div class="imagen_4_es goToDetalleFlor 3 1 1 8 10 1"></div>
+				<div class="imagen_5_es goToDetalleFlor 4 8 5 11 24 1"></div>
+				<div class="imagen_6_es goToDetalleFlor 5 0 1 5 6 2"></div>
+				<div class="imagen_7_es goToDetalleFlor 6 0 2 6 8 2"></div>
+				<div class="imagen_8_es goToDetalleFlor 7 0 3 4 7 2"></div>
+				<div class="imagen_9_es goToDetalleFlor 8 0 2 12 14 2"></div>
+				<div class="imagen_10_es goToDetalleFlor 9 0 1 5 6 2"></div>
+				<div class="imagen_11_es goToDetalleFlor 10 0 2 4 6 2"></div>
+				<div class="imagen_12_es goToDetalleFlor 11 0 1 2 3 2"></div>
+				<div class="imagen_13_es goToDetalleFlor 12 0 2 3 5 2"></div>
 
 		
 

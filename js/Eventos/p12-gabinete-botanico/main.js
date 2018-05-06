@@ -12,6 +12,7 @@ num_na = null;
 num_do = null;
 total_g = null;
 get_atavio = null;
+current_Gal = null;
 
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
@@ -164,6 +165,7 @@ var GotoDetalleFlor = function(){
         '&num_do='+ num_do +
         '&total_g=' + total_g+
         '&back=' + "florido"+
+        '&current_Gal='+current_Gal+
         '&helpHomeStatus='+helpHomeStatus
 
 
@@ -175,6 +177,7 @@ var GotoDetalleFlor = function(){
         '&num_na='+ num_na +
         '&num_do='+ num_do +
         '&total_g=' + total_g+
+        '&current_Gal='+current_Gal+
         '&helpHomeStatus='+helpHomeStatus
     }
 
@@ -220,6 +223,7 @@ $(".goToDetalleFlor").click(function() {
     num_na = $(this).attr('class').split(' ')[4];
     num_do = $(this).attr('class').split(' ')[5];
     total_g = $(this).attr('class').split(' ')[6];
+    current_Gal = $(this).attr('class').split(' ')[7];
 
     console.log("num_xo", num_xo);
     console.log("num_na", num_na);
