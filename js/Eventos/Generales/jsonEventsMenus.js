@@ -538,6 +538,7 @@ if (LanguageON == "NAH"){
 
 
 	document.getElementById("descripcion_referencias").innerHTML = obj_m_NAH.descripcion_referencias;
+	document.getElementById("descripcion_referencias").innerHTML = obj_Referencias_NAH.descripcion;
 	//document.getElementById("descripcion_creditos").innerHTML = obj_m_NAH.descripcion_creditos;
 
 
