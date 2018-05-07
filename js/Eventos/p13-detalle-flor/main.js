@@ -150,13 +150,30 @@ if(id_flor == 1 ){
 
 //Flor numero 3
 if(id_flor == 2 ){
-    pos_xo_init = 0;
+    
+    /*pos_xo_init = 0;
     pos_xo_end = 2;
 
     pos_na_init = 3;
     pos_na_end = 4;
 
     pos_do_init = 5;
+    pos_do_end = 7;*/
+
+
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
+    pos_xo_end = 2;
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 3;
+    num_init_G_na = pos_na_init;
+    pos_na_end = 4;
+
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 5;
+    num_init_G_do = pos_do_init;
     pos_do_end = 7;
 
     if(LanguageON == "ESP"){
