@@ -59,7 +59,7 @@
 				<div class="imagen_10_es goToDetalleFlor 9 0 1 5 6 2 0 0 1"></div>
 				<div class="imagen_11_es goToDetalleFlor 10 0 2 4 6 2 0 0 2"></div>
 				<div class="imagen_12_es goToDetalleFlor 11 0 1 2 3 2 0 0 1"></div>
-				<div class="imagen_13_es goToDetalleFlor 12 0 2 3 5 2"></div>
+				<div class="imagen_13_es goToDetalleFlor 12 0 2 3 5 2 0 0 2"></div>
 
 		
 

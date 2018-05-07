@@ -550,11 +550,28 @@ if(id_flor == 11 ){
 //Flor numero 13
 if(id_flor == 12 ){
 
-    pos_na_init = 0;
+    /*pos_na_init = 0;
     pos_na_end = 1;
 
     pos_do_init = 2;
+    pos_do_end = 4;*/
+
+
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
+    pos_xo_end = 0;
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 0;
+    num_init_G_na = pos_na_init;
+    pos_na_end = 1;
+
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 2;
+    num_init_G_do = pos_do_init;
     pos_do_end = 4;
+    
 
     if(LanguageON == "ESP"){
         $(".ficha").addClass("ficha_13_ESP");
