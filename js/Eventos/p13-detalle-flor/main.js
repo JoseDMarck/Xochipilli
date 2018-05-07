@@ -357,6 +357,24 @@ if(id_flor == 7 ){
     pos_do_init = 3;
     pos_do_end = 6;
 
+
+
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
+    pos_xo_end = 0;
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 0;
+    num_init_G_na = pos_na_init;
+    pos_na_end = 2;
+
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 3;
+    num_init_G_do = pos_do_init;
+    pos_do_end = 6;
+
+
     if(LanguageON == "ESP"){
         $(".ficha").addClass("ficha_8_ESP");
     }
