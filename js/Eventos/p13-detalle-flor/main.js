@@ -351,11 +351,11 @@ if(id_flor == 6 ){
 if(id_flor == 7 ){
 
 
-    pos_na_init = 0;
+    /*pos_na_init = 0;
     pos_na_end = 2;
 
     pos_do_init = 3;
-    pos_do_end = 6;
+    pos_do_end = 6;*/
 
 
 
