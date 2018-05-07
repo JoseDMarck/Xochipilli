@@ -52,7 +52,7 @@
 				<div class="imagen_3_es goToDetalleFlor 2 3 2 3 8 1 0 3 5"></div>
 				<div class="imagen_4_es goToDetalleFlor 3 1 1 8 10 1 0 1 2"></div>
 				<div class="imagen_5_es goToDetalleFlor 4 8 5 11 24 1 0 8 13"></div>
-				<div class="imagen_6_es goToDetalleFlor 5 0 1 5 6 2"></div>
+				<div class="imagen_6_es goToDetalleFlor 5 0 1 5 6 2 0 0 1"></div>
 				<div class="imagen_7_es goToDetalleFlor 6 0 2 6 8 2"></div>
 				<div class="imagen_8_es goToDetalleFlor 7 0 3 4 7 2"></div>
 				<div class="imagen_9_es goToDetalleFlor 8 0 2 12 14 2"></div>

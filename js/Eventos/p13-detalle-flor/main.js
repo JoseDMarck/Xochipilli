@@ -62,7 +62,7 @@ else{
     $(".btn_en_xochipili").hide();
 
     $(document).ready(function(){
-        $( ".btn_en_naturaleza").trigger("click");
+        //$( ".btn_en_naturaleza").trigger("click");
     });
 }
 
@@ -75,8 +75,6 @@ console.log("num_total_G: ", num_total_G);
 
 //Flor numero 1
 if(id_flor == 0 ){
-
-
 
     pos_xo_init = Number( urlParams["pos_xo_init"] );
     pos_xo_start = 0;
@@ -273,10 +271,27 @@ if(id_flor == 4 ){
 //Flor numero 6
 if(id_flor == 5 ){
 
-    pos_na_init = 0;
+    /*pos_na_init = 0;
     pos_na_end = 0;
 
     pos_do_init = 1;
+    pos_do_end = 5;*/
+
+
+   
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
+    pos_xo_end = 0;
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 0;
+    num_init_G_na = pos_na_init;
+    pos_na_end = 0;
+
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 1;
+    num_init_G_do = pos_do_init;
     pos_do_end = 5;
 
     if(LanguageON == "ESP"){
@@ -827,7 +842,7 @@ $(".btn_en_xochipili").click(function() {
         $(".next_btn_obra_xo").hide();
     }
     else{
-        $(".next_btn_obra_xo").fadeIn();
+        $(".next_btn_obra_xo").show();
     }
 
     //PARA EL BOTON DE PREV
@@ -940,7 +955,7 @@ $(".btn_en_naturaleza").click(function() {
         $(".next_btn_obra_na").hide();
     }
     else{
-        $(".next_btn_obra_na").fadeIn();
+        $(".next_btn_obra_na").show();
     }
 
     //PARA EL BOTON DE PREV
