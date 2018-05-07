@@ -276,7 +276,7 @@ $(function () {
         highResolutionImage = $(this).data('high-res-img');
         viewer.show(imgSrc, highResolutionImage);
 
-        $(".ayuda-image-toca").fadeIn();
+        $(".ayuda-image-toca").fadeIn(); // LUPITA **** 
     });
 }); 
 
