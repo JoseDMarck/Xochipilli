@@ -191,14 +191,31 @@ if(id_flor == 2 ){
 
 //Flor numero 4
 if(id_flor == 3 ){
-    pos_xo_init = 0;
+    /*pos_xo_init = 0;
     pos_xo_end = 0;
 
     pos_na_init = 1;
     pos_na_end = 1;
 
     pos_do_init = 2;
+    pos_do_end = 9;*/
+
+
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
+    pos_xo_end = 0;
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 1;
+    num_init_G_na = pos_na_init;
+    pos_na_end = 1;
+
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 2;
+    num_init_G_do = pos_do_init;
     pos_do_end = 9;
+
 
     if(LanguageON == "ESP"){
         $(".ficha").addClass("ficha_4_ESP");

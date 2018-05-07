@@ -50,7 +50,7 @@
 				<div class="imagen_1_es goToDetalleFlor 0 1 3 3 7 1 0 1 4"></div>
 				<div class="imagen_2_es goToDetalleFlor 1 5 5 8 18 1 0 5 10"></div>
 				<div class="imagen_3_es goToDetalleFlor 2 3 2 3 8 1 0 3 5"></div>
-				<div class="imagen_4_es goToDetalleFlor 3 1 1 8 10 1"></div>
+				<div class="imagen_4_es goToDetalleFlor 3 1 1 8 10 1 0 1 2"></div>
 				<div class="imagen_5_es goToDetalleFlor 4 8 5 11 24 1"></div>
 				<div class="imagen_6_es goToDetalleFlor 5 0 1 5 6 2"></div>
 				<div class="imagen_7_es goToDetalleFlor 6 0 2 6 8 2"></div>
