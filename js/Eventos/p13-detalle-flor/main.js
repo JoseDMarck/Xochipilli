@@ -83,8 +83,6 @@ if(id_flor == 0 ){
     num_init_G_xo = pos_xo_init;
     pos_xo_end = 0;
 
-
-
     pos_na_init = Number( urlParams["pos_na_init"] );
     pos_na_start = 1;
     num_init_G_na = pos_na_init;
@@ -112,14 +110,29 @@ if(id_flor == 0 ){
 
 //Flor numero 2
 if(id_flor == 1 ){
-    pos_xo_init = 0;
+    /*pos_xo_init = 0;
     pos_xo_end = 4;
 
     pos_na_init = 5;
     pos_na_end = 9;
 
     pos_do_init = 10;
-    pos_do_end = 17
+    pos_do_end = 17*/
+
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
+    pos_xo_end = 4;
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 5;
+    num_init_G_na = pos_na_init;
+    pos_na_end = 9;
+
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 10;
+    num_init_G_do = pos_do_init;
+    pos_do_end = 17;
 
 
     if(LanguageON == "ESP"){
@@ -480,7 +493,7 @@ if (LanguageON != "" ){
             '&total_g=' + id_total_g+
             '&back=' + "florido"+
             '&current_Gal='+current_Gal+
-            '&pos_xo_init='+pos_xo_init+
+            '&pos_xo_init='+num_init_G_xo+
             '&pos_na_init='+num_init_G_na+
             '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;         
@@ -496,7 +509,7 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&current_Gal='+current_Gal+
-            '&pos_xo_init='+pos_xo_init+
+            '&pos_xo_init='+num_init_G_xo+
             '&pos_na_init='+num_init_G_na+
             '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;              
@@ -520,7 +533,7 @@ if (LanguageON != "" ){
             '&total_g=' + id_total_g+    
             '&back=' + "florido"+
             '&current_Gal='+current_Gal+
-            '&pos_xo_init='+pos_xo_init+
+            '&pos_xo_init='+num_init_G_xo+
             '&pos_na_init='+num_init_G_na+
             '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;     
@@ -536,7 +549,7 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&current_Gal='+current_Gal+
-            '&pos_xo_init='+pos_xo_init+
+            '&pos_xo_init='+num_init_G_xo+
             '&pos_na_init='+num_init_G_na+
             '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;   
@@ -559,7 +572,7 @@ if (LanguageON != "" ){
             '&total_g=' + id_total_g+ 
             '&back=' + "florido"+
             '&current_Gal='+current_Gal+
-            '&pos_xo_init='+pos_xo_init+
+            '&pos_xo_init='+num_init_G_xo+
             '&pos_na_init='+num_init_G_na+
             '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;        
@@ -575,7 +588,7 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&current_Gal='+current_Gal+
-            '&pos_xo_init='+pos_xo_init+
+            '&pos_xo_init='+num_init_G_xo+
             '&pos_na_init='+num_init_G_na+
             '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;   
