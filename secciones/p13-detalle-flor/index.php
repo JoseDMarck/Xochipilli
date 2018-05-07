@@ -72,9 +72,14 @@
 
 			<!-- GALERIA ================================== -->
 
+				<div class="next_btn_obra_xo"></div>
+				<div class="prev_btn_obra_xo"></div>
 
-				<div class="next_btn_obra"></div>
-				<div class="prev_btn_obra"></div>
+				<div class="next_btn_obra_na"></div>
+				<div class="prev_btn_obra_na"></div>
+
+				<div class="next_btn_obra_do"></div>
+				<div class="prev_btn_obra_do"></div>
 
 
 				<div id="ContendorGaleria" class="ContendorGaleria">

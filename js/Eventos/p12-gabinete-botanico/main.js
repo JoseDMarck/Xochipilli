@@ -166,6 +166,9 @@ var GotoDetalleFlor = function(){
         '&total_g=' + total_g+
         '&back=' + "florido"+
         '&current_Gal='+current_Gal+
+        '&pos_xo_init='+pos_xo_init+
+        '&pos_na_init='+pos_na_init+
+        '&pos_do_init='+pos_do_init+
         '&helpHomeStatus='+helpHomeStatus
 
 
@@ -178,6 +181,9 @@ var GotoDetalleFlor = function(){
         '&num_do='+ num_do +
         '&total_g=' + total_g+
         '&current_Gal='+current_Gal+
+        '&pos_xo_init='+pos_xo_init+
+        '&pos_na_init='+pos_na_init+
+        '&pos_do_init='+pos_do_init+
         '&helpHomeStatus='+helpHomeStatus
     }
 
@@ -224,6 +230,10 @@ $(".goToDetalleFlor").click(function() {
     num_do = $(this).attr('class').split(' ')[5];
     total_g = $(this).attr('class').split(' ')[6];
     current_Gal = $(this).attr('class').split(' ')[7];
+
+    pos_xo_init = $(this).attr('class').split(' ')[8];
+    pos_na_init = $(this).attr('class').split(' ')[9];
+    pos_do_init = $(this).attr('class').split(' ')[10];
 
     console.log("num_xo", num_xo);
     console.log("num_na", num_na);

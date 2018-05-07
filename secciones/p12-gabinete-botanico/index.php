@@ -47,7 +47,7 @@
 			<div class="overlay_down"></div>
 
 
-				<div class="imagen_1_es goToDetalleFlor 0 1 3 3 7 1"></div>
+				<div class="imagen_1_es goToDetalleFlor 0 1 3 3 7 1 0 1 4"></div>
 				<div class="imagen_2_es goToDetalleFlor 1 5 5 8 18 1"></div>
 				<div class="imagen_3_es goToDetalleFlor 2 3 2 3 8 1"></div>
 				<div class="imagen_4_es goToDetalleFlor 3 1 1 8 10 1"></div>

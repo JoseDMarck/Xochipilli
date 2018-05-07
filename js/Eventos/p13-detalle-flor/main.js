@@ -18,7 +18,6 @@ on_end = null;
 
 
 
-
 // FUNCION PARA DETECTAR LOS PARAMETROS DE LA URL 
 var urlParams;
 (window.onpopstate = function () {
@@ -37,10 +36,9 @@ var urlParams;
 LanguageON = urlParams["idioma"];
 helpHomeStatus = urlParams["helpHomeStatus"];
 current_Gal = urlParams["current_Gal"];
-
- 
-
-
+pos_xo_init = urlParams["pos_xo_init"];
+pos_na_init = urlParams["pos_na_init"];
+pos_do_init = urlParams["pos_do_init"];
 
 
 id_flor = urlParams["idflor"];
@@ -56,8 +54,6 @@ id_total_g = urlParams["total_g"]
 if(id_num_xo != 0){
 var num_total_G = Number(id_num_xo);
 var num_init_G = 0;
-
-
 } 
 else{
     var num_total_G = Number(id_num_na);
@@ -74,23 +70,29 @@ console.log("num_total_G: ", num_total_G);
 
 
 
-
-
-
-
-
 //PARA LA POSICIÓN DE LAS IMAGENES EN LAS GALERIAS 
 
 
 //Flor numero 1
 if(id_flor == 0 ){
-    pos_xo_init = 0;
+
+
+
+    pos_xo_init = Number( urlParams["pos_xo_init"] );
+    pos_xo_start = 0;
+    num_init_G_xo = pos_xo_init;
     pos_xo_end = 0;
 
-    pos_na_init = 1;
+
+
+    pos_na_init = Number( urlParams["pos_na_init"] );
+    pos_na_start = 1;
+    num_init_G_na = pos_na_init;
     pos_na_end = 3;
 
-    pos_do_init = 4;
+    pos_do_init = Number( urlParams["pos_do_init"] );
+    pos_do_start = 4;
+    num_init_G_do = pos_do_init;
     pos_do_end = 6;
 
 
@@ -478,6 +480,9 @@ if (LanguageON != "" ){
             '&total_g=' + id_total_g+
             '&back=' + "florido"+
             '&current_Gal='+current_Gal+
+            '&pos_xo_init='+pos_xo_init+
+            '&pos_na_init='+num_init_G_na+
+            '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;         
 
         
@@ -491,6 +496,9 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&current_Gal='+current_Gal+
+            '&pos_xo_init='+pos_xo_init+
+            '&pos_na_init='+num_init_G_na+
+            '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;              
 
         }
@@ -512,6 +520,9 @@ if (LanguageON != "" ){
             '&total_g=' + id_total_g+    
             '&back=' + "florido"+
             '&current_Gal='+current_Gal+
+            '&pos_xo_init='+pos_xo_init+
+            '&pos_na_init='+num_init_G_na+
+            '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;     
 
         
@@ -525,6 +536,9 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&current_Gal='+current_Gal+
+            '&pos_xo_init='+pos_xo_init+
+            '&pos_na_init='+num_init_G_na+
+            '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;   
         }
 
@@ -545,6 +559,9 @@ if (LanguageON != "" ){
             '&total_g=' + id_total_g+ 
             '&back=' + "florido"+
             '&current_Gal='+current_Gal+
+            '&pos_xo_init='+pos_xo_init+
+            '&pos_na_init='+num_init_G_na+
+            '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;        
 
         
@@ -558,6 +575,9 @@ if (LanguageON != "" ){
             '&num_do='+ id_num_do +
             '&total_g=' + id_total_g+
             '&current_Gal='+current_Gal+
+            '&pos_xo_init='+pos_xo_init+
+            '&pos_na_init='+num_init_G_na+
+            '&pos_do_init='+num_init_G_do+
             '&helpHomeStatus='+helpHomeStatus;   
         }
 
@@ -687,15 +707,8 @@ $(".btn_ayuda_General").click(function() {
 });
 
 
-
-
- 
-
-
 // EVENTOS GALLERIA ===================
 //<div class="obra_img_G_1 gal_img_G_1 gal_img_G"></div>
-
-
 
 for (i = 0; i < id_total_g; i++) { 
     console.log("i-", i);
@@ -712,55 +725,7 @@ if (id_num_xo < 2){
  
 
 
-$(".next_btn_obra").click(function() {
 
-    if (num_init_G  < on_end  ){
-        $(".gal_img_G").hide();
-        num_init_G = num_init_G + 1;
-        console.log("num_init_G", num_init_G);
-        console.log("num_total_G", num_total_G);
-        $(".gal_img_G_"+num_init_G).fadeIn();
-    }
-     
-    if (num_init_G == on_end ){
-        $(".next_btn_obra").hide();
-    }
- 
-     if (num_init_G > on_init){
-         $(".prev_btn_obra").show();
-     }
-
-
-});
-
-
-$(".prev_btn_obra").click(function() {
-    
-    
-        if (num_init_G > on_init ){
-            $(".gal_img_G").hide();
-            $(".gal_txt_G").hide();
-    
-            num_init_G = num_init_G - 1;
-            console.log("num_init_G_", num_init_G);
-            $(".gal_img_G_"+num_init_G).fadeIn();
-    
-            $(".next_btn_obra").show();
-        }
-
-        console.log("num_init_G", num_init_G);
-        console.log("num_total_G", num_total_G);
-
-         if (num_init_G == on_init){
-            $(".prev_btn_obra").hide();
-         }
-         
-    });
- 
-
-
-
-// BOTONES SECCIONS GALERIA 
 
 
 
@@ -777,32 +742,45 @@ $(".prev_btn_obra").click(function() {
 $(".btn_en_xochipili").click(function() {
     
 
+    $(".next_btn_obra_na").hide();
+    $(".prev_btn_obra_na").hide();
+
+    $(".next_btn_obra_do").hide();
+    $(".prev_btn_obra_do").hide();
+
+
     current_Gal = 1;
-    num_init_G = pos_xo_init;
+    //num_init_G = pos_na_init;    
     num_total_G = Number(id_num_xo);
     on_init = pos_xo_init;
     on_end = pos_xo_end;
+ 
 
-   
-    console.log("on_init", on_init);
-    console.log("on_end", on_end);
-    console.log("num_init_G", num_init_G);
-    
 
     $(".gal_img_G").hide();
-    $(".gal_img_G_"+pos_xo_init).fadeIn();
-
-    // PARA EL BOTON DE NEXT
-    if (num_total_G == 1){
-        $(".next_btn_obra").hide();
+    $(".gal_img_G_"+ num_init_G_xo).fadeIn();
+    
+    if (num_init_G_xo == 1){
+        $(".next_btn_obra_xo").hide();
     }
     else{
-        $(".next_btn_obra").show();
+        $(".next_btn_obra_xo").fadeIn();
     }
 
     //PARA EL BOTON DE PREV
-    $(".prev_btn_obra").hide();
-      
+    if(num_init_G_xo > pos_xo_start ){
+        $(".prev_btn_obra_xo").show();
+    }else{
+        $(".prev_btn_obra_xo").hide();
+    }
+
+    if(num_init_G_xo < pos_xo_end){
+        $(".next_btn_obra_xo").show();
+    }else{
+        $(".next_btn_obra_xo").hide();
+    }
+
+
 
     if(LanguageON == "ESP"){
         $(".btn_en_xochipili").addClass("btn_en_xochipili_on");
@@ -821,41 +799,100 @@ $(".btn_en_xochipili").click(function() {
         $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on_NAH");
         $(".btn_en_documentos").removeClass("btn_en_documentos_on_NAH");    
     }
-   
-
-    
+       
 
 });
+
+
+
+$(".next_btn_obra_xo").click(function() {
+    
+        if (num_init_G_xo  < on_end  ){
+            $(".gal_img_G").hide();
+            num_init_G_xo = num_init_G_xo + 1;
+            console.log("num_init_G_xo", num_init_G_xo);
+            console.log("on_end", on_end);
+
+            console.log("num_total_G", num_total_G);
+            $(".gal_img_G_"+num_init_G_xo).fadeIn();
+        }
+         
+        if (num_init_G_xo == on_end ){
+            $(".next_btn_obra_xo").hide();
+        }
+     
+         if (num_init_G_xo > 0){
+             $(".prev_btn_obra_xo").show();
+         }
+    
+    
+    });
+    
+    
+    $(".prev_btn_obra_xo").click(function() {
+    
+            if (num_init_G_xo > pos_xo_start ){
+                $(".gal_img_G").hide();
+                $(".gal_txt_G").hide();
+        
+                num_init_G_xo = num_init_G_xo - 1;
+                console.log("num_init_G_", num_init_G);
+                $(".gal_img_G_"+num_init_G_xo).fadeIn();
+        
+                $(".next_btn_obra_xo").show();
+            }
+    
+            console.log("num_init_G", num_init_G);
+            console.log("num_total_G", num_total_G);
+    
+             if (num_init_G_xo == pos_xo_start){
+                $(".prev_btn_obra_xo").hide();
+             }
+             
+    });
+
 
 
 // EN NATURALEZA
 $(".btn_en_naturaleza").click(function() {
 
+    $(".next_btn_obra_do").hide();
+    $(".prev_btn_obra_do").hide();
+
+    $(".next_btn_obra_xo").hide();
+    $(".prev_btn_obra_xo").hide();
+
     current_Gal = 2;
-    num_init_G = pos_na_init;    
+    //num_init_G = pos_na_init;    
     num_total_G = Number(id_num_na);
     on_init = pos_na_init;
     on_end = pos_na_end;
+ 
 
-    console.log("on_init", on_init);
-    console.log("on_end", on_end);
-    console.log("num_init_G", num_init_G);
 
     $(".gal_img_G").hide();
-    $(".gal_img_G_"+ pos_na_init).fadeIn();
+    $(".gal_img_G_"+ num_init_G_na).fadeIn();
     
-    if (num_total_G == 1){
-        $(".next_btn_obra").hide();
+    if (num_init_G_na == 1){
+        $(".next_btn_obra_na").hide();
     }
     else{
-        $(".next_btn_obra").fadeIn();
+        $(".next_btn_obra_na").fadeIn();
     }
 
     //PARA EL BOTON DE PREV
-    $(".prev_btn_obra").hide();
-       
+    if(num_init_G_na > pos_na_start ){
+        $(".prev_btn_obra_na").show();
+    }else{
+        $(".prev_btn_obra_na").hide();
+    }
 
-   
+    if(num_init_G_na < pos_na_end){
+        $(".next_btn_obra_na").show();
+    }else{
+        $(".next_btn_obra_na").hide();
+    }
+
 
 
     if(LanguageON == "ESP"){
@@ -886,42 +923,104 @@ $(".btn_en_naturaleza").click(function() {
         $(".btn_en_documentos").removeClass("btn_en_documentos_on_NAH");     
     }
 
-
-
 });
+
+
+$(".next_btn_obra_na").click(function() {
+    
+        if (num_init_G_na  < on_end  ){
+            $(".gal_img_G").hide();
+            num_init_G_na = num_init_G_na + 1;
+            console.log("num_init_G_na", num_init_G_na);
+            console.log("on_end", on_end);
+
+            console.log("num_total_G", num_total_G);
+            $(".gal_img_G_"+num_init_G_na).fadeIn();
+        }
+         
+        if (num_init_G_na == on_end ){
+            $(".next_btn_obra_na").hide();
+        }
+     
+         if (num_init_G_na > 0){
+             $(".prev_btn_obra_na").show();
+         }
+    
+    
+    });
+    
+    
+    $(".prev_btn_obra_na").click(function() {
+    
+            if (num_init_G_na > pos_na_start ){
+                $(".gal_img_G").hide();
+                $(".gal_txt_G").hide();
+        
+                num_init_G_na = num_init_G_na - 1;
+                console.log("num_init_G_", num_init_G);
+                $(".gal_img_G_"+num_init_G_na).fadeIn();
+        
+                $(".next_btn_obra_na").show();
+            }
+    
+            console.log("num_init_G", num_init_G);
+            console.log("num_total_G", num_total_G);
+    
+             if (num_init_G_na == pos_na_start){
+                $(".prev_btn_obra_na").hide();
+             }
+             
+        });
+     
+    
+    
+    
+    // BOTONES SECCIONS GALERIA 
+
+
 
 // EN DOCUMENTOSS
 $(".btn_en_documentos").click(function() {
 
+
+    $(".next_btn_obra_na").hide();
+    $(".prev_btn_obra_na").hide();
+
+    $(".next_btn_obra_xo").hide();
+    $(".prev_btn_obra_xo").hide();
+
     current_Gal = 3;
 
-    num_init_G = pos_do_init;    
-    num_total_G = Number(id_num_do);
+   //num_init_G = pos_na_init;    
+   num_total_G = Number(id_num_do);
+   on_init = pos_do_init;
+   on_end = pos_do_end;
 
-    on_init = pos_do_init;
-    on_end = pos_do_end;
-    
-    console.log("on_init", on_init);
-    console.log("on_end", on_end);
-    console.log("num_init_G", num_init_G);
-    
-
-    $(".gal_img_G").hide();
-    $(".gal_img_G_"+pos_do_init).fadeIn();
-
-    // PARA EL BOTON DE NEXT
-    if (num_total_G == 1){
-        $(".next_btn_obra").hide();
-    }
-    else {
-        $(".next_btn_obra").show();
-    }
-
-     //PARA EL BOTON DE PREV
-    $(".prev_btn_obra").hide();
+   $(".gal_img_G").hide();
+   $(".gal_img_G_"+ num_init_G_do).fadeIn();
 
 
-    
+   
+   if (num_init_G_do == 1){
+       $(".next_btn_obra_do").hide();
+   }
+   else{
+       $(".next_btn_obra_do").fadeIn();
+   }
+
+   //PARA EL BOTON DE PREV
+   if(num_init_G_do > pos_do_start ){
+       $(".prev_btn_obra_do").show();
+   }else{
+       $(".prev_btn_obra_do").hide();
+   }
+
+   if(num_init_G_do < pos_do_end){
+       $(".next_btn_obra_do").show();
+   }else{
+       $(".next_btn_obra_do").hide();
+   }
+
 
     if(LanguageON == "ESP"){
         $(".btn_en_documentos").addClass("btn_en_documentos_on");
@@ -954,11 +1053,55 @@ $(".btn_en_documentos").click(function() {
         $(".btn_en_naturaleza").removeClass("btn_en_naturaleza_on_NAH");
     }
 
-
-
-
-
 });
+
+
+$(".next_btn_obra_do").click(function() {
+    
+        if (num_init_G_do  < on_end  ){
+            $(".gal_img_G").hide();
+            num_init_G_do = num_init_G_do + 1;
+            console.log("num_init_G_na", num_init_G_do);
+            console.log("on_end", on_end);
+
+            console.log("num_total_G", num_total_G);
+            $(".gal_img_G_"+num_init_G_do).fadeIn();
+        }
+         
+        if (num_init_G_do == on_end ){
+            $(".next_btn_obra_do").hide();
+        }
+     
+         if (num_init_G_do > 0){
+             $(".prev_btn_obra_do").show();
+         }
+    
+    
+    });
+    
+    
+    $(".prev_btn_obra_do").click(function() {
+    
+            if (num_init_G_do > pos_do_start ){
+                $(".gal_img_G").hide();
+                $(".gal_txt_G").hide();
+        
+                num_init_G_do = num_init_G_do - 1;
+                console.log("num_init_G_", num_init_G);
+                $(".gal_img_G_"+num_init_G_do).fadeIn();
+        
+                $(".next_btn_obra_do").show();
+            }
+    
+            console.log("num_init_G", num_init_G);
+            console.log("num_total_G", num_total_G);
+    
+             if (num_init_G_do == pos_do_start){
+                $(".prev_btn_obra_do").hide();
+             }
+             
+        });
+     
 
 
 

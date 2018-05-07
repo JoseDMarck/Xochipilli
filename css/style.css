@@ -6212,6 +6212,7 @@ LUPE - Hotspots cordenadas - sección 5
 }
 
 
+
 .detalle-flor-Seccion  >  .next_btn_obra{
 	width: 30px;
 	height: 45px;
@@ -6222,6 +6223,84 @@ LUPE - Hotspots cordenadas - sección 5
 	top: 398px;
 	display: block;
 }
+
+
+
+
+.detalle-flor-Seccion  >  .prev_btn_obra_xo{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/atras_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 103px;
+	top: 398px;
+	display: none;
+}
+
+
+.detalle-flor-Seccion  >  .next_btn_obra_xo{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/adelante_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 1000px;
+	top: 398px;
+	display: none;
+}
+
+
+
+.detalle-flor-Seccion  >  .prev_btn_obra_na{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/atras_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 103px;
+	top: 398px;
+	display: none;
+}
+
+
+.detalle-flor-Seccion  >  .next_btn_obra_na{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/adelante_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 1000px;
+	top: 398px;
+	display: none;
+}
+
+
+.detalle-flor-Seccion  >  .prev_btn_obra_do{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/atras_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 103px;
+	top: 398px;
+	display: none;
+}
+
+
+.detalle-flor-Seccion  >  .next_btn_obra_do{
+	width: 30px;
+	height: 45px;
+	background: url("../images/Generales/galeria/adelante_on.png");
+	background-size: 30px 45px;
+	position: absolute;
+	left: 1000px;
+	top: 398px;
+	display: none;
+}
+
+
+
 
 
 
