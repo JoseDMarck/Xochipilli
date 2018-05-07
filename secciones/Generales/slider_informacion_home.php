@@ -267,13 +267,12 @@
                             <div id="palabra-T-13" class="palabra"></div>                                
                             <div id="palabra-T-14" class="palabra"></div>     
                             <div id="palabra-T-15" class="palabra"></div>                                
-                            <div id="palabra-T-16" class="palabra"></div>                            
                             
                         </div><!-- BloqueA -->
                     
                     
                         <div class="Bloque-M-B">
-                                                           
+                            <div id="palabra-T-16" class="palabra"></div>                                       
                             <div id="palabra-T-17" class="palabra"></div>                                
                             <div id="palabra-T-18" class="palabra"></div>                                
                             <div id="palabra-T-19" class="palabra"></div>                                
